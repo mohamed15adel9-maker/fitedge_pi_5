@@ -1,0 +1,2158 @@
+
+--- Page 1 ---
+Symposia
+National Strength and Conditioning Association
+Position Statement on Weightlifting for
+Sports Performance
+PaulComfort,1,2G.GregoryHaff,1,2TimothyJ.Suchomel,1,3MarcosA.Soriano,4KyleC.Pierce,5
+W.GuyHornsby,6ErinE.Haff,1,7LesleyM.Sommerfield,8ShyamChavda,9,10StephanieJ.Morris,11
+AndrewC.Fry,12andMichaelH.Stone13
+1UniversityofSalford,GreaterManchester,UnitedKingdom;2EdithCowanUniversity,Perth,Australia;3CarrollUniversity,Waukesha,
+Wisconsin;4CamiloJose´ CelaUniversity,Madrid,Spain;5LouisianaStateUniversity,Shreveport,Louisiana;6WestVirginiaUniversity,
+Morgantown,WestVirginia;7AustralianWeightliftingFederation,Chandler,Australia;8TylerIndependentSchoolDistrict,Tyler,Texas;
+9LondonSportsInstitute,MiddlesexUniversity,London,UnitedKingdom;10BritishWeightlifting,Leeds,UnitedKingdom;11Cardiff
+MetropolitanUniversity,Cardiff,UnitedKingdom;12UniversityofKansas,Lawrence,Kansas;and13EastTennesseeStateUniversity,
+JohnsonCity,Tennessee
+Abstract
+Comfort,P,Haff,GG,Suchomel,TJ,Soriano,MA,Pierce,KC,Hornsby,WG,Haff,EE,Sommerfield,LM,Chavda,S,Morris,SJ,
+Fry,AC,andStone,MH.NationalStrengthandConditioningAssociationpositionstatementonweightliftingforsportsperformance.
+JStrengthCondRes37(6):1163–1190,2023—TheoriginsofweightliftingandfeatsofstrengthspanbacktoancientEgypt,China,
+andGreece,withtheintroductionofweightliftingintotheOlympicGamesin1896.However,itwasnotuntilthe1950sthattraining
+basedonweightliftingwasadoptedbystrengthcoachesworkingwithteamsportsandathletics,withweightliftingresearchinpeer-
+reviewed journals becoming prominent since the 1970s. Over the past few decades, researchers have focused on the use of
+weightlifting-based training to enhance performance in nonweightlifters because of the biomechanical similarities (e.g., rapid
+forcefulextensionofthehips,knees,andankles)associatedwiththesecondpullphaseofthecleanandsnatch,thedrive/thrust
+phaseofthejerkandathletictaskssuchasjumpingandsprinting.Thehighestforce,rateofforcedevelopment,andpoweroutputs
+havebeenreportedduringsuchmovements,highlightingthepotentialforsuchtaskstoenhancethesekeyphysicalqualitiesin
+athletes.Inaddition,theabilitytomanipulatebarbellloadacrosstheextensiverangeofweightliftingexercisesandtheirderivatives
+permitsthestrengthandconditioningcoachtheopportunitytoemphasizethedevelopmentofstrength-speedandspeed-strength,
+as required for the individual athlete. As such, the results of numerous longitudinal studies and subsequent meta-analyses
+demonstratetheinclusionofweightliftingexercisesintostrengthandconditioningprogramsresultsingreaterimprovementsin
+force-productioncharacteristicsandperformanceinathletictasksthangeneralresistancetrainingorplyometrictrainingalone.
+However,itisessentialthatsuchexercisesareappropriatelyprogrammedadoptingasequentialapproachacrosstrainingblocks
+(includingexercisevariation,loads,andvolumes)toensurethedesiredadaptations,whereasstrengthandconditioningcoaches
+emphasizeappropriatetechniqueandskilldevelopmentofathletesperformingsuchexercises.
+KeyWords:strength-speed,speed-strength,power,sportsperformance,long-termathleticdevelopment
+Section1:Biomechanicsof authenticlistofWorldRecords,includingthefollowingexercises:
+Weightlifting—ConsiderationsforStrength 1-hand(rightandleft)snatch,1-hand(rightandleft)cleanand
+andConditioning jerk, and the 2-hand lifts: press, snatch, and clean and jerk
+(246,318).However,whenintroducedattheAmsterdamOlym-
+HistoricalPerspectiveoftheEvaluationoftheSnatch,and pic Games in 1928, the weightlifting program was limited to 3
+CleanandJerkinWeightliftingCompetitions lifts:thepress,snatch,andcleanandjerk(commonlyperformed
+as a split snatch and split clean), with the press being excluded
+The origins of weightlifting and feats of strength can be traced
+from competition after the 1972 Olympics, leaving only the
+back ;4,000 years in Egypt and ;2,500 years in China and
+snatch, and clean and jerk performed in competitions today
+Greece (246,318), with the first world weightlifting champion-
+(92,278,318). For more information, readers are referred to
+shipbeingheldinLondonin1891(27,278)andtheintroduction
+https://iwf.sport/weightlifting_/history/.
+ofthesportintothemodernOlympicGamesinAthensin1896,
+Weightliftingresearch,regardingthebiomechanicsofweightlift-
+wherethe1-handsnatch,andcleanandjerkliftswerecontested.
+ing, originated in the 1970s, highlighting the high forces, rate of
+In1925,theFe´derationInternationaleHalte´rophile(predecessor
+force development (RFD), and power output produced during
+oftheInternationalWeightliftingFederation)publishedthefirst weightlifting movements (19,85,87,96,99–105,117–119,152,221).
+AddresscorrespondencetoPaulComfort,p.comfort@salford.ac.uk. Muchofthisresearchfocusedonthebiomechanicsofthesnatch,and
+JournalofStrengthandConditioningResearch37(6)/1163–1190 clean and jerk during competition (19,99–102), comparisons be-
+ª2023NationalStrengthandConditioningAssociation tween sexes (103), comparisons between levels of performance
+1163
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 2 ---
+WeightliftingforSportsPerformance(2023)37:6
+(152),methodsofpredictingperformance(104),andderivativesof athlete,todevelopabettergraspofeachcomponentandhowto
+thecomponentexercise(e.g.,powercleanandpowersnatch;pulling performthemandhavepermittedresearcherstoevaluatespecific
+variations [i.e., weightlifting derivatives]) used by weightlifters phases and components of each exercise. The snatch and clean
+(42,68,85,96,117,118). Of particular importance to strength and consistof5phases:(a)firstpull(aka.liftoff),(b)transition(aka.
+conditioningprofessionalsisthedynamiccorrespondencebetween double knee bend), (c) second pull (aka. power position to full
+weightlifting movements and vertical jump performance extension),(d)catch,and(e)recovery.Thejerkconsistsof4phases:
+(41,42,68,105)withGarhammerandGregor(105)reportingsimi- (a)dip,(b)drive(aka.thrust),(c)catch,and(d)recovery.
+laritiesinthepropulsivephasesofthesnatchandcountermovement
+jump.
+Additionalobservationssupportingthenotionthatthereisa
+AdoptionofWeightliftingExercisesinStrength
+dynamic correspondence between weightlifting exercise and
+andConditioning
+other sporting activities are the fact that the transition phase
+duringthepull,generallyreferredtoasthe“doublekneebend,” Before weightlifting research becoming widely available, some
+stimulates a stretch-shortening cycle (SSC) response coaches (often with weightlifting backgrounds) had already
+(35,85–87,106,278)asdoestheinitialdipduringthejerkandits adopted weightlifting training methodologies to enhance the
+variations(97,107).Bycontrast,thesecondpullphase(aka.from force-productioncapabilitiesoftheirathletes(258,306).Forex-
+thepowerpositionthroughtofullextension)andthethrustphase ample, Alvin Roy, credited with being the first professional
+duringthejerkanditsvariationsfacilitatetheproductionofthe strengthcoach,originallyimplementedweightliftingstyletrain-
+greatest forces, RFD, and power outputs because of the rapid ing with high school athletes in the early 1950sand in the Na-
+extension of the knees, hips, and ankles (85,100,101,117,221). tional Football League later in the same decade (258,306).
+Such observations and biomechanical similarities highlight the Similarly,BoydEpley,thefounderoftheNationalStrengthand
+potentialforusingtheseexercisestoenhanceoverallathleticism Conditioning Association, implemented strength training, in-
+innonweightlifters.Infact,ChiuandSchilling(39)suggestedthat cludingweightlifting,attheUniversityofNebraskafromtheearly
+the factors related to the double knee bend in the weightlifting
+1970s(258).Inaddition,HaroldO’Bryant(213),aspartofhis
+movements exert a dynamic correspondence with many of the dissertation, implemented several weightlifting style programs,
+centralmovementsthatunderpinsportsperformance. with an emphasis on squats and pulling derivatives, in high
+It is consistently noted that because of the lower barbell dis- schoolsinBatonRouge,Louisiana,from1978to1980.Gener-
+placementsrequiredtosuccessfullyperformthecleancompared ally,strengthandconditioningcoachesincorporateweightlifting
+with thesnatch (55–65%vs. 62–78% ofthelifters height), the exercisesandtheirderivatives(e.g.,powerclean,powersnatch,
+loadsliftedinthecleanare;18–20%heavierthanthoseachieved clean pulls, and snatch pulls) into their athletes’ training pro-
+during the snatch, as a result of the differences in barbell dis- grams because of the high forces, RFD, and power outputs
+placement(282).Theseobservationshighlightthatthecleanand exerted during these exercises (85,119,133,152,276,283,288).
+jerkmaybeusedtoemphasizeforceproduction(strength-speed), Additional biomechanical similarities have been noted between
+whereasthesnatchmaybeusedtoemphasizemovementvelocity weightlifting,jumping,sprinting,andCODintermsoftherapid
+(speed-strength)(152),althoughtheactualtargetedoutcomewill and forceful extension of the knees, hips, and ankles (plantar
+bemitigated bytheloadusedwhenperformingtheseexercises. flexion) (31,32,41,42,68,105,133), with maximal performance
+Moreover,whenperformingthepowersnatch,wherethebarbell inweightliftingexercisesreportedtobestronglyassociatedwith
+displacement is notably greater than the snatch, peak velocity performance in jumping (31,32,105,132), sprinting (132,271),
+duringthepullingmotionmustbegreaterthanwhatistypically and COD tasks (132). Weightlifting exercises have also been
+observed during the snatch. Similarly, because of the increased reported to result in some of the highest power outputs of any
+displacement required in the power clean and power snatch, exercises commonly used in training (100,103,104,278), with
+higher RFD and impulse have generally been observed when weightliftersalsodemonstratinggreaterforceandpoweroutputs
+comparedwiththecleanandsnatch(152). duringunloadedandloadedjumps,whencomparedwithpow-
+Whenpullingmotions(i.e.,pullingderivatives)havebeenex- erlifters,sprinters,andwrestlers(190,277).
+amined,ithasbeennotedthattheyallowtheathletetouseloads Interestingly,itisduringthesecondpullphaseofthecleanand
+wellabovethoseusedduringthesnatchorclean(96)becauseof snatchandthethrustphaseduringthejerkwherethegreatestforce,
+theremovalofthecatchfromthemovement(48,53,283,288).For RFD,andpoweroutputsaregenerated,whethertheclean,snatch,
+example,itiswelldocumentedloadsofbetween100and140% pulling variations (catch phase excluded), or jerk variations are
+oftheathlete’smaximumsnatchorcleancanbeusedwhenonly performedbyweightlifters(35,85,100,101,117,134,152,155,156,
+performing the pulling motion, permitting a strength-speed 158,161,163,221,276,316).However,itshouldbenotedthatthe
+emphasis. The use of higher loads in the pulling motions per- joint-level contributions to the whole lift do vary with load
+formed from the knee or midthigh does offer some benefits to (158,159,162,163).PeakforceandRFDarehigherinthepower
+nonweightliftersbecauseprogrammingpullsperformedfromthe cleanandpowersnatch,comparedwiththecleanandcleanpull
+floor with loads between 80 and 102.5% of1 repetition maxi- and snatch and snatch pull, respectively, when performed with
+mum(1RM)andthemidthighpullwithloadsbetween105and maximalloads,althoughtheloadsarelowerduringthesepower
+135%of1RMhavebeenreportedtoresultinenhancedjumping, variations (118). These differences are likely due to the greater
+sprinting,andchangeofdirection(COD)performance(293,294). impulse required to accelerate the barbell to achieve the greater
+However, it is important to note that these activities should be displacement associated with the power variations. In addition,
+carefullystructuredaspartofaholisticperiodizedtrainingplan. pullingvariationsarealsocommonlyusedbyweightlifterstoen-
+Weightlifting movements are commonly divided into distinct hance barbell acceleration through the rapid production of high
+phasestomakeeachofthesecomplex,multijointmovementseasier forces(85,87,274,276,278,280,281).
+tounderstand,coach,andperform.Breakingthemovementsinto It was not until more recently that comparisons between
+theirkeyphasesenablesthestrengthandconditioningcoach,and weightliftingexercisesandtheirderivativeshavebeenevaluatedin
+1164
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 3 ---
+WeightliftingforSportsPerformance(2023)37:6 | www.nsca.com
+nonweightlifters,includingtheeffectofload,onkinetic(i.e.,force, plyometrictraining,therewasnosignificant(p.0.05)differencesin
+RFD,andpower)andkinematic(i.e.,velocityanddisplacement) theimprovementsinperformancebetweenconditions, albeit with
+variables(43,45,46,48,50,53,68,284–286,301,302).Interestingly, smalltomoderately(g50.31–0.69)greaterimprovementsinfavor
+thesecondpullphasestillresultsinthegreatestkineticandkine- ofweightlifting.Thesefindingsareinlinewithfindingsreportedin
+maticoutputs,evenwhenperformedinisolation(midthighpower earliermeta-analyses(24,109).However,itisimportanttoconsider
+cleanandmidthighcleanpull)(43,46,48,53).Suchpullingderiv- that one advantage that weightlifting training offers over ballistic
+ativesalsopermitastrength-speedemphasis,withtheuseofloads andplyometrictrainingisthefactthatnotableincreasesinmaximal
+ranging up to 140% of the 1RM during the power clean force production will also occur, in addition to improvements in
+(48,49,51,53,195–197,283,288,293,294). rapidforceproduction.
+It is, however, important to note that not all study findings
+support the conclusions of Morris et al. (202), Hackett et al.
+ComparisonsWithOtherModesofExercise (109),andBerton etal.(24).Forexample,Hellandetal.(128)
+havereportedthatweightliftingdoesnottransfertojumpingand
+There are numerous modes of training (e.g., general strength
+sprintperformancetothesamedegreeasmotorizedstrengthand
+training,ballistictraining,plyometrictraining,andbodyweight
+power training or free weight strength and power training.
+training)thatareallbeneficialtothedevelopmentofmuscular
+Careful inspection of Helland et al. (128) weightlifting-based
+strengthandpower,witheachmodehavingitsownadvantages
+trainingprogramrevealsthattheauthorsonlyusedweightlifting
+anddisadvantages (296). For example, bodyweight training is
+movements (i.e.,snatch,clean,powersnatch,andpowerclean)
+accessibleforallandrequiresminimalornoequipment;how-
+and did not implement any weightlifting derivatives or other
+ever,addingloadreliesononemovingfromabilateraltosplit
+strengthtrainingmethodscommonlyusedbyweightliftersaspart
+stance or unilateral stance and is therefore somewhat limited.
+of their training intervention, which may partially explain why
+Generalstrengthtrainingiseasytoprogressintermsofload,but
+therewasalackoftransferencetosports-basedtrainingmethods.
+results in deceleration throughout a large part of the range of
+In addition, the subjects had minimal experience in strength
+motion(115,211,270)withmuchlowerratesofaccelerationin
+training, particularly with weightlifting movements, and the
+traditional strength exercises (e.g., squat, bench press, and
+weightliftingtechniquewasnotexplicitlydescribed.Assuch,itis
+deadlift) when compared with weightlifting exercises (106).
+likelythatanyimprovementsinweightliftingwouldbeattributed
+Ballistic training eliminates the deceleration phase associated
+totechniqueratherthanmuscularadaptations.Conversely,most
+withgeneralstrengthtrainingbutcannotbeloadedtotheextent
+ofthestudiesinwhichtheresultsillustrateenhancedperformance
+thattraditionalstrengthexercisesandweightliftingmovements
+with weightlifting exercises have used training programs that
+can.Assuch,weightliftingmovementsareoftenconsideredtobe
+haveintegratedweightliftingmovementsintoatrainingprogram
+semiballistic. Plyometric training provides excellent trans-
+thateitherincludescombinationsofweightliftingderivativesand
+ferencetosomesportingtasks,emphasizesmovementvelocity
+traditionalstrengthtrainingmethods(i.e.,squattingandpressing)
+andstimulationofthefastSSC(groundcontacttimes,250ms),
+ortraditionalstrengthtrainingandplyometrictraining.Basedon
+butaswithballistictraining,andisdifficulttoexternallyload
+the results of several meta-analyses (24,109,202), strength and
+whilemaintainingshortgroundcontacttimeandthetimeunder
+conditioning professionals should integrate weightlifting,
+tension is limited. Weightlifting, especially certain derivatives,
+strength development, and plyometric training methods into a
+can be used to train across a wide variety of loads, such as
+moreholisticprogrammingstrategywhenattemptingtoenhance
+ballistic training (e.g., jump shrug at loads of 30–60% 1RM
+sportsperformanceinothersports.
+hang power clean) (113,283,284,288,298–300,302), while
+Thecombinationofgeneralstrengthtrainingandweightlifting
+pulling derivatives can be performed at high loads (e.g., mid-
+exercisesinacomplementarymannermakessensebecausestrength
+thigh clean pulls and hang clean pulls at loads #140% 1RM
+underpinsperformanceinathletictasks(64,65,115,295–297),and
+powerclean)(48,53,146,195,197,283,288,317)withaballistic
+increases in strength are associated with increases in RFD
+intent, minimizing the deceleration phase associated with
+(2,3,7,8,181,323). This is supported by the findings of a recent
+strength training. Ideally, a combination of these different
+study where training at high loads (80–90% 1RM) resulted in
+training methods should be included in an athlete’s training
+greaterimprovementsinrapidforceproduction(e.g.,forceat50,
+program, with each appropriately emphasized/de-emphasized,
+100,150,200,and250ms)comparedwithtrainingatmoderate
+ensuringappropriateindividualizationtoefficientlyachievethe
+loads(60–82.5%1RM)(47).Increasingforceoveragivenepoch
+predeterminedgoalsofeachtrainingblock(113,296).
+resultsinanincreasedimpulse(meanforce3time),withrelative
+impulsedeterminingaccelerationoftheathleteoranyobject(e.g.,
+barbellandball)thattheimpulseisappliedto,therebyenhancing
+WeightliftingTrainingInterventionsinComparisonWith
+performancethroughanincreasedmovementvelocity.Inaddition,
+OtherTrainingModalities
+using musculoskeletal modeling, Kipp (156) reported that
+Numeroustraininginterventionshavebeenpublishedinwhichre- both strength training and speed-strength training would reduce
+searchershavereportedtheimprovementsinsportandrelatedper- the relative effort during the first and second pull phases of
+formance(e.g.,jump,sprint,andCOD)beingassociatedwiththe weightliftingexercises.
+implementation of weightlifting-based training methods
+(10–12,37,38,40,44,127,131,137–139,142,143,216,217,227,236,
+274,293,294,305,310). In addition, the authors of a recent meta- Section2:WeightliftingDerivatives
+analysisconcludedthatweightliftingtrainingresultsingreater(g$
+WeightliftingCatching,Pulling,andOverheadDerivatives
+0.95) improvements in maximum strength, jump height, linear
+sprint,andCODperformancewhencomparedwithtraditionalre- In addition to the main competitive lifts (i.e., snatch, and clean
+sistance training (202). Furthermore, Morris et al. (202) also and jerk) associated with the sport of weightlifting, there are
+reported that when weightlifting training is compared with numerous weightlifting derivatives that can be programmed by
+1165
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 4 ---
+WeightliftingforSportsPerformance(2023)37:6
+strengthandconditioningcoaches.Weightliftingderivativesare Although catching derivatives are inherently more complex
+modificationsofthecompetitionliftsthatallowforkeypositions than pulling variations because of additional catching compo-
+to be strengthened and enhanced. Weightlifting derivatives are nent,Haugetal.(126)indicatedthat4weeks(2sessionsperweek
+brokeninto3classifications,including(a)catching,(b)pulling, [20–30 minutes]) of learning the hang power clean yielded im-
+and(c)overheadpressing.Catchingderivativesalterthedepthat provements in squat jump and countermovement jump power
+whichthebarbelliscaught,sothatthetopofthethighisabove output. It is important to note that although learning the
+parallel(usuallywiththeterm“power”beforecleanorsnatch) weightlifting movements, the strength and conditioning coach
+andcanalsobeinitiatedfromavarietyofpositions(e.g.,floor, can implement targeted strength development in other focused
+knee, hang, or midthigh) (283,288,316) (Table 1). Pulling de- exercisessuchassquats,deadlifts,andpresses.Thisensuresthat
+rivativesaremodificationstothecompetitiveliftsthatremovethe althoughtheathleteislearningthelifts,thebarbellloadsdonot
+catchphasefromtheexerciseandcanbeinitiatedfromavariety need to be excessive, with an emphasis on refining technique,
+ofpositions(e.g.,floor,knee,hang,ormidthigh)(283,288,316). because they are exposed to adequate stimuli from focused
+Finally,theoverheadpressingderivatives(e.g.,pushpress,push strength exercises to continue to develop their strength in key
+jerk, and split jerk) are performed either separate to the clean, movements. As such, if the athlete is not familiar with
+duringtraining,bytakingthebaroffblocksorstands(266),orin weightlifting exercises, the load should be increased in a pro-
+combinationtotheclean,powerclean,orfront-squatexercises, gressiveandconservativemanner,whereasappropriatetechnique
+exercises that may proceed the overhead pressing derivatives is developed (see subsection "Pedagogical Approaches and
+(Table 1), forming a training structure referred to as a Feedback Strategies" for more detail). Although some authors
+weightliftingcomplex.Inaddition,weightliftingcomplexesmay havesuggested usingloadscalculated based ona percentage of
+lead to a more efficient way of implementing weightlifting de- body mass for novice lifters (178,179), this practice does not
+rivativesforenhancingathleticperformanceinnonweightlifters account for the notable differences in relative strength between
+andimprovingsportperformanceinweightlifters.Asanexample, individualsandshouldthereforebediscouraged.
+practitionerscouldprescribeaweightliftingcomplexcomposed
+ofapowerclean,frontsquat,andpushjerkwithaloadequivalent Weightlifting Pulling Derivatives. Weightlifting pulling deriva-
+to 70–80% 1RM of the power clean, targeting a strength- tiveshavesimilarbenefitsasthecatchingderivatives,specifically
+endurance emphasis (depending on the total number of repeti- thecoordinatedtripleextensionmovement.Incontrasttocatching
+tions),butusingdifferentderivatives. derivatives, pulling derivatives are less limited from a loading
+standpointbecauseoftheremovalofthecatchphase,reducingthe
+WeightliftingCatchingDerivatives.Thehistoricuseofcatching complexityandtheneedtodisplacethebartoasufficientheightto
+derivativesislikelyduetothefamiliarityofstrengthandcondi- permit the catch, permitting loads .100% of the 1RM of the
+tioning coaches with the movements from the sport of catching derivative (48,49,51,53,114,195–197,293,294). In fact,
+weightlifting,butalsoduetotheresearchthathassupportedtheir researchershavereportedthatcertainpullingderivativesmaybe
+use over other resistance training methods (131,219,305,310). prescribedwithloadsupto120%ofa1RMcatchvariationfrom
+Thereareseveraladvantagesofweightliftingcatchingderivatives the floor (114) and even 140% from the knee or midthigh
+includingposturalstrength,coordinatedloadedtripleextension (48,49,51,53,195–197,293,294). This opportunity for higher
+and flexion of the knee, hip, and ankle joints providing a load loads permits a greater strength-speed emphasis compared with
+acceptancestimulus(54,200,292),albeitcomparablewiththatof catching variations, thereby enhancing maximal force and rapid
+ajumplanding(200)andcocontractionofthespinalstabilizing force production (283,288,293,294). On the lower end of the
+muscles. In addition, having to catch the barbell ensures high loadingspectrum(e.g.,30–60%1RM),athletescanstillmaximize
+levelsofintenttosufficientlydisplacethebarbelltotherequired theireffortbecauseoftheballisticnatureofcertainpullingderiv-
+catchheight. atives,suchasthejumpshrug(157,160,284,298–300,302)andthe
+hang high pull (157,286,298,299,302–304). During the jump
+shrugandhanghighpull,velocityandthereforepoweroutputtend
+tobemaximizedwithloadsaslowas30–45%ofahangpower
+Table1
+clean1RM(285,298,299,302,304).
+Weightliftingexercisesandderivatives.*
+Anadditionalbenefitofweightliftingpullingderivativesmay
+Overheadpressing
+beadecreasedtechnicalcomplexitycomparedwithcatchingde-
+Catchingderivatives† Pullingderivatives‡ derivatives
+rivatives.Theomittanceofthecatchphasedecreasestherelative
+Midthighclean/snatch Midthighpull Pushpress
+complexity of pulling derivatives, which may make them in-
+Countermovementclean/ Countermovement Pushjerk
+herently easier to teach and learn. In fact, many of the pulling
+snatch shrug
+derivativesarekeycomponentsoftheInternationalWeightlifting
+Clean/snatchfromtheknee Pullfromtheknee Splitjerk
+Federation–approved teaching progressions for the full compe-
+Hangclean/snatch§ Hangpull§ Behindtheneckpushpress/
+jerk‡ titionlifts(148),asdiscussedinseveralcoachingandtechnique
+Clean/snatch Pullfromthefloor Behindthenecksplitjerk‡ articles (72–74,147,148,201,230,278,279,289–291). As such,
+Hanghighpull thesevariationsaremoreeasilyincludedinthetrainingprogram
+Jumpshrug forbeginners,whereasthetechniqueofthemoretechnicallyde-
+mandingliftsisdevelopedandrefined.Itisimportantthatsound
+*Variationsfrommidthighandthekneecanstartwiththebarbellrestingonblocks,orwiththeathlete
+holdingthebarbellandloweringtothestartpositionandbrieflypausing.Currently,thereisminimal techniqueandmaximalintentareusedduringpullingderivatives
+researchcomparingthekineticsorkinematicsofthesevariations. becausetheathletecouldsimply“gothroughthemotions”when
+†Allclean/snatchvariationscanbeperformedwithapartial-squat(power)orfull-squatcatch. the need for maximal intent is reduced by removing the catch.
+‡Allderivativesmaybeperformedwitheithercleanorsnatchgrip.
+Whenusedinisolationfromtheweightliftingmovements,pulling
+§Startingwiththelegsextended,initiatedbyflexingthehipstoperformacountermovementdownto
+derivativesmaylackthemagnitudeofcocontractionofthecore
+theknees(bothaboveandbelowthekneecommonlyused),followedbythedoublekneebendand
+rapidtripleextension. musculature (i.e., erector spinae, rectus abdominus, and
+1166
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 5 ---
+WeightliftingforSportsPerformance(2023)37:6 | www.nsca.com
+quadratus lumborum) associated with the catch phase of the (261,262,265),withthedifferencesattributabletodifferencesin
+catching derivatives; however, research is required to quantify therequiredbarbelldisplacementtocompleteeachlift(e.g.,lower
+potential differences. In addition, during pulling derivatives, as barbelldisplacementinthesplitjerk).However,thedifferencesin
+the bar does not have to be displaced to a sufficient height to 1RMarelikelygreaterineliteweightliftersbecauseRoman(238)
+ensure that the catch is possible, some athletes may lack intent haspreviouslyreportedthatthepushjerkwasabout90%ofthe
+when performing these exercises, as such the strength and con- maximumsplitjerkperformance.Therefore,itseemsthatthese
+ditioningcoachshouldcuetheathletetousemaximalintentor differences are related to technical competence, where greater
+substitutetheexercisesforonewheretheathletedisplaysintent. differencesbetweenthepushpress,pushjerk,andsplitjerk1RM
+Ideally,thepullingderivativesshouldnotbeusedasreplacements performanceshavebeenreportedforskilledweightlifters(22%)
+for catching derivatives but should serve as complementary ex- whencomparedwithCrossFitathletes(11%)andamixedgroup
+ercises, which broaden the strength and conditioning coach’s of athletes (14%) (262). Therefore, strength and conditioning
+“toolbox”ofexercises. coaches should be aware of the differences in the 1RM perfor-
+mance between the push press, push jerk, and split jerk when
+WeightliftingOverheadPressingDerivatives.Inweightlifting,the prescribingtrainingloadstoachievethedesiredadaptationsand
+jerkphaseofthecleanandjerkistheprimaryweightliftingover- thatthesedifferencesmayalsobeaffectedbytheathlete’stech-
+head pressing exercise that takes place during competitions nicalcompetence.
+(266,278,279). During training practices, the jerk can be sub- According to Hori et al. (133), the weightlifting overhead
+divided into several groups of assistance exercises including (a) pressingderivativescanbeclassifiedasstrength-speedexercises
+strengthening exercises as the overhead press, push press, jerk becausethejerkistheexercisewherethelargestloadsareliftedto
+drives,andjerkdipsand(b)techniqueexercisesasthepush/split anoverheadposition,and,furthermore,tosucceedinthelift,it
+jerk (depending on the preferred technique of the lifter and in- mustbeperformedquickly,withthepropulsionphaselasting259
+cludingthefrontrackandbehindtheneckvariations),jerklock- 624milliseconds(107,266,278).Thecombinationoftheforce,
+outs,andjerkrecoveries(147).However,innonweightlifters,the becauseoftheheavyloadsthatcanbelifted,andvelocity(barbell
+pushpress,pushjerk,andsplitjerk(includingthefrontrackand speeds: 1.06–1.9 m·s 21) (102,107,119,152,166), results in an
+behindtheneckvariationsforalltheselifts)arethemostcommon ideal stimulus for targeting the ability to develop the strength-
+overhead pressing derivatives used in strength and conditioning speed necessary to enhance athletic performance. This is also
+programs for developing athletic performance (Table 1) (266). supportedbyseveralresearcherswhohavereportedhighpower
+Thesecomplex,ballisticmultijointmovementpatternsrequirethe outputs(2,500–6,760W)andpropulsionforcesduringthepush
+liftertogeneratehighforcesthroughrapidextensionoftheknees, press, push jerk, and split jerk (52,100,102–104,119,152,167),
+hips,andankles(i.e.,tripleextension),transmittingthesethrough whicharenotablygreaterthanthoseproducedduringtheback
+thetrunktotheupperextremities(214,266),toprovideasufficient squat(104).Thesehigherpoweroutputsarelikelyaresultofthe
+impulsetoacceleratethebarbelloverhead.Theseexercisesshare ballistic nature of the overhead lifts and the shorter range of
+similar lower-body propulsion kinematics during the dip motion necessary to complete each lift. Interestingly, the loads
+(unweighting and breaking phase of a quick partial squat) and thatmaximizepowerproductionduringtheseliftsaregenerally
+drive/thrustphase(rapidextensionoftheknees,hips,andplantar $70% of 1RM (52,94,119,152,166,167,180). Therefore,
+flexion of the ankles) (166,167,262,265). The main differences strengthandconditioningcoachesshouldconsiderusingthepush
+between these lifts occur after the lower-body propulsion phase press,pushjerk,andsplitjerkwithloads$70%of1RMtotarget
+wheretherearedifferencesinbarbelldisplacementsandtheath- the development of strength-speed in sporting populations
+lete’spositionduringthecatchphase(262,265).Duringthepush (Figure1).
+press,thebarbellisacceleratedupwardthroughtheextensionof Interestingly, there are no meaningful differences in lower-
+thelegsandpressedupwardthroughthefullflexionoftheshoul- bodykineticdifferencesbetweenthepushpress,pushjerk,and
+ders and extension of the elbows, whereas the feet remain in splitjerkwhenperformedatthesamestandardizedload(80%of
+completecontactwiththeground.Whenperformingthepushjerk, 1RMpushpress)(265).Althoughfurtherresearchcomparingthe
+after completing the extension phase, the athlete rebends their effect of load and exercise is needed, considering that heavier
+kneesandcatchesthebarbellina1/4squatposition,whereasinthe loadsmayhypotheticallybeliftedduringthepushjerkandsplit
+split jerk, the athlete moves their feet into a split position when jerkbasedonthehigher1RMperformancesassociatedwiththese
+receiving the barbell overhead (262,265,266). In addition, the exercises (261,262,265), these exercises require the athlete to
+positionofthebarbellwithrespecttothelifter’sbodyandthehand generategreaterpropulsionforcesandpoweroutputsatheavier
+spacingmaysubdividethepushpress,pushjerk,andsplitjerkinto loads(Figure1).Infact,theabilitytoliftheavierloadsdepends
+different complementary exercises such as the snatch grip push greatlyontheabilitytorapidlygenerateforce(103–105),sothat
+press orjerk, which isinitiated from a position behind the neck a sufficient impulse (force 3 time) developed to accelerate the
+(Table1)(94,147,266). athletes’ mass and the barbell. Therefore, it is important that
+Researchershavesuggestedthatweightliftingoverheadpress- athletes master the push jerk and split jerk exercises to achieve
+ing derivatives may enhance muscular strength development in greater propulsion forces and power development by means of
+nonweightlifters (266) because these exercises allow athletes to liftingheavierrelativeloadswhenthetraininggoalisimproving
+liftheavyloadsinaballisticmanner.Infact,thejerkistheonly maximalstrength-speeddevelopment.
+sportingtaskwherethehumanbeinghasbeenabletolift3times
+their body mass overhead (278). Recently, researchers have
+reportedthattherearedifferencesbetweenthe1RMperformance
+EffectofExerciseandLoadonKineticsandKinematics
+forthepushpress,pushjerk,andsplitjerk(261,262,265),where
+thelargestloadsaretypicallyliftedduringthesplitjerk,followed Theresultsofseveralsurveysofstrengthandconditioningcoaches
+bypushjerk(95%ofthenormalizedsplitjerkperformance)and have highlighted the perceived importance of prescribing
+push press (87% of the normalized split jerk performance) weightlifting exercises and their derivatives (79–83,259). The
+1167
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 6 ---
+WeightliftingforSportsPerformance(2023)37:6
+Figure1.Schematicdiagramcomparingweightliftingexerciseandtheinteractionofload(asapercentage
+of1RM,pullingderivativesbasedon1RMhangpowerclean/snatch)onspeed-strengthandstrength-
+speedemphasis.Velocityisbasedonthevelocityofthesystemcenterofmassandnotthebarbell.1RM51
+repetitionmaximum.
+results of these surveys are not surprising because combining velocity allowing for a speed-strength emphasis, whereas higher
+weightlifting exercises and their derivatives with traditional re- loadsresultingreaterforceandRFDallowingforstrength-speedto
+sistancetrainingexercises(e.g.,squatanddeadliftvariations)has beemphasized,withthegreatestpoweroutputoccurringacrossa
+been reportedto provide a superiortraining stimulus overother spectrum of loads, because of the interaction between force and
+forms of resistance training, ultimately resulting in greater im- velocity (45,48,49,51,53,58,60,195,197,285,286,302) (Figure 1).
+provementsinsportingtasks(e.g.,jumping,shortsprint,andCOD Thehighestvelocitiesacrossweightliftingderivativesoccurduring
+performance) thejumpshrugwhenlightloads(30–45%1RMhangpowerclean)
+(10–12,24,37,38,40,44,127,131,137–139,142,143,216,217,227, areused(157,160,284,285),withthehighestforcegeneratedduring
+236,293,294,305,310). Strength andconditioning coaches must, thepullingvariationswhenloads.100%ofthe1RMpowerclean
+however,decidewhichexerciseandloadcombinationswilladdress are used (48,49,51,53,195,197). The addition of a countermove-
+specific training goals (e.g., strength-endurance, strength-speed, ment,duringpullingderivatives(e.g.,hangcleanpullvs.cleanpull
+andspeed-strength) whilealsoconsideringtheathlete’s technical fromtheknee,orcountermovementshrugvs.midthighcleanpull),
+competency,mobility,relativestrength,andinjurystatus. furtherincreasestheforce,velocity,andthereforepoweratallloads
+Comfort et al. (43,46) conducted the first known studies (49,51,195,197),althoughitisessentialthattheathletehassufficient
+comparing weightlifting derivatives in nonweightlifters, identi- posturalcontrolduringthedecelerationphaseofthecountermovement.
+fyingthatthemidthighpowercleanandmidthighpullresultedin Thesnatchandcleanpermithigherloadstobeusedincom-
+greaterforce,RFD,andpoweroutputcomparedwiththepower parisonwiththepowersnatchandthepowerclean,respectively,
+cleanandthepowercleanfromtheknee,althoughtherewereno because of the requirement of a greater barbell displacement
+differencesbetweenthemidthighpowercleanandmidthighpull. during the “power” variations. As a result of a greater barbell
+Suchomel et al. (298,299,301,302) investigated alternative displacement with relatively lighter loads, higher RFD and im-
+weightlifting derivatives, reporting that greater force, velocity, pulse have been observed during the power clean and snatch
+poweroutput,RFD,impulse,andworkwereproducedduringthe when compared with the clean and snatch (152). Similarly, be-
+jump shrug and hang high pull when compared with the hang causeofthelowerbarbelldisplacementsrequiredtosuccessfully
+power clean across a spectrum of loads (30, 45, 65, and 80% performtheclean(55–65%vs.62–78%oftheliftersheight),the
+1RMhangpowerclean).Interestingly,theauthorsalsoindicated amountofloadliftedinthecleanandjerkis;18–20%heavier
+thatthegreatestdifferencesexistedatthelightestload,whichis thanthoseachievedduringthesnatch(282),highlightingthatthe
+similartotheconclusionsreachedbyotherresearcherswhohave cleanandjerkmaybeusedtoemphasizestrength-speed,whereas
+comparedthejumpshrug(157,160)orhanghighpull(304)with thesnatch maybeusedto emphasize movement speed-strength
+thehangpowerclean. (152),althoughthesearedependentontheloadsused(Figure1).
+The effect of load on the kinetic and kinematic outputs of Although cross-sectional comparisons provide insight on the
+weightliftingderivativeshasbeenevaluatedbynumerousresearchers potentialperformancedifferencesbetweentheuseofweightlifting
+(45,48,49,51,53,157,160,195,197,284–286,300–304).Acompari- derivatives,greaterinsightcanbefoundfrominterventionstud-
+sonofexercisesandtheinteractionofload,onforceandvelocity,is ies.Comfortetal.(44)comparedtheeffectof8weeksofin-season
+illustrated in Figure 1. In general, lower loads result in a higher training with biomechanically similar catching or pulling
+1168
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 7 ---
+WeightliftingforSportsPerformance(2023)37:6 | www.nsca.com
+derivatives(e.g.,powercleanvs.cleanpullfromthefloor)using and architectural adaptations associated with strength de-
+identicalloadingschemes(i.e.,thesamerelativeloads).Although velopment(14,15,275,279).Inaddition,hypertrophiedmuscles
+bothtraininggroupsimproved,theauthorsindicatedthatthere tend to have greater pennation angles than nonhypertrophied
+werenosignificantormeaningfuldifferencesinthechangesbe- muscles,resultinginincreasedcross-bridgeformationbecauseof
+tweenthegroupswhencomparingpeakorrapidforceproduction fiberpacking(153,154)andmusclegearing,whichmayenhance
+during the isometric midthigh pull or countermovement jump force-productioncapability(13,75,234).
+performance. These findings are supported by the comparable Duringthestrength-endurancephase,thetrainingaimsaretoim-
+force, velocity, and power output characteristics across proveorrefineexercisetechniqueinpreparationforthesubsequent,
+weightlifting exercises when performed between loads of higherloadphases,enhancephysicalworkcapacity,andincreasethe
+;70–90%1RM(Figure1)(56,57,60,65,116,189,263,264,288). strengthofconnectivetissues,sothattheycantolerategreaterloads,
+Suchomel et al. (293,294) recently expanded this research, andpotentiallyincreasemusclemass(unlessinaweight-categorized
+exploitingtheforceandvelocity emphasis potential of pulling sport) (28,70,110,274,275). By contrast, during the strength-speed
+derivatives. In addition to the load-matched catch and pull phase,theprimarygoalistoincreasetheforce-generatingcapacityof
+groupsexaminedbyComfortetal.(44),athirdtraininggroup themuscle, taking advantage of any morphological changes of the
+usedthesamepullingderivativesasthepullgroup,butalsoused muscles. This is achieved through improved muscular efficiency
+phase-specific loading to provide either a force (e.g., loads througharchitectural(e.g.,increasedpennationangleandincreased
+.100% 1RM power clean) or velocity (e.g., lighter loads sarcomeresinparallel)(2,136,207)andneurologicaladaptations(e.g.,
+[30–60% 1RM power clean] and more ballistic exercises) synchronization of motor units and motor unit discharge rates)
+overloadstimulus.Basedontheresultsofthiswork,theover- (4,5,21,169,198).Inaddition,increasesintendonstiffnessbecauseof
+load group demonstrated greater improvements in dynamic adaptations during the high-volume strength-endurance phase and
+(1RMpowerclean)andisometricstrength(isometricmidthigh high-load strength-speed phase should enhance muscular force
+pullpeakforce),shortsprint(10-,20-,and30-msprinttime), transmission, resulting in improvements in rapid force production
+COD, and countermovement jump and squat jump perfor- (i.e.,RFD)andpowerdevelopmentduringthespeed-strengthphase
+mances compared with the other groups (293,294). As such, (181,237,269,273).
+strengthandconditioningcoachesshouldprogramweightlifting Theaimsduringthespeed-strengthphasearetotakeadvantageof
+exercisesandtheirderivativestoemphasizespecificcharacter- theincreasedforce-productioncapacitydevelopedduringthestrength-
+istics (e.g., strength-speed or speed-strength) in a sequential speedphase,tooptimizeRFD,accelerativecapability,movementve-
+mannertoensureappropriateadaptations. locity,andpowerdevelopment(70,71,110,113,124,186).Someim-
+provementsinthesecharacteristicsmayoccursimplybecauseof
+supercompensation from the previous training phase because
+Section3:PhysiologicalAdaptationsand trainingvolumesaregenerallyreducedduringthespeed-strength
+RequiredStimuli phasewithnoncompatibletrainingstimulireducedorremoved
+tominimizefatigue.Inaddition,someoftheimprovementsare
+DesirablePhysiologicalAdaptationsRequiredtoEnhance
+due to further neurological and architectural adaptations
+SpecificPhysicalCharacteristics
+(2,3,7,8,181,272).
+Numerousneuromuscularfactorscanbemanipulatedtoimprove Progressive increases in volume load result in the greatest
+characteristics of force production, with the process considered hypertrophic adaptations (29,98,212,249), achieved through
+multifactorial, and adaptative responses intertwined, but with moderate loads (60–80% 1RM) performed for relatively high
+differentadaptiveprocessesemphasizeddependingonthestimulus repetitions(8–12repetitions)(98,110,250),withtheassociated
+(222,296). These adaptative responses include morphological metabolic stress providing a potential stimulus for muscle hy-
+changes(e.g.,increasedcross-sectionalarea[CSA],pennationan- pertrophy and endurance-related adaptations (93,247,248).
+gle,andfasciclelength),increasedbonemineraldensity,metabolic Interestingly, weekly volume load, rather than training fre-
+adaptations,alterationstotendonstiffness,andchangestoseveral quency, seems todictatethemagnitudeof hypertrophicadap-
+neurologicalfactors(269,273).Theprogressionoftheseadaptive tations,withgreaterimprovementsfrommorefrequenttraining
+responsesisgenerallyimpactedbytheindividual’sinitialstrength ifthereisanincreaseintotalvolumeload(98,251,254).Slightly
+levels (62–65,225) and their training history (124,141,235). In lowerloads(,60%1RM)thatareperformedforhigherrepe-
+fact,thesequenceofthetrainingprocessallowsfortheadaptations titions ($15 repetitions) may be advantageous when empha-
+from one phase of training to influence the responses associated sizing endurance-related adaptations because of metabolic
+with subsequent training phases, which highlights that it is ex- stress(93,247,248,250).
+tremelyimportantthatthetrainingprocessiscarefullyplannedand High-load($80%1RM,for#6repetitions)trainingelicitsthe
+appropriatelysequenced(71,110,113,272,322). greatestincreasesinforceproduction(110,184,225,250,252,253)
+Although a relationship between muscle CSA and force- and RFD (3,4,6,8,47,185). As with hypertrophy, when weekly
+productioncapacityisevident(14,15,34,120,135,188,199,203,244, volumeismatched,trainingfrequencydoesnotseemtoinfluence
+321,322), the magnitude of this association varies notably, with themagnitudeofadaptationstostrengthtraining(69).However,
+neurological, architectural (e.g., pennation angle and fascicle bycontrast,amixed-methodsapproach(combinationofhigh-load
+length),andfiber-typedifferenceslikelyexplainingthisvariation [$80% 1RM] low-velocity and low-load [#60% 1RM] high-
+(1,2,28,34,145,187). Narici, Roi, Landoni, Minetti, and Cerre- velocityexercises)seemstobemosteffectiveatenhancingspeed-
+telli(208)suggestthatchangesinCSAaccountfor50–60%ofthe strength (110,113,124,151,209,210,268,275,308,309), although
+changesinforceproduction.Moreimportantly,increasingmus- simplyenhancingstrengthinweakerindividualsisequallyasef-
+cle mass before a period of training in which strength de- fective(59,61,62,65,296,297).Duringaspeed-strengthphase,the
+velopment is emphasized allows for the strength phase to be volumeloadsshouldbereducedcomparedwiththestrength-speed
+potentiated(71,199,275,322),largelyasaresultoftheincreased phasetooffsetanynegativeeffectsassociatedwithcumulativefa-
+workcapacityandgreatermusclemassavailableforneurological tigue(110,113,270,272,274,275,279).
+1169
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 8 ---
+WeightliftingforSportsPerformance(2023)37:6
+TrainingGuidelinesforAbsoluteStrength,Strength- at80%1RMledtoanincreasedhorizontaldisplacementofthe
+Endurance,Strength-Speed,andSpeed-Strength barbell by the final repetition, which was not observed when
+clustersetswereimplemented.Thisresearchgroupalsoindicated
+Theprescribedexerciseandloadcombinationsshouldelicitthe
+thatperceived exertion increased across multiple sets usingthis
+desired adaptations within each resistance training phase. Al-
+exercise and load combination, but was reduced when using
+though specific to weightlifting derivatives, Suchomel et al.
+clustersets(122).Duringthestrength-endurancephase,catching
+(283,288,293,294)havesuggestedthatthismaybeaccomplished
+variationsmaybebestimplementedusingclustersetstoensure
+byprescribingspecificexerciseandloadcombinationsbasedon
+maintenance of technique and movement velocity, while also
+theirloadingpotential,andtheforceorvelocityprofileofeach
+exercise(i.e.,loads.100%1RMcatchingvariationforpullsvs. providinganopportunityforadditionalfeedbackandcoaching.
+30–45%1RMhangpowercleanforthejumpshrug),whichcan Becauseweightliftingpullingderivativeshavedecreasedcom-
+plexity because of the omittance of the catch phase, it may be
+be particularly useful if adopting a mixed-methods approach
+possibletomaintaintechniqueacrossadditionalrepetitions,with duringspeed-strengthdevelopment.
+heavier loads, compared with catching derivatives, especially
+whenthedisplacementisreduced(e.g.,hangpull,midthighpull,
+Strength-EndurancePhase.Ifstrengthandconditioningcoaches andcountermovementshrug)(196).Meechanetal.(196)recently
+aimtouseweightliftingexercisesinlatertrainingphases,itmay reported nochange in kinetics, kinematics, orrate ofperceived
+bebeneficialtoincorporatepullingvariationswithinthisphaseto exertion(RPE)duringthecountermovementshrugfor3setsof6
+solidify and refine the technique of the pull and increase work repetitionsusingtraditionalsetstructuresorwhenimplementing
+capacity(70,274,279,283,288).Moreover,usingtheseexercises rest-redistribution.Thus,toaddresstheworkcapacitydemands
+willhelpimproveanathlete’sworkcapacitybecauseofthetotal
+ofastrength-endurancephase,exercisessuchastheclean/snatch
+bodynatureoftheexercises.Althoughincorporatingweightlift- pull from the floor may serve as effective exercises. However,
+ing derivatives within this phase is feasible (220,274,279), this becausethefirstpull(i.e.,movingtheloadfromthefloortothe
+practiceresultsinahighmetaboliccost(243),resultinginintraset knee)maydoubletheworkanddurationofarepetition(152),less
+fatigue,whichmaynotbeaconcernwhentheathleteisnotwithin technical derivatives that remove the first pull may serve as ef-
+a competitive phase of their annual training plan. To minimize fective alternatives and may not require cluster sets to be
+fatiguewithinatrainingsession,andprovideanopportunityfor used(196).
+additional coaching (e.g., in less-experienced athletes), re-
+searchers have reported that clean pulls from the floor may be Strength-SpeedPhase.Theprimary goalsofstrengthphasesin-
+incorporatedinastrength-endurancephase(3setsof10repeti- clude increasing maximal force-production capacity (i.e., peak
+tions)usingclustersets(e.g.,2setsof5repetitionswithineachset force) and rapid force production (70,272,296). The strength-
+of10)witha30-to40-secondrestinterval(111,293,294).Using speed phase can be divided into subphases of general strength
+clustersetsinthismannermaynotonlypromoteahigherquality (e.g., 3 sets of 5 repetitions, moderately heavy to heavy loads
+of work, but they may also allow for the strength and condi- [70–80% 1RM]) and absolute strength (e.g., 3 sets of 3 repeti-
+tioningcoachtoprovidefeedbacktotheathleteandpermitthe tions, heavy to very heavy loads [80–90% 1RM]) to elicit in-
+useofgreaterloadsforahighernumberofrepetitions(e.g.,12 creasesinmaximalforceproduction.Weightliftingexercisesthat
+repetitions of squats using 80% 1RM, using clusters of 2 or 4 useheavierloadsoftenhaveadecreaseddisplacement(e.g.,clean
+repetitions) (312–314). As such, the higher loads and higher vs. power snatch) and fall under the strength-speed category
+volumescouldpotentiallyleadtogreaterhypertrophy(215),in- (Table1andFigure1)(152,282).Assuch,alongwiththeclean
+creased work capacity, and greater force production (294). In and the snatch performed at high loads (e.g., 80–95% 1RM),
+fact,researchershaveimplementedloadsashighas82.5%ofthe weightliftingpullingderivativesmaybefavoredduringstrength-
+subject’s1RMpowercleanusingcleanpullsfromthefloor,for speed phases because of the ability to prescribe loads $100%
+sets of 10 repetitions, during the strength-endurance phase 1RM of an athlete’s 1RM catching variation
+(293,294). (48,53,96,114,117,118,192–195,197,238,242).Asnotedabove,
+Although a spectrum of weightlifting exercises may be used researchers have examined loads as high as 140% 1RM with
+duringthestrength-endurancephase,strengthandconditioning several pulling variations (e.g., hang pull, pull from the knee,
+coachesshouldconsideranathlete’stechnicalcompetency,rela- midthigh pull, and countermovement shrug) (48,53,195–197),
+tive strength, the complexity of the chosen exercise(s), and the althoughforpullsfromthefloorloadsof,120%1RMmaybe
+goal(s)ofthetrainingphase.Forexample,ifanathleteisunable preferred, depending on the targeted training outcome
+to consistently perform the prescribed exercise(s) for a higher (96,193,194,238). This may provide strength and conditioning
+volumeofrepetitionsbecauseofeitherpoortechniqueoralackof coaches with several options based on their athletes’ technical
+positional strength, other exercises could be prescribed, or the competencywhile alsoaddressing positionalstrengthdemands.
+load should be reduced. To improve work capacity within this Forexample,sprintersrequirelargemagnitudesofforceandhigh
+phase,strengthandconditioningcoachesshoulduseweightlifting RFDwhenacceleratingfromthestartingblocksandtomaintain
+exercisesthathaveamoderate-largedisplacementandallowfor highspeedsandmaythusbenefitfromusingpullingderivatives
+moderatetomoderatelyheavyloadstobeimplemented,suchas thatdevelopthesecharacteristicswithinthesepositions(74).
+pullingderivatives.However,becauseofthetechnicalcomplexity Althoughheavypullingderivativesmayaidinthedevelopment
+andfatigueassociatedwithstrength-endurancetraining,thefull of maximal force production, the development of rapid force-
+lifts (i.e., clean and jerk, and snatch) are rarely incorporated production characteristics may also require the use of loads
+duringthisphase. lighterthanthosepreviouslydiscussed,ensuringthatanappro-
+It is also important to understand how the physiological de- priaterangeofloadsisused(64,65,113,209,210,283,287,288).
+mand of the exercise impacts exercise technique and perceived Duringthestrength-speedphase,weightliftingexercisesthatuse
+exertion.Hardeeetal.(123)reportedthatperforming6consec- moderately heavy loads (70–80% 1RM; Table 1 and Figure 1)
+utiverepetitions,inatraditionalsetformat,withthepowerclean maybeprescribedtopromoterapidforceproduction(293,294);
+1170
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 9 ---
+WeightliftingforSportsPerformance(2023)37:6 | www.nsca.com
+however, Comfort et al. (47) reported greater improvements in development of neural circuits (260). It is often argued that
+rapid force production in response to heavy loads (80–90% weightliftingmovementsaretootime-consumingorcomplexto
+1RM)comparedwithmoderateloads(60–82.5%1RM),albeit teachathleticpopulations.Bycontrast,Solumetal.(260)found
+thatthismayhavebeeninfluencedbytheirrelativelylowstrength thatmotorskilllearningcanbeindifferentbetweenadolescents
+levels.Itislikelythatweakerathleteswillenhancebothmaximal andadults,withgreatervariabilityinskillacquisitionobservedin
+and rapid force production effectively by simply emphasizing adolescents because of their lack of movement repertoire.
+high loads with maximal intent (21,59,61,62,65). Although re- Therefore,strengthandconditioningcoachesshouldensureap-
+searchershavereportedimprovedforce-productioncharacteris- propriate technique is developed, and refined, to reduce injury
+tics using exclusively catching or pulling derivatives (293,294), risk, maximize the athlete’s opportunity to adapt, and enhance
+prescribing combinations of pulling, catching, and overhead transferabilityintosportsperformance(230).Thepurposeofthis
+pressing derivatives within strength phases may also provide section, therefore, is to provide the reader with a pedagogical
+athletes with a unique training stimulus and prevent staleness, template and feedback considerations to develop weightlifting
+whilemaximizingincreasedinperformance. skillsregardlessofageand/orability.
+Each of the weightlifting movements (i.e., snatch, and clean
+Speed-Strength Phase. The objectives during a speed-strength and jerk) can be taught to be performed as the full version;
+phase include further development and peaking of rapid force however, withinthe progressionsprovided foreachmovement,
+productionandpoweroutput(70,272,296).Becausetheseneu- partial movements, or derivatives may also be used as specific
+romuscular characteristics may be enhanced with the combina- training tools. Depending onthetraining age, physicalcapabil-
+tion of exercises that emphasize either force or velocity, it is ities,demands,orgoalsofthesporttheathleteisinvolvedin,a
+recommendedthatacombinationofbothheavyandlightloads strength andconditioning coach maydecidethat someofthese
+be implemented (71,113,151,209,210,272,288,296,307–309). derivativesarebettersuitedtomeettheneedsoftheathleteata
+Using this strategy, strength and conditioning coaches can pre- particularpointintime.
+scribe a wide variety of exercises from both the strength-speed
+and speed-strength categories to ensure that the targeted out- Phases of the Weightlifting Movements. Morris et al. (201)
+comesaredeveloped(Table1andFigure1).Trainingfocusingon (Table 2) highlight the specific positions of each phase of the
+heavyloadsvs.loadsthatelicitpeakpowerhavebeenreportedto snatch,andcleanandjerk,illustratingwherethebarstartsand
+result in preferential adaptations at those specific loads rather finishesineachofthesubsequentphasesforthecleanandjerk,
+thanacrossaspectrumofloads(124,125,151,307–309),withthe andthesnatch.Breakingthemovementsintothesephasesenables
+useofacombinationofloadingparadigms,resultingingreater the strength and conditioning coach, and athlete, to obtain a
+adaptationsacrossloads(124,209,307–309).Forexample,loads bettergraspofeachcomponentandhowtoperformthem,which
+as high 110% of1RM with the countermovement shrug (force isespeciallyimportantoncetheathletestartsthetaskof“chain-
+emphasis,e.g.,strength-speed)andaslowas30%of1RMwith ing” the elements together. The snatch and clean consist of 5
+thejumpshrug(velocityemphasis,e.g.,speed-strength)havebeen phases:(a)firstpull(aka.liftoff),(b)transition(aka.doubleknee
+showntobeaneffectiveprogrammingstrategywhenintegrated bend),(c)secondpull(aka.powerpositiontofullextension),(d)
+intothesamephaseoftraining(293,294).Itisalsoimportantthat catch,and(e)recovery(Table2).Thejerkconsistsof4phases:(a)
+when implementing this type of strategy, strength and condi- dip,(b)drive,(c)catch,and(d)recovery(Table2).
+tioningcoachesneedtobemindfulofthetotaltrainingvolume
+programmedduringthisphasetominimizeresidualfatigue. Pedagogical Approaches. A key issue that strength and condi-
+Itisimportanttonotethatstrengthandconditioningcoaches tioningcoachesmustconsideristheorderinwhichtheywillteach
+mayprovideseveralexerciseandloadcombinationsthataddress thecomponentpartsoftheweightliftingmovements.Themethod
+an athlete’s needs based on their sport/event and position. For chosenwilllikelyexertanotablebearingonhoweasilytheathlete
+example, American football linemen require a greater strength- canachievefluidityinthemovementwhenallpartsare“chained”
+speed emphasis. Thus, although the primary exercise and load together, creating the complex movement patterns associated
+combinationsprescribedtotheseathletesmayemphasizestrength- with weightlifting. The need to adopt a step-by-step teaching
+speed,speed-strengthexercisesthatcanbeloadedwithmoderately methodhasbeensupportedinthescientificandcoachinglitera-
+heavy loads (e.g., hang power clean/snatch) may enhance rapid ture(77,78,84).Thereare2commonteachingapproachestypi-
+force production for these individuals. By contrast, a defensive cally used when instructing weightlifting: (a) forward chaining
+backmayrequireagreateremphasisonexercisesthattargetspeed- (aka. bottom-up approach) and (b) reverse chaining (aka. top-
+strengthdevelopmentbutwillalsobenefitfromusingheavierloads downapproach).Briefly,inforwardchaining,partsoftheskill
+(e.g.,hangclean/snatchpull)todevelopstrength-speed.Ideally,a are learned in the order in which they will naturally occur,
+phasedsequentialapproachtotrainingshouldbeadopted,withthe whereas with reverse chaining, the key parts of the skill are
+targetedattributedbeingbasedontheresultsofanassessmentof learnedinreverse.
+the athlete’s athletic performances and force-production charac- Themainargumentforusingforwardchainingisthatitseems
+teristicsattheendofeachtrainingphase. logicalandisreadilyjustifiedonthegroundsthatifaskillisnot
+initiated properly, it will not be completed correctly. However,
+theuseofforwardchainingpotentiatesotherbehaviors,whichas
+Section4:CoachingWeightliftingExercises skill complexity increases, become detrimental to both the
+learning process and performance outcomes (239). Forward
+PedagogicalApproachesandFeedbackStrategies
+chaining progressions usually result in skills that are executed
+Learningofamotorskilloftenoccursmorerapidlywithgreater well in theinitial stages butdeteriorate andexhibit weaknesses
+capacitytomaintainitduringhighlysensitiveperiodsoflife,such andfaultsasthesequencesprogress(239).
+asadolescence(260).Thisislikelyaresultofthebrain’splasticity Withreversechaining,aseachnewstepislearned,itisfollowed
+during these developmental periods, allowing for greater by parts of the lift that are already familiar and practiced. The
+1171
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 10 ---
+WeightliftingforSportsPerformance(2023)37:6
+Table2
+Phasesofthecleanandjerk,andsnatch,reproducedwithpermissionfromMorrisetal.(201).
+Phase Cleanandjerk Snatch
+Firstpull Fromliftingthebarbelloffthefloortoapositioninwhichthe Fromliftingthebarbelloffthefloortoapositioninwhichthe
+barbellisimmediatelyatthepatella barbellisimmediatelyatthepatella
+Transition Fromapositioninwhichthebarbellisimmediatelyatthe Fromapositioninwhichthebarbellisimmediatelyatthepatella
+patellatoapositioninwhichthebarbellispositionedmidthigh toapositioninwhichthebarbellispositionedattheupperthigh
+Secondpull Fromapositioninwhichthebarbellispositionedatthe Fromapositioninwhichthebarbellispositionedattheupper
+midthightheathleteshouldextendatthehips,knees,and thightheathleteshouldextendatthehips,knees,andankles
+anklesmovingthebartoapositionofmaximalbarbellheight movingthebartoapositionofmaximalbarbellheight
+Catch Fromapositionofmaximalbarbellheighttoapositionin Fromapositionofmaximalbarbellheighttoapositioninwhich
+whichthebariscaughtrestingontheanteriordeltoids,ina thebariscaughtaboveheadinanoverhead-squatposition
+front-squatposition
+Recovery Fromapositioninwhichthebariscaughtrestingonthe Fromapositioninwhichthebariscaughtaboveheadinan
+anteriordeltoidstoastandingpositionwiththebarremaining overhead-squatpositiontoastandingpositionwiththebar
+inafront-rackposition remainingabovehead
+Dip Fromstanding,withthebarinafront-rackpositiontoa
+quarter-squatpositionwiththebarremaininginafront-rack
+position
+Drive Fromaquarter-squatpositionwiththebarremainingina
+front-rackpositiontoapositionofmaximalbarbellheight,with
+theathleteextendingatthehips,knees,andankles
+Catch Fromapositionofmaximalbarbellheighttoapositionin
+whichthebariscaughtaboveheadinasplit-stanceposition
+Recovery Fromapositioninwhichthebariscaughtaboveheadina
+split-stancepositiontoastandingpositionwiththebar
+remainingabovehead
+rationale behind this approach is to provide lower complexity orthespeedofmovement.Forexample,theoverheadsquatpro-
+movements to the athlete during early stages of development, as videsakeyopportunityforthestrengthandconditioningcoachto
+illustratedinFigures2–4.Thecomplexity,inthisinstance,isgov- assessmovement quality under load,at a slowspeed, beforead-
+ernedbythenumberofphasesanathletemustchaintogetherand/ vancingontomoreballisticderivatives,suchasthesnatchbalance
+1172
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 11 ---
+WeightliftingforSportsPerformance(2023)37:6 | www.nsca.com
+(Figure2).Insomecases,theprogressionneednotbefromthetop transitional and auxiliary exercises to help develop the appro-
+(i.e.,theoverheadsquat),butcanalsobefromapointwherethe priatesequencingandpositionalstrengthrequiredtoachievethe
+strength and conditioning coach is able to optimize adaptation exercises outlined in the progression. However, column 4 pro-
+while concurrently laying the foundation to a more complete videsanalternativeprogressiontoaidinthetransitionfromthe
+movements, adding to the athlete’s exercise toolbox (i.e., using backtothefrontoftheheadbyfurthersimplifyingtheordertoall
+snatchpullsfromthepowerposition[aka.startofthesecondpull] movementsfrombehind,thenallmovementsfrominfront.
+topowersnatchesfromtheknee).
+The major advantages of reverse chaining over forward StagesofLearning.In1967,PaulFittsandMichaelPosnerpro-
+chainingprogressionsareasfollows(239): posed3stagesoflearningmotorskills,whichtheydefinedasthe
+c Interference does not occur because each new element cognitive, associative, and autonomous stages (144). They pro-
+precedesallpreviously“learned”elements(i.e.,thelearner posed that although learning a new motor skill, an individual
+thinksofandexecutesanewtechniqueelementandfollows passesthroughseveralchangesthatcanbecategorizedintooneof
+itwithwhathasbeenperformedsuccessfullybefore). the3stages.Itisimportanttonotethattransitionfromonestage
+c Eachstepintheprogressiondoesnotincreaseindifficulty tothenextisnotanacutechange,butonethathappensgradually.
+because undivided attention can be focused on the new Recognizingthestagethattheathleteisperforminginwillhelp
+skill. the strength and conditioning coach address their needs
+c Attentionisfocusedonlyonthenewstep,andthen,established appropriately.
+elementsareperformedtofinishintheterminalposition. The cognitive stage is characterized by inconsistent and in-
+c Thereisalackoftension/anxietyinthelearnerbecauseof efficientperformance,slowermovements,andahighdegreeof
+thesimplicityofthetaskanditssteps. mentaleffort.Inthisstageoflearning,movementsaregenerally
+c Stepsizesaresmall,providingahighrateofsuccess. performed slowly withdeliberate intentionbecause the novice
+It is important to note that the reverse-chain approach of athleteisunabletouseinternalorkinestheticfeedbacktoadjust
+teaching weightlifting movements is the chosen method advo- movementandwilloftenrequirealotofexternalfeedback.Itis
+catedbyboththeNSCA(23)andtheInternationalWeightlifting bestforathletesinthisstagetoeliminatedistractionsandpro-
+Federation(148). videadequatespaceforthedesiredskilltobeperformed.Evena
+Figures2–4illustratetheteachingandlearningprogressionsof seasoned athlete will experience the cognitive stage when
+thesnatch,andcleanandjerk.InFigures2and3,thefirstcolumn learninganewskill.Theymayprogressatafasterratebecause
+identifiesthephaseoftheliftwiththesecondcolumnproviding they may have previous skill experience related to the new
+the exercise that best develops that phase. Naturally, not all movement, but they will still display characteristics from the
+athletes will be able to execute the progressions, and therefore, cognitivestage(144).
+regressionshavealsobeenprovidedincolumn3tohelpfurther Asathletesmoveintotheassociativestage,movementsbe-
+simplifythemovementanddeveloprelevantmovementscompe- come more fluid, consistent, and efficient. Some parts of the
+tencies. The last 2 columns, “Transitions” and “Auxiliary,” skill become more “automatic” because less thinking is re-
+provideexercises,whichhelpdeveloptheappropriatesequencing quired. However, there will still be aspects of the skill that
+andpositionalstrengthrequiredtoachievetheexercisesoutlined requiremental attention.Utilization of internal feedback be-
+intheprogressionandregressions.MuchlikeFigures2and3,the ginstooccurfortheathletebecausetheybegintosensewhat
+first2columnsofFigure4identifythephaseoftheliftandthe propermovementpatternsfeellikeandidentifywhentheydo
+exercisethatbestdevelopsthatphase.Columns3and4provide notperformthemaccurately,buttheymaynotknowhowto
+Figure2.Snatchprogression.
+1173
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 12 ---
+WeightliftingforSportsPerformance(2023)37:6
+Figure3.Cleanprogression.
+adjust their movement to correct it. A coach’s feedback can movement,avarietyofcommunicationmethodsshouldbeused.
+reinforce the athlete’s internal feedback and help them to These methods all fall in 3 principal areas: verbal, visual, and
+identify areas needing improvement as well as how to make kinesthetic(Table3).Akeyfactordifferentiatingthesemethodsis
+corrections(144). the extent to which they are effective in communicating mean-
+The final stage of learning is the autonomous stage. At this ingfulfeedbacktotheathlete.Becauseathleteslearnbestthrough
+point, motor programs are well-defined and ingrained. Move- a variety of ways, it is recommended that different methods be
+mentissmooth,accurate,andconsistent,requiringlittlemental usedincombinationwhenteachingweightliftingmovementstoa
+attention toperform theskillbecauseit hasbecome automatic. beginner.Whichevermethodormethodsareused,itisessential
+Athletes, at this stage, can usetheir thought processes onother that when providing feedback to the athlete the strength and
+importantaspectsoftheliftinsteadofthinkingofhowtoproduce conditioningcoachmustconsiderhowtheathleteisinteracting
+thedesiredskillmovement(144).Feedbackwillallowsuchath- withthegiventaskandensurethatallfeedbackissimple,precise,
+letes to fine-tune the skill, improving the effectiveness and effi- andclearlydelivered.
+ciencyofthemovement. Verbalinstructionandcuesbothhavepivotalrolesincoaching
+weightlifting, where instruction provides the necessary in-
+Types of Feedback and Forms of Communication. To aid the formationaboutthetaskwithcuesprovidinganopportunityto
+beginner athlete in the development of positional awareness, shifttheathletesfocusofattentiontowardmovementoutcomes
+movement fluency, and practicing accuracy and timing of (165).Thecuesprovidedshouldbeshortintheirdeliverywhile
+Figure4.Jerkprogression.
+1174
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 13 ---
+WeightliftingforSportsPerformance(2023)37:6 | www.nsca.com
+using“buzz”wordsasopposedtolongsentences,thusavoiding clearandconcise.Inthisscenario,analogiesandmetaphorscan
+exposingtheathletetoinformationoverload,whichcanincrease serveasausefultooltoencourageanexternalfocusofattention,
+cognitiveload(240)andnegativelyimpactphysicalperformance whilealsohelpingchildrenprocessinformationmoreeffectively
+(191).Thechoiceoftheappropriate“buzz”wordsaswellasthe makingthecontentrelatabletothemandcondensingseveraltask-
+timing of implementing them is critical. Likewise, verbal com- relevantcuesintoasinglemetaphor.Anexampleofafeedback
+munication should be appropriate to the individual’s stage of loopisprovidedinFigure5.
+development(164).Forexample,childrentypicallypossesslower Visual feedback and instruction through video capture or
+levels of vocabulary and comprehension skills; therefore, lan- demonstrationscanbecoupledwithverbalfeedbacktoenablethe
+guageshouldbesimpleandnontechnical,anddialogshouldbe athletetocontextualizetheinformationprovidedtothem(218).
+Table3
+Advantages/disadvantagesofdifferentcommunicationmethods.*
+Method Advantages:(effectivein…) Disadvantages:(lesseffectivein…) Possibleissues
+Verbalinstruction Providingshort,simplemovementinstruction Describingbody/limbpositionsduringphases !Avoidusingterminologythatbeginnerswillbe
+(e.g.,“finish”and“aggressive”) ofthelift unfamiliarand/orwillnothavesufficient
+Providingworkquantity(e.g.,“doanother Makingchangesinmovementpatterns proprioceptiveknowledgetoassociateitwitha
+rep”and“3rep’splease”) Correctingtimingissues particularbodyaction
+Providingsafetyinstruction(e.g.,“stayinthe !Relyingtoofrequentlyonverbalcuinginearly
+centeroftheplatform”) skillacquisition
+Providingmeaningfulcommunicationtoa !Mayleadtotheathletebecomingoverlyreliant
+beginnerwhenusinganalogiesandmetaphors onverbalfeedbackoverkinesthetic/spatialskill
+development
+Reinforcement Strengthening/increasingthefrequencyof Maintainingvalueifusedtoofrequently !Reinforcementshouldbeintermittently
+desiredbehaviorthroughpositive(and Situationswherethecoachisnotableto provided,oritdiminishesinvalue
+sometimesnegative)reinforcement observeperformanceorallofanathlete’s !Appropriateusedependsonthecoach’s
+Rewardingeffortsandimprovementsto performances interpersonalskills
+trainingbehaviorand/ortechnicalperformance !Appropriateuseisdependentoncoach’s
+Motivatingthecontinueduseofcurrent knowledgeandunderstandingofweightlifting
+strategiestoimprovetechnique technique
+Reassuringcurrenteffortsthatarehavinga
+beneficialeffect
+Demonstrating(aka Providingspatialandtemporalinformation Creatingimmediatechangeinbodypositions !Demonstrationsusuallyneedtobeperformed
+modeling) naturallyandinstinctively ormovementpatterns multipletimesforthelearnertoprocessthe
+Providinginformationinanexpedientmanner Situationswherethecoachisunableto necessaryinformationappropriately
+Providingabasicplanofwhat’sgoingtobe performanadequatedemonstration !Abeginnercanmissthemainpointofthe
+performed(e.g.,newexerciseintroduction) demonstration
+Providingacontrastofcorrectandincorrect !Poordemonstrationscancauseproblemsfor
+position(s)ormovement(s) theathlete’sskillacquisition
+Videoreplay Enhancingunderstandingoftheskill Lessvaluableifnotaccompaniedbyquality !Toofrequentviewingmayleadtobeingover
+(replayedataslowerspeed) verbalinformation consciousoferrors,developingmoreinternal
+Enhancingunderstandingoftheskill(asitcan Dependentontheknowledgeandanalytical focus,and/orbecomenegativetowardtheir
+bereplayed) skillsoftheviewer abilities
+Showingaspecificpositionortechnical Timeintensive !Toofrequentviewingmayleadtobeingoverly
+elementthatrequirescorrection Canbedisruptivetothenormalflowof dependentonvisualoverkinesthetic
+Identifyingmovementcharacteristics(by coachingandtraining development
+usingslowmotionorvideoscrubbing) Canbeoverwhelmingtobeginnersbecauseof !Video/movementanalysisrequiresspecific
+theamountofinformationprovided(visuallyand/ skillsnotnecessarilydevelopedbycoaches
+orverbally) !Coachesneedtobecognizantofthecoaching
+objectivestrivingforandsticktoit
+!Videointrainingcanbedisruptivetotheathlete
+and/ortothetrainingenvironment
+Discoverylearning Improvingtiming,coordination,andfluencyof Introductionofnewexercisesormovementsto !Successofthisstrategydependsonthe
+movement abeginner knowledge,experience,andconfidenceofthe
+Developingbalanceandstability Developingbasicbodypositions(theyarenot coachtobestknowwhentoallowthebeginnerto
+Developingthekinematicsofperformanceof alwaysintuitiveor“natural”) experimentandwhentointervene
+complexmovements(e.g.,speedand Solvingpersistenttechnicalerrorsorproblems !Thecoachneedstoknowhowandwhento
+accelerationcharacteristicsofthebody;vertical imposeappropriatespatialortemporal
+andhorizontaldisplacementofthebar) constraints
+Manualmanipulation Providingproprioceptiveinformationasto Correctingmovementerrors(vs.positional !Requirespracticetoperfectappropriate
+howtherequiredbodypositionshouldfeel errors) methods/strategiestouse
+Correctingbasicbodyorlimbpositions !Requirestheathlete’spermissionfirstto
+(althoughtheathleteisstationary) perform
+Timesaving !Reliesonathoroughunderstandingand
+knowledgeofbodypositionsastheyrelateto
+weightliftingtechnique
+*AdaptedwithpermissionfromIsaac(140).
+1175
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 14 ---
+WeightliftingforSportsPerformance(2023)37:6
+In addition, video feedback that captures key phases of the lift tosignifyarearwardtrajectoryofthebarbellduringthefirstpull.
+enablethestrengthandconditioningcoachandathletetomonitor This can also then be associatedwitha coaching cue to reinforce
+and highlight technical faults and/or improvements over time. appropriatemovementpatterns.Anexampleofhowthesevarying
+Thisalsoprovidesfurtherlearningopportunitiesfortheathleteto methods of feedback can be used within a session is provided in
+become more aware of how to optimize technique (267). It is Table3.
+importanttonote,however,thatwithbeginners,toofrequentuse
+of video to provide feedback may lead to the athlete becoming Feedback Timing. It is important to note that when coaching
+overconsciousoftechnicalerrorsand/orbecomenegativetoward weightliftingmovements,thetimingoffeedbackiscrucial.Terminal
+their abilities (140), leading to overdependence on visual over feedbackisgivenattheendoftheattemptwhetherthisisaftera
+kinesthetic feedback. When using video feedback, strength and particularrepetitionwithinasetorattheendofthesetitself.Thiscan
+conditioning coaches need to be cognizant of the coaching ob- behelpfulforathleteslearninganewskillbecauseitpermitsthemto
+jectivethattheyarestrivingforandnotdeviatefromitsimplyto concentrateonperformingtheskillormovementitselfandnotsolely
+incorporatevideofeedback. focusingonfeedback(144).Withholdingimmediatefeedbackgives
+Finally, having the athlete associate specific phases with some- theathletetimetoevaluatetheirperformance,identifypositiveele-
+thingtangiblemayalsoprovideanopportunitytodeveloptechnical ments(e.g.,didtheathleteeffectivelyperformthemovementcues
+proficiency,whichiscommonlyreferredtoaskinestheticawareness that the strength and conditioning coach provided), and mistakes
+(201).Kinestheticawarenesscanbedefinedastheathlete’sabilityto made.Althoughanathleteinthecognitivestageoflearningisunable
+“feel”aposition,whetherthatbeacertainmusclegroupunderstrain toeffectivelyuseinternalandkinestheticfeedback,itisstillgoodto
+(e.g.,thequadriceps,hamstrings,andbackduringthefirstpull),or start asking the athlete questions as to how the movement felt to
+knockingoveranuprightfoamrollerwiththebarbell’sweightplate begintheprocessoflisteningfortheinternalvoice.
+Figure5.Feedbackloopexamplewithinaworkingset.Feedbackisnotalwaysneededateverystagebecausethismaylead
+totoomuchinformationbeingprovidedtotheathlete.
+1176
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 15 ---
+WeightliftingforSportsPerformance(2023)37:6 | www.nsca.com
+Athleteswhoaremoreskilledorareinthestagesofrefining liftcomplexity,thelearningsituationissimplifiedforthebegin-
+theirtechniquecanbeprovidedconcurrentfeedback,whichis ner.Anotherbenefitofthisapproachisthatitallowsstrengthand
+givenduringtheperformanceofaskillormovement.Athletesin conditioningcoachestoidentifymovementdeficienciesortech-
+theautonomousstageoflearningbenefitmorefromthistypeof nical errors and allows for more specific exercise prescription
+feedback timing as the skill or movement that they are per- targetingtheidentifiedissues.Basedonthetheoryof“chunking,”
+formingrequireslittlethoughtallowingattentiontobeshiftedto beginnerathletescanworkonthesecomponentsinisolationand
+areaswheretheycanimprove.However,astrengthandcondi- thenstringtheindividualexercises/movementstogethertocreate
+tioningcoachmustbecarefulaboutprovidingtoomuchfeed- asequencedmovementpattern(112).
+back.Anathlete,especiallyintheearlystagesoflearning,can The use of an exercise progression (Figures 2–4) provides a
+come to rely solely on that feedback at a detriment to their comprehensive approach to integrate different phases of each
+spatial and kinesthetic awareness. It is also important to note weightliftingmovementfortraining,frombeginnertoadvanced,
+thatathletesresponddifferentlytofeedback,ingeneral,andto identifyingthetrainingfocusandcoachingconsiderationsateach
+different types of feedback. Ultimately, a strength and condi- stage(201).Regardlessofthestageoftraining,thesimultaneous
+tioning coach needs to know their athlete, learn how they re- development of movement skills (i.e., competency, autonomy,
+spond to feedback, and which types of feedback are the most and refinement), and physical capacities (i.e., motor and body
+effectiveforthem. control, basic strength, strength-speed, and speed-strength)
+should be considered, with exercise prescription and selection
+adjusted accordingly (201). The amount of time spent in any
+phaseoftheprogressionshouldbebasedonindividualabilityand
+ConsiderationsforBeginners
+need.Itis,however,importanttonotethateachathlete’srateof
+The term beginner, or novice, applies to individuals who have progression through the learning process will be highly in-
+littletonopreviousexperiencewith,inthiscase,theweightlifting dividualized.Althoughtheathlete’sstageofmaturationshouldbe
+movements. This could include athletes who have a higher considered, their level of technical competency should dictate
+trainingagewithotherstrengthtrainingactivities(i.e.,resistance howquicklytheyadvancethroughtheteachingprogression.
+training and powerlifting) orknowledge about resistance train-
+ing,buthavenotperformedtheweightliftingmovements.Abe- Building Confidence. Therole ofthe strengthand conditioning
+ginner to weightlifting movements will experience notable coach is far greater than just developing the athlete’s physical
+challenges when learning these highly complex movement pat- competencyortheiroverallperformancecapacity.Astrengthand
+ternsthattestbodyposition,balance,andstabilityaswellasthe conditioningcoachisaneducator,teachingtheathletenotonly
+speedandtimingofeachmovement(140).Assuch,somestrength the skillsofweightlifting, inthis case, butalso howtotrain ef-
+andconditioningcoachesarereluctanttointroducenoviceath- fectivelyaswellasdevelopasaperson(140).Buildingconfidence,
+letes to weightlifting-based training methods because they feel developing positive self-worth, responsibility, and integrity are
+thattheyareoverlytime-consumingand/ortoodifficulttoteach. importantoutcomesofthebeginner’scoachingprocess(149).To
+However,theuseofawell-organized,disciplined,andsystematic establishthedevelopmentofsuchattributes,itisessentialthatthe
+plan with investment in technical development of weightlifting strength and conditioning coach ensures that the athlete main-
+movements and ongoing technical refinement in weightlifting tains an appropriate progression rate, which is based on their
+training will promote later success in an athlete’s career abilities. Central to this process, the strength and conditioning
+(126,201).Thisoccursbypromotinghabitualimprovementsin coachshouldselectchallengeswitharelativelylowtaskdifficulty
+athleticismovertimetoimproveperformance,reduceinjuryrisk, that will allow the athlete to train the optimal challenge point
+and enhance health and wellbeing (89). This is a common and basedonthebenefitsofanerrorlesslearningstrategy.Findingthe
+importantgoalinalong-termathletedevelopmentplan. rightbalancebetweenthetaskdifficultyandtheathlete’sconfi-
+dencewillleadtoanincreaseintheathlete’sself-efficacy,further
+Preparation of Training. When preparing to introduce improvingthelearningprocess(165).
+weightlifting movements to a beginner, it is essential that a
+structuredteachingplanisestablishedtoguidetheathleteinthe TechniqueandAccuracyFocused.Intheinitialstagesoflearning,
+development of their weightlifting literacy. The purpose of this strengthandconditioningcoachesshouldfocusondevelopingthe
+planistoensurethattheimportantphasesintheteachingpro- athlete’s technical literacy over maximizing their strength de-
+gression are not missed, and the athlete is provided with a velopment.Suchloadingshouldbeincrementalandprogressive,
+movementcurriculumthatallowsthemtodeveloptheirweight- albeitconservative.Thisisanessentialaspectofdevelopingsound
+liftingskillsmoreeasily.Intheinitialstagesofdevelopment,to liftingtechniquebecause(a)liftingtomaximalornear-maximal
+ensurepropertechniqueisdeveloped,strengthandconditioning loads, as a beginner, may lead to technical errors which may
+coachesshouldfollowappropriatecoachingprogressionstoaid become ingrained,makingit moredifficulttomodifyorrectify
+theimplementationofastructuredandsystematicapproachthat technical errors during the later stages of the athlete’s de-
+progresseslogicallybasedontechnicalcompetencytoensurethat velopmentand(b)athleteswhodevelopsoundtechniqueduring
+theathletelearnsthemovementsinatimelyandeffectivemanner theearlystagesoftheirdevelopmenttendtohavemoreoppor-
+(201). To obtain technical competency, the full lifts are often tunitiestouseprogressivelyheavierloadstotargetspecificneu-
+brokenintoseveralkeyphasesreferredtoasmovementchaining romuscularadaptations.Trainingadaptationsmaybeaffectedby
+(e.g.,reversechaining),or“chunking”(201),allowingtheathlete liftingtechniquebecausethiscaninfluenceanathlete’sabilityto
+to focus on learning discrete parts of the lift. Ultimately, this is produce force which is especially relevant in weightlifting.
+performed the complex, multijoint movements associated with Therefore, if proper technique enhancesorimproves force pro-
+weightlifting are broken into smaller, more manageable pieces duction, then poor technique has the potential to impair im-
+thatcanbecombinedtocreatemorecomplexmovementpatterns provements in motor control, coordination, muscle activation,
+(Figures2–4).Bydecreasingtherangeofmovementandoverall
+andmotorunitrecruitment(201).
+1177
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 16 ---
+WeightliftingforSportsPerformance(2023)37:6
+Anotherimportantfocuswhenteachingabeginner,acomplex is to establish underpinning qualities from which specific
+skill,suchasweightlifting,isdevelopingaccuracyratherthanthe weightliftingtechnicalcompetencycanbeset.Exercisesthatfocus
+speed of the movement. The long-term result of this strategy, on the proper position and control of the back and torso, hip
+knownasthespeed-accuracytrade-off(245),isthatathleteswill hinging, squatting (both unilateral and bilateral), overhead sta-
+exhibitimprovedtechnicalperformance,consistency,andconfi- bility,andgeneralbodyweightcontrolareessentialprerequisites
+dence.Asaccuracyisgainedandthelearnermoveswithimproved usedtonotonlyestablishfundamentalskillsbutalsotodevelop
+consistencyinthepartoftheskillbeinglearned,greaterattention basestrengthlevelstoprogressontomoreweightliftingspecific
+canbegiventothespeedofthemovementanduseofmaximal movements(Figure6).
+intent. Furthermore, by concentrating on accuracy and conse-
+quently slowing down the movement, the athlete will be better ChainingofSkills.Anathleteisreadytobeginchainingdifferent
+ableto acquire, process,and interpret proprioceptive feedback. skillstogetherbasedonthefollowingfactors:
+Thiswillalsohelpthestrengthandconditioningcoachintervene c No key elements of technique are poorly performed or
+and provide appropriate feedback in a timely manner. Con- constanterrorsineitherlift.
+versely, if the initial focus is on speed of movement, it is more c Demonstrates movement fluency in performing both
+likelythaterrors intechnical performance will becomeevident, exercises. Movement fluency is the ability to perform
+ingrained, and harder to fix as the athlete develops (140). Be- repetitions repeatedly without hesitation or excessive
+ginner athletes may find learning certain phases of the conscious control (140). This includes small degrees of
+weightlifting movements difficult. In their effort to achieve naturalmovementvariabilitythatcommonlyoccur.
+“perfect” technique, the body’s ability to perform naturally or- c Respondseffectivelytocoachinginstructionorfeedbackto
+ganized the motor actions is interrupted, thus becoming overly varytheirbodyposition,bodymovement,ormovementof
+conscious and slowing it down (255). Therefore, to avoid this thebar.
+issue,providingasingleexternallyfocusedcuethathelpsmini- It is important to note that timing issues will usually occur
+mizethebiggestlimitingfactorwilllikelyyieldapositiveoutcome whenthebeginnermakesinitialattemptstochain2ormoreparts
+andenhancethelearningprocess. of a skill together. As the athlete works through the chaining
+Akeyissuethatstrengthandconditioningcoachesmustconsider process,theathleteshouldbegivenautonomytoworkthrough
+istheorderinwhichtheywillteachthecomponentpartsofthekey these challenges under the guidance and positive reinforcement
+weightlifting movements (i.e., snatch, and clean and jerk). The fromthestrengthandconditioningcoach.Toingrainthesenew
+methodchosenwilllikelyhaveabearingonhoweasilytheathlete movementpatterns,thestrengthandconditioningcoachshould
+can achieve fluidity in the movement when all parts are chained ensure that an appropriate amount of time is allotted for the
+togethertocreatethecomplexmovementpatternsassociatedwith athletetomasterthenewmovementskill.
+weightlifting.Thereare2commonteachingmethodsthathavebeen
+previously discussed in subsection "Pedagogical Approaches and Prioritizing Errors and Frequency of Feedback. It is likely that
+FeedbackStrategies":forwardchaining(aka.bottom-upapproach) beginnerswilldemonstratemultipleerrorsandinconsistenciesin
+andreversechaining(aka.top-downapproach). theirmovementpatternswhiletheyaretryingtomastertheskills
+associated with weightlifting. As such, the beginner needs con-
+Fundamental Movement Skills. Solid weightlifting technique is sistent and positive guidance from the coach to help them un-
+basedonunderlyingfundamentalskillsandmovementabilities. derstandhowtointerprettheproprioceptivefeedbacktheywill
+In the early stages of learning, it is critical to develop body receivefromweightliftingmovements.Strengthandconditioning
+awareness and control as well as foundational movement com- coachesshouldavoidattemptingtocorrectorprovidefeedback
+petencies before advancing the beginner to higher order tasks. for every problem that is noted during each lift and be more
+Thegoalofstartingwiththesedevelopmentalskillsandcapacities focused in their approach. As discussed in
+Figure 6. Weightlifting exercise progressions. Exercises are ordered by increasing movement complexity and increasing
+technicalspecificityfromthebottomofthepyramidworkingupwardasindicatedbyincreasedcolordepth.Adaptedwith
+permissionfromMorrisetal.(201).RDL5Romaniandeadlift;BHN5behindneck;OH5overhead;CMJ5countermovement
+jump;BM5bodymass;SG5snatchgrip.
+1178
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 17 ---
+WeightliftingforSportsPerformance(2023)37:6 | www.nsca.com
+subsection "Pedagogical Approaches and Feedback Strategies," difficult,ifnotimpossible,fortheathletetoimplementcorrective
+strengthandconditioningcoachesshouldprioritizeandattempt actionon2faultssimultaneously(140).Ifastrengthandcondi-
+toaddress1erroratatime,preciselyandclearly,throughava- tioningcoachaffirmsanyofthefollowing,thentheerrorshould
+rietyofcommunicationmethods.Feedbackneedonlybegivenif be considered a high priority and necessitates an immediate
+the athlete’s performance is outside the bandwidth of correct- response:
+ness(168). c If the error is not fixed now, will it become ingrained and
+Thebandwidthapproachisausefulmethodforreducingthe hardertofixlater?(e.g.,pullswitharms,raiseshipsatthe
+frequencyoffeedbackforsmallerrorsintechnicalperformance startofthepull)
+thatoccur(241).Theneedtoprovidefeedbackistypicallytrig- c Does the error immediately impact overall movement
+geredwhenerrorsinperformanceareoutsidewhatthestrength success?(e.g.,excessivehorizontaldisplacementofthebar
+and conditioning coach might consider a tolerance limit. This leadingtoaninabilitytostabilizeoverhead)
+tolerancelimit,or“bandwidthofcorrectness”asitisreferredto c Does the error prevent the achievement of the primary
+byLee et al. (168),is determined largely by thewidth (wide or objective of the exercise? (e.g., torso collapses in the
+narrow) of the bandwidth that the strength and conditioning transitionbetweenthedip/drivephasesofthejerk)
+coach sets. The narrower the bandwidth, the more frequent c Does the error endanger the safety of the athlete? (e.g.,
+feedback is provided because more efforts for a beginner will athlete puts the bar too far behind the head in a snatch
+likelyfalloutsidethetolerancelimits.Conversely,thewiderthe balance)
+bandwidth,thestrengthandconditioningcoachwillfeellessneed However,itisimportanttonotethatinearlylearning,athletes
+toprovidefeedback. typically display multiple errors where some, occasionally, are
+Fromthelearner’spointofview,overlyfrequentcorrectionby notmorethanarandomeventandnottypicalofanathlete’sskill.
+thestrength andconditioning coach will likelyleadtoa loss in Therefore, carefulobservation,examination, andevaluation by
+confidence in one’s performance ability as well as a loss of thestrengthandconditioningcoacharewarrantedindetermining
+movement fluency. In determining how wide to set the band- what, if any, feedback, or intervention is needed. It is recom-
+width, the crucial concept to be considered is that lower fre- mendedtoobserveandassesstheathleteforseveralsets,andover
+quenciesoffeedbackhavebeenshowntofacilitateskilllearning severalsessions,toobtainavalidevaluationofthequalityoftheir
+(140)andprovidetheathletewithadegreeofownershipoftheir bodypositionsandmovementcharacteristicsbeforemakingtheir
+training. The beginner may benefit from the use of the assessmentknowntotheathlete.Beforeanyfeedbackorcorrec-
+performance-bandwidthapproachbecauseitmayincreasetheir tiveactionbeingprovided,thestrengthandconditioningcoach
+proprioceptivesenseandreducethepossibilityofbecominghy- should consider when the best time to implement it would be.
+persensitive to technical flaws. The strength and conditioning Athletesdonotalwaysbenefitfromimmediateinterventionbya
+coachshouldstrivetoreinforcewhattheathleteisdoingwelland strength and conditioning coach to correct an error (140). For
+prioritizetechnicalerrorsforfeedbackandcoachingintervention. information regarding feedback timing, please refer to
+Fromaskillacquisitionperspective,itisnotnecessarytoprovide subsection"PedagogicalApproachesandFeedbackStrategies."
+immediate feedback after a performance because delaying this
+feedbackwillallowtheathletetoreflectontheirperformanceand
+processinternalfeedback(9).Thiscanaidinbuildingmovement
+ConsiderationsforChildrenandAdolescents
+confidence and autonomy because the athlete learns through
+kinesthetic awareness. Possessing considerable knowledge and Despite misconceptions regarding the safety of using
+understandingofthetechnicalmodelofaparticularmovement weightlifting-based training with children and adolescents,
+will help to guide a strength and conditioning coach to how thereisasubstantialbodyofevidenceadvocatingweightlifting
+narroworwidetosettheirviewofthe“bandwidthcorrectness” asasafeandbeneficialformofresistancetrainingforchildren
+andassistindeterminingwhenandwhennottoprovidefeedback and adolescents (20,88,89,170–172,174–176,228,230,319).
+totheathlete. Lowerinjuryincidenceratesarealsoreportedfromlong-term
+weightlifting in comparison with other sports (30,121,228).
+TypesofErrors.Astrengthandconditioningcoachwillbeableto However, appropriate instruction and logical progression,
+betterconstructandimplementappropriatecorrectionfeedback based on technical proficiency, is a key premise for ensuring
+strategiesandtechniquesaswellashelptoprioritizethecorrec- safe and effective weightlifting training with youth pop-
+tionoferrors(i.e.,criticalvs.noncritical)whentheyunderstand ulations(30,228,229).
+thedifferenttypesoferrorstheywillcomeacross,includinghow,
+when,andwhytheyoccur.Errorstypicallycanbefoundinthe Benefits of Weightlifting for Youth. As with adult populations,
+followingcategories: exposingchildrenandadolescentstoweightlifting-basedtraining
+c Bodyposition; canelicitimprovementsinmotorcontrol,strength,power,speed,
+c Movementcharacteristics; COD speed, and cardiorespiratory fitness
+c Balanceandstability; (36–38,137–139,150,227,257,320). Furthermore, weightlifting
+c Lackofconfidence; can improve body composition (36), reduce injury risk factors
+c Flexibilityormovementlimitations; (227),andresultinadaptationsbeneficialforboneformationand
+c “Bracing”abilityofthebody. growth(55,315).Thebenefitsofusingweightlifting-basedexer-
+Table4illustrateseachtypeoferrorandprovidesweightlifting cises with youth arguably outweigh the risks, with researchers
+examples that strength and conditioning coaches will likely see suggesting the injury risk of weightlifting-based training is
+whenworkingwithbeginners(140).Someerrorsmaybeclassi- markedly less than in other popular youth sports (e.g., soccer,
+fied as more critical than others and require immediate in- rugby,cricket,andathletics)(30,121,228).Childrenhavealower
+tervention, whereas others pose less consequence and can be riskofresistancetraining-relatedjointsprainsandmusclestrains
+addressed later (Table 5). The underlying principle is that it is than adults, with most injuries in children being accidental in
+1179
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 18 ---
+WeightliftingforSportsPerformance(2023)37:6
+Table4
+Movementerrorsassociatedwithweightlifting.*
+Bodypositionerrors Balanceandstabilityerrors
+Shouldersbehindthebaratmidthighpositioninthepull Lossofbalanceinreceivingpositionsforthesnatch,clean,orjerk
+Theupperbodyisnotverticalinthedipforthejerk Lossofbalanceatanystageofthepull(notalwaysobvious)
+Footplacementtoowideortoonarrowinreceivingpositions Inabilitytolandandremainflat-footedinthesnatchorcleanreceivingposition
+Excessiveanteriorpelvictiltinthereceivingpositionforthejerk Lossofbalanceinrecovery
+Hipstoohighinthestartpositionofthepull Forwardrotationoftheupperbodyinthedipforthejerk
+Lessthan180˚extensionofthebodyatthefinishofthepull Rigidityerrors
+Receivingpositionforthesnatchisnotsufficientlyupright Roundingofthebackinthepull
+Elbowstoolowinthereceivingpositionfortheclean Inabilitytobracetheupperbodyinthedipforthejerk
+Armsbendinginthepullbeforefullextensionofthebody Hyperextensionofthebackinthejerkreceivingposition
+Kneesnottrackingoverthetoesinsquats Backfootinstabilityorcollapseinthejerk
+Inabilitytobracethebodyinthereceivingpositionfortheclean
+Errorsinmovementcharacteristics Errorsbecauseoflackofconfidence
+Movementunderthebarbeforeachievingfullextensioninthepull Abruptchangesinfootmovementandlandingasthebarweightapproachesperceived
+Dippingtoofastinthejerk maximum
+Footlifttoohighduringmovementunderthebar Hesitancytodropunderthebarasthebarweightapproachesperceivedmaximum
+Lackofaccelerationinthefinalstagesofthepull Increasedeffortatthestartofthepullcausingchangesinbodypositionandtiming
+Hipsrisingbeforetheshouldersatthestartofthepull Divingunderthebar—attemptstodropquicklyunderthebarbutresultingin
+Barslowssignificantlyinthemiddleofthepull incompleteextensioninthepull
+Excessivebackwardrotationoftheupperbodyinthemiddleor Lackofcommitmenttocompletethelift
+endstagesofthepull Errorsbecauseoflackofflexibility
+Inabilitytokeepthebarclosetothebodyinthepull Inabilitytopositionthebarontheshoulderscorrectlyinthecleanorjerkbecauseof
+Unevenextensionofthearmsinthelockout(pressout) shoulderflexibilityissues
+Restrictedshouldergirdleelevation,resultinginpoorlockout
+Inabilitytoextendtheelbowsto180˚
+Lackofdepthinreceivingposition
+*AdaptedwithpermissionfromIsaac(140).
+natureandpreventablewithappropriatesupervision(206).Itis adolescent growth spurt (76,108). When coaching novice, in-
+recommendedthatastrengthandconditioningcoachtoathlete experiencedchildren,itisimportantthatathleticmotorskillcom-
+ratioof1:10,orlower,isusedwhencoachingyoungathletes,to petencies (AMSC), proposed as the foundational movements that
+ensurepropertechniqueandestablishasafeenvironment(311). underpin all athletic movements (175), are developed first. Once
+To enhance training adaptations and reduce injury risk, adult- movementproficiencyintheAMSCisestablished,weightliftinglit-
+basedtrainingprogramsshouldnotbesuperimposedonchildren eracycanthenbedeveloped(201).Suchanapproachaimstoavoid
+or adolescents. In accordance with leading consensus on long- any motor proficiency barriers manifesting as the exercise com-
+term athletic development (170), the design, delivery, and plexityincreases(256).Less-structured,exploratorytrainingusing
+progression/regression of a young athlete’s training program “animal or superhero shapes,” obstacle courses or playground-
+shouldconsidertheinfluenceofgrowthandmaturationandthe based games may be used to introduce the AMSC, before pro-
+psychosocialneedsoftheindividual. gressingontomorestructuredversionsoftheweightliftingmove-
+ments with increased load (173,201). As well as providing an
+TrainabilityofWeightliftingPerformanceinYouth.Childhoodis element of novelty to training, these game-based activities enable
+the optimal time to develop coordination and movement compe- childrentolearnandrefineAMSCwithfun-basedchallenges.Al-
+tencybecauseneuroplasticityisatitshighest(22,33).Childhoodis though there is no minimum age requirement for performing the
+alsoatimeframeduringwhichbonemineraldensitycanbeenhanced weightliftingmovements,athletesshouldhavetheemotionalmatu-
+(108). To take advantage of this heightened sensitivity during ritytoacceptandfollowcoachinginstructionsandhandletheat-
+childhood, strength and conditioning coaches should consider in- tentiondemands,beforebeingintroducedtoa structuredtraining
+troducingathletestoweightlifting-basedtrainingmethodsbeforethe program(88,205).
+Table5
+Examplesofbandwidthsofcorrectness.*
+Insidethebandwidthofcorrectness(nofeedbackneeded) Outsidethebandwidthofcorrectness(feedbackneeded)
+nTheerrormadeisnotasafetyissue nTheerrormayincreaseinjuryriskifrepeated
+nTheerrorisjustanaturalvariationofhumanperformance nTheerrorresultsfromadeliberateandunhelpfulstrategymade(invented)bytheathlete
+nTheerroristhefirstinstance,seewhathappensnextrep nTheathleterepeatsthesameerroron2consecutiveattempts:providefeedbackbefore
+nTheerrormadeisduetofatigueoranxiety thirdattempt
+nTheerrorisaresultoftheindividualizationoftechniquebecauseof nTheathleteshowsnochangeinmovementdespitebeinggiventimeandopportunityto
+limitedflexibilityorjointrangeofmotion implementfeedbackgiven
+nTheathletemakesadifferenterroraftercorrectlyattemptingtoimplement nTheathleteinterpretsfeedbackincorrectly
+thecoach’sfeedback
+*AdaptedwithpermissionfromIsaac(140).
+1180
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 19 ---
+WeightliftingforSportsPerformance(2023)37:6 | www.nsca.com
+Strength and conditioning coaches should be mindful that stimulus and take advantage of the naturally occurring physio-
+childrenwithinthesamechronologicalagegroupwilllikelydiffer logicaladaptations.Inaddition,adolescentsmayexperienceim-
+in biological maturation, which can influence training re- provedproprioceptionatthisstage(174)andincreasedcognitive
+sponsiveness,movementcompetency,andassociatedinjuryrisk maturity (164). These changes may allow them to better un-
+(95,171,174,176). When working with youth athletes, strength derstand and adapt to the complexities of the weightlifting
+and conditioning coaches should be mindful of the circum- movements and increase their ability to self-correct movement
+pubertalstageofmaturation,whichiscommonlyindicativeofa errors.
+periodof“adolescentawkwardness.”Thisphaseissynonymous Cumulatively,theexistingpediatricexerciseliteratureindi-
+withpotentialdisruptionsinmotorcoordinationbecauseofin- cates that growth and maturation can influence how youth
+creasesinleverlengths,heightofcenterofmass,andbodymass, respond to acute and chronic forms of exercise
+accompanied by a reduction in mobility, possibly owing to re- (22,76,170,177,223,224,233).Byconsideringtherelationship
+duced musculotendinous stiffness and alterations in collagen betweentraining-inducedadaptationsandthoseresultingfrom
+properties within the tendon (130,175,176,182). During this growthandmaturation,researcherssuggestthatastrengthand
+phase, the coach may consider prescribing weightlifting deriva- conditioning coach can heighten the training response
+tives(e.g.,hangvariations)whichhaveareducedcomplexityin (177,223,224).However,althoughtheinfluenceofmaturation
+comparison with the full movements, in addition to reducing is important to consider, of all the variables that will likely
+external load. Supplementary strength training in isometric po- influence program design and exercise prescription, technical
+sitionsorperformingexerciseswithreducedrangesofmovement competencyinthemovementsshouldbetheprimaryfactorthat
+(i.e.,powervariations)maybeadvantageoustocontinuetode- dictates an athlete’s program prescription and rate of
+velopstrengthduringthis“awkwardadolescent”stage. progression.
+Thepostpubertalstageofmaturationisassociatedwithaltered
+sex hormone concentrations, leading to natural increases in
+muscle mass and force producing capabilities (95,233). There-
+Long-TermAthleticDevelopment
+fore,adolescentathletesmayrespondmorefavorablytotraining
+methods that also promote structural changes in addition to Long-termathleticdevelopment(LTAD)referstothe“habitual
+targeting the neuromuscular system (174,223,224). Provided developmentofathleticismovertimetoimprovehealthandfit-
+technical proficiency in the weightlifting movements has been ness, enhance physical performance, reduce the relative risk of
+established, greater external loads may be used during injury,anddeveloptheconfidenceandcompetenceofallyouth”
+weightlifting-based training to provide a progressive overload (170). In addition to improving health, physical activity, and
+sports performance, LTAD takes a holistic approach and con-
+sidersphysicalandpsychologicalfactorsinyouthdevelopment.
+TheNSCALTADpositionstatementincludes10pillarstoassist
+Table6
+strengthandconditioning coachesinitssuccessfulimplementa-
+Tenpillarsforsuccessfullong-termathleticdevelopment.* tion(Table6).
+Pillar Description ForLTADtobesuccessful,growthandmaturationneedtobe
+1 Long-termathleticdevelopmentpathwaysshouldaccommodate considered.Growthreferstothequantifiablechangeinanthro-
+forthehighlyindividualizedandnonlinearnatureofthegrowthand pometrics, body composition, body size, or the size of specific
+developmentofyouth regionsofthebody,andisaconstantlyevolvingprocess,whereas
+2 Youthofallages,abilities,andaspirationsshouldengageinlong- maturation refers to the qualitative structural and functional
+termathleticdevelopmentprogramsthatpromotebothphysical systemchangetowardamaturestateandisvariableamongbody
+fitnessandpsychosocialwellbeing
+systems(26).Duringthistime,asbodiesareevolvinginanon-
+3 Allyouthshouldbeencouragedtoenhancephysicalfitnessfrom
+linearfashion(183),youthmaygothroughaperiodoftemporary
+earlychildhood,withaprimaryfocusonmotorskillandmuscular disruptioninmotorcontrolandcoordinationtermed“adolescent
+strengthdevelopment
+awkwardness”(231).Adolescentawkwardnessmayalsoleadto
+4 Long-termathleticdevelopmentpathwaysshouldencouragean
+earlysamplingapproachforyouththatpromotesandenhancesa reduced force production and decreased performance in speed
+broadrangeofmotorskills andjumpingability(25,232),whichcanleadtoanincreasedrisk
+5 Healthandwellbeingofthechildshouldalwaysbethecentral ofinjury(129).Theincreaseinheightofthecenterofmassand
+tenetoflong-termathleticdevelopmentprograms body mass during the adolescent growth spurt, without corre-
+6 Youthshouldparticipateinphysicalconditioningthathelpsreduce spondingneuromuscularadaptations,canleadtoalteredmove-
+theriskofinjurytoensuretheiron-goingparticipationinlong-term ment patterns and the development of risk factors for injury
+athleticdevelopmentprograms
+(129).Theextent,timing,andtempoofmaturationcansignifi-
+7 Long-termathleticdevelopmentprogramsshouldprovideall
+cantly vary between youth of the same chronological age (26).
+youthwitharangeoftrainingmodestoenhancebothhealth-and
+This also means that how youth respond and recover from
+skill-relatedcomponentsoffitness
+training can vary immensely (22), such as during adolescent
+8 Strengthandconditioningcoachesshoulduserelevantmonitoring
+andassessmenttoolsaspartofalong-termathleticdevelopment awkwardness. Therefore, strength and conditioning coaches
+strategy should consider growth-related changes when implementing
+9 Strengthandconditioningcoachesworkingwithyouthshould LTADprogramsandbeabletomodifymotorpatternswithre-
+systematicallyprogressandindividualizetrainingprogramsfor ducedloads.
+successfullong-termathleticdevelopment Inadditiontonavigatingphysicaldevelopmentthroughoutthe
+10 Qualifiedprofessionalsandsoundpedagogicalapproachesare maturation process, a sound approach to LTAD is needed to
+fundamentaltothesuccessoflong-termathleticdevelopment
+counteract the effects of lack of movement skills and general
+programs
+physicalactivityseeninyouthtoday.Inactivityduringchildhood
+*ReproducedwithpermissionfromLloydetal.(170). is associated with being overweight or obese (204), leading to
+1181
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 20 ---
+WeightliftingforSportsPerformance(2023)37:6
+undevelopedfundamentalmovementskillsand,therefore,alack careers, youth should engage in a variety of sports or activities
+ofconfidenceandcompetenceintheirabilitytoperformmove- (referredtoassampling)(67,174).
+ments(17,18).Thiscanleadtoadecreaseinphysicalactivityand Severalmodelstocreateaframeworkforyouthdevelopment
+eventuallynegativehealthoutcomeslaterinlife(90,91).There- havebeenproposedoverthepast3decades.Inarecentreview,
+fore,toencourageanactivelifestyleandfacilitatelongersporting Pichardo et al. (227) reported 3 models that have largely
+Figure7.Illustrationcomparing3modelsoflong-termathleticdevelopment.IntheLTADmodel,closed
+boxesaligntochronologicalageanddashedboxestomaturation.IntheYPDmodel,thefontsizerepre-
+sentstheimportanceofafitnesscomponentatagivenstage,shadedboxesidentifyinteractionsbetween
+training adaptations and maturation: Bold box 5 puberty (mainly neural adaptations), dashed box 5
+pubertal(hormonalandneuraladaptations.AdaptedfromPichardoetal.(226)).DMSP5Development
+ModelofSportsParticipation;LTAD5Long-TermAthleteDevelopmentmodel;YPD5YouthPhysical
+DevelopmentModel;FMS5fundamentalmovementskills;SSS5sport-specificskills;MC5metabolic
+conditioning.
+1182
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 21 ---
+WeightliftingforSportsPerformance(2023)37:6 | www.nsca.com
+Figure8.Asummaryofweightliftingtrainingmodels.AdaptedfromPichardoetal.(226).
+influencedhowathletesaredeveloped:theDevelopmentalModel Pichardo et al. (226) proposed a model for developing
+ofSportsPerformance(66),theLTADmodel(16),andtheYouth weightlifting in youth based on the LTAD model of Balyi and
+Physical Development model (174). These models provide a Hamilton(16)andadaptedfromtheyouthweightliftingLTAD
+frameworktodevelopathleticismbasedonchronologicalageand/or modelpresentedbyLloydetal.(171).Thismodeluses4stages:
+maturation. The NSCA’s position statement on LTAD refers to Fundamental Weightlifting Skills (FUNdamentals), Learning
+athleticismas“theabilitytorepeatedlyperformarangeofmove- Weightlifting (Learning to Train), Training Weightlifting
+mentswithprecisionandconfidenceinavarietyofenvironments, (TrainingtoTrain),andPerformanceWeightlifting(Trainingto
+which require competent levels of motor skills, strength, power, Compete/Win).Figure8illustratesthattrainingstructureshould
+speed,agility,balance,coordination,andendurance”(170).Figure7 increase with each stage and that training emphasis shifts from
+illustrateshoweachmodelalignswitheachotherandhowtheem- physical literacy (fundamental movement skills) to technical
+phasismaychangeasyouthmovetowardadulthood.Itshouldbe competencytoperformance. Theseguidelinescanhelpstrength
+notedthatifanadultornovice/beginneryouthathletehasnotgone and conditioning coaches design training sessions and realistic
+throughtheearlystagesofdevelopment(e.g.,fundamentals),then outcomesduringeachstageoftraining.
+theathleteshouldenterthemodelatthebeginningasopposedtothe Similarly, Morris et al. (201) detail a long-term approach to
+stagethatcorrespondstotheirchronologicalage(171).Irrespective develop weightlifting skills progressing from beginner to ad-
+ofage,anovice/beginnerathletemustexhibittechnicalcompetency vanced,highlightingthetrainingprescription,exerciseselection,
+infundamentalsbeforemovingontomorecomplexmovements. skilldevelopment,andphysicalcapacityateachstage(Figure9).
+Figure9.Long-termdevelopmentofweightliftingperformanceprogressionscheme.Noviceath-
+letesareintroducedattheoutsideofthecircleandtrainingprogressionsinwardinalldirections,
+progressingfrombeginnertonovice,intermediate,andadvancedstagesindicativeofareduced
+colordepth.ReproducedwithpermissionfromMorrisetal.(201).
+1183
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 22 ---
+WeightliftingforSportsPerformance(2023)37:6
+Physicalcapacities(motorcontrolandbodyweightmanagement) 11. Arabatzi F, Kellis E, Sae`z-Saez De Villarreal E. Vertical jump bio-
+and skill development (movement competency) need tobe con- mechanicsafterplyometric,weightlifting,andcombined(weightlifting
+1plyometric)training.JStrengthCondRes24:2440–2448,2010.
+sideredateachstagebeforeprogressingtothenextstagetode-
+12. AyersJL,DeBelisoM,SeveneTG,AdamsKJ.Hangcleansandhang
+velop the highest level of skill and performance and prevent
+snatchesproducesimilarimprovementsinfemalecollegiateathletes.Biol
+injuries.Similarly,weightliftingexerciseprogressionsshouldstart Sport33:251–256,2016.
+with motor competencies (e.g., squat, hinge, push, pull, and 13. AziziE,BrainerdEL,RobertsTJ.Variablegearinginpennatemuscles.
+brace)andprogresstofoundationalstrengthexercises(e.g.,back
+ProcNatlAcadSciUSA105:1745–1750,2008.
+14. BalshawTG,MasseyGJ,Maden-WilkinsonTM,LanzaMB,FollandJP.
+squat, Romanian deadlift, and strict press) and then to specific
+Effectoflong-termmaximumstrengthtrainingonexplosivestrength,
+weightliftingmovementsandderivatives(e.g.,cleanfromthigh, neural,andcontractileproperties.ScandJMedSciSports32:685–697,
+pushjerk,andpowersnatch)(Figure6).Aswithanytraining,itis 2022.
+imperative to consider individual needs and maturation status 15. BalshawTG,MasseyGJ,Maden-WilkinsonTM,etal.Changesinag-
+andhaveaqualifiedprofessionalimplementtheseprograms,so onistneuraldrive,hypertrophyandpre-trainingstrengthallcontribute
+to the individual strength gains after resistance training. Eur J Appl
+thatyouthcanenjoylife-longphysicalactivity.
+Physiol117:631–640,2017.
+16. Balyi I, Hamilton A. Long-term athlete development: Trainability in
+childhoodandadolescence.OlympicCoach16:4–9,2004.
+Summary 17. BarnettLM,VanBeurdenE,MorganPJ,BrooksLO,BeardJR.Does
+childhood motor skill proficiency predict adolescent fitness? Med Sci
+The inclusion of weightlifting exercises into appropriately SportsExerc40:2137–2144,2008.
+planned training programs, that are appropriately sequenced 18. BarnettLM,vanBeurdenE,MorganPJ,BrooksLO,BeardJR.Child-
+to take advantage of the development of specific physical hoodmotorskillproficiencyasapredictorofadolescentphysicalac-
+tivity.JAdolescHealth44:252–259,2009.
+characteristics, results in enhanced force-production charac-
+19. BaumannW,GrossV,QuadeK,GalbierzP,SchwirtzA.Thesnatch
+teristics and performance in athletic tasks. It is important to
+techniqueofworldclassweightliftersatthe1985worldchampionships.
+ensure that the exercise selection, including loading, sets, IntJSportBiomech4:68–89,1988.
+repetitions, and frequency, is carefully selected to ensure an 20. BehmDG,FaigenbaumAD,FalkB,KlentrouP.Canadiansocietyfor
+appropriate stimulus to elicit the desired neuromuscular ad- exercisephysiologypositionpaper:Resistancetraininginchildrenand
+adolescents.ApplPhysiolNutrMetab33:547–561,2008.
+aptations. While making such decisions, the strength and
+21. BehmDG,SaleDG.Intendedratherthanactualmovementvelocityde-
+conditioningcoachshouldalsobemindfuloftheskillleveland terminesvelocity-specifictrainingresponse.JApplPhysiol74:359–368,
+thetechnicalcompetentinperformingtheselectedweightlift- 1993.
+ing exercise(s), to ensure that they are performed safely and 22. Behringer M, Heede Av, Matthews M, Mester J. Effects of strength
+withintent.Toassistwiththedevelopmentoftechnique,itis training on motor performance skills in children and adolescents: A
+meta-analysis.PediatrExercSci23:186–206,2011.
+important to adopt a long-term development approach, not
+23. Berninger D, Caulfield S, Erickson J, et al. Foundations of Coaching
+onlytodeveloptechnicalcompetency,butalsotocontinueto
+Lifts: Hands-on Approach to Coaching Lift Progressions. Colorado
+refinetheskilledaspectsoftheseexercises,tomaximizedesired Springs:NationalStrengthandConditioningAssociation,2016.
+stimulusandtheresultingadaptations. 24. Berton R, Lixandrao ME, Pinto e Silva CM, Tricoli V. Effects of
+weightliftingexercise,traditionalresistanceandplyometrictrainingon
+countermovementjumpperformance:Ameta-analysis.JSportsSci36:
+References 2038–2044,2018.
+25. BeunenG,MalinaRM.Growthandphysicalperformancerelativetothe
+1. AagaardP,AndersenJL.Correlationbetweencontractilestrengthand
+timingoftheadolescentspurt.ExercSportSciRev16:503–540,1988.
+myosinheavychainisoformcompositioninhumanskeletalmuscle.Med
+SciSportsExerc30:1217–1222,1998. 26. Beunen G, Malina RM. The young athlete. In: Growth and Biologic
+Maturation: Relevance to Athletic Performance. Hebestreit H and
+2. AagaardP,AndersenJL,Dyhre-PoulsenP,etal.Amechanismforin-
+Bar-OrO,eds.Oxford,UK:BlackwellPublishingLtd.,2007.pp.3–17.
+creased contractile strength of human pennate muscle in response to
+27. BoniniG.London:Thecradleofmodernweightlifting.SportsHistorian
+strength training: Changes in muscle architecture. J Physiol 534:
+613–623,2001. 21:56–70,2001.
+3. AagaardP,SimonsenEB,AndersenJL,MagnussonP,Dyhre-PoulsenP. 28. BrechueWF,AbeT.TheroleofFFMaccumulationandskeletalmuscle
+Increasedrateofforcedevelopmentandneuraldriveofhumanskeletal architecture in powerlifting performance. Eur J Appl Physiol 86:
+muscle following resistance training. J Appl Physiol 93: 1318–1326, 327–336,2002.
+2002. 29. BurdNA,HolwerdaAM,SelbyKC,etal.Resistanceexercisevolume
+4. AagaardP,SimonsenEB,AndersenJL,MagnussonP,Dyhre-PoulsenP. affectsmyofibrillarproteinsynthesisandanabolicsignallingmolecule
+Neuraladaptationtoresistancetraining:ChangesinevokedV-waveand
+phosphorylationinyoungmen.JPhysiol588:3119–3130,2010.
+H-reflexresponses.JApplPhysiol(1985)92:2309–2318,2002. 30. ByrdR,PierceK,RiellyL,BradyJ.Youngweightlifters’performance
+5. AagaardP,SimonsenEB,AndersenJL,etal.Neuralinhibitionduring
+acrosstime.SportsBiomech2:133–140,2003.
+maximaleccentricandconcentricquadricepscontraction:Effectsofre- 31. CanavanPK,GarrettGE,ArmstrongLE.Kinematicandkineticrela-
+sistancetraining.JApplPhysiol(1985)89:2249–2257,2000. tionshipsbetweenanOlympic-styleliftandtheverticaljump.JStrength
+6. AagaardP,SimonsenEB,TrolleM,BangsboJ,KlausenK.Effectsof
+CondRes10:127–130,1996.
+different strength training regimes on moment and power generation 32. CarlockJM,SmithSL,HartmanMJ,etal.Therelationshipbetween
+duringdynamickneeextensions.EurJApplPhysiolOccupPhysiol69: verticaljumppowerestimatesandweightliftingability:Afield-testap-
+382–386,1994. proach.JStrengthCondRes18:534–539,2004.
+7. AndersenLL,AagaardP.Influenceofmaximalmusclestrengthandin- 33. CaseyBJ,GalvanA,HareTA.Changesincerebralfunctionalorgani-
+trinsic muscle contractile properties on contractile rate of force de- zation during cognitive development. Curr Opin Neurobiol 15:
+velopment.EurJApplPhysiol96:46–52,2006. 239–244,2005.
+8. AndersenLL,AndersenJL,ZebisMK,AagaardP.Earlyandlaterateof 34. CastroMJ,McCannDJ,ShaffrathJD,AdamsWC.Peaktorqueperunit
+forcedevelopment:Differentialadaptiveresponsestoresistancetraining? cross-sectional area differs between strength-trained and untrained
+ScandJMedSciSports20:e162–e169,2010. youngadults.MedSciSportsExerc27:397–403,1995.
+9. AndersonDI,MagillRA,SekiyaH,RyanG.Supportforanexplanation 35. CedarWES,HornsbyWG,MizuguchiS,StoneMH.Thedoubleknee
+oftheguidanceeffectinmotorskilllearning.JMotBehav37:231–238, bend:Characteristicsandcoachingpoints.NSCACoach6:13–21,2019.
+2005. 36. ChaabeneH,PrieskeO,LesinskiM,SandauI,GranacherU.Short-term
+10. ArabatziF,KellisE.Olympicweightliftingtrainingcausesdifferentknee seasonal development of anthropometry, body composition, physical
+muscle-coactivation adaptations compared with traditional weight fitness,andsport-specificperformanceinyoungOlympicweightlifters.
+training.JStrengthCondRes26:2192–2201,2012. Sports(Basel)7:242–255,2019.
+1184
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 23 ---
+WeightliftingforSportsPerformance(2023)37:6 | www.nsca.com
+37. ChannellBT,BarfieldJP.EffectofOlympicandtraditionalresistance 62. CormieP,McGuiganMR,NewtonRU.Influenceofstrengthonmag-
+trainingonverticaljumpimprovementinhighschoolboys.JStrength nitudeandmechanismsofadaptationtopowertraining.MedSciSports
+CondRes22:1522–1527,2008. Exerc42:1566–1581,2010.
+38. ChaouachiA,HammamiR,KaabiS,etal.Olympicweightliftingand 63. CormieP,McGuiganMR,NewtonRU.Influenceoftrainingstatuson
+plyometric training with children provides similar or greater perfor- powerabsorption&productionduringlowerbodystretch-shortencycle
+mance improvements than traditional resistance training. J Strength movements.JStrengthCondRes24:1,2010.
+CondRes28:1483–1496,2014. 64. Cormie P, McGuigan MR, Newton RU. Developing maximal neuro-
+39. ChiuLZ,SchillingBK.Aprimeronweightlifting:Fromsporttosports muscularpower:Part1—Biologicalbasisofmaximalpowerproduction.
+training.StrengthCondJ27:42–48,2005. SportsMed41:17–38,2011.
+40. CiacciS,BartolomeiS.Theeffectsoftwodifferentexplosivestrength 65. Cormie P, McGuigan MR, Newton RU. Developing maximal neuro-
+trainingprogramsonverticaljumpperformanceinbasketball.JSports muscularpower:Part2—Trainingconsiderationsforimprovingmaxi-
+MedPhysFitness58:1375–1382,2018. malpowerproduction.SportsMed41:125–146,2011.
+41. CleatherDJ,GoodwinJE,BullAMJ.Hipandkneejointloadingduring 66. Coˆte´J.Theinfluenceofthefamilyinthedevelopmentoftalentinsport.
+vertical jumping and push jerking. Clin Biomech (Bristol, Avon) 28: SportPsychol13:395–417,1999.
+98–103,2013. 67. Coˆte´J,LidorR,HackfortD.ISSPpositionstand:Tosampleortospe-
+42. CleatherDJ,GoodwinJE,BullAMJ.Intersegmentalmomentanalysis cialize?Sevenpostulatesaboutyouthsportactivitiesthatleadtocon-
+characterizes the partial correspondence of jumping and jerking. tinuedparticipationandeliteperformance.IntJSportExercPsychol7:
+JStrengthCondRes27:89–100,2013. 7–17,2009.
+43. ComfortP,AllenM,Graham-Smith P.Comparisonsofpeak ground 68. CushionEJ,GoodwinJE,CleatherDJ.Relativeintensityinfluencesthe
+reactionforceandrateofforcedevelopmentduringvariationsofthe degree of correspondence of jump squats and push jerks to counter-
+powerclean.JStrengthCondRes25:1235–1239,2011. movementjumps.JStrengthCondRes30:1255–1264,2016.
+44. ComfortP,Dos’SantosT,ThomasC,McMahonJJ,SuchomelTJ.Anin- 69. CuthbertM,HaffGG,ArentSM,etal.Effectsofvariationsinresistance
+vestigationintotheeffectsofexcludingthecatchphaseofthepowercleanon trainingfrequencyonstrengthdevelopmentinwell-trainedpopulations
+force-time characteristics during isometric and dynamic tasks: An in- andimplicationsforin-seasonathletetraining:Asystematicreviewand
+terventionstudy.JStrengthCondRes32:2116–2129,2018. meta-analysis.SportsMed51:1967–1982,2021.
+45. Comfort P,Fletcher C,McMahon JJ. Determinationof optimal load 70. DeWeeseBH,HornsbyG,StoneM,StoneMH.Thetrainingprocess:
+duringthepowercleanincollegiateathletes.JStrengthCondRes26: Planningforstrength–powertrainingintrackandfield.Part1:Theo-
+2962–2969,2012. reticalaspects.JSportHealthSci4:308–317,2015.
+46. Comfort P, Graham-Smith P, Allen M. Kinetic comparisons during 71. DeWeeseBH,HornsbyG,StoneM,StoneMH.Thetrainingprocess:
+variationsofthepowerclean.JStrengthCondRes25:3269–3273,2011. Planningforstrength–powertrainingintrackandfield.Part2:Practical
+47. ComfortP,JonesPA,ThomasC,etal.Changesinearlyandmaximal andappliedaspects.JSportHealthSci4:318–324,2015.
+isometric force production in response to moderate- and high-load 72. DeWeeseBH,ScruggsSK.Thecountermovementshrug.StrengthCondJ
+strengthandpowertraining.JStrengthCondRes36:593–599,2022. 34:20–23,2012.
+48. ComfortP,JonesPA,UdallR.Theeffectofloadandsexonkinematic 73. DeWeeseBH,SerranoAJ,ScruggsSK,BurtonJD.Themidthighpull:
+andkineticvariablesduringthemid-thighcleanpull.SportsBiomech14: Proper application and progressions of a weightlifting movement de-
+139–156,2015. rivative.StrengthCondJ35:54–58,2013.
+49. ComfortP,McMahonJJ,BallN,HewittJC.Biomechanicalcomparison 74. DeWeese BH, Suchomel TJ, Serrano AJ, et al. The pull from the
+of the mid-thigh clean pull performed with and without a counter- knee:Propertechniqueandapplication.StrengthCondJ38:79–85,
+movement.PresentedatNationalStrengthandConditioningAssocia- 2016.
+tion:NationalConference,July,LasVegas,2017. 75. DickTJM,WakelingJM.Shiftinggears:Dynamicmuscleshapechanges
+50. Comfort P, McMahon JJ, Fletcher C. No kinetic differences during andforce-velocitybehaviorinthemedialgastrocnemius.JApplPhysiol
+variationsofthepowercleanininexperiencedfemalecollegiateathletes. (1985)123:1433–1442,2017.
+JStrengthCondRes27:363–368,2013. 76. DobbsIJ,OliverJL,WongMA,etal.Effectsofa4-weekneuromuscular
+51. ComfortP,McMahonJJ,HewittJC,BallN.Biomechanicalcomparison trainingprogramonmovementcompetencyduringtheback-squatas-
+ofthehangcleanpullandcleanpullfromtheknee.PresentedatNational sessmentinpre‐andpost‐peakheightvelocitymaleathletes.JStrength
+StrengthandConditioningAssociation:NationalConference,July,Las CondRes35:2698–2705,2021.
+Vegas,2017. 77. DubaJ,KraemerWJ,MartinG.A6-stepprogressionmodelforteaching
+52. ComfortP,DMundyP,Graham-SmithP,etal.Comparisonofpeak thehangpowerclean.StrengthCondJ29:26–35,2007.
+power output during exercises with similar lower-limb kinematics. 78. DubaJ,KraemerWJ,MartinG.Progressingfromthehangpowerclean
+JTrainol5:1–5,2016. tothepowerclean:A4-stepmodel.StrengthCondJ31:58–66,2009.
+53. ComfortP,UdallR,JonesPA.Theeffectofloadingonkinematicand 79. Duehring MD, Feldmann CR, Ebben WP. Strength and conditioning
+kineticvariablesduringthemidthighcleanpull.JStrengthCondRes26: practicesofUnitedStateshighschoolstrengthandconditioningcoaches.
+1208–1214,2012. JStrengthCondRes23:2188–2203,2009.
+54. ComfortP,WilliamsR,SuchomelTJ,LakeJP.Acomparisonofcatch 80. Durell DL, Pujol TJ, Barnes JT. A survey of the scientific data and
+phaseforce-timecharacteristicsduringcleanderivativesfromtheknee. training methods utilized by collegiate strength and conditioning
+JStrengthCondRes31:1911–1918,2017. coaches.JStrengthCondRes17:368–373,2003.
+55. ConroyBP,KraemerWJ,MareshCM,etal.Bonemineraldensityinelite 81. EbbenWP,BlackardDO.StrengthandconditioningpracticesofNa-
+juniorOlympicweightlifters.MedSciSportsExerc25:1103–1109,1993. tional Football League strength and conditioning coaches. J Strength
+56. CormieP,McBrideJM,McCaulleyGO.Theinfluenceofbodymasson CondRes15:48–58,2001.
+calculationofpowerduringlower-bodyresistanceexercises.JStrength 82. EbbenWP,CarrollRM,SimenzCJ.Strengthandconditioningpractices
+CondRes21:1042–1049,2007. of National Hockey League strength and conditioning coaches.
+57. CormieP,McBrideJM,McCaulleyGO.Validationofpowermeasure- JStrengthCondRes18:889–897,2004.
+ment techniques in dynamic lower body resistance exercises. J Appl 83. EbbenWP,HintzMJ,SimenzCJ.Strengthandconditioningpracticesof
+Biomech23:103–118,2007. MajorLeagueBaseballstrength andconditioningcoaches.JStrength
+58. Cormie P,McBride JM,McCaulleyGO.Power-time,force-time,and CondRes19:538–546,2005.
+velocity-timecurveanalysisduringthejumpsquat:Impactofload.JAppl 84. Ebel K, Rizor R. Teaching the hang clean and overcoming common
+Biomech24:112–120,2008. obstacles.StrengthCondJ24:32–36,2002.
+59. CormieP,McCaulleyGO,McBrideJM.Powerversusstrength-power 85. Enoka RM. The pull in Olympic weightlifting. Med Sci Sports 11:
+jumpsquattraining:Influenceontheload-powerrelationship.MedSci 131–137,1979.
+SportsExerc39:996–1003,2007. 86. EnokaRM.Muscularcontrolofalearnedmovement:Thespeedcontrol
+60. CormieP,McCaulleyGO,TriplettNT,McBrideJM.Optimalloading systemhypothesis.ExpBrainRes51:135–145,1983.
+formaximalpoweroutputduringlower-bodyresistanceexercises.Med 87. EnokaRM.Load-andskill-relatedchangesinsegmentalcontribu-
+SciSportsExerc39:340–349,2007. tions to a weightlifting movement. Med Sci Sports Exerc 20:
+61. CormieP,McGuiganMR,NewtonRU.Adaptationsinathleticperfor- 178–187,1988.
+mance after ballistic power versus strength training. Med Sci Sports 88. FaigenbaumA,McFarlandJ.Relativesafetyofweightliftingmovements
+Exerc42:1582–1598,2010. foryouth.StrengthCondJ30:23–25,2008.
+1185
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 24 ---
+WeightliftingforSportsPerformance(2023)37:6
+89. FaigenbaumAD,KraemerWJ,BlimkieCJR,etal.Youthresistance 119. Ha¨kkinen K, Kauhanen H, Komi PV. Biomechanical changes in the
+training: Updated position statement paper from the national Olympicweightliftingtechniqueofthesnatchandtheclean&jerkfrom
+strength and conditioning association. J Strength Cond Res 23: submaximaltomaximalloads.ScandJSportsSci6:57–66,1984.
+S60–S79,2009. 120. Ha¨kkinenK,KeskinenKL.Musclecross-sectionalareaandvoluntary
+90. FaigenbaumAD,MyerGD.Exercisedeficitdisorderinyouth:Playnow forceproductioncharacteristicsinelitestrength-andendurance-trained
+orpaylater.CurrSportsMedRep11:196–200,2012. athletesandsprinters.EurJApplPhysiolOccupPhysiol59:215–220,
+91. FaigenbaumAD,StraccioliniA,MyerGD.Exercisedeficitdisorderin 1989.
+youth:Ahiddentruth.ActaPaediatr100:1423–1425,2011;discussion 121. HamillBP.Relativesafetyofweightliftingandweighttraining.JStrength
+1425,2011. CondRes8:53–57,1994.
+92. FairJD.ThetragichistoryofthemilitarypressinOlympicandworld 122. HardeeJP,LawrenceMM,UtterAC,etal.Effectofinter-repetitionrest
+championshipcompetition,1928-1972.JSportHist28:345–374,2001. onratingsofperceivedexertionduringmultiplesetsofthepowerclean.
+93. FinkJ,KikuchiN,NakazatoK.Effectsofrestintervalsandtrainingloads EurJApplPhysiol112:3141–3147,2012.
+onmetabolicstressandmusclehypertrophy.ClinPhysiolFunctImaging 123. HardeeJP,TravisTriplettN,UtterAC,ZwetslootKA,McBrideJM.
+38:261–268,2018. Effect of interrepetition rest on power output in the power clean.
+94. FloresFJ,SedanoS,RedondoJC.Optimalloadandpowerspectrum JStrengthCondRes26:883–889,2012.
+duringjerkandbackjerkincompetitiveweightlifters.JStrengthCond 124. HarrisGR,StoneMH,O’BryantHS,ProulxCM,JohnsonRL.Short-
+Res31:809–816,2017. termperformanceeffectsofhighpower,highforceorcombinedweight
+95. Ford P, De Ste Croix M, Lloyd R, et al. The long-term athlete de- trainingmethods.JStrengthCondRes14:14–20,2000.
+velopmentmodel:Physiologicalevidenceandapplication.JSportsSci 125. HarrisNK,CroninJB,HopkinsWG,HansenKT.Squatjumptrainingat
+29:389–402,2011. maximalpowerloadsvs.heavyloads:Effectonsprintability.JStrength
+96. FrolovVI,EfimovNM,VanagasMP.Trainingweightsforsnatchpulls. CondRes22:1742–1749,2008.
+SocSportsRev18:58–61,1983. 126. Haug WB, Drinkwater EJ, Chapman DW. Learning the hang power
+97. Frolov VI, Levshunov NP. The phasic structure of jerk. Tyazhelaya clean: Kinetic, kinematic, and technical changes in four weightlifting
+Atletika25:58–61,1979. naiveathletes.JStrengthCondRes29:1766–1779,2015.
+98. FryAC.Theroleofresistanceexerciseintensityonmusclefibreadap- 127. HawkinsSB,DoyleTLA,McGuiganMR.Theeffectofdifferenttraining
+tations.SportsMed34:663–679,2004. programsoneccentricenergyutilizationincollege-agedmales.JStrength
+99. GarhammerJ.PerformanceevaluationofOlympicweightlifters.MedSci CondRes23:1996–2002,2009.
+SportsExerc11:284–287,1979. 128. HellandC,HoleE,IversenE,etal.Trainingstrategiestoimprovemuscle
+100. Garhammer J. Power production by Olympic weightlifters. Med Sci power:IsOlympic-styleweightliftingrelevant?MedSciSportsExerc49:
+SportsExerc12:54–60,1980. 736–745,2017.
+101. Garhammer J. Energy flow during Olympic weight lifting. Med Sci 129. Hewett TE, Myer GD, Ford KR. Decrease in neuromuscular control
+SportsExerc14:353–360,1982. aboutthekneewithmaturationinfemaleathletes.JBoneJointSurgAm
+102. Garhammer J. Biomechanical profiles of Olympic weightlifters. Int J 86:1601–1608,2004.
+SportBiomech1:122–130,1985. 130. Hirtz P, Starosta W. Sensitive and critical periods of motor Co-
+103. GarhammerJ.Acomparisonofmaximalpoweroutputsbetweenelite ordination development and its relation to motor learning. J Hum
+maleandfemale weightlifters incompetition.Int JSportBiomech7: Kinet7:19–28,2002.
+3–11,1991. 131. HoffmanJR,CooperJ,WendellM,KangJ.ComparisonofOlympicvs.
+104. GarhammerJ.AreviewofpoweroutputstudiesofOlympicandpow- traditionalpowerliftingtrainingprogramsinfootballplayers.JStrength
+erlifting: Methodology, performance prediction, and evaluation tests. CondRes18:129–135,2004.
+JStrengthCondRes7:76–89,1993. 132. Hori N, Newton RU, Andrews WA, Kawamori N, McGuigan MR,
+105. GarhammerJ,GregorR.Propulsionforcesasafunctionofintensity NosakaK.Doesperformanceofhangpowercleandifferentiateperfor-
+for weightlifting and vertical jumping. J Strength Cond Res 6: manceofjumping,sprinting,andchangingofdirection?JStrengthCond
+129–134,1992. Res22:412–418,2008.
+106. GarhammerJJ.Weightliftingandtraining.In:BiomechanicsofSport. 133. Hori N, Newton RU, Nosaka K, Stone MH. Weightlifting exercises
+VaughnC,ed.BocaRaton:CRCPress,1989.pp.170–207. enhance athletic performance that requires high-load speed strength.
+107. GrabeSA,WiduleCJ.ComparativebiomechanicsofthejerkinOlympic StrengthCondJ27:50–55,2005.
+weightlifting.ResQExercSport59:1–8,1988. 134. Hornsby G, Cedar B, Mizuguchi S, Stone MH. The power position:
+108. GunterKB,AlmstedtHC,JanzKF.Physicalactivityinchildhoodmaybe Characteristicsandcoachingpoints.NSCACoach5:6–12,2018.
+thekeytooptimizinglifespanskeletalhealth.ExercSportSciRev40: 135. Ikai M, Fukunaga T. Calculation of muscle strength per unit cross-
+13–21,2012. sectionalareaofhumanmusclebymeansofultrasonicmeasurement.Int
+109. Hackett D, Davies T, Soomro N, Halaki M. Olympic weightlifting ZAngewPhysiol26:26–32,1968.
+training improves vertical jump height in sportspeople: A systematic 136. IkegawaS,FunatoK,TsunodaN,etal.Muscleforcepercross-sectional
+reviewwithmeta-analysis.BrJSportsMed50:865–872,2016. areaisinverselyrelatedwithpennationangleinstrengthtrainedathletes.
+110. HaffGG.Periodization.In:EssentialsofStrengthTrainingandCondi- JStrengthCondRes22:128–131,2008.
+tioning.HaffGGandTriplettNT,eds.Champaign,IL:HumanKinetics, 137. InceI.EffectsofsplitstyleOlympicweightliftingtrainingonlegstiffness
+2016.pp.583–604. vertical jump change of direction and sprint in collegiate volleyball
+111. HaffGG,BurgessS,StoneMH.Clustertraining:Theoreticalandprac- players.UniversalJEducRes7:24–31,2019.
+˙ ˙
+ticalapplicationsforthestrengthandconditioningprofessional.Prof 138. Ince I. Comparison of training effects of split-style Olympic lifts and
+StrengthCond12:12–17,2008. squat-styleOlympicliftsonperformanceincollegiatevolleyballplayers.
+112. HaffGG,HaffEE.Weightliftingforyoungathletes.In:Strengthand PhysEduc77:668–686,2020.
+ConditioningforYoungAthletes.LloydRSandOliverJL,eds.Oxford, 139. InceI,SenturkA.Effectsofplyometricandpulltrainingonperformance
+UK:Routledge,2020.pp.155–187. and selected strength characteristics of junior male weightlifter. Phys
+113. HaffGG,NimphiusS.Trainingprinciplesforpower.StrengthCondJ EducStud23:120–128,2019.
+34:2–12,2012. 140. IsaacL.CoachingWeightliftingIllustrated:ASystematicApproachto
+114. HaffGG,WhitleyA,McCoyLB,etal.Effectsofdifferentsetconfigu- CoachingBeginnersinOlympicWeightlifting.Hobart,Australia:Lionel
+rations on barbell velocity and displacement during a clean pull. Isaac,2021.pp.32–61.
+JStrengthCondRes17:95–103,2003. 141. IssurinVB.Generalizedtrainingeffectsinducedbyathleticpreparation.
+115. HaffGG,WhitleyA,PotteigerJA.Abriefreview:Explosiveexercises Areview.JSportsMedPhysFitness49:333–345,2009.
+andsportsperformance.StrengthCondJ23:13–20,2001. 142. JamesLP,ComfortP,SuchomelTJ,etal.Influenceofpowercleanability
+116. HainesT,McBrideJM,SkinnerJ,etal.Effectofloadonbar,bodyand andtrainingageonadaptationstoweightlifting-styletraining.JStrength
+systempoweroutputinthepowerclean.JStrengthCondRes24:1, CondRes33:2936–2944,2019.
+2010. 143. JamesLP,GregoryHaffGG,KellyVG,etal.Theimpactofstrengthlevel
+117. Ha¨kkinenK.Abiomechanicalanalysisofvariationsofthesnatchpull on adaptations to combined weightlifting, plyometric, and ballistic
+exercise.JHumMovStud15:229–243,1988. training.ScandJMedSciSports28:1494–1505,2018.
+118. Ha¨kkinenK,KauhanenH.Abiomechanicalanalysisofselectedassistant 144. JensenM.Pedagogyofcoaching.In:CoachingforSportPerformance.
+exercisesofweightlifting.JHumMovStud12:271–288,1986. BaghurstT,ed.NewYork:Routledge,2020.pp.38–74.
+1186
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 25 ---
+WeightliftingforSportsPerformance(2023)37:6 | www.nsca.com
+145. JonesEJ,BishopPA,WoodsAK,GreenJM.Cross-sectionalareaand 173. LloydRS,MoeskopsS,GranacherU.Motorskilltrainingforyoung
+muscularstrength.SportsMed38:987–994,2008. athletes.In:StrengthandConditioningforYoungAthletes.LloydRSand
+146. JonesL.Thepullingmovement.StrengthCondJ13:14–17,1991. OliverJO,eds.Oxford,UK:Routledge,2020.pp.103–130.
+147. JonesL.Assistanceliftsandexercises.In:InternationalWeightlifting 174. LloydRS,OliverJL.Theyouthphysicaldevelopmentmodel:Anew
+Federation—Level 2: Coaching Manual. Jones L and Pierce K, eds. approach to long-term athletic development. Strength Cond J 34:
+Budapest,Hungary:InternationalWeightliftingFederation,2014.pp. 61–72,2012.
+59–83. 175. Lloyd RS, Oliver JL, Faigenbaum AD, et al. Long-term athletic de-
+148. JonesL,PierceK,KeelanM.InternationalWeightliftingFederationClubCoach velopment-Part1:Apathwayforallyouth.JStrengthCondRes29:
+Manual:Level1.Hungary.InternationalWeightliftingFederation,2010. 1439–1450,2015.
+149. JowettS.Coachingeffectiveness:Thecoach–athleterelationshipatits 176. LloydRS,OliverJL,MeyersRW,MoodyJA,StoneMH.Theyouth
+heart.CurrOpinPsychol16:154–158,2017. physicaldevelopmentmodel.StrengthCondJ34:61–72,2012.
+150. Kaabi S, Mabrouk RH, Passelergue P. Weightlifting is better than 177. Lloyd RS, Radnor JM, De Ste Croix MBA, Cronin JB, Oliver JL.
+plyometrictrainingtoimprovestrength,countermovementjump,and Changesinsprintandjumpperformancesaftertraditional,plyometric,
+change of direction skills in Tunisian elite male junior table tennis and combined resistance training in male youth pre- and post-peak
+players.JStrengthCondRes36:2912–2919,2022. heightvelocity.JStrengthCondRes30:1239–1247,2016.
+151. KanekoM,FuchimotoT,TojiH,SueiK.Trainingeffectofdifferent 178. LopesDosSantosM,BertonR,JagodinskyAE,TorryMR,LagallyKM.
+loadsontheforce-velocityrelationshipandmechanicalpoweroutputin Theeffectofloadbasedonbodymasspercentageonpeakpoweroutput
+humanmuscle.ScandJMedSciSports5:50–55,1983. in the hang power clean, hang high pull, and mid-thigh clean pull.
+152. KauhanenH,Ha¨kkinenK,KomiPV.Abiomechanicalanalysisofthe JSportsMedPhysFitness62:457–466,2022.
+snatchandcleanandjerktechniquesofFinisheliteanddistrictweight- 179. LopesdosSantosM,JagodinskyA,LagallyKM,TricoliV,BertonR.
+lifters.ScandJSciSports6:47–56,1984. Determiningthepeakpoweroutputforweightliftingderivativesusing
+153. KawakamiY,AbeT,FukunagaT.Muscle-fiberpennationanglesare bodymasspercentage:Apracticalapproach.FrontSportsActLiving3:
+greaterinhypertrophiedthaninnormalmuscles.JApplPhysiol(1985) 2021.
+74:2740–2744,1993. 180. LoturcoI,KobalR,MaldonadoT,etal.Jumpsquatismorerelatedto
+154. KawakamiY,AbeT,KunoSY,FukunagaT.Training-inducedchanges sprintingandjumpingabilitiesthanOlympicpushpress.IntJSports
+inmusclearchitectureandspecifictension.EurJApplPhysiolOccup Med38:604–612,2017.
+Physiol72:37–43,1995. 181. Maffiuletti NA, Aagaard P, Blazevich AJ, et al. Rate of force de-
+155. KippK.Relativeimportanceoflowerextremitynetjointmomentsin velopment:Physiologicalandmethodologicalconsiderations.EurJAppl
+relationtobarvelocityandaccelerationinweightlifting.SportsBiomech Physiol116:1091–1116,2016.
+21:1008–1020,2020. 182. Magnusson SP, Simonsen EB, Aagaard P, et al. Determinants of
+156. KippK.Jointandpullphasespecificrelativeeffortinweightliftingand musculoskeletal flexibility: Viscoelastic properties, cross-sectional
+simulatedtrainingeffects.SportsBiomech1–13:2021–2113,2021. area,EMGandstretchtolerance.ScandJMedSciSports7:195–202,
+157. KippK,ComfortP,SuchomelTJ.Comparingbiomechanicaltimeseries 2007.
+dataduringthehang-powercleanandjumpshrug.JStrengthCondRes 183. MalinaRM,BouchardC,Bar-OrO.Growth,Maturation,andPhysical
+35:2389–2396,2021. Activity.Champaign,IL:HumanKinetics,2004.pp.41–77.
+158. KippK,HarrisC,SabickM.Correlationsbetweeninternalandexternal 184. MangineGT,HoffmanJR,GonzalezAM,etal.Theeffectoftraining
+poweroutputsduringweightliftingexercise.JStrengthCondRes27: volumeandintensityonimprovementsinmuscularstrengthandsizein
+1025–1030,2012. resistance-trainedmen.PhysRep3:e12472,2015.
+159. KippK,HarrisC,SabickMB.Lowerextremitybiomechanicsduring 185. MangineGT,HoffmanJR,WangR,etal.Resistancetrainingintensity
+weightliftingexercisevaryacrossjointandload.JStrengthCondRes25: andvolumeaffectchangesinrateofforcedevelopmentinresistance-
+1229–1234,2011. trainedmen.EurJApplPhysiol116:2367–2374,2016.
+160. KippK,MalloyPJ,SmithJC,etal.Mechanicaldemandsofthehang 186. MatveevLP,ZdornyjAP.FundamentalsofSportsTraining.Moscow:
+powercleanandjumpshrug:Ajoint-levelperspective.JStrengthCond ProgressPublishers,1981.pp.46–62.
+Res32:466–474,2018. 187. MaughanRJ,NimmoMA.Theinfluenceofvariationsinmusclefibre
+161. KippK,MeinerzC.Abiomechanicalcomparisonofsuccessfulandun- compositiononmusclestrengthandcross-sectionalareainuntrained
+successfulpowercleanattempts.SportsBiomech16:272–282,2017. males.JPhysiol351:299–311,1984.
+162. KippK,ReddenJ,SabickM,HarrisC.Kinematicandkineticsynergies 188. MaughanRJ,WatsonJS,WeirJ.Strengthandcross-sectionalareaof
+ofthelowerextremitiesduringthepullinOlympicweightlifting.JAppl humanskeletalmuscle.JPhysiol338:37–49,1983.
+Biomech28:271–278,2012. 189. McBrideJM,HainesTL,KirbyTJ.Effectofloadingonpeakpowerof
+163. KippK,ReddenJ,SabickMB,HarrisC.Weightliftingperformanceis thebar,body,andsystemduringpowercleans,squats,andjumpsquats.
+related to kinematic and kinetic patterns of the hip and knee joints. JSportsSci29:1215–1221,2011.
+JStrengthCondRes26:1838–1844,2012. 190. McBrideJM,Triplett-McbrideT,DavieA,NewtonRU.Acomparison
+164. KushnerAM,KieferAW,LesnickS,etal.Trainingthedevelopingbrain ofstrengthandpowercharacteristics betweenpowerlifters,Olympic
+part II: Cognitive considerations for youth instruction and feedback. lifters,andsprinters.JStrengthCondRes13:58–66,1999.
+CurrSportsMedRep14:235–243,2015. 191. McMorrisT.Cognitivefatigueeffectsonphysicalperformance:Therole
+165. LaaksoLA.Optimizingverbalcommunicationintheinstructionofweight- ofinteroception.SportsMed50:1703–1708,2020.
+liftingtoweightliftingna¨ıveathletes.StrengthCondJ43:109–115,2021. 192. MedvedevAS.Trainingcontentofweightliftersinthepreparatorype-
+166. LakeJP,LauderM,DysonR.Exploringthebiomechanicalcharacter- riod.SovietSportsRev17:90–93,1982.
+isticsoftheweightliftingjerk.PresentedatXXIVthInternationalSym- 193. Medvedev AS, Frolov VI, Lukashev AA, Krasov EA. A comparative
+posiumonBiomechanicsinSports,Salzberg,Austria,July14–18,2006. analysisofthecleanandcleanpulltechniquewithvariousweights.Soviet
+167. LakeJP,MundyPD,ComfortP.Powerandimpulseappliedduringpush SportsRev18:17–19,1983.
+pressexercise.JStrengthCondRes28:2552–2559,2014. 194. Medvedev AS, Frolov VI, Lukshev AA, Krasov EA. A comparative
+168. LeeTD,WhiteMA,CarnahanH.Ontheroleofknowledgeofresultsin analysisofcleantechniqueandcleanpullswithvariousloads.In:1981
+motor learning: Exploring the guidance hypothesis. JMot Behav 22: WeightliftingYearbook.LelikovSL,MedvedevAS,PovetkinYS,Pole-
+191–208,1990. tayevPA,RomanRA,SandalovYA,andChernyakAV,eds.Moscow,
+169. LeongB,KamenG,PattenC,BurkeJR.Maximalmotorunitdischarge Russia:FizukulturaiSport,1981.pp.61–68.
+ratesinthequadricepsmusclesofolderweightlifters.MedSciSports 195. MeechanD,McMahonJJ,SuchomelTJ,ComfortP.Acomparisonof
+Exerc31:1638–1644,1999. kineticandkinematicvariablesduringthepullfromthekneeandhang
+170. Lloyd RS, Cronin JB, Faigenbaum AD, et al. National Strength and pull,acrossloads.JStrengthCondRes34:1819–1829,2020.
+ConditioningAssociationpositionstatementonlong-termathleticde- 196. MeechanD,McMahonJJ,SuchomelTJ,ComfortP.Theeffectofrest
+velopment.JStrengthCondRes30:1491–1509,2016. redistribution on kinetic and kinematic variables during the counter-
+171. LloydRS,FaigenbaumAD,MyerGD,etal.UKSCApositionstatement: movementshrug.JStrengthCondRes,2022.Epubaheadofprint.
+Youthresistancetraining.ProfStrengthCond26:26–39,2012. 197. MeechanD,SuchomelTJ,McMahonJJ,ComfortP.Acomparisonof
+172. LloydRS,FaigenbaumAD,StoneMH,etal.Positionstatementonyouth kineticandkinematicvariablesduringthemidthighpullandcounter-
+resistancetraining:The2014internationalconsensus.BrJSportsMed movement shrug, across loads. J Strength Cond Res 34: 1830–1841,
+48:498–505,2014. 2020.
+1187
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 26 ---
+WeightliftingforSportsPerformance(2023)37:6
+198. Milner-BrownHS,LeeR,LeeRG.Synchronizationofhumanmotor 222. Pearcey GEP, Alizedah S, Power KE, Button DC. Chronic resistance
+units: Possible roles of exercise and supraspinal reflexes. Electro- training:Isittimetorethinkthetimecourseofneuralcontributionsto
+encephalogrClinNeurophysiol38:245–254,1975. strengthgain?EurJApplPhysiol121:2413–2422,2021.
+199. MinettiAE.Onthemechanicalpowerofjointextensionsasaffectedby 223. PeitzM,BehringerM,GranacherU.Correction:Asystematicreviewonthe
+thechangeinmuscleforce(orcross-sectionalarea),ceterisparibus.EurJ effectsofresistanceandplyometrictrainingonphysicalfitnessinyouth-
+ApplPhysiol86:363–369,2002. whatdocomparativestudiestellus?PLoSOne13:e0207641,2018.
+200. MoolykAN,CareyJP,ChiuLZF.Characteristicsoflowerextremity 224. PeitzM,BehringerM,GranacherU.Asystematicreviewontheeffectsof
+workduringtheimpactphaseofjumpingandweightlifting.JStrength resistanceandplyometrictrainingonphysicalfitnessinyouth-whatdo
+CondRes27:3225–3232,2013. comparativestudiestellus?PLoSOne13:e0205525,2018.
+201. MorrisSJ,OliverJL,PedleyJS,HaffGG,LloydRS.TakingAlong-term 225. PetersonMD,RheaMR,AlvarBA.Maximizingstrengthdevelopmentin
+approachtothedevelopmentofweightliftingabilityinyoungathletes. athletes:Ameta-analysistodeterminethedose-responserelationship.
+StrengthCondJ42:71–90,2020. JStrengthCondRes18:377–382,2004.
+202. Morris SJ, Oliver JL, Pedley JS,Haff GG, Lloyd RS.Comparisonof 226. Pichardo AW, Oliver JL, Harrison CB, Maulder PS, Lloyd RS. In-
+weightlifting,traditionalresistancetrainingandplyometricsonstrength, tegrating models of long-term athletic development to maximize the
+powerandspeed:Asystematicreviewwithmeta-analysis.SportsMed physicaldevelopmentofyouth.IntJSportsSciCoach13:1189–1199,
+52:1533–1554,2022. 2018.
+203. MossBM,RefsnesPE,AbildgaardA,NicolaysenK,JensenJ.Effectsof 227. PichardoAW,OliverJL,HarrisonCB,etal.Effectsofcombinedre-
+maximal effort strength training with different loads on dynamic sistancetrainingandweightliftingonmotorskillperformanceofado-
+strength, cross-sectional area, load-power and load-velocity relation- lescentmaleathletes.JStrengthCondRes33:3226–3235,2019.
+ships.EurJApplPhysiol75:193–199,1997. 228. PierceK,ByrdR,StoneMH.Positionstatementandliteraturereview:
+204. MustA,TyborDJ.Physicalactivityandsedentarybehavior:Areviewof Youthweightlifting.OlympicCoach17:10–12,1999.
+longitudinalstudiesofweightandadiposityinyouth.IntJObes29: 229. PierceK,ByrdR,StoneMH.Youthweightlifting.Isitsafe?Weightlifting
+S84–S96,2005. USA17:5,1999.
+205. MyerGD,LloydRS,BrentJL,FaigenbaumAD.Howyoungis“too 230. Pierce KC, Hornsby WG, Stone MH. Weightlifting for children and
+young”tostarttraining?ACSMsHealthFitJ17:14–23,2013. adolescents:Anarrativereview.SportsHealth14:45–56,2022.
+206. MyerGD,QuatmanCE,KhouryJ,WallEJ,HewettTE.Youthversus 231. Quatman-YatesCC,QuatmanCE,MeszarosAJ,PaternoMV,Hewett
+adultweightliftinginjuriespresentingtoUnitedStatesemergencyrooms: TE.Asystematicreviewofsensorimotorfunctionduringadolescence:A
+Accidentalversusnonaccidentalinjurymechanisms.JStrengthCondRes developmentalstageofincreasedmotorawkwardness?BrJSportsMed
+23:2054–2060,2009. 46:649–655,2012.
+207. Narici M, FranchiM, MaganarisC. Muscle structural assembly and 232. Quatman CE, Ford KR, Myer GD, Hewett TE. Maturation leads to
+functionalconsequences.JExpBiol219:276–284,2016. genderdifferencesinlandingforceandverticaljumpperformance:A
+208. NariciMV,RoiGS,LandoniL,MinettiAE,CerretelliP.Changesin longitudinalstudy.AmJSportsMed34:806–813,2006.
+force,cross-sectionalareaandneuralactivationduringstrengthtraining 233. RadnorJM,OliverJL,WaughCM,MyerGD,LloydRS.Theinfluence
+and detraining of the human quadriceps. Eur J Appl Physiol Occup ofmaturitystatusonmusclearchitectureinschool-agedboys.Pediatr
+Physiol59:310–319,1989. ExercSci32:89–96,2020.
+209. NewtonRU,Ha¨kkinenK,Ha¨kkinenA,etal.Mixed-methodsresistance 234. RandhawaA,JackmanME,WakelingJM.Musclegearingduringiso-
+trainingincreasespowerandstrengthofyoungandoldermen.MedSci tonicandisokineticmovementsintheankleplantarflexors.EurJAppl
+SportsExerc34:1367–1375,2002. Physiol113:437–447,2013.
+210. NewtonRU,KraemerWJ.Developingexplosivemuscularpower:Im- 235. RheaMR.Determiningthemagnitudeoftreatmenteffectsinstrength
+plicationsforamixedmethodstrainingstrategy.StrengthCondJ16: trainingresearchthroughtheuseoftheeffectsize.JStrengthCondRes
+20–31,1994. 18:918–920,2004.
+211. Newton RU, Kraemer WJ,Ha¨kkinen K, Humphries BJ, Murphy AJ. 236. RobertsM,DeBelisoM.Olympicliftingvs.traditionalliftingmethods
+Kinematics,kineticsandmuscleactivationduringexplosiveupperbody forNorthAmericanhighschoolfootballplayers.TurkishJKinesiol4:
+movements.JApplBiomech12:31–43,1996. 91–100,2018.
+212. No´bregaSR,ScarpelliMC,BarcelosC,ChavesTS,LibardiCA.Muscle 237. RobertsTJ.Contributionofelastictissuestothemechanicsandener-
+hypertrophyisaffectedbyvolumeloadprogressionmodels.JStrength geticsofmusclefunctionduringmovement.JExpBiol219:266–275,
+CondRes37:62–67,2023. 2016.
+213. O’Bryant HO. Periodization: A Hypothetical Training Model for 238. RomanRA.Fundamentalsoftrainingmethods.In:TheTrainingofthe
+StrengthandPower.LouisianaStateUniversity,1982. Weightlifter.MedvedevAS.Moscow,Russia:FizkulturaiSport,1986.
+214. O’SheaP.Gettingagriponthepushpress.StrengthCondJ21:42–44, pp.39–77.
+1999. 239. RushallBS.Somepracticalapplicationofpsychologyinphysicalactivity
+215. OliverJM,JenkeSC,MataJD,KreutzerA,JonesMT.Acuteeffectof settings.In:ThePursuitofSportExcellence.KimKW,ed.Seoul,Korea:
+clusterandtraditionalsetconfigurationsonmyokinesassociatedwith KoreanAllianceforHealth,PhysicalEducation,RecreationandDance,
+hypertrophy.IntJSportsMed37:1019–1024,2016. 1996.pp.638–656.
+216. OranchukDJ,MannerbergJM,RobinsonTL,NelsonMC.Eightweeks 240. RussellS,JenkinsD,RynneS,HalsonSL,KellyV.Whatismentalfatigue
+ofstrengthandpowertrainingimprovesclubheadspeedincollegiate inelitesport?Perceptionsfromathletesandstaff.EurJSportSci19:
+golfers.JStrengthCondRes34:2205–2213,2020. 1367–1376,2019.
+217. OranchukDJ,RobinsonTL,SwitajZJ,DrinkwaterEJ.Comparisonof 241. SadowskiJ,MastalerzA,NiznikowskiT.Benefitsofbandwidthfeed-
+thehanghigh-pullandloadedjumpsquatforthedevelopmentofvertical backinlearningacomplexgymnasticskill.JHumKinet37:183–193,
+jumpandisometricforce-timecharacteristics.JStrengthCondRes33: 2013.
+17–24,2019. 242. SandauI,GranacherU.Effectsofthebarbellloadontheacceleration
+218. Otte FW, Davids K, Millar SK, Klatt S. When and how to provide phaseduringthesnatchineliteOlympicweightlifting.Sports(Basel)8:
+feedback and instructions to athletes?—How sport psychology and 59,2020.
+pedagogyinsightscanimprovecoachinginterventionstoenhanceself- 243. ScalaD,McMillanJ,BlessingD,RozenekR,StoneM.Metaboliccostof
+regulationintraining.FrontPsychol11:1444,2020. apreparatoryphaseoftraininginweightlifting:Apracticalobservation.
+219. OttoWH III,CoburnJW,BrownLE,SpieringBA.Effectsofweight- JStrengthCondRes1:48–52,1987.
+˚
+liftingvs.kettlebelltrainingonverticaljump,strength,andbodycom- 244. SchantzP,Randall-FoxE,HutchisonW,TydenA,AstrandPO.Muscle
+position.JStrengthCondRes26:1199–1202,2012. fibretypedistribution,musclecross-sectionalareaandmaximalvolun-
+220. PainterKB,HaffGG,RamseyMW,etal.Strengthgains:Blockversus tarystrengthinhumans.ActaPhysiolScand117:219–226,1983.
+daily undulatingperiodizationweight training amongtrackandfield 245. SchmidtRA,SherwoodDE,ZelaznikHN,LeikindBJ.Speed-accuracy
+athletes.IntJSportsPhysiolPerform7:161–169,2012. trade-offsinmotorbehavior:Theoriesofimpulsevariability.In:Motor
+221. PayneAH,SlaterWJ,TelfordT.Theuseofaforceplatforminthestudy Behavior.Berlin,Heidelberg:Springer,1985.pp.79–123.
+of athletic activities. A preliminary investigation. Ergonomics 11: 246. SchodlG.TheLostPast.Budapest:InternationalWeightliftingFedera-
+123–143,1968. tion,1992.pp.76–92.
+1188
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 27 ---
+WeightliftingforSportsPerformance(2023)37:6 | www.nsca.com
+247. Schoenfeld BJ.Potential mechanisms foraroleofmetabolicstress in 271. StoneMH,ByrdR,TewJ,WoodM.Relationshipbetweenanaerobic
+hypertrophic adaptations to resistance training. Sports Med 43: powerandOlympicweightliftingperformance.JSportsMedPhysFit-
+179–194,2013. ness20:99–102,1980.
+248. SchoenfeldBJ.Themechanismsofmusclehypertrophyandtheirappli- 272. StoneMH,HornsbyWG,HaffGG,etal.Periodizationandblockpe-
+cationtoresistancetraining.JStrengthCondRes24:2857–2872,2010. riodization in sports: Emphasis on strength-power training-A pro-
+249. SchoenfeldBJ,GrgicJ,OgbornD,KriegerJW.Strengthandhypertrophy vocativeandchallengingnarrative.JStrengthCondRes35:2351–2371,
+adaptationsbetweenlow-vs.high-loadresistancetraining:Asystematic 2021.
+reviewandmeta-analysis.JStrengthCondRes31:3508–3523,2017. 273. Stone MH, Karatzeferi C. Connective tissue and bone response to
+250. Schoenfeld BJ, GrgicJ, VanEvery DW, Plotkin DL. Loadingrecom- strengthtraining.In:EncyclopaediaofSportsMedicine:Strengthand
+mendationsformusclestrength,hypertrophy,andlocalendurance:A Power in Sports. Komi PV, ed. Oxford, UK: Blackwell, 2003. pp.
+Re-examinationoftherepetitioncontinuum.Sports9:32,2021. 343–360.
+251. Schoenfeld BJ, Ogborn D, Krieger JW. Effects of resistance training 274. Stone MH, O’Bryant H, Garhammer J. A hypothetical model for
+frequencyonmeasuresofmusclehypertrophy:Asystematicreviewand strengthtraining.JSportsMedPhysFitness21:342–351,1981.
+meta-analysis.SportsMed46:1689–1697,2016. 275. StoneMH,O’BryantH,GarhammerJ,McMillanJ,RozenekR.Athe-
+252. SchoenfeldBJ,PetersonMD,OgbornD,ContrerasB,SonmezGT.Ef- oretical model of strength training. Natl Strength Coach Assoc J 4:
+fectsoflow-vs.high-loadresistancetrainingonmusclestrengthand
+36–39,1982.
+hypertrophyinwell-trainedmen.JStrengthCondRes29:2954–2963, 276. Stone MH, O’Bryant HO. Weight Training: A Scientific Approach.
+2015.
+Minnesota:BurgessInternationalGroup,1987.pp.58–74.
+253. SchoenfeldBJ,RatamessNA,PetersonMD,etal.Effectsofdifferent 277. StoneMH,O’BryantHS,McCoyL,etal.Powerandmaximumstrength
+volume-equatedresistancetrainingloadingstrategiesonmuscularad- relationshipsduringperformanceofdynamicandstaticweightedjumps.
+aptations in well-trained men. J Strength Cond Res 28: 2909–2918, JStrengthCondRes17:140–147,2003.
+2014. 278. Stone MH, Pierce KC, Sands WA, Stone ME. Weightlifting: A brief
+254. SchoenfeldBJ,RatamessNA,PetersonMD,ContrerasB,Tiryaki-Son-
+overview.StrengthCondJ28:50–66,2006.
+mezG.Influenceofresistancetrainingfrequencyonmuscularadapta- 279. StoneMH,PierceKC,SandsWA,StoneME.Weightlifting:Program
+tionsinwell-trainedmen.JStrengthCondRes29:1821–1829,2015.
+design.StrengthCondJ28:10–17,2006.
+280. StoneMH,SmithD,RushME.MetaboliccostofanOlympicweight
+255. Schutts KS, Wu WFW, Vidal AD, Hiegel J, Becker J. Does focus of
+trainingsession.PresentedatAmericanCollegeofSportsMedicine24th attention improve snatch lift kinematics? J Strength Cond Res 31:
+2758–2764,2017. AnnualConference,April,Chicago,1977.
+281. StoneMH,WardT,SmithD,RushM.Olympicweightlifting:Metabolic
+256. SeefeldtV.Developmentalmotorpatterns:Implicationsforelementary
+school physical education. PsycholMotorBehav Sport 36:314–323, consequenciesofaworkout.In:ScienceinWeightlifting.TeraudsJ,ed.
+DelMar,California:AcademicPublishers,1979.pp.55–68.
+1980.
+282. Storey AG, Smith HK. Unique aspects of competitive weightlifting.
+257. ServedioFJ,BartelsRL,HamlinRL,etal.Theeffectsofweighttraining,
+SportsMed42:769–790,2012.
+using Olympic style lifts, on various physiological variables in pre-
+283. SuchomelTJ,ComfortP,StoneMH.Weightliftingpullingderivatives:
+pubescentboys.MedSciSportsExerc17:288,1985.
+258. ShurleyJP,ToddJS.“ThestrengthofNebraska”:BoydEpley,husker
+Rationaleforimplementationandapplication.SportsMed45:823–839,
+2015.
+power,andtheformationofthestrengthcoachingprofession.JStrength
+CondRes26:3177–3188,2012. 284. S
+ju
+u
+m
+ch
+p
+o
+s
+m
+hr
+e
+u
+l
+g
+T
+:
+J
+I
+,
+m
+Be
+p
+c
+a
+k
+c
+h
+t
+a
+o
+m
+fl
+G
+oa
+K
+d
+,
+.
+W
+JT
+ri
+r
+g
+a
+h
+in
+t
+o
+G
+l
+A
+2
+.
+:
+L
+1
+o
+9
+w
+–2
+e
+2
+r
+,
+b
+2
+o
+0
+d
+1
+y
+3
+k
+.
+ineticsduringthe
+259. SimenzCJ,DuganCA,EbbenWP.Strengthandconditioningpractices
+285. SuchomelTJ,BeckhamGK,WrightGA.Theimpactofloadonlower
+ofNationalBasketballAssociationstrengthandconditioningcoaches.
+bodyperformancevariablesduringthehangpowerclean.SportsBio-
+260.
+J
+So
+S
+l
+t
+u
+re
+m
+ng
+M
+th
+,L
+C
+o
+o
+r
+n
+a˚
+d
+sH
+Re
+,
+s
+P
+1
+ed
+9
+e
+:
+r
+4
+s
+9
+en
+5–
+A
+5
+V
+0
+.
+4
+A
+,2
+g
+0
+o
+0
+l
+5
+d
+.
+enageformotorskilllearning?
+Mech13:87–95,2014.
+286. SuchomelTJ,BeckhamGK,WrightGA.Effectofvariousloadsonthe
+Learningofanunfamiliarmotortaskin10-year-olds,youngadults,and
+force-timecharacteristicsofthehanghighpull.JStrengthCondRes29:
+adults, when starting from similar baselines. Front Psychol 11: 538, 1295–1301,2015.
+2020.
+287. SuchomelTJ,ComfortP.Weightliftingforsportsperformance.In:
+261. SorianoMA,Garcia-RamosA,CalderbankJ,etal.Doesseximpactthe
+Advanced Strength and Conditioning: An Evidence-Based Ap-
+differences and relationships in the one repetition maximum perfor-
+proach.TurnerAandComfortP,eds.NewYork:Routledge,2022.
+manceacrossweightliftingoverheadpressingexercises?JStrengthCond pp.283–306.
+Res36:1930–1935,2022.
+288. SuchomelTJ,ComfortP,LakeJP.Enhancingtheforce-velocityprofile
+262. SorianoMA,Garcia-RamosA,Torres-GonzalezA,etal.Comparisonof ofathletesusingweightliftingderivatives.StrengthCondJ39:10–20,
+1-repetition-maximum performance across 3 weightlifting overhead 2017.
+pressingexercisesandsportgroups.IntJSportsPhysiolPerform15: 289. SuchomelTJ,DeWeeseBH,BeckhamGK,SerranoAJ,FrenchSM.The
+862–867,2020.
+hang high pull: A progressive exercise into weightlifting derivatives.
+263. SorianoMA,Jimenez-ReyesP,RheaMR,MarinPJ.Theoptimalloadfor StrengthCondJ36:79–83,2014.
+maximalpowerproductionduringlower-bodyresistanceexercises:A 290. SuchomelTJ,DeWeeseBH,BeckhamGK,SerranoAJ,SoleCJ.Thejump
+meta-analysis.SportsMed45:1191–1205,2015.
+shrug: A progressive exercise into weightlifting derivatives. Strength
+264. SorianoMA,KippK,LakeJP,etal.Mechanicalpowerproductionas- CondJ36:43–47,2014.
+sessment during weightlifting exercises. A systematic review. Sports 291. SuchomelTJ,DeWeeseBH,SerranoAJ.Thepowercleanandpower
+Biomech22:633–659,2023. snatchfromtheknee.StrengthCondJ38:98–105,2016
+265. SorianoMA,LakeJ,ComfortP,etal.Nodifferencesinweightlifting 292. SuchomelTJ,LakeJP,ComfortP.Loadabsorptionforce-timecharac-
+overhead pressing exercises kinetics. Sports Biomech Oct 27; 1–13, teristicsfollowingthesecondpullofweightliftingderivatives.JStrength
+2021.Epubaheadofprint. CondRes31:1644–1652,2017.
+266. SorianoMA,SuchomelTJ,ComfortP.Weightliftingoverheadpressing 293. SuchomelTJ,McKeeverSM,McMahonJJ,ComfortP.Theeffectof
+derivatives:Areviewoftheliterature.SportsMed49:867–885,2019.
+trainingwithweightliftingcatchingorpullingderivativesonsquatjump
+267. SouissiMA,AmmarA,TrabelsiO,etal.Distancemotorlearningduring andcountermovementjumpforce-timeadaptations.JFunctMorphol
+theCOVID-19inducedconfinement:Videofeedbackwithapedagogical Kinesiol5:28,2020.
+activityimprovesthesnatchtechniqueinyoungathletes.IntJEnviron 294. Suchomel TJ, McKeever SM, Comfort P. Training with weightlifting
+ResPublHealth18:3069,2021. derivatives:Theeffectsofforceandvelocityoverloadstimuli.JStrength
+268. SouthMA,LayneAS,StuartCA,etal.Effectsofshort-termfree-weight CondRes34:1808–1818,2020.
+andsemiblockperiodizationresistancetrainingonmetabolicsyndrome. 295. Suchomel TJ, Nimphius S, Bellon CR, Hornsby WG, Stone MH.
+JStrengthCondRes30:2682–2696,2016. Trainingformuscularstrength:Methodsformonitoringandadjusting
+269. Stone MH. Implications for connective tissue and bone alterations trainingintensity.SportsMed51:2051–2066,2021.
+resulting from resistance exercise training. Med Sci Sports Exerc 20: 296. SuchomelTJ,NimphiusS,BellonCR,StoneMH.Theimportanceofmus-
+S162–S168,1988. cularstrength:Trainingconsiderations.SportsMed48:765–785,2018.
+270. Stone MH. Position statement: Explosive exercise and training. Natl 297. Suchomel TJ, Nimphius S, Stone MH. The importance of muscular
+StrengthCondAssocJ15:7,1993. strengthinathleticperformance.SportsMed46:1419–1449,2016.
+1189
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw
+
+--- Page 28 ---
+WeightliftingforSportsPerformance(2023)37:6
+298. SuchomelTJ,SoleCJ.Force-time-Curvecomparisonbetweenweight- 311. TriplettNT,ChandlerJM.NSCAstrengthandconditioningprofessional
+liftingderivatives.IntJSportsPhysiolPerform12:431–439,2017. standardsandguidelines.StrengthCondJ39:1–24,2017.
+299. SuchomelTJ,SoleCJ.Power-timecurvecomparisonbetweenweight- 312. TufanoJJ,ConlonJA,NimphiusS,etal.Clustersets:Permittinggreater
+liftingderivatives.JSportsSciMed16:407–413,2017.
+mechanical stress without decreasing relative velocity. Int J Sports
+300. SuchomelTJ,TaberCB,WrightGA.Jumpshrugheightandlanding PhysiolPerform12:463–469,2017.
+forces across various loads. Int J Sports Physiol Perform 11: 61–65, 313. TufanoJJ,ConlonJA,NimphiusS,etal.Effectsofclustersetsandrest-
+2016.
+redistributiononmechanicalresponsestobacksquatsintrainedmen.
+301. Suchomel TJ, Wright GA. Power development comparisons between JHumKinet58:35–43,2017.
+powercleanvariationsatdifferentrelativeloads.JStrengthCondRes27:
+314. TufanoJJ,ConlonJA,NimphiusS,etal.Differentclustersetsresultin
+S76–S77,2013.
+similarmetabolic,endocrine,andperceptualresponsesintrainedmen.
+302. SuchomelTJ,WrightGA,KernozekTW,KlineDE.Kineticcomparison
+JStrengthCondRes33:346–354,2019.
+ofthepowerdevelopmentbetweenpowercleanvariations.JStrength
+CondRes28:350–360,2014. 315. VirvidakisK,GeorgiouE,KorkotsidisA,NtallesK,ProukakisC.Bone
+303. TakeiS,HirayamaK,OkadaJ.Istheoptimalloadformaximalpower mineralcontentofjuniorcompetitiveweightlifters.IntJSportsMed11:
+output during hang power cleans submaximal? Int J Sports Physiol 244–246,1990.
+Perform15:18–24,2020. 316. Vorobyev AN. Technique of the classical lifts. In: A Textbook on
+304. TakeiS,HirayamaK,OkadaJ.Comparisonofthepoweroutputbe- Weightlifting. Budapest: Budapest International Weightlifting Federa-
+tweenthehangpowercleanandhanghighpullacrossawiderangeof tion,1978.pp.18–119.
+loadsinweightlifters.JStrengthCondRes35:S84–S88,2021. 317. WallerM,PiperT,MillerJ.Coachingofthesnatch/cleanpullswiththe
+305. TeoSYM,NewtonMJ,NewtonRU,DempseyAR,FairchildTJ.Com- highpullvariation.StrengthCondJ31:47–54,2009.
+paringtheeffectivenessofashort-termverticaljumpvs.weightlifting 318. WebsterD.Theirongame.In:AnIllustratedHistoryofWeight-Lifting.
+program on athletic power development. J Strength Cond Res 30: Irvine:JohnGeddesPrinters,1976.pp.5–8.
+2741–2748,2016. 319. WilsonG,BirdSP,O’ConnorD,JonesJ.Resistancetrainingforchildren
+306. ToddT.AIRoy:Thefirstmodernstrengthcoach.JPhysEducRecreat andyouth:ApositionstandfromtheAustralianstrengthandcondi-
+Dance79:14–16,2008.
+tioningassociation.AustStrengthCondAssoc1–56,2017.
+307. TohjiH,SueiK,KanekoM.Effectsofcombinedtrainingprogramson
+320. WongP-l,ChamariK,WisløffU.Effectsof12-weekon-fieldcombined
+force-velocityrelationandpoweroutputinhumanmuscle.JBiomech
+strengthandpowertrainingonphysicalperformanceamongU-14young
+25:756,1992.
+soccerplayers.JStrengthCondRes24:644–652,2010.
+308. TojiH,KanekoM.Effectofmultiple-loadtrainingontheforce-velocity
+relationship.JStrengthCondRes18:792–795,2004. 321. Young A, Stokes M, Crowe M. Size and strength of the quadriceps
+musclesofoldandyoungwomen.EurJClinInvest14:282–287,1984.
+309. TojiH,SueiK,KanekoM.Effectsofcombinedtrainingloadsonrela-
+322. ZamparoP,MinettiAE,diPramperoPE.Interplayamongthechangesof
+tionsamongforce,velocity,andpowerdevelopment.CanJApplPhysiol
+22:328–336,1997. muscle strength, cross-sectional area and maximal explosive power:
+310. TricoliV,LamasL,CarnevaleR,UgrinowitschC.Short-termeffects
+Theoryandfacts.EurJApplPhysiol88:193–202,2002.
+on lower-body functional power development: Weightlifting vs. 323. Zaras N, Stasinaki A-NE, Spiliopoulou P, et al. Rate of force de-
+verticaljumptrainingprograms.JStrengthCondRes19:433–437, velopment,musclearchitecture,andperformanceineliteweightlifters.
+2005. IntJSportsPhysiolPerform16:216–223,2021.
+1190
+Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.
+CX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC4/OAVpDDa8K2+Ya6H515kE=
+on
+05/01/2025
+Downloaded
+from
+http://journals.lww.com/nsca-jscr
+by
+BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsIHo4XMi0hCyw

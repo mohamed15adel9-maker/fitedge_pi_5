@@ -1,0 +1,292 @@
+[
+  {
+    "url": "https://www.ovid.com/jnls/acsm-msse/fulltext/10.1249/mss.0000000000003897~american-college-of-sports-medicine-position-stand",
+    "category": "exercise_science",
+    "name": "acsm_resistance_training_position_stand"
+  },
+  {
+    "url": "https://www.ovid.com/jnls/acsm-msse/abstract/10.1249/mss.0000000000000901~physical-activity-fitness-cognitive-function-and-academic?redirectionsource=fulltextview",
+    "category": "exercise_science",
+    "name": "physical_activity_fitness_cognitive_function"
+  },
+  {
+    "url": "https://www.ovid.com/jnls/acsm-msse/abstract/10.1249/mss.0b013e318213fefb~quantity-and-quality-of-exercise-for-developing-and?redirectionsource=fulltextview",
+    "category": "exercise_science",
+    "name": "quantity_and_quality_of_exercise_acsm"
+  },
+  {
+    "url": "https://www.ovid.com/jnls/acsm-msse/abstract/10.1249/mss.0b013e3181a0c95c~exercise-and-physical-activity-for-older-adults?redirectionsource=fulltextview",
+    "category": "exercise_science",
+    "name": "exercise_older_adults_acsm"
+  },
+  {
+    "url": "https://www.ovid.com/jnls/acsm-msse/abstract/10.1249/mss.0000000000000852~nutrition-and-athletic-performance?redirectionsource=fulltextview",
+    "category": "exercise_science",
+    "name": "nutrition_and_athletic_performance_acsm"
+  },
+  {
+    "url": "https://www.ovid.com/jnls/acsm-tj/fulltext/10.1249/tjx.0000000000000266~physical-activity-and-excess-body-weight-and-adiposity-for",
+    "category": "exercise_science",
+    "name": "physical_activity_excess_weight_adiposity"
+  },
+  {
+    "url": "https://www.ovid.com/jnls/acsm-msse/abstract/10.1249/mss.0b013e3180574e0e~exercise-and-acute-cardiovascular-events-placing-the-risks?redirectionsource=fulltextview",
+    "category": "exercise_science",
+    "name": "exercise_and_acute_cardiovascular_events"
+  },
+  {
+    "url": "https://journals.lww.com/acsm-csmr/Fulltext/2023/04000/ACSM_Expert_Consensus_Statement_on_Exertional_Heat.10.aspx",
+    "category": "exercise_science",
+    "name": "acsm_consensus_exertional_heat"
+  },
+  {
+    "url": "http://journals.lww.com/acsm-msse/Fulltext/2007/02000/Exercise_and_Fluid_Replacement.22.aspx",
+    "category": "exercise_science",
+    "name": "exercise_and_fluid_replacement"
+  },
+  {
+    "url": "https://journals.lww.com/acsm-csmr/Fulltext/2021/11000/ACSM_Expert_Consensus_Statement__Injury_Prevention.11.aspx?context=FeaturedArticles&collectionId=1",
+    "category": "exercise_science",
+    "name": "acsm_consensus_injury_prevention"
+  },
+  {
+    "url": "http://journals.lww.com/acsm-msse/Fulltext/2004/11000/Physical_Activity_and_Bone_Health.24.aspx",
+    "category": "exercise_science",
+    "name": "physical_activity_bone_health"
+  },
+  {
+    "url": "http://journals.lww.com/acsm-msse/Fulltext/2004/03000/Exercise_and_Hypertension.25.aspx",
+    "category": "exercise_science",
+    "name": "exercise_and_hypertension"
+  },
+  {
+    "url": "http://journals.lww.com/acsm-msse/Fulltext/2002/03000/Joint_Position_Statement__automated_external.27.aspx",
+    "category": "exercise_science",
+    "name": "joint_position_statement_automated_external"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK566046/",
+    "category": "exercise_science",
+    "name": "who_guidelines_ncb_books"
+  },
+  {
+    "url": "https://acsm.org/education-resources/trending-topics-resources/physical-activity-guidelines/?nocache=1773283526",
+    "category": "exercise_science",
+    "name": "acsm_physical_activity_guidelines"
+  },
+  {
+    "url": "https://odphp.health.gov/sites/default/files/2019-09/Physical_Activity_Guidelines_2nd_edition.pdf",
+    "category": "exercise_science",
+    "name": "physical_activity_guidelines_2nd_edition"
+  },
+  {
+    "url": "https://odphp.health.gov/sites/default/files/2019-10/PAG_ExecutiveSummary.pdf",
+    "category": "exercise_science",
+    "name": "pag_executive_summary"
+  },
+  {
+    "url": "https://www.nsca.com/globalassets/about/position-statements/nsca_strength_and_conditioning_professional_standards_and_guidelines.pdf",
+    "category": "strength_training",
+    "name": "nsca_professional_standards_and_guidelines"
+  },
+  {
+    "url": "https://www.nsca.com/globalassets/about/position-statements/weighlifting-for-sports-performance.pdf",
+    "category": "strength_training",
+    "name": "weightlifting_for_sports_performance"
+  },
+  {
+    "url": "https://www.nsca.com/contentassets/2a4112fb355a4a48853bbafbe070fb8e/resistance_training_for_older_adults__position.1.pdf",
+    "category": "strength_training",
+    "name": "resistance_training_for_older_adults_nsca"
+  },
+  {
+    "url": "https://www.ovid.com/jnls/nsca-scj/fulltext/10.1519/ssc.0000000000000477~cscca-and-nsca-joint-consensus-guidelines-for-transition",
+    "category": "strength_training",
+    "name": "cscca_nsca_joint_transition_guidelines"
+  },
+  {
+    "url": "https://www.nsca.com/globalassets/about/position-statements/nsca_position_statement_long-term_athletic_development.pdf",
+    "category": "strength_training",
+    "name": "nsca_long_term_athletic_development"
+  },
+  {
+    "url": "https://www.nsca.com/globalassets/about/position-statements/position_stand_youth_resistance_training---2009.pdf",
+    "category": "strength_training",
+    "name": "youth_resistance_training_position_stand"
+  },
+  {
+    "url": "https://www.nsca.com/education/articles/ptq/building-a-balanced-and-symmetrical-physique/",
+    "category": "strength_training",
+    "name": "building_balanced_symmetrical_physique"
+  },
+  {
+    "url": "https://www.nsca.com/education/videos/low-intensity-alternatives-for-strength-and-hypertrophy/",
+    "category": "strength_training",
+    "name": "low_intensity_alternatives_strength_hypertrophy"
+  },
+  {
+    "url": "https://www.nsca.com/education/articles/infographics/trainer-tips-hypertrophy/",
+    "category": "strength_training",
+    "name": "trainer_tips_hypertrophy_nsca"
+  },
+  {
+    "url": "https://www.nsca.com/education/articles/ptq/training-volume-and-hypertrophy-an-evidence-based-approach-for-personal-trainers/",
+    "category": "strength_training",
+    "name": "training_volume_hypertrophy_evidence_based"
+  },
+  {
+    "url": "https://www.nsca.com/education/articles/ptq/addressing-common-myths-and-misconceptions-about-youth-strength-training/",
+    "category": "strength_training",
+    "name": "myths_youth_strength_training"
+  },
+  {
+    "url": "https://www.nsca.com/education/articles/ptq/strength-training-for-mental-resilience-how-resistance-training-benefits-mental-health/",
+    "category": "strength_training",
+    "name": "strength_training_mental_resilience"
+  },
+  {
+    "url": "https://www.nsca.com/education/articles/ptq/strength-training-and-endurance-athletes/",
+    "category": "strength_training",
+    "name": "strength_training_and_endurance_athletes"
+  },
+  {
+    "url": "https://www.nsca.com/education/articles/kinetic-select/sequencing-and-integrating-training/",
+    "category": "strength_training",
+    "name": "sequencing_and_integrating_training"
+  },
+  {
+    "url": "https://www.nsca.com/education/articles/tsac-report/strategies-aimed-at-optimizing-mental-recovery/",
+    "category": "strength_training",
+    "name": "optimizing_mental_recovery_tsac"
+  },
+  {
+    "url": "https://www.nsca.com/education/articles/nsca-coach/the-recovery-process/",
+    "category": "strength_training",
+    "name": "the_recovery_process_nsca_coach"
+  },
+  {
+    "url": "https://cdn.realfood.gov/DGA.pdf",
+    "category": "nutrition",
+    "name": "dietary_guidelines_realfood"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/",
+    "category": "nutrition",
+    "name": "pmc_nutrition_article_1"
+  },
+  {
+    "url": "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0177-8",
+    "category": "nutrition",
+    "name": "jissn_protein_timing_position_stand"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7777221/",
+    "category": "nutrition",
+    "name": "pmc_nutrition_article_2"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9261739/",
+    "category": "nutrition",
+    "name": "pmc_nutrition_article_3"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9987737/",
+    "category": "nutrition",
+    "name": "pmc_nutrition_article_4"
+  },
+  {
+    "url": "https://www.tandfonline.com/doi/pdf/10.1186/s12970-018-0242-y",
+    "category": "nutrition",
+    "name": "issn_position_stand_tandf"
+  },
+  {
+    "url": "https://www.dietaryguidelines.com/sites/default/files/2021-03/Dietary_Guidelines_for_Americans_2020-2025.pdf",
+    "category": "nutrition",
+    "name": "dietary_guidelines_americans_2020_2025"
+  },
+  {
+    "url": "https://www.health.gov.au/sites/default/files/documents/2022/05/nutrient-reference-values-for-australia-and-new-zealand-nutrient-reference-values.pdf",
+    "category": "nutrition",
+    "name": "nutrient_reference_values_aus_nz"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7871530/pdf/12970_2021_Article_412.pdf",
+    "category": "nutrition",
+    "name": "creatine_supplementation_position_stand_pmc"
+  },
+  {
+    "url": "https://www.researchgate.net/publication/5937310_International_Society_of_Sports_Nutrition_Position_Stand_Protein_and_Exercise",
+    "category": "nutrition",
+    "name": "issn_protein_and_exercise_researchgate"
+  },
+  {
+    "url": "https://www.acsm.org/docs/default-source/files/for-professionals/position-stands/weight-loss-and-prevention-of-weight-regain-in-adults.pdf",
+    "category": "weight_loss",
+    "name": "acsm_weight_loss_prevention_regain"
+  },
+  {
+    "url": "https://apps.who.int/iris/bitstream/handle/10665/258957/9789241550123-eng.pdf",
+    "category": "weight_loss",
+    "name": "who_obesity_prevention_primary_care"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3915832/pdf/sports-02-00001.pdf",
+    "category": "endurance",
+    "name": "physiological_determinants_endurance_performance"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3250962/pdf/jbm-2011-470535.pdf",
+    "category": "endurance",
+    "name": "high_intensity_intermittent_exercise_training"
+  },
+  {
+    "url": "https://hyrox.com/wp-content/uploads/2023/10/HYROX-Rulebook-2023-2024.pdf",
+    "category": "hyrox",
+    "name": "hyrox_rulebook_2023_2024"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6156157/pdf/jospt-48-5-a1.pdf",
+    "category": "injury_prevention",
+    "name": "acl_rehabilitation_clinical_guidelines"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5816279/pdf/jospt-48-4-a1.pdf",
+    "category": "injury_prevention",
+    "name": "achilles_plantar_fasciitis_guidelines"
+  },
+  {
+    "url": "https://exrx.net/Lists/Directory",
+    "category": "exercise_library",
+    "name": "exrx_exercise_directory"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6145781/pdf/sports-06-00077.pdf",
+    "category": "recovery",
+    "name": "sleep_athletic_performance_pmc"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8622295/pdf/ijerph-18-11357.pdf",
+    "category": "recovery",
+    "name": "sleep_hygiene_optimizing_recovery_pmc"
+  },
+  {
+    "url": "https://diabetesjournals.org/care/article-pdf/33/6/1477/693245/zdc00610001477.pdf",
+    "category": "chronic_disease",
+    "name": "physical_activity_type_2_diabetes_ada_acsm"
+  },
+  {
+    "url": "https://acsm.org/wp-content/uploads/2025/01/fitt-recommendations-for-hypertension_update.pdf",
+    "category": "chronic_disease",
+    "name": "acsm_fitt_hypertension_recommendations"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5792476/pdf/fpsyg-09-00087.pdf",
+    "category": "psychology",
+    "name": "self_determination_theory_exercise_adherence"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3337920/pdf/1471-2458-12-251.pdf",
+    "category": "psychology",
+    "name": "behavior_change_techniques_physical_activity"
+  }
+]

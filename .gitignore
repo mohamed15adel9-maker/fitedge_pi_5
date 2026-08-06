@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Database
+memory.db
+
+# Audio
+audio/*.wav
+
+# LLM models
+models/*.gguf
+
+# Piper voices
+tts/voices/*.onnx
+
+# Whisper models
+whisper.cpp/models/*.bin
+
+# Whisper build
+whisper.cpp/build/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# VS Code
+.vscode/
