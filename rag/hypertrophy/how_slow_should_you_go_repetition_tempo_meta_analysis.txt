@@ -1,0 +1,879 @@
+How Slow Should You Go? A Systematic Review With Meta-Analysis of the Effect of Resistance Training Repetition Tempo on Muscle Hypertrophy Alysson Enes, 1,2 Alec Pin˜ ero, 1 Tom Hermann, 1 Arman Zamanzadeh, 1 Tran Hennessy, 1 Daniel Montenegro, 1 Chris Parnell, 1 Albert Jia, 1 Tami Weitzman, 1 Milo Wolf, 1 Patroklos A. Korakakis, 1 Paul A. Swinton, 3 and Brad J. Schoenfeld 1
+
+Paper Metadata
+This systematic review and meta-analysis evaluated whether slower or faster repetition tempos during resistance training influence muscle hypertrophy. Across 14 studies, the authors concluded that repetition tempo has minimal overall impact on hypertrophy when other training variables are controlled, with total training quality and effort being more important than tempo alone.
+
+
+======================================================================
+PAGE 1
+======================================================================
+How Slow Should You Go? A Systematic Review
+With Meta-Analysis of the Effect of Resistance
+Training Repetition Tempo on Muscle Hypertrophy
+Alysson Enes, 1,2 Alec Pin˜ ero, 1 Tom Hermann, 1 Arman Zamanzadeh, 1 Tran Hennessy, 1 Daniel Montenegro, 1
+Chris Parnell, 1 Albert Jia, 1 Tami Weitzman, 1 Milo Wolf, 1 Patroklos A. Korakakis, 1 Paul A. Swinton, 3 and
+Brad J. Schoenfeld 1
+1 Department of Exercise Science and Recreation, Applied Muscle Development Lab, CUNY Lehman College, Bronx, New York;
+2 Metabolism, Nutrition and Strength Training Research Group (GPMENUTF), Federal University of Paran ´
+a (UFPR), Curitiba, Puerto
+Rico, Brazil; and 3 Department of Sport and Exercise, School of Health Sciences, Robert Gordon University, Aberdeen, United Kingdom
+Abstract
+Enes, A, Pin˜ ero, A, Hermann, T, Zamanzadeh, A, Hennessy, T, Montenegro, D, Parnell, C, Jia, A, Weitzman, T, Wolf, M, Korakakis,
+PA, Swinton, PA, and Schoenfeld, BJ. How slow should you go? A systematic review with meta-analysis of the effect of resistance
+training repetition tempo on muscle hypertrophy. J Strength Cond Res 39(12): 1331–1339, 2025—We systematically searched the
+literature for interventions that compared different resistance training tempos for eccentric (ECC) or concentric (CON) actions. We
+estimated pre-/poststudy changes and between-condition differences in lean/muscle mass for healthy adults, restricting inclusion
+to studies that controlled all other training variables. Hierarchical meta-analyses were conducted within a Bayesian framework, with
+change estimates made within groups, and the primary emphasis placed on pairwise differences between dichotomously coded
+slower (repetition time: 1.7–4.5 seconds, averaging ;3.5 seconds) and faster (repetition time: 0.3–2 seconds, averaging ;1
+second) interventions. When combining data across all 14 included studies (4 CON and 9 ECC manipulated interventions, 1 for both
+in a cross-over design), meta-analyses of within-group changes showed similar pooled effects for faster (0.43 [95% CrI: 0.29‒0.58])
+and slower tempos (0.34 [95% credible interval (CrI): 0.22‒0.47)]. Meta-analyses of pairwise differences across the same studies
+showed central estimates that trivially favored faster over slower tempos (pooled mean 5 0.09 [95% CrI: 20.04 to 0.22]), with a low
+probability that the between-condition effect size was at least small (p 5 0.450), medium (p 5 0.001), or large (p , 0.001). Subgroup
+analyses of pairwise differences stratified by muscle action type (ECC or CON), body region (upper or lower body), and training to
+failure (yes or no) generally produced trivial to small effects, although the certainty of estimates varied across analyses. In conclusion,
+resistance training tempo appears to have minimal overall effect on muscle hypertrophy, with potential differences emerging under
+specific conditions.
+Key Words: eccentric action, concentric action, velocity, repetition cadence, muscle growth
+Introduction
+Evidence suggests that manipulation of resistance training (RT)
+program variables can enhance muscle hypertrophy (13). Repe-
+tition tempo, operationally defined as the time of concentric,
+isometric, and/or eccentric muscle actions during dynamic RT
+(18), has been proposed as a variable that may influence hyper-
+trophic adaptations (30). Resistance training tempo is frequently
+expressed as a 4-digit number with each digit representing the
+duration of each individual action in a repetition (30). For ex-
+ample, a repetition tempo of 4-0-2-0 would describe a duration of
+4 seconds on the eccentric action, no isometric pause at the initial
+transition phase, 2 seconds on the concentric action, and no iso-
+metric pause at the final transition phase. To date, research has
+focused on manipulating the concentric and eccentric actions of
+dynamic repetitions; the effect of altering the isometric phase
+remains poorly studied. Altering the duration of each muscle
+action can elicit specific metabolic and mechanical responses (30),
+suggesting the possibility that manipulation of this variable may
+help optimize the adaptive response to RT. In addition, manip-
+ulating the repetition tempo may be a useful strategy for indi-
+viduals who are unable to train with moderate-to-high loads or
+fast movements, such as those in rehabilitation or with joint-
+related issues. This approach can serve to increase the time under
+tension while reducing joint-related stress, thus providing a suf-
+ficient stimulus for hypertrophy (30).
+Mechanical tension is well-established as a primary mechanism
+for inducing skeletal muscle hypertrophy (27). Accordingly, some
+researchers have speculated that slower concentric tempos may
+enhance RT-induced muscle hypertrophy by reducing momen-
+tum during performance (29) and thereby, ostensibly, increasing
+mechanical tension on the working muscle. Moreover, it has been
+hypothesized that slower eccentric tempos may provide a greater
+hypertrophic stimulus by providing more resistance to gravity
+during lengthening actions, which would conceivably maintain
+greater mechanical tension throughout a set (1). Other research-
+ers have proposed that the higher total time-under-tension of the
+Address correspondence to Dr. Brad J. Schoenfeld, bradschoenfeldphd@
+gmail.com.
+Supplemental digital content is available for this article. Direct URL citations appear
+in the printed text and are provided in the HTML and PDF versions of this article on
+the journal’s Web site (http://journals.lww.com/nsca-jscr).
+ª 2025 National Strength and Conditioning Association
+
+======================================================================
+PAGE 2
+======================================================================
+target musculature associated with slower tempos may confer
+a hypertrophic advantage (24). Although these hypotheses
+seemingly have a logical rationale, randomized controlled trials
+on the topic have produced somewhat conflicting findings (30).
+Several reviews and meta-analyses have attempted to elucidate
+the effects of repetition tempo on muscle growth. A 2015 meta-
+analysis by Schoenfeld et al. (21) reported similar increases in
+hypertrophic measures with repetition durations ranging from
+0.5 to 8 seconds. In 2018, Hackett et al. (9) conducted a system-
+atic review that included 7 studies investigating repetition tempo.
+For the quadriceps, 3 studies showed greater quadriceps hyper-
+trophy for “moderate-slow” ($2 seconds) vs. “fast” (#1 second)
+tempos, whereas 2 other studies indicated conflicting evidence on
+within-group hypertrophy with one showing increases in muscle
+size only for moderate-slow training another showing hypertro-
+phic benefits only for fast tempos. The 2 studies that assessed
+biceps brachii hypertrophy showed greater increases for fast vs.
+moderate-slow training. It should be noted that both aforemen-
+tioned reviews included studies that investigated total repetition
+duration (i.e., the sum of tempos for concentric, isometric, and
+eccentric actions per repetition); thus, inferences cannot neces-
+sarily be extrapolated to how the tempos of the individual muscle
+actions may influence muscle development. More recently,
+a narrative review by Wilk et al. (30) concluded that a combina-
+tion of slower eccentric tempos and faster concentric tempos
+would help to optimize hypertrophy; however, these conclusions
+were not based on a systematic analysis of the literature nor were
+attempts made to quantify the magnitude of effects. Therefore,
+the purpose of this systematic review with meta-analysis is to
+evaluate the independent effects of manipulating eccentric and
+concentric repetition tempo during RT on measures of muscle
+hypertrophy.
+Methods
+Experimental Approach to the Problem
+We conducted this review in accordance with the guidelines of the
+“Preferred Reporting Items for Systematic Reviews and Meta-
+Analyses” (PRISMA). The study was preregistered on the Open
+Science Framework (https://osf.io/fzhnx).
+Search Strategy
+To identify relevant studies for the topic, we conducted a compre-
+hensive search of the PubMed/MEDLINE, Scopus, and Web of
+Science databases using the following Boolean search syntax:
+(duration OR tempo OR cadence OR velocity OR speed) AND
+(“resistance training” OR “resistance exercise” OR “weight lift-
+ing” OR “weightlifting” OR “strength exercise” OR “strength
+training” OR “strengthening” OR “resistive exercise” OR “re-
+sistive training”) AND (“muscle hypertrophy” OR “muscular
+hypertrophy” OR “muscle mass” OR “muscle fiber” OR “muscle
+size” OR “muscle fibre” OR “muscle thickness” OR “cross-
+sectional area”). As previously described (19), we also screened the
+reference lists of articles retrieved and applicable review papers and
+drew on the authors’ personal knowledge of the topic, to uncover
+any additional studies that might meet inclusion criteria (8).
+Moreover, we performed secondary “forward” and “backward”
+searches for citations of included studies in Google Scholar.
+As previously described (5), the search process was conducted
+separately by 4 researchers (M.W., A.E., C.P., T.W.). Initially, we
+screened all titles and abstracts to uncover studies that might meet
+inclusion/exclusion criteria using online software (https://www.
+rayyan.ai/). Full texts of potentially relevant studies were then
+reviewed to determine eligibility. Disputes that could not be re-
+solved by the search team were settled by a third researcher
+(B.J.S.). The search was finalized in March 2025.
+Inclusion Criteria
+We included studies that satisfied the following criteria: (a) had
+a randomized design (either within- or between-group design)
+and directly compared different resistance training tempos on the
+eccentric or concentric actions for estimates of region- or site-
+specific pre-/poststudy changes in lean/muscle mass using a vali-
+dated measure (dual-energy X-ray absorptiometry [DXA], bio-
+electrical impedance analysis, magnetic resonance imaging
+[MRI], computerized tomography [CT], ultrasound, muscle bi-
+opsy, or limb circumference measurement) in healthy adults
+($18 years of age) of any RT experience while controlling all
+other training variables (in the case of volume, this represented
+either sets per muscle per session or volume load per session
+[i.e., sets 3 reps 3 load]); (b) involved at least 2 RT sessions per
+week for a duration of at least 4 weeks; (c) published in a peer-
+reviewed English language journal or on a preprint server. We
+excluded studies that (a) included participants with comorbidities
+that might impair the hypertrophic response to RT (musculo-
+skeletal
+disease/injury/cardiovascular
+impairments);
+(b)
+employed unequal dietary supplement provision (i.e., one group
+received a given supplement and the other received an alternative
+supplement/placebo); (c) manipulated the tempos for the both
+concentric and eccentric actions between groups (e.g., 2-0-4 vs. 4-
+0-2, etc.).
+Data Extraction
+As previously described (5), 4 researchers (A.P., P.A.K., T.H.,
+A.J.) independently performed the data extraction and extracted
+the following data from each included study: author name(s),
+title and year of publication, sample size, participant charac-
+teristics (i.e., sex, training status, age), description of the training
+intervention (duration, volume, frequency, modality), nutrition
+control (yes/no), tempo (seconds), manipulated muscle action
+(i.e., eccentric, concentric), method for hypertrophy assessment
+(i.e., DXA, MRI, CT, ultrasound, biopsy, circumference), and
+mean pre- and poststudy values for lean/muscle mass with cor-
+responding standard deviations. When outcome data were not
+reported in the text, we attempted to contact the corresponding
+author(s) to obtain the data as previously described (19). If data
+were unavailable, we extracted values from graphs (when
+available) via online software (https://automeris.io/Web-
+PlotDigitizer/). To account for the possibility of coder drift,
+a third researcher (A.Z.) re-coded 30% of the studies, which
+were randomly selected for assessment (Cooper et al., 2009). Per
+case agreement was determined by dividing the number of var-
+iables coded the same by the total number of variables. Accep-
+tance required a mean agreement of 0.90. Any discrepancies in
+the extracted data were resolved through discussion and mutual
+consensus of the coders.
+Methodological Quality
+The methodological quality of the included studies was assessed
+using the “Standards Method for Assessment of Resistance
+
+======================================================================
+PAGE 3
+======================================================================
+Training in Longitudinal Designs” (SMART-LD) scale (19). The
+SMART-LD includes 20 items that address a combination of
+study bias and reporting quality: general (items 1–2), partic-
+ipants (items 3–7), training program (items 8–11), outcomes
+(items 12–16), and statistical analyses (17–20). Each item was
+scored as 1 (sufficiently reported) or 0 (insufficient). Total scores
+were used to classify studies as “good quality” (16–20 points);
+“fair quality” (12–15 points); or “poor quality” (#11). Six
+reviewers (A.E., A.P., M.W., P.A.K., T.H., and D.M.) in-
+dependently rated each study. Disagreements were resolved by
+majority consensus.
+Statistical Analyses
+All meta-analyses were conducted within a Bayesian frame-
+work to allow for more intuitive interpretation compared with
+traditional frequentist approaches, using subjective probabili-
+ties (14). This approach avoids dichotomous interpretations
+(e.g., significance vs. nonsignificance) and focuses on estimat-
+ing the most probable values of the average effect, while
+addressing practical questions such as which tempo is likely to
+elicit the greatest hypertrophy. Primary analyses focused on
+pairwise comparisons of “slower” and “faster” tempos. For
+CON actions, slower tempos ranged from ;2 to ;4.5 seconds,
+with faster tempos ranging from ;0.5 to ;1 seconds. For ECC
+actions, slower tempos ranged from ;1.66 to ;4.5 seconds,
+with faster tempos ranging from ;0.25 to ;2 seconds. Sub-
+group analyses assessed the effects of manipulating ECC and
+CON tempos separately. In addition, for ECC actions where
+there were sufficient data, subgroup analyses were performed
+for hypertrophy of lower- and upper-body muscles, and for
+training performed either to failure or not. Because of the use of
+different measurement technologies, comparative effect sizes
+were calculated in the form of standardized mean differences.
+To account for the small sample sizes generally used in S&C,
+a bias correction was applied (16). Hierarchical models were
+included for analyses where studies provided multiple data
+points because of more than 2 comparisons and/or multiple
+hypertrophy measures. Inferences were made based on the
+posterior distribution of the pooled effect size, associated 95%
+credible intervals, and the probability that the pooled effect
+was at least as small, medium, or large S&C specific
+thresholds (26).
+Results
+A total of 3,479 records were initially identified via search engines
+and an additional 7 were uncovered through forward/backward
+searches. Of these, 14 studies ultimately met inclusion criteria.
+Supplementary figure S1, Supplemental Digital Content 1, http://
+links.lww.com/JSCR/A708 displays a PRISMA flowchart of the
+search process.
+Descriptive Data
+Fourteen studies were included (Table 1 for summary), totaling
+a pooled sample size of 278 participants. Three studies included
+nontraining control groups (6,10,26). Only 2 studies included
+resistance-trained participants, all of whom were male (1,18);
+only 73 of the 278 participants were female. Notably, 8 females
+from one study (10) were not included in the female-count, as the
+authors did not report how many female participants completed
+the intervention. Thirteen studies were conducted with young
+adults (23.3 6 3.2 years), with only one study (17) conducted
+with older males (66.4 6 0.2 years).
+Eight
+studies
+employed
+a
+parallel-group
+design
+(1,11,12,17,24,25,26,28), 4 employed a within-subject design
+(3,10,18,23), one study employed a mixed within-subject
+parallel-group design (15), and one study employed a within-
+subject cross-over design (6). Most interventions lasted 6‒
+12 weeks (average ;8.5 weeks) with a session frequency of 2‒
+4 times per week. One study involved 8 weeks of eccentric-only
+training, followed by a 5-week washout and then 8 weeks of
+concentric-only training, totaling 21 weeks (6).
+All studies employed direct measurements for hypertrophic
+assessments. Nine studies used ultrasound imaging to measure
+muscle thickness (3,6,12,17,18,25,28), cross-sectional area
+(CSA) (1,11) and fascicle length (25). One study reported both
+CSA and muscle thickness, but it was unclear which was mea-
+sured because of inconsistent reporting (1). Four studies assessed
+hypertrophic adaptations using MRI, measuring muscle volume
+(26), CSA (10,24), or both (15). One study used peripheral
+quantitative computed tomography and biopsies to measure the
+CSA of the elbow flexors and the muscle fibers, respectively (23).
+Eight studies measured hypertrophic adaptations of the quadri-
+ceps femoris only (3,11,15,18,24,25,26,28) and 5 studies mea-
+sured only the elbow flexors (1,6,10,12,23), whereas one study
+(17) measured muscle thickness of both upper and lower limbs
+(biceps brachii and rectus femoris, respectively).
+Eleven
+studies
+employed
+isotonic
+training
+(1,3,10–12,17,18,24,25,26,28) and 3 studies employed iso-
+kinetic training modalities (6,15,23). Among isotonic studies, 8
+involved performance of both CON and ECC actions, with 2
+involving ECC actions only (25,26) and 2 involving CON actions
+only (26,28). In isokinetic studies, 2 studies manipulated ECC
+tempo only (15,23) and one study manipulated ECC tempo for
+8 weeks, followed by manipulating CON tempo with the opposite
+limb after a washout (6). Five isotonic studies performed
+machine-based training (3,17,18,25,26), 5 used free-weight
+training (1,10–12,24), and one used dynamometry (28). All iso-
+kinetic studies used dynamometry (6,15,23). Ten studies used
+single-joint exercises (1,3,6,10,12,15,18,23,26,28), 3 studies
+used multi-joint exercises (11,24,25), and one study used a com-
+bination of both single- and multi-joint exercises (17). Eight
+studies used bilateral training (1,11,12,17,24,25,26,28), and 6
+studies used unilateral training (3,6,10,15,18,23).
+Repetition tempo for ECC actions ranged from 0.25 to 4.5
+seconds, averaging ;1 second for tempos considered faster, vs.
+;3.5 seconds for slower. The repetition tempo for CON actions
+ranged from 0.5 to 4.5 seconds, averaging ;0.73 seconds for
+tempos considered faster, vs. ;3.2 seconds for slower. No study
+included intentional pauses during transition phases. Set volume
+per muscle group averaged 4.4 sets per session (range: 1–9). Six
+studies required that participants trained to failure
+(1,3,11,12,24,26), 7 studies did not involve training to failure
+(6,10,15,17,23,25,28), and one study used a mix of failure,
+beyond-failure, and subfailure training to equate repetitions
+between limbs (18). Eight studies did not equate volume load
+between conditions (1,3,11,12,17,23,25,26), whereas 6 studies
+did equate the volume load (4,6,10,15,24,28). Only one study
+(25) did not equate set volume between conditions. Repetition
+ranges varied from 3 to 20 per set, with 2 studies not reporting
+range (3,11). Time under tension ranged from 4.3 to ;152.5
+seconds per set. Only 4 studies reported sources of funding
+(15,23,24,26).
+| www.nsca.com
+
+======================================================================
+PAGE 4
+======================================================================
+Table 1
+Summary of studies.*
+Study
+Sample
+Design
+RT program
+Hypertrophy measurement
+Results
+Azevedo et al.
+(3)
+10 young untrained adults
+(M 5 8; F 5 2)
+Within-subject; each leg
+randomly allocated to 2 or 4 s
+ECC (1 s CON) for 8 wk
+Isotonic seated knee extension
+for 5 sets to failure @70%1RM
+23/wk
+MT of RF, VL, VM via US
+No differences for VL and RF;
+VM favored fast ECC
+Farthing and
+Chilibeck (6)
+36 young untrained adults
+(M 5 13; F 5 23)
+Parallel with nontraining
+control; random allocation to
+30˚×s 21 (;3.33 s) or 180˚×s 21
+(;0.56 s) ECC-only for 8 wk
+Isokinetic dynamometer elbow
+flexors for 2–6 sets of 8 reps
+33/wk
+MT of proximal, middle, and
+distal EF via US
+No pre-post differences for
+control; no pre-post differences
+for proximal MT; pre-post
+differences for middle and
+distal MT for both training
+groups (fast and slow ECC)
+Hisaeda et al.
+(10)
+19 young untrained adults
+Within-subject with nontraining
+control; random allocation to 2
+or ;0.5 s CON (2 s ECC) for 8
+wk
+Isotonic EF for 6 sets of 10 reps
+@50%1RM 43/wk
+CSA of EF via MRI
+CSA favored fast CON
+Kojic et al.(12)
+20 young untrained adults
+(M 5 11; F 5 9)
+Parallel; random allocation to 4
+or 1 s ECC (1 s CON) for 7 wk
+Isotonic EF for 3–4 sets to
+failure 23/wk
+MT of EF via US
+No differences between groups
+Kojic et al.(11)
+18 young untrained adults
+(M 5 10; F 5 8)
+Parallel; random allocation to 4
+or 1 s ECC (1 s CON) for 7 wk
+Isotonic barbell back squat for
+3–4 sets to failure @60–70%
+1RM 23/wk
+CSA of RF, VL, VM, VI via US
+No differences for RF, VM, VI;
+VL favored slow ECC
+Marzilger et al.
+(15)
+28 young untrained males
+Within-subject, parallel with
+
+
+
+
+nontraining control; random
+allocation to 45˚×s 21 (;1.66
+s), 120˚×s 21 (;0.63 s),
+210˚×s 21 (;0.36 s), or
+300˚×s 21 (;0.25 s) ECC-only
+for 11 wk
+Isokinetic dynamometer knee
+extensors for 5 sets of 3, 8, 14,
+or 20 reps 33/wk
+CSA and MV of VL via MRI
+No differences between
+conditions
+Nogueira et al.
+(17)
+20 older untrained males
+Parallel; random allocation to
+
+
+
+2–3 s or ;1 s CON (2–3 s ECC)
+for 10 wk
+Isotonic leg press, knee ext.,
+knee flex., chest press, seated
+row, elbow ext., and elbow flex
+for 6 sets of 8–10 reps 23/wk
+MT of BB and RF via US
+BB and RF favored fast CON
+Pearson et al.
+(18)
+13 young trained males
+Within-subject; each leg
+randomly allocated to 1 or 3 s
+ECC (1 s CON) for 8 wk
+Isotonic seated knee ext. for
+3–4 sets of 8–10 reps 23/wk
+MT of proximal and distal RF/VI
+via US
+No differences for proximal;
+distal favored by fast ECC
+Pereira et al. (1)
+12 young trained males
+Parallel; random allocation to 4
+
+
+
+
+or 1 s ECC (1 s CON) for 12 wk
+Isotonic EF of 3 sets to failure
+23/wk
+CSA or MT† of BB via US
+No differences between
+groups, but effect size favored
+slow ECC
+Shepstone et al.
+(23)
+12 young untrained males
+Within-subject; each arm
+randomly allocated to 0.35
+rad×s 21 (;4.5 s) or 3.66
+rad×s 21 (;0.43 s) ECC-only for
+8 wk
+Isokinetic dynamometer EF for
+1–4 sets of 10 reps 33/wk
+CSA of EF via pQCT and of
+muscle fibers via biopsy
+CSA favored by fast ECC
+Shibata et al.
+(24)
+22 young untrained males
+Parallel; random allocation to 4
+
+
+
+or 2 s ECC (2 s CON) for 6 wk
+Isotonic parallel back squat for
+3 sets to failure @70%1RM
+23/wk
+CSA of proximal, middle and
+distal QF via MRI
+No differences between groups
+Stasinaki et al.
+(25)
+18 young untrained adults
+(M 5 10; F 5 8)
+Parallel; random allocation to 4
+or ,1 s ECC-only for 6 wk
+Isotonic ECC-only Smith
+machine squat for 5 sets of 6
+reps @90%1RM or 9 sets of 9
+reps @70%1RM 23/wk
+MT and fascicle length of VL via
+US
+MT favored slow ECC; fascicle
+length favored fast ECC
+¨
+Unl¨
+u et al. (26)
+41 young untrained males
+Parallel with nontraining
+control; random allocation to
+30˚×s 21 (;4.5 s) or 180˚×s 21
+(;0.75 s) ECC-only, 30 or
+180˚×s 21 CON-only, or
+180˚×s 21 ECC (180˚×s 21 CON)
+for 12 wk
+Isotonic seated knee ext. for 3
+sets to failure 33/wk
+MV of QF via MRI
+No differences between groups
+Wang et al. (28) 33 young untrained females
+Parallel; random allocation to
+fast (0.5 6 0.1 s) or slow (2.9
+6 0.3 s) CON-only training for
+8 wk
+Isotonic dynamometer knee
+extensors for 4 sets of 10 reps
+@60%1RM 33/wk
+MT of QF via US
+No differences between groups
+*M 5 males; F 5 females; ECC 5 eccentric; CON 5 concentric; MT 5 muscle thickness; RF 5 rectus femoris; VL 5 vastus lateralis; VM 5 vastus medialis; US 5 ultrasound; 1RM 5 one-repetition
+maximum; EF 5 elbow flexors; CSA 5 cross-sectional area; MRI 5 magnetic resonance imaging; VI 5 vastus intermedius; MV 5 muscle volume; BB 5 biceps brachii; pQCT 5 peripheral quantitative
+computed tomography; QF 5 quadriceps femoris.
+†Unclear reporting by authors.
+
+======================================================================
+PAGE 5
+======================================================================
+Meta-Analysis of Within-Group Changes
+Meta-analyses of within-group changes using hierarchical models
+including all measurements from the 14 included studies are pre-
+sented in Figure 1. When combining data from CON and ECC
+studies, the pooled standardized mean change of faster (0.43 [95%
+CrI: 0.29‒0.58]) and slower tempos (0.34 [95% CrI: 0.22‒0.47)]
+indicated within-group hypertrophic adaptations of a medium ef-
+fect magnitude, suggesting that interventions included in this re-
+view were generally effective for eliciting muscle hypertrophy.
+Meta-Analysis of Between-Group Differences
+Meta-analyses of pairwise between-group standardized mean
+differences are presented in Figure 2. When combining data from
+CON and ECC studies, results were inconclusive. Central esti-
+mates trivially favored faster tempos (pooled mean 5 0.09 [95%
+CrI: 20.04 to 0.22]), with a low probability of at least a small
+(p 5 0.450), medium (p 5 0.001), or large (p , 0.001) effect.
+We performed exploratory analyses to investigate differences
+across specific tempo categories. There was insufficient data to
+analyze tempos on a continuous basis. Categorization into Fast
+(#1 second) vs. Moderate (2–3 seconds) and Fast vs. Slow ($4
+seconds) showed no appreciable differences. Supplementary
+Figure S2, Supplemental Digital Content 2, http://links.lww.com/
+JSCR/A709 presents these results.
+Subgroup Analyses
+Subgroup analyses of pairwise group differences were stratified
+by ECC and CON action type, and for ECC actions further
+stratified by body region (upper vs. lower) and training to failure
+(yes vs. no), where sufficient data were available (Figures 3–5,
+respectively). Meta-analysis of studies comparing faster and
+slower tempos during ECC actions showed similar effects re-
+gardless of condition (pooled mean 5 0.06 [95% CrI: 20.11 to
+0.22]), with low probabilities of at least a small (p 5 0.325),
+medium (p 5 0.001), or large (p , 0.001) pooled effect in favor of
+faster tempos. Central effect size estimates were further from zero
+and favored faster tempos in the subgroup analysis of CON
+actions (pooled mean 5 0.14 [95% CrI: 20.29 to 0.60]), but with
+greater uncertainty. Correspondingly, the probabilities of at least
+a small (p 5 0.597), medium (p 5 0.126), or large (p 5 0.016)
+effect in favor of faster tempos were marginally higher.
+Subgroup analysis by body region restricted to tempo compar-
+isons of ECC actions indicated negligible effects for both upper-
+(pooled mean 5 0.14 [95% CrI: 20.46 to 0.58]) and lower-body
+(pooled mean 5 0.03 [95% CrI: 20.16 to 0.21]) regions, with rel-
+atively low probabilities of at least a small (p 5 0.526), medium (p 5
+0.136), or large (p , 0.001) effect in favor of faster tempos (see
+supplemental figure S3, Supplemental Digital Content 3, http://links.
+lww.com/JSCR/A710). In contrast, subgroup analysis by training to
+failure, also restricted to ECC actions, suggested a modest advantage
+for faster tempos when training short of failure (pooled mean 5 0.21
+[95% CrI: 0.00‒0.44]), with a high probability of at least a small
+effect (p 5 0.868), but low probabilities of at least medium (p 5
+0.084) or large (p 5 0.001) effects. For studies in which participants
+trained to failure, central estimates instead favored slower tempos
+(Pooled mean 5 20.11 [95% CrI: 20.38 to 0.12]), although with
+greater uncertainty and low probabilities of at least a small (p 5
+0.533), medium (p 5 0.035), or large (p 5 0.004) effect.
+Analyses of Small Study Effects
+A funnel plot (Figure 6) depicting effect sizes relative to within-
+study standard errors did not indicate concerns regarding publi-
+cation bias or small-study effects.
+Methodological Qualitative Assessment
+Using the SMART-LD tool, the included studies had a mean
+methodological quality score of 13.4 out of 20 (range: 9‒18). Three
+Figure 1. Forest plots from meta-analyses of noncontrolled effect sizes for slower (left) and faster (right) tempo inter-
+ventions. Distributions show the pooled (bottom) and study within-group effect size posterior distributions, which are
+regularized (“shrunken”) via partial pooling in the hierarchical model, which borrows strength across studies.
+| www.nsca.com
+
+======================================================================
+PAGE 6
+======================================================================
+studies were judged to be of good quality (23,26,28), 10 studies
+were judged to be of fair quality (3,6,10–12,15,17,18,24,25), and
+one study was judged to be of poor quality (1). The individual
+ratings for each study are presented in supplementary figure S4,
+Supplemental Digital Content 4, http://links.lww.com/JSCR/A711.
+Discussion
+To our knowledge, this is the first systematic review and meta-
+analysis to isolate and quantify the independent effects of ma-
+nipulating eccentric and concentric repetition tempos on muscle
+hypertrophy using a Bayesian framework. Unlike prior reviews
+Figure 2. Forest plot from meta-analysis comparing slower and faster tempos across both eccentric and
+concentric studies. Distributions show the pooled (bottom) and study within-group effect size posterior
+distributions, which are regularized (“shrunken”) via partial pooling in the hierarchical model, which borrows
+strength across studies.
+Figure 3. Forest plots from meta-analyses comparing slower and faster tempos across eccentric studies (left) and
+concentric studies (right). Distributions show the pooled (bottom) and study within-group effect size posterior distributions,
+which are regularized (“shrunken”) via partial pooling in the hierarchical model, which borrows strength across studies.
+
+======================================================================
+PAGE 7
+======================================================================
+that assessed total repetition duration, our approach provides
+more targeted and probabilistic insights into how manipulating
+the tempo of individual muscle actions during RT affects muscle
+hypertrophy. Our analyses showed that the included studies were
+effective at stimulating muscle hypertrophy based on compar-
+isons of within-group changes with S&C specific thresholds, and
+that manipulation of tempos generally did not provide a consis-
+tent advantage, although some differences may emerge under
+specific conditions such as training to failure.
+When directly comparing faster vs. slower repetition tempos,
+our estimates indicate a likely trivial standardized mean difference
+(pooled mean 5 0.09 [95% CrI: 20.04 to 0.22]). These findings
+are consistent with a meta-analysis by Schoenfeld et al. (21) who
+reported a wide range of RT repetition durations (;0.5–;8
+seconds) produced similar hypertrophic responses. However,
+Schoenfeld et al. (21) did not quantify the magnitude of effect on
+the individual muscle actions (i.e., CON or ECC), limiting com-
+parison to results of the present study. Moreover, inclusion cri-
+teria of Schoenfeld et al. (21) required training to concentric
+failure, which differs from the present meta-analysis where some
+studies did not involve participants training to failure when ma-
+nipulating either CON (17,28) or ECC (10,15,23,25). Given ev-
+idence suggesting that training to failure is not essential for
+maximizing hypertrophic adaptations (20), it would seem that
+manipulating the repetition tempo for eccentric and concentric
+phases, regardless of proximity to failure, can elicit similar mag-
+nitudes of hypertrophy.
+Subgroup analyses of data by type of action indicated trivial
+differences between conditions for both CON (pooled mean 5
+0.14 [95% CrI: 20.29 to 0.60]) and ECC tempos (pooled mean 5
+Figure 4. Forest plots from meta-analyses comparing slower and faster tempos across eccentric studies assessing lower-
+body (left) and upper-body (right) regions. Distributions show the pooled (bottom) and study within-group effect size
+posterior distributions, which are regularized (“shrunken”) via partial pooling in the hierarchical model, which borrows
+strength across studies.
+Figure 5. Forest plots from meta-analyses comparing slower and faster tempos across eccentric studies with failure (left)
+and non-failure (right) repetitions.
+| www.nsca.com
+
+======================================================================
+PAGE 8
+======================================================================
+0.06 [95% CrI: 20.11 to 0.22]). These findings contrast with the
+conclusions of Wilk et al. (30) who suggested that moderate-to-
+slow ECC tempos might be more beneficial than fast tempos for
+muscle development. However, the conclusions of Wilk et al. (30)
+were drawn from a narrative review and did not quantify effect
+sizes. Our results challenge previous speculation that a slower
+CON tempo would enhance muscular adaptations by reducing
+the use of momentum during RT (29). This finding aligns with
+more recent evidence indicating that the use of external momen-
+tum in untrained individuals does not impair hypertrophy of the
+elbow flexors and extensors (2), suggesting that momentum may
+not inhibit hypertrophy.
+Subgroup analysis based on body region revealed that varia-
+tions in tempo showed no meaningful differences in hypertrophic
+response between the upper and lower body, although the limited
+CON data on the topic restricted this analysis to ECC actions.
+Contrary to our findings, Hackett et al. (9) suggested that
+moderate-to-slow and fast velocities might be more beneficial for
+lower body (i.e., quadriceps femoris) and upper body (i.e., biceps
+brachii), respectively; however, the authors also acknowledge
+that the studies supporting these suggestions manipulated the
+tempos for both muscle actions, limiting the ability to draw
+conclusions about specific phases. Alternatively, Gray et al. (7)
+compared different CON velocities with a standardized 2-second
+ECC phase in older individuals and reported no differences in lean
+tissue mass after a 48-week study period. It should be noted that
+muscle development was assessed by DXA in a whole-body
+manner, limiting inferences for regional changes as required in the
+present study. Collectively, the current data suggest that both fast
+and slow ECC tempos can elicit similar hypertrophic outcomes
+across upper- and lower-body regions.
+Subgroup analysis on the interaction between repetition tempo
+and training to failure was also restricted to ECC actions because
+of limited data for CON actions. Results suggest a modest hy-
+pertrophic benefit for employing somewhat faster eccentric tem-
+pos under nonfailure conditions, with a high probability of at
+least a small effect. Alternatively, slower tempos were marginally
+superior when training to failure with low probabilities of at least
+a small effect, thus warranting skepticism in drawing inferences as
+to the finding’s practical relevance. A mechanistic rationale for
+these discrepancies remains elusive. More research is needed to
+directly investigate the relationship between tempo and proximity
+to failure and quantify specific tempo ranges that may help to
+optimize muscle hypertrophy.
+Our study has several limitations that should be acknowl-
+edged. As with all meta-analyses, our inferences are limited by
+the design and quality of included studies. A key limitation is the
+variability in how repetition tempo was prescribed and moni-
+tored. For example, studies that instructed participants to per-
+form a phase “as fast as possible” may have allowed inconsistent
+execution. Better standardization and reporting of tempo
+instructions is warranted in future research. Moreover, al-
+though there is some evidence to suggest that very slow RT
+tempos may be suboptimal for hypertrophy when accounting
+for total repetition duration (.10 seconds) (22), there is a pau-
+city of research investigating the topic specific to isolated CON
+and ECC tempos. Future research should examine whether an
+upper threshold for tempo exists beyond which hypertrophy
+becomes compromised. Another limitation is the substantial
+heterogeneity in the included studies regarding exercise selec-
+tion, training modalities, and participant characteristics. To
+address this, we employed hierarchical Bayesian models, which
+allow for partial pooling and better estimation of effects under
+varying conditions. Although this approach mitigates some of
+the noise, we recommend caution in generalizing these results
+without context-specific considerations. In addition, concentric
+velocity necessarily slows as one approaches muscle failure.
+Thus, it is unclear whether this confounds the effects of initial
+tempo in studies with a close proximity to failure. Finally,
+whether manipulating CON or ECC tempos can lead to differ-
+ent muscle architecture adaptations (e.g., ECC tempos eliciting
+distinct longitudinal growth) remains unclear.
+Figure 6. Funnel plot of between group standardized mean differences.
+
+======================================================================
+PAGE 9
+======================================================================
+Practical Applications
+Our results suggest that coaches and practitioners can use
+a relatively wide range of CON and ECC repetition tempos
+(;0.25 to ;4.5 seconds) to promote muscle hypertrophy. For
+example, individuals who cannot perform high-load or high-
+velocity movements—such as during rehabilitation or in cases
+of joint discomfort—can select ECC and/or CON repetition
+tempos based on comfort, safety, and personal preference,
+without compromising hypertrophic adaptations. Although
+no differences were detected between ECC tempos, logic dic-
+tates that load should be sufficiently controlled during this
+action so that the target musculature generates tension. Given
+the well-established mechanistic role of mechanical stress in
+mediating hypertrophy (27), simply allowing the load to drop
+under gravitational pull would conceivably compromise
+muscle development. Future research should endeavor to ex-
+amine this hypothesis. Moreover, given the generally similar
+effects regarding muscle hypertrophy irrespective of tempo,
+coaches and practitioners can use ECC and CON repetition
+tempos as a tool for variety or managing training stress across
+different phases of a RT program, while prioritizing other RT
+variables when seeking to maximize muscle hypertrophy such
+as volume and proximity-to-failure.
+References
+1. Assis-Pereira PE, Motoyama YL, Esteves GJ, et al. Resistance training with
+slow speed of movement is better for hypertrophy and muscle strength gains
+than fast speed of movement. Int J Appl Exerc Physiol 5: 37–43, 2016.
+2. Augustin F, Piñero A, Enes A, et al. Do cheaters prosper? Effect of exter-
+nally supplied momentum during resistance training on measures of upper
+body muscle hypertrophy. Int J Exerc Sci 18: 329–342, 2025.
+3. Azevedo PHSM, Oliveira MGD, Schoenfeld BJ. Effect of different eccen-
+tric tempos on hypertrophy and strength of the lower limbs. Biol Sport 39:
+443–449, 2022.
+4. Barakat C, Barroso R, Alvarez M, et al. The effects of varying gleno-
+humeral joint angle on acute volume load, muscle activation, swelling, and
+echo-intensity on the biceps brachii in resistance-trained individuals.
+Sports (Basel) 7: 204, 2019.
+5. Burke R, Piñero A, Coleman M, et al. The effects of creatine supplementation
+combined with resistance training on regional measures of muscle hyper-
+trophy: A systematic review with meta-analysis. Nutrients 15: 2116, 2023.
+6. Farthing JP, Chilibeck PD. The effects of eccentric and concentric training
+at different velocities on muscle hypertrophy. Eur J Appl Physiol 89:
+578–586, 2003.
+7. Gray M, Powers M, Boyd L, Garver K. Longitudinal comparison of low- and
+high-velocity resistance training in relation to body composition and func-
+tional fitness of older adults. Aging Clin Exp Res 30: 1465–1473, 2018.
+8. Greenhalgh T, Peacock R. Effectiveness and efficiency of search methods
+in systematic reviews of complex evidence: Audit of primary sources. BMJ
+331: 1064–1065, 2005.
+9. Hackett DA, Davies TB, Orr R, Kuang K, Halaki M. Effect of movement
+velocity during resistance training on muscle-specific hypertrophy: A
+systematic review. Eur J Sport Sci 18: 473–482, 2018.
+10. Hisaeda H, Nakamura Y, Kuno S, Fukunaga T, Muraoka I. Effect of high-
+speed resistance training on muscle cross-sectional area and speed of
+movement. Jpn J Phys Fit Sports Med 45: 345–355, 1996.
+11. Kojic F, Mandic D, Duric S. The effects of eccentric phase tempo in squats
+on hypertrophy, strength, and contractile properties of the quadriceps
+femoris muscle. Front Physiol 15: 1531926, 2024.
+12. Koji´
+c F, Ranisavljev I, ´
+Cosi´
+c D, et al. Effects of resistance training on
+hypertrophy, strength and tensiomyography parameters of elbow flexors:
+Role of eccentric phase duration. Biol Sport 38: 587–594, 2021.
+13. Kraemer WJ, Ratamess NA. Fundamentals of resistance training: Pro-
+gression and exercise prescription. Med Sci Sports Exerc 36: 674–688,
+2004.
+14. Kruschke JK, Liddell TM. The Bayesian new statistics: Hypothesis testing,
+estimation, meta-analysis, and power analysis from a Bayesian perspec-
+tive. Psychon Bull Rev 25: 178–206, 2018.
+15. Marzilger R, Bohm S, Mersmann F, Arampatzis A. Effects of lengthening
+velocity during eccentric training on vastus lateralis muscle hypertrophy.
+Front Physiol 10: 957, 2019.
+16. Morris B. Estimating effect sizes from pretest-posttest-control group
+designs. Organ Res Methods 11: 364–386, 2008.
+17. Nogueira W, Gentil P, Mello SN, et al. Effects of power training on muscle
+thickness of older men. Int J Sports Med 30: 200–204, 2009.
+18. Pearson J, Wadhi T, Barakat C, et al. Does varying repetition tempo in
+a single-joint lower body exercise augment muscle size and strength in
+resistance-trained men? J Strength Cond Res 36: 2162–2168, 2022.
+19. Pinero A, Burke R, Augustin F, et al. Throwing cold water on muscle
+growth? A meta-analysis of the effects of cooling strategies on hypertro-
+phy when combined with resistance training. Eur J Sport Sci 24: 177–189,
+2024.
+20. Refalo MC, Helms ER, Trexler ET, Hamilton DL, Fyfe JJ. Influence of
+resistance training proximity-to-failure on skeletal muscle hypertrophy: A
+systematic review with meta-analysis. Sports Med 53: 649–665, 2023.
+21. Schoenfeld BJ, Ogborn DI, Krieger JW. Effect of repetition duration
+during resistance training on muscle hypertrophy: A systematic review
+and meta-analysis. Sports Med 45: 577–585, 2015.
+22. Schuenke MD, Herman JR, Gliders RM, et al. Early-phase muscular
+adaptations in response to slow-speed versus traditional resistance-
+training regimens. Eur J Appl Physiol 112: 3585–3595, 2012.
+23. Shepstone TN, Tang JE, Dallaire S, et al. Short-term high- vs. low-velocity
+isokinetic lengthening training results in greater hypertrophy of the elbow
+flexors in young men. J Appl Physiol 98: 1768–1776, 2005.
+24. Shibata K, Takizawa K, Nosaka K, Mizuno M. Effects of prolonging
+eccentric phase duration in parallel back-squat training to momentary
+failure on muscle cross-sectional area, squat one repetition maximum, and
+performance tests in university soccer players. J Strength Cond Res 35:
+668–674, 2021.
+25. Stasinaki A, Zaras N, Methenitis S, Bogdanis G, Terzis G. Rate of force
+development and muscle architecture after fast and slow velocity eccentric
+training. Sports (Basel) 7: 41, 2019.
+26. ¨
+Unl¨
+u G, Çevikol C, Meleko˘
+glu T. Comparison of the effects of eccentric,
+concentric, and eccentric-concentric isotonic resistance training at two
+velocities on strength and muscle hypertrophy. J Strength Cond Res 34:
+337–344, 2020.
+27. Wackerhage H, Schoenfeld BJ, Hamilton DL, Lehti M, Hulmi JJ. Stimuli
+and sensors that initiate skeletal muscle hypertrophy following resistance
+exercise. J Appl Physiol 126: 30–43, 2019.
+28. Wang Z, Taniguchi M, Saeki J, Ichihashi N. Effects of high-velocity
+versus low-velocity resistance training on muscle echo intensity in
+healthy young women: A randomized controlled trial. Sports Health 17:
+637–645, 2024.
+29. Westcott WL, Winett RA, Anderson ES, et al. Effects of regular and slow
+speed resistance training on muscle strength. J Sports Med Phys Fitness 41:
+154–158, 2001.
+30. Wilk M, Zajac A, Tufano JJ. The influence of movement tempo during
+resistance training on muscular strength and hypertrophy responses: A
+review. Sports Med 51: 1629–1650, 2021.
+| www.nsca.com

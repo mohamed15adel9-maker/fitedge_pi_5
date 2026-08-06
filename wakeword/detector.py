@@ -3,7 +3,7 @@ from microphone_chunk import get_microphone_chunk
 from microphone_chunk import start_microphone, stop_microphone
 print("Loading wake word model...")
 
-model = Model()
+model = Model(wakeword_models=["alexa"], inference_framework="onnx")
 
 def wait_for_wake_word():
     start_microphone()

@@ -1,0 +1,3259 @@
+1 Advanced Anthropometric and Body Composition Indices in Sports Science, Nutrition, and Health Assessment: A Systematic Review Youssef LAHLOU1,2,3*†, Abdelghani ABOUKHALAF 2,4†, Mehdi BOURAQ¹, Hanane OUALILI¹, Youness EL JADOUMI¹, Asmaa EL FILALI1,5, Mohammed BOUQADIDA¹, Azzedine HAFID1,6, Karim ARIFI7, Kacem MAKROUM¹, Abdellah MAISSOUR¹ 1 Laboratory of Plant Biotechnology, Ecology and Ecosystem Valorization, URL–CNRST n°10, Faculty of Sciences, Chouaib Doukkali University, El Jadida, Morocco
+
+
+============================================================
+PAGE 1
+============================================================
+Advanced Anthropometric and Body Composition
+Indices in Sports Science, Nutrition, and Health
+Assessment: A Systematic Review
+Youssef lahlou 
+Laboratory of Plant Biotechnology, Ecology and Ecosystem Valorization, URL–CNRST n°10, Faculty of
+Sciences, Chouaib Doukkali University, El Jadida, Morocco, Laboratory of Anthropogenetic,
+Biotechnologies and Health, Training and Research Unit on Nutrition & Food Sciences, Faculty of
+Sciences, Chouaib Doukkali University, El Jadida, Morocco 3 Ministry of National Education, Preschool
+and Sports, Morocco https://orcid.org/0000-0001-8518-1792
+Abdelghani ABOUKHALAF 
+Laboratory of Anthropogenetic, Biotechnologies and Health, Training and Research Unit on Nutrition &
+Food Sciences, Faculty of Sciences, Chouaib Doukkali University, El Jadida, Morocco, Laboratory of
+Natural Resources and Sustainable Development, Faculty of Sciences, Ibn Tofail University, Kenitra,
+Morocco https://orcid.org/0000-0003-2654-130X
+Mehdi BOURAQ 
+Laboratory of Plant Biotechnology, Ecology and Ecosystem Valorization, URL–CNRST n°10, Faculty of
+Sciences, Chouaib Doukkali University, El Jadida, Morocco https://orcid.org/0009-0002-0442-8445
+Hanane OUALILI 
+Laboratory of Plant Biotechnology, Ecology and Ecosystem Valorization, Faculty of Sciences, Chouaib
+Doukkali University, El Jadida, Morocco https://orcid.org/0009-0001-2814-6066
+Youness EL JADOUMI 
+Laboratory of Plant Biotechnology, Ecology and Ecosystem Valorization, Faculty of Sciences, Chouaib
+Doukkali University, El Jadida, Morocco https://orcid.org/0009-0009-2039-4311
+Asmaa EL FILALI 
+Laboratory of Plant Biotechnology, Ecology and Ecosystem Valorization, Faculty of Sciences, Chouaib
+Doukkali University, El Jadida, Morocco
+BOUQADIDA Mohammed 
+Laboratory of Plant Biotechnology, Ecology and Ecosystem Valorization, Faculty of Sciences, Chouaib
+Doukkali University, El Jadida, Morocco https://orcid.org/0009-0005-7050-6116
+Azzedine HAFID 
+
+============================================================
+PAGE 2
+============================================================
+Laboratory of Plant Biotechnology, Ecology and Ecosystem Valorization, Faculty of Sciences, Chouaib
+Doukkali University, El Jadida, Morocco https://orcid.org/0009-0000-0064-7080
+Karim ARIFI 
+Institute of Sport Sciences, University Hassan First, Settat, Morocco https://orcid.org/0000-0002-
+0441-6850
+Kacem MAKROUM 
+Laboratory of Plant Biotechnology, Ecology and Ecosystem Valorization, Faculty of Sciences, Chouaib
+Doukkali University, El Jadida, Morocco https://orcid.org/0000-0002-8914-3176
+Abdellah MAISSOUR 
+Laboratory of Plant Biotechnology, Ecology and Ecosystem Valorization, Faculty of Sciences, Chouaib
+Doukkali University, El Jadida, Morocco https://orcid.org/0000-0001-5297-9386
+Systematic Review
+Keywords: Anthropometry, body composition, sports science, nutritional assessment, physical
+performance, anthropometric indices, health assessment
+Posted Date: June 10th, 2026
+DOI: https://doi.org/10.21203/rs.3.rs-9972847/v1
+License:   This work is licensed under a Creative Commons Attribution 4.0 International License.  
+Read Full License
+Additional Declarations: The authors declare no competing interests.
+
+============================================================
+PAGE 3
+============================================================
+1 
+ 
+ 
+Advanced Anthropometric and Body Composition Indices in Sports Science, Nutrition, 
+and Health Assessment: A Systematic Review 
+ 
+Youssef LAHLOU1,2,3*†, Abdelghani ABOUKHALAF 2,4†, Mehdi BOURAQ¹, Hanane OUALILI¹, Youness EL 
+JADOUMI¹, Asmaa EL FILALI1,5, Mohammed BOUQADIDA¹, Azzedine HAFID1,6, Karim ARIFI7, Kacem 
+MAKROUM¹, Abdellah MAISSOUR¹ 
+ 
+1 Laboratory of Plant Biotechnology, Ecology and Ecosystem Valorization, URL–CNRST n°10, Faculty of 
+Sciences, Chouaib Doukkali University, El Jadida, Morocco 
+2 Laboratory of Anthropogenetic, Biotechnologies and Health, Training and Research Unit on Nutrition & Food 
+Sciences, Faculty of Sciences, Chouaib Doukkali University, El Jadida, Morocco 
+3 Ministry of National Education, Preschool and Sports, Morocco 
+4 Laboratory of Natural Resources and Sustainable Development, Faculty of Sciences, Ibn Tofail University, 
+Kenitra, Morocco 
+5 Ibn Sina Hospital, Ibn Sina University Hospital Center, Rabat, Morocco. 
+6 Biotechnology, Environment, Agri-Food and Health Laboratory, Faculty of Sciences, Dhar el Mahraz, Sidi 
+Mohamed Ben Abdellah Univer-sity, Fez 30000, Morocco. 
+7 Institute of Sport Sciences, University Hassan First, Settat, Morocco. 
+ 
+† Youssef LAHLOU and Abdelghani ABOUKHALAF contributed equally to this work. 
+ 
+*Corresponding Author: 
+ Youssef LAHLOU: Email: Lahlouyossef@gmail.com ( https://orcid.org/0000-0001-8518-1792) 
+ 
+Abstract  
+Anthropometric assessment is widely used in sports science, nutrition, and health evaluation as a 
+practical and non-invasive method for analyzing body composition, physical performance, and 
+metabolic health. This review aimed to synthesize current evidence regarding the role of anthropometric 
+parameters in sports sciences, nutritional assessment, and health monitoring. 
+A comprehensive literature search was conducted across major scientific databases, covering 
+publications from 2020 to 2026. The findings indicate that anthropometric variables such as body mass 
+index (BMI), waist circumference, waist-to-height ratio (WHtR), skinfold thickness, body 
+circumferences, fat mass percentage (FM%), fat-free mass index (FFMI), and skeletal muscle mass 
+indicators are strongly associated with athletic performance, nutritional status, and cardiometabolic risk. 
+In sports sciences, these measurements are widely applied for talent identification, training monitoring, 
+and performance optimization. In clinical and nutritional contexts, they contribute to the assessment of 
+obesity, sarcopenia, malnutrition, and metabolic disorders. Advanced indices such as Body Roundness 
+Index (BRI), A Body Shape Index (ABSI), somatotype analysis, and Phantom Z-scores provide 
+improved evaluation of body proportionality and fat distribution. 
+Despite their broad applicability, anthropometric methods present limitations related to measurement 
+variability and population specificity. Therefore, combining anthropometric assessment with advanced 
+body composition techniques is recommended to improve accuracy and individualized evaluation.  
+
+============================================================
+PAGE 4
+============================================================
+2 
+ 
+The future of anthropometric science is expected to evolve toward AI-driven digital assessment 
+systems integrated with personalized medicine and population-specific predictive models, 
+allowing highly accurate, real-time, and individualized evaluation of body composition, 
+metabolic health, and sport performance across diverse populations. 
+Keywords: Anthropometry; body composition; sports science; nutritional assessment; physical 
+performance; anthropometric indices; health assessment. 
+ 
+
+============================================================
+PAGE 5
+============================================================
+3 
+ 
+Introduction 
+In the field of sport sciences and nutritional sciences, anthropometric profiling plays a central role in 
+estimating physical characteristics connected with athletic performances, training adaptation, and body 
+composition optimization 1,2. In this context, previous studies have reported that the changes in 
+anthropometric variables are strictly associated with physical fitness, strength development, and sport-
+specific performance, support their importance in talent identification and athlete monitoring 3,4. These 
+anthropometric measurements, including body mass index (BMI), skinfold thickness, and body 
+circumference are widely used as non-invasive, cost-effective tools for assessing growth, development, 
+and body composition across different populations in anthropometric characterization 5,6. 
+Otherwise, the evaluation of nutritional status which is a key determinant of health and physical 
+capacity is closely related to anthropometric measurements. Nutritional assessment using body 
+composition indices such as BMI-for-age, weight-for-height, and fat percentage provides insight into 
+undernutrition, overnutrition, and related health risks such as obesity and related cardiovascular diseases 
+7,8. In adolescent and young adult populations, several studies have reported significant associations 
+between nutritional status, dietary intake, and physical fitness levels, emphasizing the integrative role 
+of nutrition in health and development 3,9.   
+Additionally, in health assessment works, Human body metrics are usually used to monitor 
+cardiovascular disease risk, metabolic status, and physical ability. They are frequently combined with 
+biochemical and physiological signs to provide a comprehensive and exhaustive evaluation of physical 
+health status in both clinical and athletic populations 10,11. For instance, standardized preparticipation 
+evaluations in athletes incorporate Body size parameters and fitness assessments to ensure safe 
+participation and to detect potential health risks 10. 
+Recent line of evidence also underscores the interrelationship between morphometric characteristics, 
+physical activity levels, and health outcomes. In adolescents, significant associations have been 
+observed between body composition, physical activity, and physical fitness, suggesting that 
+anthropometric indices can serve as predictive indicators of overall health and functional capacity 12 10. 
+Similarly, in older adults, body composition assessments are used to monitor health decline, frailty, and 
+nutritional deterioration over time 8,13. 
+Nevertheless, despite their widespread use, Body size parameters present some limitations, principally 
+when used separately. For example, BMI alone does not differentiate between fat mass and lean mass, 
+which may lead to misclassification of nutritional status and health risks 14. Consequently, several 
+current research advocate for the combined use of anthropometry with other assessment tools, such as 
+bioelectrical impedance analysis and physical performance tests, to improve the accuracy of health and 
+nutritional evaluations 15,16. 
+
+============================================================
+PAGE 6
+============================================================
+4 
+ 
+In light of these considerations, a multidisciplinary approach integrating anthropometric parameters, 
+physical fitness, nutritional assessment, and health indicators is indispensable to better comprehend 
+human performance, improving health outcomes and preventive care strategies. Thus, the purpose 
+of the present review is to synthesize current knowledge on the used anthropometric parameters using 
+in sport sciences, focusing on their role in nutritional status evaluation and physical health assessment. 
+A structured literature search was conducted to identify and critically evaluate recent studies related to 
+anthropometric parameters, body composition indices, and their applications in sports performance, 
+nutrition, and health assessment. 
+Materials and methods 
+Review Design and Research Question 
+This systematic review was conducted in accordance with the Preferred Reporting Items for 
+Systematic Reviews and Meta-Analyses (PRISMA 2020) guidelines. The review aimed to 
+identify, synthesize, and critically evaluate the current evidence regarding anthropometric 
+parameters and body composition indicators used in sports sciences, nutrition, and health 
+assessment. 
+The review was guided by the following PICO-based research question: 
+Population (P): Athletes, physically active individuals, healthy adults, adolescents, and 
+clinical populations. 
+Intervention/Exposure (I): Assessment using anthropometric parameters and body 
+composition indicators. 
+Comparator (C): Traditional anthropometric measures (e.g., body mass index, body weight, 
+waist circumference) or alternative body composition assessment methods. 
+Outcomes (O): Evaluation of body composition, nutritional status, physical performance, 
+metabolic health, cardiometabolic risk, and health-related outcomes. 
+The primary research question was: 
+"What anthropometric parameters and body composition indicators are currently used and 
+validated for assessing body composition, athletic performance, nutritional status, and health 
+outcomes in sports and nutrition sciences?" 
+
+============================================================
+PAGE 7
+============================================================
+5 
+ 
+Information Sources and Literature Search Strategy 
+The Web of Science, PubMed, ScienceDirect, SpringerLink, MDPI, Wiley Online Library, and Taylor 
+& Francis Online, and Scopus databases were searched to identify studies published between January 
+2020 and April 2026, and aimed to identify, analyze, discuss or measure anthropometric parameters, 
+body size and physical performances.  
+The search strategy combined Medical Subject Headings (MeSH) and free-text terms related 
+to anthropometry, body composition, sports sciences, nutrition, and health assessment. The 
+following search equation was used and adapted according to each database: 
+("anthropometric parameters" OR anthropometry OR "body composition" OR BMI OR "body 
+mass index" OR WHR OR WHtR OR ABSI OR BRI OR VAI OR CI OR FFMI OR FFM OR 
+FM% OR somatotype OR "body adiposity index" OR "fat mass" OR "fat-free mass" OR 
+"skeletal muscle mass") AND ("sports science" OR athletes OR "physical performance" OR 
+exercise OR nutrition OR health OR "health assessment" OR "metabolic health" OR 
+"cardiometabolic risk") 
+In addition, the reference lists of relevant articles were manually screened to identify 
+potentially eligible studies not retrieved through electronic database searches. 
+Eligibility Criteria 
+The inclusion and exclusion criteria applied for the selection of the studies in this review were 
+established to ensure the relevance, methodological quality, and scientific consistency of the literature 
+included in the analysis. Table 1 presents the detailed inclusion and exclusion criteria. 
+Table 1: The inclusion and exclusion criteria 
+Inclusion Criteria 
+Exclusion Criteria 
+Studies published between January 2020 and 
+April 2026 
+Studies published before January 2020 
+Articles written in English 
+Articles published in languages other than 
+English 
+Peer-reviewed publications 
+Conference abstracts, editorials, letters to 
+the editor, commentaries, books, theses, 
+and unpublished reports 
+Original research articles, systematic reviews, 
+and meta-analyses 
+Duplicate publications 
+
+============================================================
+PAGE 8
+============================================================
+6 
+ 
+Studies evaluating anthropometric parameters, 
+body 
+composition 
+indicators, 
+nutritional 
+assessment, sports performance, or health-
+related outcomes 
+Studies 
+focused 
+exclusively 
+on 
+biochemical, pharmacological, genetic, or 
+molecular 
+outcomes 
+unrelated 
+to 
+anthropometry 
+Studies involving athletes, physically active 
+individuals, adolescents, adults, older adults, or 
+clinical populations 
+Animal studies, in vitro studies, and studies 
+unrelated to anthropometric assessment 
+Studies 
+reporting 
+measurement 
+methods, 
+predictive 
+equations, 
+reference 
+values, 
+validation procedures, or health/performance 
+outcomes 
+Studies with insufficient methodological 
+information or unavailable full text 
+ 
+Study Selection Process 
+The study selection process was performed according to PRISMA 2020 recommendations. 
+All retrieved references were exported to Zotero reference management software. Duplicate 
+records were identified and removed using both automated and manual procedures. 
+The screening process consisted of two sequential phases: 
+Title and Abstract Screening: Titles and abstracts were independently screened to assess their 
+relevance to the review objectives according to the predefined eligibility criteria. 
+Full-Text Assessment: Potentially eligible articles were retrieved and evaluated in full text to 
+confirm their eligibility for inclusion. 
+Any discrepancies encountered during the selection process were resolved through discussion 
+and consensus. 
+A total of 855 records were identified through database searching. After removal of duplicates 
+(n = 183), 672 records were screened based on titles and abstracts. At this stage, 373 records 
+were excluded. Subsequently, 299 full-text articles were assessed for eligibility. Of these, 90 
+studies were excluded for the following reasons: not meeting inclusion criteria related to 
+population, outcomes, or study design. Finally, 209 studies were included in the qualitative 
+synthesis. 
+
+============================================================
+PAGE 9
+============================================================
+7 
+ 
+The study selection procedure is illustrated in the PRISMA flow diagram (Figure 1). 
+ 
+Figure 1: Summary of the search and screening methods implemented in this systematic review. 
+Data Extraction 
+Data extraction was performed using a standardized extraction form developed specifically for 
+this review. The following information was collected from each eligible study: the author(s) 
+and year of publication, country of study, study design, population characteristics, sample size, 
+anthropometric parameters investigated, body composition indicators assessed, measurement 
+techniques used, reference values and cut-off points, main outcomes related to physical 
+performance, nutrition, metabolic health, and health assessment, as well as the principal 
+conclusions reported by the authors.Methodological Quality Assessment and Risk of Bias 
+The methodological quality and risk of bias of the included studies were evaluated using the 
+Joanna Briggs Institute (JBI) Critical Appraisal Tools, according to the study design. 
+Data synthesis 
+Data synthesis was conducted using a narrative systematic approach due to the substantial 
+heterogeneity observed across the included studies in terms of study design, population 
+characteristics, anthropometric indicators, outcome measures, and reporting methods, which 
+precluded the performance of a quantitative meta-analysis. The selected studies were classified 
+into several thematic categories, including traditional anthropometric indicators (body mass 
+index, waist circumference, waist-to-hip ratio, and waist-to-height ratio), novel adiposity and 
+cardiometabolic risk indices (body adiposity index, body roundness index, a body shape index, 
+
+============================================================
+PAGE 10
+============================================================
+8 
+ 
+visceral adiposity index, and conicity index), body composition parameters (body fat 
+percentage, fat-free mass, fat-free mass index, and body mass fat ratio), and advanced 
+anthropometric assessment methods such as somatotyping, Phantom Z-scores, and skeletal 
+muscle mass indicators. The evidence was synthesized and critically interpreted according to 
+measurement methodologies, reference values and cut-off points, validation procedures, and 
+their applications in sports sciences, nutrition, physical performance evaluation, metabolic 
+health, and general health assessment. This thematic synthesis facilitated the identification of 
+methodological trends, strengths, limitations, and emerging perspectives in contemporary 
+anthropometric research. 
+Results and Discussion 
+General Body Dimensions 
+Stature (Height) and Body Mass 
+Stature (height) is the vertical distance from the vertex of the head to the ground in an upright standing 
+position, and represents a key anthropometric parameter for assessing growth, nutritional status, and 
+overall health 17. Stature is measured using a stadiometer under standardized conditions 17. The stature 
+can also be estimated by regression models based on alternative anthropometric parameters such as long 
+bones, vertebral dimensions, or limb lengths 18. 
+Body mass corresponds to the total mass of the individual and integrates fat mass, lean mass, bone mass, 
+and body water. In sport, it is interpreted in relation to stature and body composition. This parameter is 
+measured using a calibrated digital or beam balance scale. Subjects wear light clothing and no shoes, 
+and measurements are typically recorded to the nearest 0.1 kg under standardized conditions 1. 
+Arm Span 
+Arm span is the linear distance between the tips of the middle fingers when both arms are fully extended 
+horizontally at shoulder level. It is a key anthropometric parameter widely used as a reliable proxy for 
+stature, particularly in situations where direct height measurement is difficult or impossible 19. Arm 
+span is a stable body dimension, that have a strong positive correlation with height across different 
+populations, making it highly valuable in clinical, nutritional studies 20. 
+Arm span is measured using a flexible or rigid measuring tape under standardized conditions. 
+The subject stands upright with the back against a wall, arms extended laterally at shoulder 
+height (90° abduction), elbows fully extended, and palms facing forward (Cherif et al., 2022). 
+The measurement is taken from the tip of the middle finger of one hand to that of the opposite 
+
+============================================================
+PAGE 11
+============================================================
+9 
+ 
+hand, ensuring that both arms are aligned horizontally and symmetrically. The value is recorded 
+to the nearest 0.1 cm. Arm span is frequently used in predictive regression models for 
+estimating height and body mass index (BMI) across diverse populations (Oghenemavwe et 
+al., 2024). 
+Body Circumferences (Girths) 
+Waist Circumference (WC) 
+Waist Circumference (WC) is the horizontal measurement of abdominal girth at a standardized 
+anatomical level. It reflects central (visceral) adiposity, which is strongly associated with 
+cardiometabolic risks such as type 2 diabetes, hypertension, and other metabolic syndromes. Also, WC 
+provides a more accurate assessment of fat distribution, particularly abdominal fat accumulation 21,22.  
+The measurement of WC must follow a standardized protocol to ensure reliability. The subject stands 
+upright with feet together, arms relaxed, and abdomen relaxed. A flexible, non-elastic measuring tape 
+is placed horizontally around the abdomen at the midpoint between the lowest rib and the iliac crest , at 
+the end of a normal expiration 23 or at the iliac crest level depending on the protocol. The tape should 
+be snug but not compress the skin, and the measurement is taken at the end of a normal expiration. The 
+value is recorded to the nearest 0.1 cm. Proper training of the assessor and consistency in anatomical 
+landmarks are essential to minimize measurement variability 24,25. Table 2 shows the Waist 
+Circumference Cut-off Values   
+Table 2: Table: Waist Circumference Cut-off Values22,26   
+Category 
+Men (cm) Women (cm) 
+Normal (low risk) 
+< 94 
+< 80 
+Increased risk 
+94 -101 
+80 -87 
+Substantially increased risk ≥ 102 
+≥ 88 
+ 
+Hip Circumference (HC) 
+This anthropometric parameter is defined as the maximum circumference measured around the buttocks 
+at the level of the greatest gluteal protuberance. It reflects peripheral fat distribution and gluteofemoral 
+muscle mass and is widely used in the assessment of body composition and cardiometabolic risk, 
+particularly when combined with other indices such as the waist-to-hip ratio 27,28. 
+
+============================================================
+PAGE 12
+============================================================
+10 
+ 
+HC is measured according to standardized anthropometric protocols. The subject stands upright in a 
+relaxed position, with feet together or slightly apart and body weight evenly distributed. A non-elastic 
+measuring tape, preferably with constant tension, is placed horizontally around the hips at the level of 
+the widest portion of the buttocks. The tape must be snug without compressing the soft tissues and 
+maintained parallel to the floor. The measurement is typically recorded at the end of a normal expiration 
+to ensure consistency. At least two measurements are taken, and the mean value is retained for 
+analysis29,30. 
+Standardized measurement conditions, including light clothing, proper posture, and a private 
+examination setting, are recommended to minimize operator-dependent variability and improve 
+measurement accuracy 29,31. Table 3 resume the Standard Hip Circumference (HC) Values 
+Table 3: Standard Hip Circumference (HC) Values 
+Hip Circumference (HC) 
+Context 
+Women 
+(cm) 
+Men 
+(cm) 
+Population / Interpretation 
+References 
+Elite soccer players  
+94.5-100.7 
+93.0-
+99.6 
+Elite athletes 
+32 
+General healthy adults 
+~90-100 
+~92-98 
+Normal adiposity distribution, lower 
+cardiometabolic risk 
+27,33,34 
+Higher HC  
+>110 
+>105 
+Increased adiposity and obesity indices  22,30 
+ 
+Overall, anthropometric assessment begins with fundamental body dimensions such as stature, body 
+mass, and arm span, which collectively form the basis for morphological and functional evaluation in 
+sports science and health research 1,17. 
+Stature remains one of the most widely used anthropometric variables due to its strong association with 
+genetic growth potential, skeletal development, and sport-specific performance advantages. It is 
+particularly relevant in sports where leverage, reach, and biomechanical efficiency play a determining 
+role, such as basketball and volleyball. However, its interpretation must consider biological variability 
+and environmental influences, including nutrition and developmental conditions 35 
+Body mass, when interpreted in isolation, provides limited information regarding body composition, as 
+it integrates fat mass, lean mass, bone, and water compartments. Therefore, its relevance increases when 
+combined with stature and body composition indicators to assess relative body size and performance 
+potential1. 
+Arm span has emerged as a reliable surrogate of stature, particularly in populations where direct height 
+measurement is not feasible. Its strong correlation with height and relative stability across aging 
+
+============================================================
+PAGE 13
+============================================================
+11 
+ 
+processes make it useful in both clinical and sports contexts 19,20. However, inter-individual variability 
+suggests that population-specific regression models are required for accurate prediction. 
+These primary anthropometric dimensions represent the structural foundation for all derived indices. 
+Nevertheless, their isolated use is insufficient for accurate physiological interpretation, which justifies 
+the development of composite anthropometric indices. 
+Upper Arm Circumference (Relaxed and Flexed) 
+According to the International Society for the Advancement of Kinanthropometry (ISAK) standards, 
+upper arm circumference is measured at the midpoint between the acromion and olecranon processes, 
+previously identified and marked with the arm relaxed. In the relaxed condition (RUAC), the subject 
+stands in the anatomical position with the arm hanging freely at the side, muscles fully relaxed. A non-
+elastic anthropometric tape is positioned perpendicular to the long axis of the arm at the marked 
+midpoint, ensuring it is snug without compressing the soft tissues and remains horizontal. The 
+measurement is recorded to the nearest 0.1 cm, typically in duplicate or triplicate, with the mean or 
+median retained. This measure reflects total upper arm girth, integrating muscle, subcutaneous fat, and 
+bone, and is widely used in sports science to monitor body composition and nutritional status 36–38. 
+In the flexed and tensed condition (FUAC), the subject raises the arm and flexes the elbow to 
+approximately 90°, performing a maximal voluntary contraction of the biceps. The circumference is 
+measured at the same anatomical level or at the point of maximal girth if slightly displaced during 
+contraction, following standardized protocols.  
+The difference between flexed and relaxed values (ΔAC = FUAC − RUAC) is often used in sports 
+science as an indicator of muscle development and contractile capacity 39,40. Furthermore, when 
+combined with triceps skinfold thickness (TSF), MUAC allows estimation of muscle and fat 
+compartments using equations such as AMC = MUAC − (π × TSF) and UAMA = [MUAC − (π × TSF)]² 
+/ (4π), which are widely applied to assess hypertrophy and training adaptations in athletic populations 
+37,41,42. The table 4: indicates the Upper Arm Anthropometry Variables and standard values 
+Table 4: Upper Arm Anthropometry Variables 
+Variable 
+Definition 
+/ 
+Formula 
+Physiological 
+Meaning 
+Normal 
+Population 
+Athletes  
+References 
+MUAC (Mid-
+Upper Arm 
+Circumference) 
+Circumference at 
+midpoint 
+(acromion–
+olecranon) 
+Overall arm size 
+(muscle + fat + 
+bone) 
+Men: 25–32 
+cm | Women: 
+23–30 cm 
+Men: 30–
+38+ cm | 
+Women: 
+26–34+ 
+cm 
+37,38 
+ 
+RUAC (Relaxed 
+Upper Arm 
+Circumferenceà 
+Measured 
+with 
+arm relaxed 
+Baseline 
+arm 
+girth 
+Similar 
+to 
+MUAC 
+Slightly 
+higher 
+36 
+
+============================================================
+PAGE 14
+============================================================
+12 
+ 
+than 
+normal 
+FUAC ‘Flexed 
+Upper Arm 
+Circumferenceà 
+Measured 
+with 
+elbow at ~90° 
+and 
+biceps 
+contracted 
+Maximum 
+muscle girth 
++1 to +3 cm 
+vs RUAC 
++3 to +6+ 
+cm 
+vs 
+RUAC 
+39,42 
+ΔAC (Arm 
+Circumference 
+Difference) 
+FUAC − RUAC 
+Muscle 
+contractility and 
+functional 
+development 
+1–3 cm 
+3–6+ cm 
+ 
+40 
+TSF (Triceps 
+Skinfold 
+Thickness) 
+Skinfold 
+at 
+triceps (mm) 
+Subcutaneous 
+fat reserve 
+Men: 
+8–20 
+mm 
+| 
+Women: 15–
+30 mm 
+Men: 5–12 
+mm \ 
+43 
+ 
+Thigh Circumference (TC) 
+Thigh circumference (TC) is commonly used to assess lower-limb muscle mass, fat distribution, and 
+functional symmetry. This parameter is particularly valuable in clinical and sports settings for 
+evaluating quadriceps muscle development, sarcopenia, rehabilitation progress, and musculoskeletal 
+function 28,44 . In sports science, TC is also applied to monitor training adaptations and detect limb 
+asymmetries, especially after injury or during recovery processes 45 
+Thigh circumference is measured according to standardized anthropometric procedures. The subject 
+stands upright with body weight evenly distributed and thigh muscles relaxed. A non-elastic flexible 
+measuring tape is placed horizontally around the thigh, perpendicular to its longitudinal axis, ensuring 
+that the tape fits snugly without compressing the soft tissues. Measurement sites may vary depending 
+on the purpose of the assessment. In general anthropometry, the circumference is often measured at the 
+mid-thigh, located halfway between the inguinal crease and the proximal border of the patella. In 
+clinical and rehabilitation settings, a fixed-distance method, commonly 10 cm above the patella, is 
+frequently preferred because of its high reproducibility 45,46. To improve reliability, measurements are 
+generally performed two or three times, and the mean value is recorded. The Thigh Circumference 
+references values and interpretation are presented in Table 5. 
+Table 5: Thigh Circumference references values and interpretation 
+Category 
+Thigh Circumference (cm) 
+Interpretation 
+References 
+Low 
+< 50 (men) | < 45 (women) 
+Possible 
+low 
+muscle mass / 
+sarcopenia risk, reduced functional 
+capacity 
+28 
+
+============================================================
+PAGE 15
+============================================================
+13 
+ 
+Normal 
+50–60 
+(men) 
+| 
+45–55 
+(women) 
+Typical general population values, 
+reflecting balanced muscle and fat 
+mass 
+28,44 
+Athletes 
+60–70+ (men) | 55–65+ 
+(women) 
+Increased muscle development, 
+adaptation to training stimuli 
+44,45 
+High-
+performance 
+athletes 
+> 70 (men) | > 65 (women) 
+High muscle hypertrophy, typical 
+in strength and power sports 
+44  
+ 
+ Calf Circumference 
+Calf circumference (CC) is defined as the maximum girth of the lower leg, commonly used as a 
+surrogate marker of skeletal muscle mass. It is particularly valuable in clinical and epidemiological 
+settings for the assessment of sarcopenia, malnutrition, and functional decline, especially in older adults. 
+Evidence shows that CC correlates positively with skeletal muscle mass, physical performance, and 
+overall health outcomes, including morbidity and mortality risk 47–49. Due to its simplicity, low cost, 
+and non-invasive nature, CC is widely recommended when advanced body composition techniques such 
+as DXA or BIA are not accessible 28,50. 
+The measurement of calf circumference is conducted by a flexible, non-stretchable measuring tape. The 
+subject should be either seated with the knee at approximately 90° or standing with weight evenly 
+distributed and muscles relaxed. The tape is placed horizontally around the calf at the point of maximum 
+circumference, which is identified visually or by moving the tape along the calf to locate the largest 
+girth. The measurement should be recorded to the nearest 0.1 cm without compressing the skin. It is 
+generally recommended to measure the non-dominant leg and to take at least two readings to ensure 
+reliability 47,49,51. The Table 6 presents Calf Circumference Cut-off Values. 
+Table 6: Calf Circumference Cut-off Values 
+Population / Context 
+Cut-off value 
+Interpretation 
+References 
+Older adults (general) 
+< 31 cm 
+Indicative of low muscle 
+mass / sarcopenia 
+49 
+Community-dwelling 
+elderly 
+< 33–34 cm 
+Risk of malnutrition 
+51 
+Clinical 
+screening 
+(sex-
+specific) 
+Men: < 34 cm / 
+Women: < 33 cm 
+Low skeletal muscle mass 
+47 
+
+============================================================
+PAGE 16
+============================================================
+14 
+ 
+Epidemiological studies 
+Population-specific 
+thresholds 
+Predictor of mortality and 
+adverse outcomes 
+48,50 
+ 
+  
+ 
+ 
+Although circumferences are simple and cost-effective, their interpretative power significantly 
+increases when corrected for adiposity (skinfolds), highlighting the importance of combined 
+anthropometric modeling. 
+ Bone Breadths 
+Biacromial Breadth 
+Biacromial breadth (BAB), also referred to as shoulder breadth, is a transverse anthropometric 
+parameter defined as the maximum horizontal distance between the two acromial processes of the 
+scapula. It represents the width of the shoulders and is widely used as an indicator of body frame size, 
+upper body morphology, and physical performance potential. This parameter has been shown to 
+correlate with stature, muscular development, and athletic performance in various populations, 
+particularly in sports sciences and anthropometric profiling studies52–54. Additionally, biacromial 
+breadth is considered a key skeletal dimension in evaluating body proportionality and is frequently 
+included in models predicting body size and composition 55,56. 
+The measurement of biacromial breadth is performed using an anthropometer following standardized 
+anthropometric procedures. The subject should stand upright in the anatomical position, with arms 
+relaxed at the sides. The examiner palpates and identifies the lateral-most points of the acromion 
+processes on both shoulders. The anthropometer branches are then placed horizontally across these 
+points, ensuring that the instrument is perpendicular to the longitudinal axis of the body. The 
+measurement is recorded to the nearest 0.1 cm, avoiding compression of soft tissues. This method 
+ensures high reliability and reproducibility when conducted by trained personnel57,58. Table 7 show the 
+Reference Values of Biacromial Breadth 
+Table 7: Reference Values of Biacromial Breadth 
+Population / Group 
+Mean ± SD (cm) 
+Interpretation 
+Reference 
+Adult males (general 
+population) 
+38 – 42 
+Normal shoulder width 
+53 
+Adult females (general 
+population) 
+34 – 38 
+Normal shoulder width 
+53 
+
+============================================================
+PAGE 17
+============================================================
+15 
+ 
+Male 
+athletes 
+(e.g., 
+wrestlers) 
+40 – 45 
+Broad 
+shoulders, 
+athletic 
+advantage 
+58 
+Volleyball 
+female 
+students 
+~39.6 
+Above-average 
+shoulder 
+breadth 
+59 
+ 
+Adolescent 
+male 
+swimmers 
+Higher than non-
+athletes 
+Associated with performance 60 
+. 
+Bi-iliac Breadth 
+Bi-iliac breadth (BIB), also known as maximum pelvic breadth, is an important transverse 
+anthropometric parameter defined as the maximum horizontal distance between the most lateral points 
+of the iliac crests of the pelvis. It reflects pelvic width and is widely used in anthropometry, forensic 
+science, and sports sciences to assess body proportions, sexual dimorphism, and body mass 
+relationships. This parameter is strongly associated with overall body size and composition and is 
+frequently included in predictive models of body mass and morphological variation 61,62. Moreover, bi-
+iliac breadth is considered a key skeletal dimension in evaluating pelvic structure and has been linked 
+to physiological and functional outcomes such as thermoregulation and locomotor efficiency 63,64. 
+The measurement of bi-iliac breadth is performed using a large sliding caliper or an anthropometer, 
+following standardized anthropometric procedures. The subject stands upright with feet together and 
+body weight evenly distributed. The examiner palpates the most lateral prominences of the iliac crests 
+and places the caliper tips on these anatomical landmarks, ensuring proper alignment in the coronal 
+(horizontal) plane. In some protocols, the caliper may be slightly angled (approximately 45°) to 
+accurately capture the most lateral points of the pelvis. The measurement is recorded to the nearest 0.1 
+cm without compressing the soft tissues, ensuring accuracy, reliability, and reproducibility 65,66. 
+Reference Values of Bi-iliac Breadth are listed in Table 8. 
+Table 8: Reference Values of Bi-iliac Breadth 
+Mean ± 
+SD (cm) 
+Population / Group 
+Interpretation 
+Reference 
+26 - 30 
+Adult males (general population) 
+Normal pelvic width 
+61 
+28 - 32 
+Adult females (general population) 
+Wider 
+pelvis 
+(sexual 
+dimorphism) 
+62 
+22.02 ± ~2 Nigerian adult males 
+Population-specific mean 
+67 
+
+============================================================
+PAGE 18
+============================================================
+16 
+ 
+Variable 
+(higher 
+values) 
+Athletes (e.g., wrestlers/boxers) 
+Linked to performance traits 
+58 
+Moderate-
+high 
+Swimmers / handball players 
+Influences 
+hydrodynamics/performance 
+68 
+ 
+ Humeral Breadth 
+Humerus breadth (biepicondylar humerus breadth) is the distance between the medial and lateral 
+epicondyles of the humerus, used to assess skeletal frame size, upper-limb robustness, and 
+musculoskeletal development 69,70. The humerus is a key long bone of the upper limb involved in force 
+transmission and functional movement, making this measurement relevant in sports sciences, nutrition, 
+and health assessment 71. 
+In sports contexts, higher humerus breadth values are generally associated with greater upper-body 
+strength, throwing performance, and sport-specific skeletal adaptation, particularly in handball, 
+climbing, wrestling, and combat sports 72,73. In contrast, endurance athletes typically show moderate 
+values reflecting balanced musculoskeletal development 74. 
+From a health and nutrition perspective, humerus breadth reflects bone robustness and body frame size, 
+where lower values may indicate undernutrition, reduced physical activity, sarcopenia, or age-related 
+bone loss, while higher values suggest better skeletal health and adequate nutritional status 75,76. 
+The measurement is performed using a sliding caliper with the elbow flexed at 90°, placing the 
+instrument across the medial and lateral epicondyles, and recording the distance in cm or mm with high 
+precision 69,77.  Standard values and interpretation of humerus breadth are indicated in Table 9.  
+Table 9:  Standard values and interpretation of humerus breadth 
+Population 
+Values 
+Interpretation 
+References 
+Adult females 
+6.0-7.0 cm 
+Normal 
+skeletal 
+frame 
+size; 
+possible 
+smaller 
+frame 
+or 
+reduced 
+musculoskeletal 
+development 
+69,76 
+Adult males 
+6.8-8.0 cm 
+Typical 
+male 
+skeletal 
+robustness and upper-limb 
+strength 
+76,78 
+
+============================================================
+PAGE 19
+============================================================
+17 
+ 
+Power/strength 
+athletes 
+(wrestling, 
+climbing, 
+combat sports) 
+>7.5 cm 
+High skeletal adaptation 
+due to chronic mechanical 
+loading 
+and 
+strength 
+demands 
+72,78,79 
+ 
+Handball 
+/ 
+throwing 
+athletes 
+>7.0 cm 
+Upper-limb 
+power, 
+throwing 
+performance, 
+and bone robustness 
+73,80 
+Endurance athletes (soccer, 
+running) 
+6.5-7.5 cm 
+Balanced musculoskeletal 
+development 
+and 
+lean 
+body composition 
+74,81 
+ 
+ 
+Femoral Breadth 
+Femoral breadth, also referred to as biepicondylar femur breadth or femoral epicondylar breadth, is an 
+anthropometric parameter defined as the maximum distance between the medial and lateral epicondyles 
+of the distal femur. It represents the transverse width of the knee region and is widely used in 
+anthropometry, sports science, and forensic studies to assess skeletal robustness, body frame size, and 
+biomechanical characteristics. This measurement is strongly associated with physical performance, 
+body composition, and skeletal geometry, and it is frequently used in studies involving athletes and 
+clinical populations 82,83. Femoral breadth is also an important variable in evaluating musculoskeletal 
+development and can reflect differences in growth, nutrition, and training adaptations 84,85. 
+The measurement of femoral breadth is performed using a sliding caliper according to standardized 
+anthropometric protocols. The subject is seated or lying supine with the knee flexed at approximately 
+90 degrees, allowing easy access to the distal femur. The examiner palpates the most prominent points 
+of the medial and lateral epicondyles of the femur and places the caliper tips on these anatomical 
+landmarks. The instrument is positioned perpendicular to the long axis of the femur to ensure accurate 
+alignment. The measurement is recorded to the nearest 0.1 cm without compressing soft tissues, 
+ensuring precision, reliability, and reproducibility 77,82. Table 10 resume the Reference Values of 
+Femoral Breadth 
+Table 10:  Reference Values of Femoral Breadth 
+Population / Group 
+Standards 
+values 
+Interpretation 
+Reference 
+Adult 
+males 
+(general 
+population) 
+8 -10 
+Larger skeletal robustness 
+85 
+
+============================================================
+PAGE 20
+============================================================
+18 
+ 
+Adult females (general 
+population) 
+7 - 9 
+Slightly smaller than males 
+85 
+Athletes 
+(e.g., 
+soccer, 
+rugby) 
+Higher values 
+Associated with performance 
+and strength 
+86 
+ 
+Adolescents / growing 
+athletes 
+Variable 
+Reflects growth and maturation 
+84 
+Elite sports populations 
+Often 
+increased 
+Adaptation to training loads 
+83 
+ 
+Globally, Bone breadths represent relatively stable anthropometric markers, less influenced by 
+short-term training or nutrition, making them particularly useful for long-term morphological 
+profiling87. 
+Skinfold thickness 
+Skinfold thickness is a widely used anthropometric method for estimating body composition, 
+particularly body fat percentage, in sports, clinical, and nutritional contexts. It is considered a practical 
+and non-invasive field method, commonly applied using standardized calipers and validated equations 
+to assess subcutaneous fat. Recent studies confirm its relevance and continued use in athlete monitoring 
+and nutritional assessment, while also highlighting its strong agreement with reference methods such 
+as multi-compartment models and DXA 88–91. 
+Moreover, skinfold thickness is a key tool in sports science for tracking training-induced changes in 
+body composition and evaluating nutritional interventions, especially in elite and highly trained 
+populations 92–94. However, its accuracy depends on several factors including the evaluator’s expertise, 
+the choice of prediction equations, and the specific population studied, emphasizing the importance of 
+standardized protocols and trained personnel 82,95. Table 11 show Normative values of skinfold 
+thickness in adults and athletes. 
+Table 11: Normative values of skinfold thickness in adults and athletes 
+Skinfold 
+sum (mm) 
+Body fat (%) 
+Population 
+Interpretation 
+References 
+< 
+60-80 
+mm 
+5-12% 
+Elite 
+male 
+athletes  
+Very low / optimal 
+for performance 
+89,90 
+70-100 mm 12-20% 
+Elite 
+female 
+athletes) 
+Low / optimal 
+90,92 
+
+============================================================
+PAGE 21
+============================================================
+19 
+ 
+60-120 mm 10-20% 
+Active 
+adults 
+(men) 
+Normal / healthy 
+88,91 
+90-150 mm 18-28% 
+Active 
+adults 
+(women) 
+Normal / healthy 
+88,94 
+120-180 
+mm 
+18-25% 
+General 
+population 
+(men) 
+Average 
+82,95 
+150–-mm 
+25-35% 
+General 
+population 
+(women) 
+Average 
+82,93 
+> 180-220 
+mm 
+> 25% (men) / 
+> 
+35% 
+(women) 
+Overfat 
+/ 
+obesity risk 
+High adiposity / risk 
+88,92 
+ 
+In the study conducted by 96, the authors measured 10 skinfold using standard anthropometric calipers 
+including, Triceps skinfold, Biceps skinfold, Subscapular skinfold, Suprailiac (iliac crest) skinfold, 
+Abdominal skinfold, Mid-axillary skinfold, Chest (pectoral) skinfold, Thigh skinfold, Calf skinfold and 
+Chin (submental) skinfold 96 
+Furthermore, Skinfold thickness remains one of the most widely used field methods for estimating 
+subcutaneous fat and total body fat percentage. Despite the emergence of advanced imaging techniques 
+such as DXA and BIA, skinfold measurements remain highly relevant in sports science due to their 
+practicality and cost-effectiveness88,89. However, accuracy is highly dependent on the evaluator 
+expertise, site standardization and  population-specific prediction equations. While skinfolds provide 
+valuable longitudinal monitoring data, their limitations in obese and highly muscular populations 
+require cautious interpretation. 
+ 
+Anthropometric Indices 
+Body mass index (BMI) 
+Body mass index (BMI) is a simple anthropometric index commonly used to classify underweight, 
+normal weight, overweight, and obesity in epidemiological and clinical studies due to its simplicity, 
+low cost, and practicality 97.  
+Body Mass Index (BMI) is calculated using the following equation: 
+BMI = Body Weight (kg)
+Height2(݉)2
+ 
+
+============================================================
+PAGE 22
+============================================================
+20 
+ 
+According to the World Health Organization classification, BMI values are interpreted as follows: 
+underweight (<18.5 kg/m²), normal weight (18.5-24.9 kg/m²), overweight (25.0-29.9 kg/m²), and 
+obesity (≥30.0 kg/m²) 24. 
+Waist-to-Hip Ratio (WHR) 
+This anthropometric index is used to assess body fat distribution and central obesity. It is a key indicator 
+of abdominal adiposity, as it reflects visceral fat accumulation, which is strongly associated with 
+metabolic disorders such as diabetes, hypertension, and cardiovascular diseases. 98,99. 
+WHR is calculated using the following equation: 
+ܹܪܴ= Waist Circumference (cm)
+Hip Circumference (cm)  
+According to commonly accepted standards of the World Health Organization, WHR values 
+indicating increased health risk are >0.90 for men and >0.85 for women. Values below these 
+thresholds are generally considered within the normal range, whereas higher values are 
+associated with elevated risks of obesity-related cardiometabolic complications in adults 
+(Destra et al., 2023; Kułaga et al., 2023; F.-L. Zhang et al., 2021). 
+Waist-to-Height Ratio (WHtR) 
+The Waist-to-Height Ratio (WHtR) reflects central fat accumulation relative to stature and is considered 
+a simple and sensitive indicator of health risk such as hypertension, diabetes, metabolic syndrome, and 
+cardiovascular diseases, often outperforming BMI or waist circumference alone in predicting metabolic 
+syndrome and cardiovascular diseases 100.  WHtR takes body stature into account and may provide 
+better sensitivity for detecting central adiposity across different sexes and ethnic groups 101–103. 
+Both measurements are expressed in centimeters, and WHtR is obtained by dividing waist 
+circumference by height 27,103. 
+WHtR = ܹܽ݅ݏݐ ܥ݅ݎܿݑ݂݉݁ݎ݁݊ܿ݁
+ܪ݁݅݃ݐ
+ 
+Table 12 presents the Standard Values and Interpretation of WHtR in sport, nutrition and health 
+assessment. 
+Table 12: Standard Values and Interpretation of WHtR 
+
+============================================================
+PAGE 23
+============================================================
+21 
+ 
+WHtR level 
+Population / Context 
+Interpretation in sport, nutrition 
+& health 
+Key references 
+< 0.40 
+Lean athletic populations 
+Very low central fat; common in 
+endurance 
+athletes; 
+high 
+metabolic efficiency 
+104 
+0.40–0.49 
+Healthy adults / athletes 
+Normal fat distribution; optimal 
+cardiometabolic profile 
+102,103 
+≥ 0.50 
+General population (cut-
+off) 
+Increased cardiometabolic risk 
+(visceral adiposity, metabolic 
+syndrome risk) 
+105 
+0.50–0.59 
+Overweight / recreational 
+athletes 
+with 
+fat 
+accumulation 
+Moderate abdominal obesity; 
+reduced metabolic fitness 
+104 
+≥ 0.60 
+Obese 
+/ 
+high-risk 
+individuals 
+High 
+cardiometabolic 
+and 
+cardiovascular risk  
+105 
+ 
+The Waist-to-Height Ratio (WHtR) is globally applicable indicator of central obesity, with strong 
+predictive value for cardiometabolic outcomes such as hypertension and metabolic syndrome 105. This 
+makes it particularly useful in sports science, nutritional assessment, and public health screening. A 
+widely accepted public health guideline recommends “keeping your waist circumference to less than 
+half your height” 102. 
+Body Adiposity Index (BAI) 
+The Body Adiposity Index (BAI) is an anthropometric indicator used to estimate body fat percentage. 
+It has been proposed as an alternative to BMI for evaluating body adiposity and metabolic risk, although 
+its accuracy varies across populations 100,106,107. 
+BAI is calculated as follows: 
+ܤܣܫ= ܪ݅݌ Circumference (cm)
+(ܪ݁݅݃ℎݐ(݉)1.5
+−18 
+BAI has shown moderate correlation with DXA-derived fat mass in different populations 33,108.  
+There is no universally standardized of BAI classification Values; however, recent studies commonly 
+use the following interpretative ranges for adults (Table 13). 
+Table 13: Standard Values and Interpretation of BAI 
+
+============================================================
+PAGE 24
+============================================================
+22 
+ 
+Classification 
+Women (%) 
+Men (%) 
+References 
+Low adiposity 
+< 21 
+< 8 
+106,107 
+Normal range 
+21–33 
+8–21 
+107,108 
+Overweight 
+33–39 
+21–26 
+100,107 
+Obesity 
+> 39 
+> 26 
+33,106 
+ 
+ 
+BAI has been validated against DXA-derived body fat measurements and is used as a complementary 
+index to BMI or WHR 100,109. 
+BRI (Body Roundness Index)  
+Body Roundness Index (BRI) is a novel anthropometric indicator developed to estimate body fat 
+distribution and visceral adiposity using waist circumference and height. It provides a geometric 
+estimation of body roundness and abdominal fat accumulation, making it a useful predictor of 
+cardiometabolic risk and metabolic syndrome 110. BRI has been shown to correlate strongly with 
+visceral adipose tissue, insulin resistance, hypertension, and metabolic syndrome 111,112. 
+BRI is calculated using this mathematical formula:  
+ܤܴܫ= 364.2 −365.5 × √1 −(
+(WC
+2ߨ)
+2
+(0.5 × ܪ)2) 
+where WC and H are expressed in meters 111. 
+Higher BRI values indicate greater abdominal adiposity and elevated cardiometabolic risk (Table 14). 
+Several studies reported that BRI performs similarly or better than BMI and waist-to-height ratio for 
+predicting metabolic syndrome and cardiovascular risk factors 112,113. 
+Table 14: Standard Values of Body Roundness Index (BRI) 
+BRI Value 
+Interpretation 
+Clinical Significance 
+Reference 
+< 3.41 
+Low body fat / underweight 
+tendency 
+Low cardiometabolic risk 
+111 
+3.41-4.45 
+Normal adiposity 
+Healthy body fat distribution 
+110 
+4.46-5.46 
+Overweight 
+Increased 
+abdominal 
+fat 
+accumulation 
+114 
+
+============================================================
+PAGE 25
+============================================================
+23 
+ 
+> 5.46 
+Obesity 
+/ 
+high 
+visceral 
+adiposity 
+Elevated risk of metabolic 
+syndrome and cardiovascular 
+disease 
+112 
+≥ 6.0 
+Severe obesity risk 
+Strong predictor of insulin 
+resistance 
+and 
+metabolic 
+abnormalities 
+111 
+ 
+ Visceral Adiposity Index (VAI) 
+The Visceral Adiposity Index (VAI) is a specific mathematical model used to estimate visceral fat 
+distribution and adipose tissue dysfunction by integrating both anthropometric and metabolic 
+parameters106 , including waist circumference (WC), body mass index (BMI), triglycerides (TG), and 
+high-density lipoprotein cholesterol (HDL-C). VAI is considered a practical surrogate marker of 
+visceral adiposity and cardiometabolic risk in clinical nutrition, sports sciences, and epidemiological 
+research 115,116. It is particularly useful in sports and nutrition health because it reflects not only body 
+fat accumulation but also metabolic alterations associated with insulin resistance and metabolic 
+syndrome. 
+The VAI is calculated differently for men and women using the following equations: 
+For men  
+VAI = (
+ܹܥ
+39.68 + (1.88 × ܤܯܫ)) × ( TG
+1.03) + (1.31
+ܪܦܮ) 
+For women 
+VAI = (
+ܹܥ
+39.58 + (1.89 × ܤܯܫ)) × ( TG
+0.81) + (1.52
+ܪܦܮ) 
+ 
+Where: 
+• 
+WC = waist circumference (cm)  
+• 
+BMI = body mass index (kg/m²)  
+• 
+TG = triglycerides (mmol/L)  
+• 
+HDL = HDL-cholesterol (mmol/L)  
+
+============================================================
+PAGE 26
+============================================================
+24 
+ 
+Blood triglycerides and HDL-cholesterol are determined from fasting venous blood samples using 
+biochemical assays 115,117. 
+VAI values close to 1.0 are considered metabolically healthy, whereas higher values indicate increased 
+visceral fat accumulation and elevated cardiometabolic risk. In sports sciences and nutritional 
+assessment, VAI is increasingly used to monitor metabolic health, body composition quality, and 
+obesity-related risk among athletes and physically active populations 118,119   (Table 15). 
+ Table 15: Standard Values of Visceral Adiposity Index (VAI) 
+VAI Value 
+Interpretation 
+Population/Context 
+Reference 
+< 1.0 
+Normal visceral adiposity 
+and low metabolic risk 
+Healthy 
+adults 
+and 
+athletic 
+populations 
+116 
+1.0 - 1.9 
+Mildly increased visceral 
+fat 
+General nutrition and sports health 
+screening 
+120 
+≥ 2.0 
+Elevated visceral adiposity 
+and 
+increased 
+cardiometabolic risk 
+Adults with overweight/obesity 
+121 
+≥ 2.5 
+High risk of metabolic 
+syndrome 
+and 
+insulin 
+resistance 
+Clinical 
+and 
+epidemiological 
+studies 
+117 
+> 3.0 
+Severe visceral adiposity 
+dysfunction 
+Sedentary 
+or 
+metabolically 
+unhealthy adults 
+122 
+Lower 
+values 
+preferred 
+in 
+athletes 
+Indicative 
+of 
+better 
+metabolic fitness and body 
+composition 
+Sports 
+sciences 
+and 
+military/athletic cohorts 
+115,118,119 
+.  
+Body Shape Index (ABSI)  
+This is a novel anthropometric parameter developed to assess abdominal adiposity and body shape 
+independently of BMI. ABSI standardizes waist circumference for height and weight, giving a better 
+estimation of central obesity and cardiometabolic risk than BMI alone. Recent studies demonstrated 
+that ABSI is associated with metabolic syndrome, cardiovascular risk factors, visceral adiposity, and 
+mortality risk 123–125. Additionally, 28 described ABSI as a waist-normalized anthropometric index 
+reflecting body shape and central fat distribution. 
+ABSI is calculated according to the following equation 123: 
+
+============================================================
+PAGE 27
+============================================================
+25 
+ 
+ܤܵܫ= Waist circumference (m)
+ܤܯܫ2/3 × height1/2
+ 
+Where: 
+• 
+WC = Waist circumference (cm)  
+• 
+BMI = Body mass index (kg/m²)  
+• 
+Height = Height (m) 
+Lombardo et al., 2026  reported that ABSI is frequently multiplied by 1000 for easier readability in 
+epidemiological studies 126. 
+Higher ABSI values (Table 16) indicate greater abdominal adiposity and increased cardiometabolic and 
+mortality risk, even in individuals with normal BMI. Lower ABSI values are generally associated with 
+lower visceral fat accumulation and healthier body shape profiles 124,125. 
+Table 16: Standard Values and Interpretation of ABSI 
+ABSI Value 
+Interpretation 
+Health Risk Level 
+Reference 
+< 0.075 
+Very 
+low 
+abdominal 
+adiposity 
+Low cardiometabolic risk 
+28,34 
+0.075-0.079 
+Normal body shape 
+Average risk 
+127 
+0.080-0.084 
+Increased central obesity 
+tendency 
+Moderate risk 
+123 
+≥ 0.085 
+High 
+abdominal 
+adiposity 
+High 
+cardiometabolic 
+and 
+metabolic syndrome risk 
+124,125 
+ 
+In physically active and athletic populations, A Body Shape Index (ABSI) has been recognized as a 
+complementary anthropometric tool that enhances the interpretation of body composition beyond 
+traditional 128,129. ABSI incorporates waist circumference, thereby providing a more specific estimation 
+of central adiposity and fat distribution 128. The added value of combining BMI with ABSI allows 
+improvement of the assessment of obesity-related risk profiles, including metabolic dysfunction and 
+cardiometabolic alterations 128,129.  
+In sports sciences, ABSI offers an interesting perspective because it provides information on central 
+adiposity independently of BMI. This characteristic may improve the identification of athletes who 
+present unfavorable fat distribution despite maintaining normal body mass values. 
+
+============================================================
+PAGE 28
+============================================================
+26 
+ 
+Nevertheless, the practical usefulness of ABSI in elite sports remains under investigation. Athletic 
+populations often display body composition characteristics that differ substantially from those of the 
+general population on which most ABSI reference values were established. Consequently, the 
+interpretation of ABSI scores in athletes requires caution. Furthermore, current evidence suggests that 
+ABSI should not replace traditional body composition assessments but rather complement existing 
+anthropometric indicators within a comprehensive evaluation framework. 
+Conicity Index (CI) 
+The Conicity Index is an anthropometric indicator used to evaluate central obesity and cardiometabolic 
+risk. It was developed to estimate the degree of abdominal fat accumulation based on waist 
+circumference, body weight, and height. CI reflects the transition of body shape from a cylindrical form 
+to a double-cone shape associated with visceral fat accumulation. Higher CI values indicate greater 
+abdominal adiposity and increased cardiovascular and metabolic risk 100,108. 
+Recent studies demonstrated that CI is strongly associated with cardiovascular disease risk factors, 
+metabolic syndrome, diabetes, frailty, and mortality, particularly in overweight, obese, and physically 
+active populations 124. 
+The Conicity Index is calculated using waist circumference, body weight, and height according to the 
+following equation100: 
+ܥܫ= Waist circumference (m)
+0.109 × √Weight (kg)
+Height (m)
+ 
+Where: 
+• 
+0.109 = Constant derived from body density assumptions 
+According to previous studies, CI values close to 1.0 indicate a normal cylindrical body shape 130 , 
+whereas higher CI values (>1.25) indicate increased abdominal adiposity Table 17, which is associated 
+with elevated cardiometabolic risk. CI is particularly useful in epidemiological studies examining 
+central obesity 108. 
+Table 17: Standard Values and Interpretation of CI 
+CI 
+Value 
+Classification 
+Interpretation in 
+General Health 
+Interpretation in 
+Sports Sciences 
+References 
+
+============================================================
+PAGE 29
+============================================================
+27 
+ 
+< 1.00 
+Excellent / Optimal 
+Normal 
+body 
+fat 
+distribution and Very 
+low 
+Cardiometabolic 
+risk 
+Lean body composition, 
+good 
+abdominal 
+fat 
+control, and favorable 
+athletic 
+profile, 
+endurance and well-
+conditioned athletes 
+130,131 
+ 
+1.00-
+1.10 
+Acceptable 
+Slight 
+increase 
+in 
+abdominal 
+adiposity, 
+Low 
+Cardiometabolic 
+Risk 
+Acceptable 
+body 
+composition 
+in 
+recreationally 
+active 
+individuals; monitoring 
+is recommended during 
+nutritional follow-up 
+100 
+1.10- 
+1.18 
+Moderate 
+central 
+adiposity 
+Beginning visceral fat 
+accumulation 
+and 
+Moderate  
+Cardiometabolic Risk 
+May negatively affect 
+aerobic capacity, speed, 
+agility, and recovery 
+performance; suggests 
+reduced physical fitness 
+efficiency 
+108 
+1.18-
+1.25 
+High 
+abdominal 
+obesity 
+Significant central fat 
+accumulation and High 
+Cardiometabolic Risk 
+Decreased 
+athletic 
+performance, impaired 
+movement 
+efficiency, 
+lower 
+cardiovascular 
+endurance, 
+and 
+increased fatigue during 
+exercise 
+124 
+> 1.25 
+Severe 
+central 
+obesity 
+Excessive 
+visceral 
+adiposity 
+and 
+Cardiometabolic Risk 
+Poor 
+physical 
+conditioning, elevated 
+inflammation, reduced 
+muscular 
+efficiency, 
+and increased injury risk 
+132 
+> 1.30 
+Extreme abdominal 
+obesity 
+Critical obesity level and 
+Cardiometabolic Risk 
+Severe deterioration of 
+sports performance and 
+cardiometabolic health. 
+133 
+ 
+
+============================================================
+PAGE 30
+============================================================
+28 
+ 
+The Conicity Index is increasingly used in sports sciences to evaluate central fat distribution and its 
+impact on physical performance. Lower CI values are generally associated with better aerobic fitness, 
+improved agility, higher movement efficiency, and favorable body composition profiles in athletes. 
+Higher CI values may indicate excessive visceral fat accumulation. Also, CI is considered a useful 
+complementary indicator to BMI because it better reflects abdominal adiposity and cardiometabolic 
+stress 100. Studies on soccer referees and active adults also showed that elevated CI is associated with 
+reduced physical fitness and increased cardiovascular risk markers 131. 
+On the other hand, BMI remains the most widely used anthropometric index; however, it does not 
+differentiate fat mass from fat-free mass, limiting its diagnostic precision in athletes 14. Others indices 
+such as WHR, WHtR, BRI, ABSI, and CI provide more precise estimations of visceral adiposity and 
+cardiometabolic risk. Collectively, these indices outperform BMI in predicting cardiometabolic risk, 
+reinforcing the shift toward multi-index evaluation frameworks. 
+Fat Mass Percentage (%FM) 
+Fat mass percentage (FM%) represents the proportion of total body mass composed of adipose tissue 
+and is widely recognized as a major indicator of body composition, nutritional status, metabolic health, 
+obesity risk, and physical performance 134. Unlike Body Mass Index (BMI), FM% differentiates fat 
+mass from fat-free mass (FFM), including muscles, bones, organs, and body water, thereby providing 
+a more comprehensive assessment of body composition and health status 134. In sports sciences and 
+clinical nutrition, FM% is extensively used to monitor obesity, athletic performance, and 
+cardiometabolic risk, with lower values generally associated with improved metabolic health and 
+physical performance, whereas excessive adiposity is strongly linked to cardiovascular and metabolic 
+disorders 135. 
+FM% can be estimated using several techniques, including anthropometric skinfold measurements, 
+dual-energy X-ray absorptiometry (DXA), ultrasound imaging, and bioelectrical impedance analysis 
+(BIA) 136. In anthropometric assessment, predictive equations such as the Jackson and Pollock models 
+estimate body density (Db) from the sum of skinfold thicknesses, after which Siri’s equation is applied 
+to calculate FM% 136: 
+FM% = ((4.95
+ܦܾ) −4.50) X100 
+where Db is the body density expressed in g/cm³. Although skinfold methods are inexpensive, practical, 
+and suitable for field settings, their accuracy may vary according to sex, age, ethnicity, and training 
+status135,137. DXA is considered one of the reference methods for body composition assessment because 
+
+============================================================
+PAGE 31
+============================================================
+29 
+ 
+it directly quantifies total and regional fat mass, including visceral adipose tissue 138,139. In addition, 
+ultrasound and BIA have emerged as reliable, non-invasive, and portable alternatives for evaluating 
+body composition in both athletes and general populations 136,140,141. Table 18 show Standard Values of 
+Fat Mass Percentage (%FM). 
+Table 18: Standard Values of Fat Mass Percentage (%FM) 
+Sex 
+Population / 
+Context 
+%FM 
+Standard 
+Values 
+Interpretation 
+References 
+Males 
+ 
+Very lean / elite 
+athletes 
+6–13% 
+Essential fat to very lean athletic profile 
+typical of elite performance athletes 
+142;  
+ 
+143 
+Male 
+soccer 
+players 
+8–15% 
+Competitive athletic range associated 
+with high performance capacity 
+76,144 
+Fitness / trained 
+men 
+14–17% 
+Good metabolic health and optimal 
+physical performance 
+103,142 
+General 
+adult 
+men 
+18–24% 
+Acceptable adiposity  
+143,145 
+Older adult men >25% 
+Increased risk of sarcopenic obesity and 
+metabolic dysfunction 
+Saito et al., 
+2022 
+146 
+Females 
+ 
+Female athletes 12–22% 
+Athletic range depending on sport type 
+and training load 
+147,148 
+Athletic / lean 
+women 
+14–20% 
+Lean athletic profile commonly observed 
+in trained women 
+144,147 
+Fitness women 
+21–24% 
+Healthy fitness range associated with 
+good metabolic status 
+142 
+General 
+adult 
+women 
+25–31% 
+Normal adiposity range for general 
+population women 
+143,145 
+Obesity 
+range 
+(women) 
+≥32% 
+High 
+fat 
+mass 
+associated 
+with 
+cardiometabolic risk 
+149,150 
+Older 
+adult 
+women 
+>35% 
+Increased risk of frailty, metabolic 
+syndrome, and functional decline 
+151,152 
+ 
+ 
+Fat-Free Mass (FFM) 
+
+============================================================
+PAGE 32
+============================================================
+30 
+ 
+Fat-free mass (FFM) includes all non-fat components of the body, such as skeletal muscle, bone, organs, 
+and body water, and is a key determinant of strength and power performance 153. It is commonly 
+calculated as total body mass minus fat mass, or more specifically as body mass minus the sum of fat 
+mass and bone mass 154. FFM can also be assessed using advanced techniques such as fan-beam dual-
+energy X-ray absorptiometry (DXA), which provides accurate measurements of total and regional lean 
+mass, including skeletal muscle mass 155. 
+To account for differences in body size, the fat-free mass index (FFMI) is used as a height-adjusted 
+indicator, calculated as FFM (kg) divided by height squared (m²). FFMI allows comparison across 
+athletes by normalizing FFM relative to stature and is useful for classifying low, moderate, or high FFM 
+levels in relation to performance and injury risk 156. More recently, bioelectrical impedance-based 
+predictive models have been developed using four-compartment reference models, showing good 
+validity for estimating FFM in athletes 157. However, despite variations in muscularity and 
+musculoskeletal development, studies indicate that these factors do not significantly alter the density of 
+FFM, supporting the general applicability of standard assumptions in body composition models 158. 
+Regarding reference values, FFMI in healthy adult populations typically ranges from 16-19 kg/m² in 
+women and 18-22 kg/m² in men, while trained athletes present higher values depending on sport 
+discipline. Resistance-trained male athletes often show FFMI values around 21–25 kg/m², with elite 
+strength or power athletes occasionally exceeding 25 kg/m², whereas endurance athletes generally 
+present lower values 156. These values provide useful normative ranges for evaluating muscular 
+development, performance potential, and training adaptation across populations. 
+Fat-Free Mass Index (FFMI) 
+Fat-Free Mass Index (FFMI) is a body composition indicator used to assess fat-free mass relative to 
+height, providing a more accurate estimation of muscularity than Body Mass Index (BMI), particularly 
+in athletic and physically active populations 159,160. Fat-free mass includes skeletal muscle, bone, organs, 
+and body water 161. By normalizing lean mass to stature, FFMI allows valid comparisons across 
+individuals with different anthropometric characteristics and sport disciplines 153,162. It is widely used 
+in sports science to characterize physique profiles, monitor training adaptations, and evaluate nutritional 
+status, especially in strength, endurance, and mixed-sport athletes 159,160. 
+FFMI is calculated using the following equation 160:  
+ܨܨܯܫ=
+FFM (Kg)
+ܪ݁݅݃ℎݐ2(݉2) 
+
+============================================================
+PAGE 33
+============================================================
+31 
+ 
+Fat-free mass (FFM) is commonly measured using bioelectrical impedance analysis (BIA), dual-energy 
+X-ray absorptiometry (DXA), skinfold anthropometry, or air displacement plethysmography 163. 
+Because it adjusts lean mass for height, FFMI provides a more robust assessment of muscularity than 
+absolute FFM, particularly in athletes with heterogeneous body sizes and training backgrounds 164. 
+Consequently, FFMI is considered a reliable indicator for evaluating muscular development and 
+monitoring nutritional and training adaptations in sport and clinical contexts 161,165. 
+FFMI reference values (Table 19) vary according to sex, training status, and sport discipline 153.  
+Table 19: Standard FFMI values and interpretation 
+FFMI 
+(kg/m²) 
+Body composition 
+interpretation 
+Nutritional 
+interpretation 
+Sportive 
+interpretation 
+References 
+< 
+14 
+(women) 
+Very low lean mass 
+Possible chronic low 
+protein/energy intake 
+or undernutrition 
+Low 
+functional 
+capacity, high risk of 
+reduced performance 
+165 
+14–16 
+Low 
+lean 
+mass 
+(women) 
+Insufficient 
+protein 
+intake or low energy 
+availability 
+Limited strength and 
+endurance capacity 
+166 
+< 16 (men) 
+Very low lean mass 
+Inadequate 
+dietary 
+intake or sedentary 
+lifestyle 
+Low 
+muscular 
+strength, 
+poor 
+athletic potential 
+165 
+16-17 
+Low muscularity 
+Marginal 
+protein 
+intake, low training 
+stimulus 
+Below 
+average 
+strength and power 
+164 
+16.9-17.8 
+Average adolescent 
+range 
+Normal 
+growth-
+related 
+nutritional 
+status 
+Developing athletic 
+performance 
+167 
+17-18.5 
+Average muscularity 
+Adequate 
+diet 
+but 
+limited 
+hypertrophy 
+stimulus 
+Recreational 
+performance level 
+164 
+18-20 
+Good 
+muscular 
+development 
+Adequate 
+protein 
+intake and balanced 
+energy availability 
+Good general sport 
+performance 
+160 
+18-21 
+Normal male range 
+Sufficient 
+nutrition 
+for maintenance of 
+lean mass 
+Moderate 
+athletic 
+performance 
+161 
+
+============================================================
+PAGE 34
+============================================================
+32 
+ 
+19-24 
+Elite athlete range 
+High 
+energy 
+and 
+protein 
+intake 
+supporting intensive 
+training 
+High-level 
+sport 
+performance 
+and 
+adaptation 
+153 
+20-22 
+High muscularity 
+Optimized 
+sports 
+nutrition (protein + 
+energy surplus) 
+Strong performance 
+in 
+power/speed 
+sports 
+159 
+22-24 
+Very 
+high 
+muscularity 
+Structured nutritional 
+periodization required 
+Elite strength and 
+power performance 
+162 
+24-25 
+Excellent 
+muscularity 
+High 
+anabolic 
+potential supported by 
+advanced 
+diet/training 
+Top-level resistance 
+performance 
+160 
+> 25 
+Exceptionally 
+high 
+muscularity 
+Very 
+high 
+muscle 
+accretion, 
+rare 
+in 
+natural athletes 
+Maximum 
+strength 
+potential 
+/ 
+elite 
+physique athletes 
+168 
+ 
+In general, low values reflect insufficient lean mass and are often associated with low protein-energy 
+availability and reduced physical performance capacity 165. Moderate values indicate adequate 
+nutritional status and recreational fitness levels, while higher values are typically observed in trained 
+and elite athletes with optimized nutrition and training programs 156. Very high FFMI values (>25 kg/m² 
+in men) are rare and are often considered near the upper limit of natural muscularity in resistance-trained 
+populations168. 
+Body Muscle-to-Fat Ratio (BMFR) 
+The Body Muscle-to-Fat Ratio (BMFR) is a recent anthropometric and body composition index used to 
+evaluate the balance between skeletal muscle mass and fat mass. It is used as a marker for assessing 
+insulin resistance, metabolic syndrome, and cardiometabolic health 169. BMFR reflects the physiological 
+interaction between metabolically active muscle tissue and adipose tissue, where higher muscle mass 
+contributes to improved glucose utilization and insulin sensitivity, whereas excessive fat accumulation 
+is associated with chronic inflammation and metabolic dysfunction. BMFR is therefore increasingly 
+recognized as a useful indicator in obesity research, sports sciences, and clinical nutrition 170. 
+BMFR is commonly measured using Bioelectrical Impedance Analysis (BIA) or other body 
+composition assessment techniques such as dual-energy X-ray absorptiometry (DXA). It is calculated 
+as the ratio between muscle mass and fat mass, either in kilograms or percentages: 
+
+============================================================
+PAGE 35
+============================================================
+33 
+ 
+ܤܯܨܴ= ܯݑݏ݈ܿ݁ ݉ܽݏݏ݌݁ݎܿ݁݊ݐܽ݃݁ (%) 
+ܨܽݐ ݉ܽݏݏ ݌݁ݎܿ݁݊ݐܽ݃݁ (%).  
+Higher BMFR values (Table 20) generally indicate a healthier metabolic profile and better insulin 
+sensitivity, whereas lower values are associated with sarcopenic obesity, insulin resistance, and 
+increased cardiometabolic risk. Kurinami et al. (2025) proposed sex-specific cutoff values based on 
+analyses against the hyperinsulinemic-euglycemic clamp method, suggesting that BMFR may serve as 
+a practical and non-invasive screening tool for metabolic disorders. 
+Table 20: BMFR Standard Values  
+Sex 
+BMFR Standard 
+Interpretation 
+Male 
+≥ 2.75 
+Normal insulin sensitivity / favorable metabolic profile 170 
+Male 
+< 2.75 
+Increased risk of insulin resistance 
+Female 
+≥ 1.65 
+Normal insulin sensitivity / favorable metabolic profile  170 
+Female 
+< 1.65 
+Increased risk of insulin resistance 
+  
+Cumulatively, Fat mass percentage (FM%), fat-free mass (FFM), and fat-free mass index (FFMI) 
+provide deeper insight into metabolic and functional status. Higher FM% is associated with reduced 
+metabolic efficiency and increased disease risk, whereas higher FFM and FFMI are linked to improved 
+strength, power, and athletic performance153,156  Unlike traditional indices, body composition indicators 
+allow functional interpretation of anthropometric data, making them essential for performance 
+monitoring in sport sciences. 
+ 
+Advanced Anthropometric Parameters 
+Somatotype (Heath-Carter Method) 
+The Heath–Carter somatotype is a standardized anthropometric method used to quantitatively describe 
+human body shape through three independent components: endomorphy, mesomorphy, and ectomorphy 
+171,172. It is considered the most widely used somatotyping method in sports sciences, nutrition, and body 
+composition assessment 82. The method evaluates the relative contribution of adiposity, musculoskeletal 
+development, and body linearity to overall physique 173. 
+In the Heath–Carter system, endomorphy reflects relative fatness, mesomorphy represents 
+musculoskeletal robustness, and ectomorphy indicates body linearity and slenderness 174. Somatotype 
+is expressed as a three-number rating such as 2–5–3, corresponding respectively to endomorphy, 
+
+============================================================
+PAGE 36
+============================================================
+34 
+ 
+mesomorphy, and ectomorphy 172. This method is widely applied in talent identification, sports 
+performance evaluation, nutritional assessment, and health-related body composition studies 175,176. 
+The Heath–Carter somatotype method is based on 10 standardized anthropometric measurements 
+performed according to the ISAK (International Society for the Advancement of Kinanthropometry) 
+guidelines 177. These measurements include body height, body mass, four skinfolds (triceps, 
+subscapular, suprailiac, and medial calf), two bone breadths (humerus and femur), and two limb 
+circumferences (flexed arm and calf girths) 171,178.  
+The endomorphy component is estimated from the sum of skinfold thicknesses corrected for height 172. 
+ Mesomorphy is calculated using bone breadths, corrected limb girths, and stature measurements 173.  
+Ectomorphy is determined from the Height–Weight Ratio (HWR), which reflects body linearity 174. 
+The final somatotype is commonly represented on a somatochart to identify the dominant body 
+physique category of the individual 82. Table 21 indicates Reference Values and Interpretation of 
+Heath-Carter Somatotype. 
+Table 21: Reference Values and Interpretation of Heath-Carter Somatotype 
+Component 
+Reference 
+values 
+Morphological 
+interpretation 
+Interpretation in sport 
+Interpretation in 
+nutrition and health 
+Endomorphy 
+< 2.5 
+Low relative fatness 
+171 
+Advantage in endurance 
+and speed sports 175 
+Lower 
+cardiometabolic risk 
+176 
+2.5–5.0 
+Moderate adiposity 172 
+Common in mixed-sport 
+athletes 174 
+Generally 
+balanced 
+energy status 82 
+> 5.0 
+High adiposity 179 
+May impair agility and 
+endurance performance 
+171 
+Increased obesity and 
+metabolic 
+disease 
+risk 180 
+Mesomorphy 
+< 3.0 
+Low musculoskeletal 
+development 172 
+Less 
+favorable 
+for 
+strength 
+and 
+power 
+sports 181 
+Reduced 
+muscle 
+reserve 82 
+3.0–5.0 
+Moderate muscularity 
+173 
+Suitable for polyvalent 
+sports profiles 174 
+Balanced 
+body 
+composition 176 
+> 5.0 
+High muscularity 171 
+Advantage 
+in 
+sprint, 
+combat, 
+and 
+power 
+sports 181 
+Better 
+functional 
+muscle status 82 
+
+============================================================
+PAGE 37
+============================================================
+35 
+ 
+Ectomorphy 
+< 2.5 
+Low body linearity 172 
+Compact 
+physique 
+profile 174 
+May be associated 
+with 
+higher 
+body 
+mass 176 
+2.5–5.0 
+Moderate linearity 173 
+Balanced 
+athletic 
+morphology 175 
+Intermediate 
+body 
+composition profile 
+82 
+> 5.0 
+High body linearity 171 
+Favorable for endurance 
+and jumping sports 175 
+Low fat and muscle 
+mass 
+relative 
+to 
+height 176 
+ 
+Phantom Z-Scores (Ross Phantom Model) 
+The Phantom Z-score model (Ross Phantom Model) is a standardized anthropometric reference system 
+utilized in the evaluation of body proportionality by expressing an individual’s anthropometric 
+measurements as deviations from a theoretical “phantom” human model (Ross & Wilson concept)182. 
+This phantom represents a sex-independent reference body with fixed mean values for height, mass, 
+skinfolds, circumferences, and bone breadths 182,183. 
+Phantom Z-scores indicate how many standard deviations an individual’s measurement is above or 
+below the reference population. A Z-score of 0 means the individual matches the phantom standard, 
+while positive or negative values indicate greater or lower proportionality for a given anthropometric 
+trait 32,184. This method is widely used in sports science to compare athletes independently of age, sex, 
+and body size 185,186 
+The Phantom Z-score method is based on standard anthropometric measurements including skinfold 
+thicknesses, body circumferences, bone breadths, body mass, and stature, obtained using ISAK 
+protocols 32,183. 
+Each raw anthropometric variable is transformed into a standardized score using the Phantom model 
+equation: 
+• 
+The difference between the athlete’s value and the phantom reference mean (phantom mean) is 
+calculated.  
+• 
+This difference is divided by the phantom standard deviation (Phantom SD).  
+• 
+The result is the Phantom Z-score (Zp) for each variable.  
+Mathematical expression is: 
+
+============================================================
+PAGE 38
+============================================================
+36 
+ 
+ܼ݌= (X − Phantom mean)
+Phantom SD
+ 
+where X is the athlete’s measured anthropometric value 182. 
+The final interpretation allows the evaluation of body proportionality profiles, identifying 
+whether an athlete has relatively higher or lower fat mass, muscle mass, or skeletal dimensions 
+compared to the reference model (Monterrosa Qiuntero et al., 2023; Petri et al., 2024). Table 
+22 illustates the Phantom Z-score values and interpretation. 
+Table 22: Phantom Z-score values and interpretation 
+ Anthropometric 
+component 
+Phantom Z-score 
+interpretation 
+Interpretation in sport 
+Interpretation in 
+nutrition and health 
+Skinfolds (adiposity) 
+Z > 0 = higher fat; Z < 
+0 = lower fat 183 
+Lower Z-scores are 
+advantageous 
+in 
+endurance and speed 
+sports 184 
+Lower values indicate 
+reduced adiposity and 
+cardiometabolic risk  
+ 
+185 
+Muscle-related girths 
+Z > 0 = greater 
+muscular development 
+187 
+High values indicate 
+better performance in 
+strength and power 
+sports 32 
+Reflects 
+improved 
+functional muscle mass 
+and metabolic health 186 
+Bone breadths 
+Z > 0 = larger skeletal 
+frame 182 
+Advantage in contact 
+and power sports 32 
+Indicates 
+skeletal 
+robustness and growth 
+status 
+Body mass 
+Z > 0 = higher body 
+mass than reference 183 
+May be beneficial or 
+limiting depending on 
+sport type 185 
+High values may suggest 
+overweight risk 
+Stature (height) 
+Z > 0 = taller than 
+phantom reference 32 
+Advantage 
+in 
+basketball, volleyball, 
+swimming 32 
+Reflects linear growth 
+and developmental status 
+ 
+ 
+Skeletal Muscle Mass Indicators 
+Skeletal muscle mass indicators derived from anthropometry provide indirect yet practical estimates of 
+muscular development and are particularly relevant in strength- and power-oriented sports. These 
+
+============================================================
+PAGE 39
+============================================================
+37 
+ 
+indicators are widely used in both clinical and field settings because of their feasibility, portability, and 
+low cost 5,188.  
+Anthropometric prediction models commonly rely on muscle girths corrected for subcutaneous 
+adiposity through skinfold measurements, including arm, thigh, and calf circumferences. These 
+corrected girths are incorporated into regression equations together with variables such as stature, body 
+mass, age, sex, and ethnicity to estimate appendicular and total skeletal muscle mass 188,189. Recent 
+investigations have demonstrated that these anthropometric models present acceptable validity when 
+compared with reference techniques such as dual-energy X-ray absorptiometry (DXA), particularly in 
+healthy adults and athletic populations 189. Nevertheless, the accuracy of these equations may vary 
+according to population-specific factors, including ethnicity, training status, obesity, and age-related 
+sarcopenia, emphasizing the necessity for population-adapted models 188.  
+The most commonly used skeletal muscle mass indicators in anthropometric and clinical assessment 
+for identifying low muscle mass and sarcopenia in clinical and sport science contexts are the 
+Appendicular Skeletal Muscle Mass Index (ASMI/SMI), Appendicular Lean Mass (ALM), Handgrip 
+Strength (HGS), and Gait Speed (GS) 190. The Standard values and cut-off points for skeletal muscle 
+mass indicators are listed in Table 23. 
+Table 23: Standard values and cut-off points for skeletal muscle mass indicators 
+ Parameter 
+ Men 
+ Women 
+ Reference 
+ASMI/SMI (DXA) 
+< 7.0 kg/m² 
+< 5.4 kg/m² 
+191 
+ASMI/SMI (BIA) 
+< 7.0 kg/m² 
+< 5.7 kg/m² 
+191 
+Handgrip strength 
+< 45 - 50 (pic) kg 
+< 27-30 (pic) kg 
+192 
+Gait speed 
+≤ 0.8 m/s 
+≤ 0.8 m/s 
+193 
+Appendicular 
+Lean 
+Mass 
+(ALM) 
+< 20 kg 
+< 15 kg 
+194 
+ 
+In sports sciences and nutritional studies, skeletal muscle mass indicators are widely used as essential 
+tools for evaluating body composition, athletic performance, and health status  188. In this context, 195 
+reported that parameters such as skeletal muscle mass (SMM), appendicular skeletal muscle mass 
+(ASM), lean body mass, and muscle thickness are commonly assessed using anthropometry, BIA, DXA, 
+ultrasonography, magnetic resonance imaging (MRI), and emerging digital technologies.  
+Moreover, muscle-related physiological indicators are valuable for monitoring training adaptation, 
+muscle oxidative capacity, recovery, and exercise workload in athletes 196. Recent technological 
+advances, including smartphone-based prediction models, may improve accessibility for skeletal 
+muscle 
+mass 
+evaluation 
+outside 
+specialized 
+laboratories 
+197. 
+Additionally,  
+
+============================================================
+PAGE 40
+============================================================
+38 
+ 
+nutritional interventions and dietary supplementation strategies are closely associated with the 
+preservation of lean muscle mass and functional performance during periods of muscle disuse 198.   
+Recent evidence also indicates that skeletal muscle assessment plays a critical role in identifying 
+malnutrition, sarcopenia, and metabolic disorders while supporting nutritional planning and exercise 
+prescription in both athletes and clinical populations 188. 
+Altogether, advanced anthropometric approaches provide a more comprehensive 
+understanding of human morphology by integrating structural, proportional, and functional 
+body composition characteristics. Unlike traditional anthropometric measurements, these 
+models allow individualized evaluation of muscularity, adiposity, and body proportionality, 
+thereby improving the precision of athlete profiling, training monitoring, and health risk 
+assessment. Moreover, the integration of somatotype analysis, Phantom Z-scores, and skeletal 
+muscle mass indicators contributes to the development of predictive and comparative 
+frameworks applicable in sports sciences, clinical nutrition, and preventive medicine. Their 
+growing use also reflects the evolution of anthropometry from a purely descriptive discipline 
+toward a multidimensional and evidence-based approach for evaluating physical performance, 
+metabolic health, and functional capacity across populations. 
+Discussion  
+Despite their widespread use in sports science, nutrition, and public health, anthropometric 
+parameters and body composition indices present several methodological and practical 
+limitations that should be considered when interpreting results. Although these measurements 
+are inexpensive, non-invasive, and easy to perform, their predictive accuracy varies according 
+to age, sex, ethnicity, training status, and physiological characteristics of the population under 
+investigation 199; 200). 
+Body mass index (BMI) remains one of the most commonly used anthropometric indicators 
+because of its simplicity and applicability in large-scale epidemiological studies. However, 
+BMI does not distinguish fat mass from lean body mass and may therefore misclassify highly 
+trained athletes as overweight or obese due to increased muscularity rather than excessive 
+adiposity (199. Furthermore, BMI provides no information regarding fat distribution, a key 
+determinant of cardiometabolic risk 201. 
+Circumference-based measurements including waist circumference (WC), waist-to-hip ratio 
+(WHR), and waist-to-height ratio (WHtR) offer additional information regarding central 
+adiposity and cardiometabolic health. Nevertheless, these measurements remain sensitive to 
+anatomical landmark identification, measurement technique, breathing phase, and postural 
+
+============================================================
+PAGE 41
+============================================================
+39 
+ 
+variations, which may affect reliability and reproducibility 200,202. Moreover, cut-off values 
+often differ among ethnic groups and populations, limiting the universal applicability of 
+currently available reference standards 203. 
+Additionally, the accuracy of Skinfold thickness is strongly dependent on evaluator expertise, 
+caliper quality, and the prediction equations employed (Lewandowski et al., 2022; 200). 
+Prediction equations developed in one population may not be transferable to other ethnic 
+groups, age categories, or athletic disciplines, potentially leading to systematic estimation 
+errors 202. Also, skinfold measurements become increasingly challenging in individuals with 
+severe obesity and may underestimate visceral adiposity, which has important clinical 
+implications 201.  
+As regarding to breadth measurements, such as humeral and femoral breadths, provide useful 
+information regarding skeletal frame size and somatotype classification. Nevertheless, these 
+measurements require strict standardization and experienced evaluators to ensure reliability. 
+Small errors in landmark identification may significantly affect skeletal proportionality indices 
+and subsequent body composition estimations 200. 
+Similarly, body composition indices such as the Fat-Free Mass Index (FFMI), Body Roundness 
+Index (BRI), Conicity Index (CI), A Body Shape Index (ABSI), and Visceral Adiposity Index 
+(VAI) have been developed to overcome some of the limitations of traditional anthropometric 
+measures. While these indices often demonstrate stronger associations with cardiometabolic 
+risk factors than BMI alone, their interpretation remains challenging because population-
+specific reference values are still evolving and consensus regarding optimal cut-off points has 
+not yet been fully established 199,201. 
+Another important limitation of anthropometric assessment is its inability to directly quantify 
+tissue composition. Anthropometric measurements provide indirect estimations of body 
+compartments and may not accurately reflect regional fat distribution, intramuscular adipose 
+tissue accumulation, hydration status, or muscle quality 204,205. Consequently, discrepancies 
+may arise when anthropometric estimates are compared with reference techniques such as dual-
+energy X-ray absorptiometry (DXA), magnetic resonance imaging (MRI), or advanced 
+bioelectrical impedance analysis (BIA) methods 204. 
+Future developments in anthropometric science are expected to focus on the integration of 
+digital technologies, artificial intelligence, and machine learning algorithms into body 
+composition assessment 206. Advances in three-dimensional body scanning, computer vision 
+systems, and wearable technologies may facilitate rapid, non-invasive, and highly standardized 
+
+============================================================
+PAGE 42
+============================================================
+40 
+ 
+measurements in both clinical and sports settings 207,208. Artificial intelligence-based image 
+analysis has the potential to improve body composition prediction by combining 
+anthropometric data with movement patterns, physiological markers, and performance metrics 
+206. 
+Furthermore, future research should prioritize the development of population-specific 
+predictive models that account for age, sex, ethnicity, biological maturation, and athletic 
+specialization 199,203. Such approaches may improve the accuracy and applicability of 
+anthropometric assessments while supporting personalized nutrition, precision medicine, and 
+individualized training interventions. The integration of anthropometric, physiological, 
+biochemical, and omics-derived data is likely to represent the next stage in body composition 
+research, providing more comprehensive tools for health monitoring, injury prevention, and 
+performance optimization in both athletic and clinical populations 201. 
+Future Perspectives 
+Future developments in anthropometric assessment are expected to focus on improving 
+measurement accuracy, standardization, and personalization through the integration of 
+emerging technologies and advanced analytical approaches. Although traditional 
+anthropometric methods remain widely used because of their simplicity, low cost, and field 
+applicability, they are inherently limited by measurement error, operator dependency, 
+population-specific variability, and their inability to directly assess tissue composition 
+199,200,202. 
+One of the most promising directions involves the integration of digital technologies into body 
+composition assessment. Recent advances in wearable devices, digital monitoring systems, and 
+portable assessment tools are creating new opportunities for continuous and real-time 
+evaluation of morphological and physiological characteristics in both athletic and clinical 
+populations 207,208. Such technologies may facilitate longitudinal monitoring of body 
+composition changes while reducing some of the limitations associated with conventional 
+anthropometric measurements. 
+Artificial intelligence, machine learning, and computer vision technologies are also expected 
+to play an increasingly important role in sports science and body composition research. These 
+approaches have demonstrated considerable potential for processing large datasets, identifying 
+complex relationships among anthropometric variables, and improving predictive modeling of 
+health and performance outcomes 206. The integration of artificial intelligence with 
+
+============================================================
+PAGE 43
+============================================================
+41 
+ 
+anthropometric assessment may contribute to more objective, automated, and individualized 
+evaluations while minimizing observer-related variability. 
+Future research should also prioritize the development of population-specific prediction 
+models. Current anthropometric equations and reference standards are frequently derived from 
+specific populations and may not be fully applicable across different ethnicities, age groups, 
+sexes, or athletic disciplines 199,209. Consequently, the establishment of updated normative 
+databases and population-specific predictive algorithms will be essential to improve the 
+validity and practical applicability of anthropometric assessments. 
+In sports science, increasing attention is being directed toward multimodal approaches that 
+combine anthropometric measurements with bioelectrical impedance analysis, physiological 
+markers, training-load data, and performance indicators 200. Such integrated models may 
+provide a more comprehensive understanding of the interactions between body composition, 
+physical performance, recovery, and health status than anthropometric measures alone. 
+Another important challenge concerns the validation and standardization of emerging body 
+composition indices. Although indices such as ABSI, BRI, CI, and VAI have shown promising 
+associations with metabolic and cardiovascular outcomes, further longitudinal and multicenter 
+investigations are required to establish robust reference values and determine their applicability 
+in diverse populations, including elite athletes, older adults, and clinical populations 199,201. 
+Finally, the future of anthropometric science is likely to move toward integrated and 
+personalized assessment frameworks that combine anthropometric, physiological, behavioral, 
+and digital health data. The convergence of wearable technologies, artificial intelligence, 
+bioelectrical impedance databases, and advanced analytical tools may enable more precise, 
+individualized, and dynamic monitoring of body composition, health status, and athletic 
+performance across the lifespan 208,209. 
+Conclusion 
+Anthropometric assessment remains an essential and practical tool for evaluating body 
+composition, physical performance, nutritional status, and health-related risks. Traditional 
+measurements and advanced indices collectively provide valuable information for athlete 
+profiling, metabolic risk evaluation, and clinical monitoring. However, the limitations of 
+certain indicators, particularly BMI, highlight the need for a multidimensional approach 
+integrating multiple anthropometric parameters with advanced body composition techniques. 
+Future research should focus on improving standardization, developing population-specific 
+
+============================================================
+PAGE 44
+============================================================
+42 
+ 
+models, and incorporating emerging technologies to enhance the accuracy and applicability of 
+anthropometric evaluation in sports science and health assessment. 
+Funding 
+This research did not receive any specific funding  
+AI usage statement 
+The authors used ChatGPT (OpenAI) to assist with language editing and polishing during 
+manuscript preparation. The tool was not used to generate, analyze, or interpret scientific 
+content. All intellectual input, data analysis, interpretation, and conclusions are entirely the 
+responsibility of the authors, who have carefully reviewed and verified the final manuscript. 
+Declaration of competing interest 
+The authors declare that they have no competing interests. 
+References 
+1. 
+Cherif, M. et al. Anthropometry, body composition, and athletic performance in specific field tests in 
+Paralympic athletes with different disabilities. Heliyon 8, (2022). 
+2. 
+López-Sánchez, G. F. et al. Body composition, physical fitness, physical activity and nutrition in Polish and 
+Spanish 
+female 
+students 
+of 
+sports 
+sciences. 
+Science 
+& 
+Sports 
+35, 
+e21–e28 
+(2020) 
+. 
+https://doi.org/10.1016/j.scispo.2019.04.002. 
+3. 
+Carvalho Souza, G. A. et al. Evaluation of the relationship between nutritional status, levels of physical 
+activity and physical strength in adolescents. Clinical Nutrition ESPEN 53, 182–188 (2023) . 
+https://doi.org/10.1016/j.clnesp.2022.12.007. 
+4. 
+Fernández-Lázaro, D. et al. β-Alanine Supplementation in Combat Sports: Evaluation of Sports 
+Performance, Perception, and Anthropometric Parameters and Biochemical Markers—A Systematic 
+Review of Clinical Trials. Nutrients 15, (2023) . https://doi.org/10.3390/nu15173755. 
+5. 
+Bonilla, D. A. et al. Simple anthropometry-based calculations to monitor body composition in athletes: 
+Scoping review and reference values. Nutrition and health 28, 95–109 (2022). 
+6. 
+Martínez-Royert, J. C. et al. Anthropometric parameters regarding the nutritional status of schoolchildren. 
+(2021). 
+7. 
+Ferozi, S., Taneja, A. G. & Bakshi, N. Assessment of nutritional status, physical fitness and physical activity 
+of school going adolescents (12–15 years) in Delhi. BMC Pediatrics 24, 331 (2024) . 
+https://doi.org/10.1186/s12887-024-04733-y. 
+8. 
+Khan, D. S. A. et al. Nutritional status and dietary intake of school-age children and early adolescents: 
+systematic review in a developing country and lessons for the global perspective. Frontiers in nutrition 8, 
+739447 (2022). 
+9. 
+Liu, B., Liu, X., Wang, Q., Yan, W. & Hao, M. Nutritional status, food consumption, lifestyle, and physical 
+fitness in rural and urban elementary school children in Northeast China. Frontiers in Nutrition Volume 9-
+2022, (2022) . https://doi.org/10.3389/fnut.2022.1044877. 
+
+============================================================
+PAGE 45
+============================================================
+43 
+ 
+10. 
+Ionescu, A. M. et al. Preparticipation medical evaluation for elite athletes: EFSMA recommendations on 
+standardised preparticipation evaluation form in European countries. BMJ Open Sport & Exercise Medicine 
+7, (2021). 
+11. 
+Peng, H., Aoieong, C., Tou, T., Tsai, T. & Wu, J. Clinical assessment of nutritional status using the modified 
+quantified subjective global assessment and anthropometric and biochemical parameters in patients 
+undergoing hemodialysis in Macao. Journal of International Medical Research 49, 03000605211045517 
+(2021). 
+12. 
+Guzmán-Muñoz, E. et al. Anthropometric Profile and Physical Activity Level as Predictors of Postural 
+Balance 
+in 
+Overweight 
+and 
+Obese 
+Children. 
+Behavioral 
+Sciences 
+13, 
+(2023) 
+. 
+https://doi.org/10.3390/bs13010073. 
+13. 
+Iwasaki, M. et al. A Two-Year Longitudinal Study of the Association between Oral Frailty and 
+Deteriorating Nutritional Status among Community-Dwelling Older Adults. International Journal of 
+Environmental Research and Public Health 18, (2021) . https://doi.org/10.3390/ijerph18010213. 
+14. 
+Wu, Y., Li, D. & Vermund, S. H. Advantages and limitations of the body mass index (BMI) to assess adult 
+obesity. International journal of environmental research and public health 21, 757 (2024). 
+15. 
+Catapano, A. et al. Impedance Analysis to Evaluate Nutritional Status in Physiological and Pathological 
+Conditions. Nutrients 15, (2023) . https://doi.org/10.3390/nu15102264. 
+16. 
+Cimmino, F. et al. A Bioelectrical Impedance Analysis in Adult Subjects: The Relationship between Phase 
+Angle and Body Cell Mass. Journal of Functional Morphology and Kinesiology 8, (2023) . 
+https://doi.org/10.3390/jfmk8030107. 
+17. 
+Rai, P., Das, A., Agrawal, A. K. & Arora, D. Physical anthropometry in estimation of stature: A systematic 
+review. Int. J. Curr. Res. Rev 12, 75–79 (2020). 
+18. 
+Yadav, S., Nayak, V. C., Palimar, V., Gupta, C. & Chetal, J. R. An estimation of stature and sex using 
+various anthropometric parameters in South Indian population. Journal of Forensic Science and Medicine 
+9, 130–136 (2023). 
+19. 
+Mulu, A. & Sisay, B. Estimation of stature from arm span, arm length and tibial length among adolescents 
+of aged 15-18 in Addis Ababa, Ethiopia. Ethiopian journal of health sciences 31, (2021). 
+20. 
+Adebajo, A. et al. A model for the estimation of height and body mass index from arm span and to determine 
+the socio-demographic characteristics cross-sectional study of Bowen University Students. Discover 
+Psychology 4, 130 (2024). 
+21. 
+Hwaung, P. et al. Optimum waist circumference‐height indices for evaluating adult adiposity: an analytic 
+review. Obesity Reviews 21, e12947 (2020). 
+22. 
+Ross, R. et al. Waist circumference as a vital sign in clinical practice: a Consensus Statement from the IAS 
+and ICCR Working Group on Visceral Obesity. Nature Reviews Endocrinology 16, 177–189 (2020). 
+23. 
+Lee, S., Kim, Y. & Han, M. Influence of waist circumference measurement site on visceral fat and metabolic 
+risk in youth. Journal of Obesity & Metabolic Syndrome 31, 296 (2022). 
+24. 
+Casadei, K. & Kiel, J. Anthropometric measurement. in StatPearls [Internet] (StatPearls Publishing, 2022). 
+25. 
+Tutunchi, H., Ebrahimi-Mameghani, M., Ostadrahimi, A. & Asghari-Jafarabadi, M. What are the optimal 
+cut-off points of anthropometric indices for prediction of overweight and obesity? Predictive validity of 
+waist circumference, waist-to-hip and waist-to-height ratios. Health promotion perspectives 10, 142 (2020). 
+26. 
+Darsini, D., Hamidah, H., Notobroto, H. B. & Cahyono, E. A. Health risks associated with high waist 
+circumference: A systematic review. Journal of public health research 9, jphr-2020 (2020). 
+27. 
+Kułaga, Z., Świąder-Leśniak, A., Kotowska, A. & Litwin, M. Population-based references for waist and 
+hip circumferences, waist-to-hip and waist-to-height ratios for children and adolescents, and evaluation of 
+their predictive ability. European journal of pediatrics 182, 3217–3229 (2023). 
+28. 
+Minetto, M. A. et al. Digital anthropometry for body circumference measurements: European phenotypic 
+variations throughout the decades. Journal of personalized medicine 12, 906 (2022). 
+29. 
+Assefa, M., Tsegaye, A., Addissie, A. & Worku, A. Body composition-derived abdominal circumference, 
+waist-to-hip ratio, and waist-to-height ratio cut-offs for Ethiopian adults in Northwest Ethiopia, 2023. 
+Journal of Health, Population and Nutrition 43, 185 (2024). 
+30. 
+Nahorna, A. & Baur, H. Evaluating abdominal obesity by waist circumference, anthropometric indices and 
+bioelectrical impedance analysis: A comparative pilot study. Obesity Science & Practice 11, e70078 (2025). 
+
+============================================================
+PAGE 46
+============================================================
+44 
+ 
+31. 
+Mathew, D. E., Jayakaran, J. A. J., Hansdak, S. G. & Iyadurai, R. Cost effective and adaptable measures of 
+estimation of visceral adiposity. Clinical Epidemiology and Global Health 23, 101362 (2023). 
+32. 
+Petri, C., Campa, F., Holway, F., Pengue, L. & Arrones, L. S. ISAK-based anthropometric standards for 
+elite male and female soccer players. Sports 12, 69 (2024). 
+33. 
+Haroun, D., Darwish, M. & Ehsanallah, A. Associations of body adiposity index, body mass index, waist 
+circumference, and percentage of body fat in young female Emirati adults. PloS one 19, e0302779 (2024). 
+34. 
+Krakauer, N. Y. & Krakauer, J. C. Diet composition, anthropometrics, and mortality risk. International 
+Journal of Environmental Research and Public Health 19, 12885 (2022). 
+35. 
+Choong, C. L. et al. Application of anthropometric measurements analysis for stature in human vertebral 
+column: a systematic review. Forensic Imaging 20, 200360 (2020). 
+36. 
+Cameron, N. The measurement of human growth. in Human growth and development 317–345 (Elsevier, 
+2022). 
+37. 
+Hayes, J. et al. Mid-upper arm circumference (MUAC) measurement usage among children with 
+disabilities: a systematic review. Nutrition and Health 02601060231181607 (2023). 
+38. 
+Stankute, I., Dulskiene, V. & Kuciene, R. Associations between neck circumference, mid-upper arm 
+circumference, wrist circumference, and high blood pressure among lithuanian children and adolescents: A 
+cross-sectional study. Nutrients 16, 677 (2024). 
+39. 
+Cesanelli, L. et al. Short-Term Effects of Broccoli-Derived Glucoraphanin on Recovery from Eccentric 
+Muscle Damage: A Double-Blind Randomized Crossover Study. Nutrients 18, 710 (2026). 
+40. 
+Yamaguchi, S. et al. The effect of prior creatine intake for 28 days on accelerated recovery from exercise-
+induced muscle damage: A double-blind, randomized, placebo-controlled trial. Nutrients 16, 896 (2024). 
+41. 
+Farina, G. et al. Limb volume measurements: a comparison of circumferential techniques and 
+optoelectronic systems against water displacement. Bioengineering 11, 382 (2024). 
+42. 
+Moro, T. et al. Keep calm and keep rowing: the psychophysical effects of dragon boat program in breast 
+cancer survivors. Supportive Care in Cancer 32, 218 (2024). 
+43. 
+Yang, N. et al. Triceps skinfold thickness trajectories and the risk of all-cause mortality: A prospective 
+cohort study. World Journal of Clinical Cases 12, 2568 (2024). 
+44. 
+Krahn, A. N., Monson, J. K., LaPrade, R. F., Eggleston, G. G. & Greufe, N. A. The Clinical Utility of Thigh 
+Circumferential Measurement in Association with Quadriceps Limb Symmetry. International Journal of 
+Sports Physical Therapy 20, 885 (2025). 
+45. 
+Hebert, M. B., Dill, L. L., T STUHR, P. & Schmidt, D. J. Comparison of lower limb mass, thigh 
+circumference, and balance ability after anterior cruciate ligament reconstruction and in control participants. 
+International Journal of Exercise Science 17, 1306 (2024). 
+46. 
+Kono, S. et al. Evaluating upper leg muscle volume: the reliability of thigh circumference measurement 10 
+cm above the patella. Bone & Joint Research 14, 666–673 (2025). 
+47. 
+Bahat, G. Measuring calf circumference: a practical tool to predict skeletal muscle mass via adjustment 
+with BMI. The American journal of clinical nutrition 113, 1398–1399 (2021). 
+48. 
+Ceolin, C. et al. New perspectives in the association between anthropometry and mortality: the role of calf 
+circumference. The Journal of frailty & aging 13, 108–115 (2024). 
+49. 
+Gonzalez, M. C., Mehrnezhad, A., Razaviarab, N., Barbosa-Silva, T. G. & Heymsfield, S. B. Calf 
+circumference: cutoff values from the NHANES 1999–2006. The American journal of clinical nutrition 
+113, 1679–1687 (2021). 
+50. 
+Wei, J. et al. The association between low calf circumference and mortality: a systematic review and meta-
+analysis. European geriatric medicine 13, 597–609 (2022). 
+51. 
+Bhagwasia, M. et al. Defining anthropometric thresholds (mid-arm circumference and calf circumference) 
+in older adults residing in the community: a cross-sectional analysis using data from the population 
+representative Longitudinal Aging Study in India (LASI DAD). Bmj Open 13, e077530 (2023). 
+52. 
+Bhatnagar, R. et al. Estimation of Stature among Healthcare Workers using Arm Span, Biacromial Breadth, 
+and Forearm Length Dimensions: A Cross-sectional Study. International Journal of Anatomy, Radiology 
+and Surgery 13, 17–21 (2024). 
+53. 
+Guzman‐de la Garza, F. J. et al. Anthropometric parameters to estimate body frame size in children and 
+adolescents: A systematic review. American Journal of Human Biology 34, e23720 (2022). 
+
+============================================================
+PAGE 47
+============================================================
+45 
+ 
+54. 
+Singh. J, D. Correlation of BI-acromial, BI-iliocristal and BI-epicondylar breadths of Indian elite male high 
+jumpers with their performance. International Journal of Sports, Health and Physical Education 4, 19–21 
+(2022). 
+55. 
+Juan-Recio, C., Vera-Garcia, F. J., Lopez-Valenciano, A. & Barbado, D. The impact of anthropometric 
+characteristics on isometric trunk muscle endurance tests: A reliability and performance analysis. Plos one 
+20, e0324787 (2025). 
+56. 
+Smirnov, A. & Sundukov, D. Osteometric method for reconstructing the biacromial breadth of the shoulders 
+from the clavicles in forensic examination of bone remains. Archiv EuroMedica 12, 30–30 (2022). 
+57. 
+Dhanjal, H. S. Anthropometric and body composition profile in Indian Kabaddi players. International 
+Journal of Kinanthropometry 4, 92–97 (2024). 
+58. 
+Singh, P. & Kumar, A. Shoulder width, Pelvic width and Handgrip Strength of Male Junior Freestyle 
+Wrestlers of different Weight Category. Journal of Exercise Science & Physiotherapy Volume 21, (2025). 
+59. 
+Kutseryb, T., Hrynkiv, M., Vovkanych, L., Muzyka, F. & Melnyk, V. Anthropometric characteristic and 
+body composition of female students involved in volleyball training. (2023). 
+60. 
+Gulati, A., Jain, R., Khan, A. & Dhingra, M. Comparison of anthropometric parameters between Indian 
+adolescent male swimmers and non-swimmers: A cross-sectional study. European Journal of Physical 
+Education and Sport Science 7, (2021). 
+61. 
+Ruff, C. B., Wallace, I. J., Abeyta‐Brown, A., Butler, M. & Busby, T. Prediction of body mass from stature 
+and pelvic breadth. American Journal of Biological Anthropology 185, e25004 (2024). 
+62. 
+Senol, E. et al. The usability of the ratio of bi-humerus breadth to maximum pelvic breadth in sex estimation. 
+Annals of Human Biology 49, 305–310 (2022). 
+63. 
+Eyre, J., Williams, S. A., Grabowski, M., Winters, S. & Pontzer, H. The effect of bi-iliac breadth on core 
+body temperature. Journal of Human Evolution 195, 103580 (2024). 
+64. 
+Novak, J. M. et al. The relationship between adolescent obesity and pelvis dimensions in adulthood: a 
+retrospective longitudinal study. PeerJ 8, e8951 (2020). 
+65. 
+Baran, E. et al. Musculoskeletal and anthropometric factors associated with urinary incontinence in 
+pregnancy. Physiotherapy Theory and Practice 38, 1789–1798 (2022). 
+66. 
+Rani, D., Krishan, K., Kumar, A. & Kanchan, T. Assessment of body weight from percutaneous widths of 
+the bones and joints-Implications in forensic and clinical examinations. Acta Bio Medica: Atenei Parmensis 
+92, e2021225 (2021). 
+67. 
+Okon, M. et al. Male Linear Anthropometrics of Selected Nigerian Ethnicities: A Cross-Sectional Analysis. 
+Journal of Forensic Science and Research 8, 064–070 (2024). 
+68. 
+Alves, M., Carvalho, D. D., Fernandes, R. J. & Vilas-Boas, J. P. How anthropometrics of young and 
+adolescent swimmers influence stroking parameters and performance? A systematic review. International 
+Journal of Environmental Research and Public Health 19, 2543 (2022). 
+69. 
+Kaplánová, A., Šagát, P., Gonzalez, P. P., Bartík, P. & Zvonař, M. Somatotype profiles of Slovak and Saudi 
+Arabian male soccer players according to playing positions. Kinesiology 52, 143–150 (2020). 
+70. 
+Pluta, B., Galas, S., Krzykała, M., Andrzejewski, M. & Podciechowska, K. Somatic characteristics and 
+special motor fitness of young top-level polish table tennis players. International Journal of Environmental 
+Research and Public Health 18, 5279 (2021). 
+71. 
+Mostafa, E., Imonugo, O. & Varacallo, M. A. Anatomy, shoulder and upper limb, humerus. in StatPearls 
+[Internet] (StatPearls Publishing, 2023). 
+72. 
+Draga, P. et al. Morphology of male World Cup and elite speed climbers. Frontiers in Sports and Active 
+Living 7, 1679627 (2025). 
+73. 
+Martínez-Rodríguez, A. et al. Anthropometric dimensions and bone quality in international male beach 
+handball players: Junior vs. senior comparison. Nutrients 13, 1817 (2021). 
+74. 
+Toselli, S. et al. Differences in Maturity and Anthropometric and Morphological Characteristics among 
+Young Male Basketball and Soccer Players and Non-Players. International Journal of Environmental 
+Research and Public Health 18, 3902 (2021) . https://doi.org/10.3390/ijerph18083902. 
+75. 
+Cowgill, L., Harrington, L., MacKinnon, M. & Kurki, H. K. Gains in relative cortical area during growth 
+and their relationship to nutrition, body size, and physical activity. American Journal of Biological 
+Anthropology 182, 177–193 (2023). 
+
+============================================================
+PAGE 48
+============================================================
+46 
+ 
+76. 
+Toselli, S. et al. The association between body composition and quality of life among elderly Italians. 
+Endocrine 68, 279–286 (2020). 
+77. 
+Yuswadi, M. A. A. M. & Mustafa, N. Anthropometric Profile, Sports Nutrition Knowledge and Its 
+Association Among Karate Athletes in Kuantan, Pahang. International Journal of Allied Health Sciences 
+9, (2025). 
+78. 
+Yaşar, B. & Sağır, M. Assessment of anthropometric and body composition characteristics of elite Turkish 
+wrestlers. Biomedical Human Kinetics 13, 221–230 (2021). 
+79. 
+Samodra, Y. T. J. et al. Somatotype of the Tarung Derajat martial arts athletes in the fighter category. 
+Journal Sport Area 8, 14–23 (2023). 
+80. 
+Lijewski, M., Burdukiewicz, A., Stachoń, A. & Pietraszewska, J. Differences in anthropometric variables 
+and muscle strength in relation to competitive level in male handball players. PLoS One 16, e0261141 
+(2021). 
+81. 
+Puspaningtyas, D. E., Afriani, Y., Mahfida, S. L., Farmawati, A. & Kushartanti, W. Analysis of body type, 
+dietary intake, and cardiorespiratory function in college soccer players. Jurnal Keolahragaan 10, 40–52 
+(2022). 
+82. 
+Ghosh, M., Chatterjee, A. & Diaz, E. F. Assessment of Body Composition and Somatotype Among Sports 
+Persons. in Sports Nutrition Methods 61–80 (Springer, 2025). 
+83. 
+Moraes, M. S., Fernandes, R. A., Moreno, Y. M., Pelegrini, A. & Silva, D. A. Bone Density and Bone 
+Geometry in University Athletes From Sports With Different Levels of Impact: Simultaneous Association 
+With Multiple Factors. The Journal of Strength & Conditioning Research 36, 3113–3121 (2022). 
+84. 
+Bim, M. A. et al. Relationship of skeletal muscle mass, length of sports experience, and sexual maturity 
+with bone density and geometry in adolescent athletes. Journal of Clinical Densitometry 28, 101562 (2025). 
+85. 
+Kumar, M. S. & Vincent, T. V. Physical Characteristics and Somato Type of Trained Badminton Players. 
+Indian Journal of Public Health Research & Development 11, (2020). 
+86. 
+Van Den Berg, P., De Ridder, J., Malan, D. & Ellis, S. An Anthropometric Comparison of Different Player 
+Positions in Elite Rugby Union Sevens. International Journal of Sports and Physical Education 7, (2021). 
+87. 
+Carvajal-Veitía, W. et al. Anthropometric characteristics and body composition changes in a five-time 
+olympic champion in Greco-Roman wrestling: a longitudinal case study towards the Paris 2024 olympic 
+games. Journal of Functional Morphology and Kinesiology 10, 176 (2025). 
+88. 
+Cedillo, Y. E., Knight, R. O., Darnell, B., Fernandez, J. R. & Moellering, D. R. Body fat percentage 
+assessment using skinfold thickness agrees with measures obtained by DXA scan in African American and 
+Caucasian American women. Nutrition research 105, 154–162 (2022). 
+89. 
+Mohammadian, S. et al. Unveiling the link: nutritional intake and body composition in elite male Olympic 
+combat sport athletes. Human Movement 26, 107–119 (2025). 
+90. 
+Petri, C. et al. Body fat assessment in international elite soccer referees. Journal of functional morphology 
+and kinesiology 5, 38 (2020). 
+91. 
+van der Scheer, J. W. et al. Assessment of body composition in spinal cord injury: A scoping review. PLoS 
+One 16, e0251142 (2021). 
+92. 
+Cerullo, G., Franchi, M. V., Sampieri, A., Campa, F. & Paoli, A. Ultrasound-derived skinfolds in 
+anthropometric predictive equations overestimate fat mass: a validation study using a four-component 
+model. Nutrients 17, 1881 (2025). 
+93. 
+Talavera-Hernández, L. F. et al. Is there a need for anthropometric standards in olympic sports? A proposal 
+for the kinathropometric profile of elite flag football athletes. Frontiers in Nutrition 12, 1534453 (2025). 
+94. 
+Zompanakis, I., Papadimitriou, K. & Koutlianos, N. Potential Associations Between Anthropometric 
+Characteristics, Biomarkers, and Sports Performance in Regional Ultra-Marathon Swimmers: A Quasi-
+Experimental Study. Applied Sciences 15, 7210 (2025). 
+95. 
+Machado, D. R. L. et al. Reliability of skinfold measurements and body fat prediction depends on the rater’s 
+experience: a cross-sectional analysis comparing expert and novice anthropometrists. Sport Sciences for 
+Health 21, 2639–2648 (2025). 
+96. 
+Papadopoulou, S. D. et al. Subcutaneous adipose tissue in female volleyball players: is it related with 
+performance indices? Medicina 56, 159 (2020). 
+
+============================================================
+PAGE 49
+============================================================
+47 
+ 
+97. 
+Mohajan, D. & Mohajan, H. K. Body mass index (BMI) is a popular anthropometric tool to measure obesity 
+among adults. Journal of Innovations in Medical Research 2, 25–33 (2023). 
+98. 
+Aghaei, M. et al. The association between waist-to-hip ratio (WHR) with diabetes in the PERSIAN Guilan 
+cohort study population. BMC Endocrine Disorders 24, 113 (2024). 
+99. 
+Campa, F. et al. From fat to facts: anthropometric references and centile curves for sum of skinfolds and 
+waist-to-hip ratio in 2,507 adults. PLoS One 20, e0326111 (2025). 
+100. Cancela-Carral, J. M., Bezerra, P., Lopez-Rodriguez, A. & Silva, B. Degree of association between the 
+body mass index (BMI), waist-Hip ratio (WHR), waist-height ratio (WHtR), body adiposity index (BAI) 
+and conicity index (CI) in physically active older adults. Clinical Nutrition ESPEN 58, 335–341 (2023). 
+101. Ke, J.-F. et al. Waist-to-height ratio has a stronger association with cardiovascular risks than waist 
+circumference, waist-hip ratio and body mass index in type 2 diabetes. Diabetes Research and Clinical 
+Practice 183, 109151 (2022). 
+102. Louie, J. C. Y. & Wall-Medrano, A. Waist-to-height ratio is a simple tool for assessing central obesity and 
+consequent health risk. Frontiers in Nutrition 10, 1277610 (2023). 
+103. Moltrer, M. et al. Body mass index (BMI), waist circumference (WC), waist-to-height ratio (WHtR) e waist 
+body mass index (wBMI): Which is better? Endocrine 76, 578–583 (2022). 
+104. Abdi Dezfouli, R. et al. Waist to height ratio as a simple tool for predicting mortality: a systematic review 
+and meta-analysis. International Journal of Obesity 47, 1286–1301 (2023). 
+105. Gibson, S. & Ashwell, M. A simple cut-off for waist-to-height ratio (0· 5) can act as an indicator for 
+cardiometabolic risk: recent data from adults in the Health Survey for England. British Journal of Nutrition 
+123, 681–690 (2020). 
+106. Nazari, M., Mirzaie, K. & Keshavarz, S. Association between lifelines Diet score (LLDS) and some novel 
+anthropometric indices, including body roundness index (BRI), a body shape index (ABSI), visceral 
+Adiposity Index (VAI), and body adiposity index (BAI), in Iranian women: a cross-sectional study. BMC 
+Women’s Health 24, 172 (2024). 
+107. Sadeghi, E. et al. Novel anthropometric indices for predicting type 2 diabetes mellitus. BMC Public Health 
+24, 1033 (2024). 
+108. Kheirouri, S. & Alizadeh, M. Contribution of body adiposity index and conicity index in prediction of 
+metabolic syndrome risk and components. Human Nutrition & Metabolism 38, 200290 (2024) . 
+https://doi.org/10.1016/j.hnm.2024.200290. 
+109. de Macêdo Cesário, T. et al. Body adiposity index to analyze the percentage of fat in young men aged 
+between 7 and 17 years. American Journal of Human Biology 34, e23599 (2022) . 
+https://doi.org/https://doi.org/10.1002/ajhb.23599. 
+110. Rico-Martín, S. et al. Effectiveness of body roundness index in predicting metabolic syndrome: A 
+systematic 
+review 
+and 
+meta-analysis. 
+Obesity 
+Reviews 
+21, 
+e13023 
+(2020) 
+. 
+https://doi.org/10.1111/obr.13023. 
+111. Eng, P. C., Teo, A. E. D., Leow, M. K. S., Tai, E. S. & Khoo, C. M. Body roundness index (BRI) and 
+obesity-related anthropometrics: Relationship to visceral adiposity, insulin sensitivity index and 
+cardiometabolic 
+risk. 
+Diabetes, 
+Obesity 
+and 
+Metabolism 
+27, 
+5554–5565 
+(2025) 
+. 
+https://doi.org/10.1111/dom.16601. 
+112. Xu, J. et al. Body roundness index is a superior indicator to associate with the cardio‐metabolic risk: 
+evidence from a cross‐sectional study with 17,000 Eastern-China adults. BMC Cardiovascular Disorders 
+21, 97 (2021) . https://doi.org/10.1186/s12872-021-01905-x. 
+113. Calderón-García, J. F. et al. Effectiveness of Body Roundness Index (BRI) and a Body Shape Index (ABSI) 
+in Predicting Hypertension: A Systematic Review and Meta-Analysis of Observational Studies. 
+International Journal of Environmental Research and Public Health 18, 11607 (2021) . 
+https://doi.org/10.3390/ijerph182111607. 
+114. Endukuru, C. K., Gaur, G. S., Dhanalakshmi, Y., Sahoo, J. & Vairappan, B. Cut-off values and clinical 
+efficacy of body roundness index and other novel anthropometric indices in identifying metabolic syndrome 
+and its components among Southern-Indian adults. Diabetology International 13, 188–200 (2022) . 
+https://doi.org/10.1007/s13340-021-00522-5. 
+
+============================================================
+PAGE 50
+============================================================
+48 
+ 
+115. He, J. et al. Comparison of bioelectrical body and visceral fat indices and anthropometric measures in 
+relation to type 2 diabetes by sex among Chinese adults, a cross-sectional study. Frontiers in Public Health 
+Volume 11-2023, (2023) . https://doi.org/10.3389/fpubh.2023.1001397. 
+116. Jakubiak, G. K. et al. The Visceral Adiposity Index and Its Usefulness in the Prediction of Cardiometabolic 
+Disorders. Nutrients 17, (2025) . https://doi.org/10.3390/nu17142374. 
+117. Jiang, K. et al. Association Between Visceral Adiposity Index and Insulin Resistance: A Cross-Sectional 
+Study 
+Based 
+on 
+US 
+Adults. 
+Frontiers 
+in 
+Endocrinology 
+Volume 
+13-2022, 
+(2022) 
+. 
+https://doi.org/10.3389/fendo.2022.921067. 
+118. Ravani, J. P. R. et al. The Visceral Adiposity Index Is a Better Predictor of Excess Visceral Fat in Military 
+Pilots: A Cross-sectional Observational Study. Military Medicine 188, e2003–e2009 (2023) . 
+https://doi.org/10.1093/milmed/usac319. 
+119. Zhang, L., Luo, H., Bai, J. & Ren, W. VISCERAL ADIPOSITY INDICATORS AND 
+ANTHROPOMETRIC INDICES AS SCREENING TOOLS OF METABOLIC SYNDROME AMONG 
+CHINESE ATHLETIC PATIENTS. International Journal of Medicine & Science of Physical Activity & 
+Sport 264–276 (2023) . https://doi.org/10.15366/rimcafd2023.92.021. 
+120. Baveicy, K. et al. Predicting Metabolic Syndrome by Visceral Adiposity Index, Body Roundness Index and 
+a Body Shape Index in Adults: A Cross-Sectional Study from the Iranian RaNCD Cohort Data. Diabetes, 
+Metabolic Syndrome and Obesity 13, 879–887 (2020) . https://doi.org/10.2147/DMSO.S238153. 
+121. López-González, A. A. et al. The CUN-BAE, Deurenberg Fat Mass, and visceral adiposity index as 
+confident anthropometric indices for early detection of metabolic syndrome components in adults. Scientific 
+Reports 12, 15486 (2022) . https://doi.org/10.1038/s41598-022-19343-w. 
+122. Demirbas, N. & Kutlu, R. Importance of Measured Body Fat, Visceral Adiposity Index, and Lipid 
+Accumulation Product Index in Predicting Cardiometabolic Risk Factors. Metabolic Syndrome and Related 
+Disorders 19, 174–179 (2021) . https://doi.org/10.1089/met.2020.0098. 
+123. Fahami, M., Hojati, A. & Farhangi, M. A. Body shape index (ABSI), body roundness index (BRI) and risk 
+factors of metabolic syndrome among overweight and obese adults: a cross-sectional study. BMC Endocrine 
+Disorders 24, 230 (2024). 
+124. Ryu, K. et al. Central obesity as assessed by conicity index and a-body shape index associates with 
+cardiovascular risk factors and mortality in kidney failure patients. Frontiers in Nutrition Volume 10-2023, 
+(2023) . https://doi.org/10.3389/fnut.2023.1035343. 
+125. Tang, L. & Zeng, L. Comparative efficacy of anthropometric indices in predicting 10-year ASCVD risk: 
+insights from NHANES data. Frontiers in Cardiovascular Medicine 11, 1341476 (2024). 
+126. Lombardo, M., Krakauer, J. C. & Krakauer, N. Y. Behavioral and dietary determinants of central adiposity 
+assessed by ABSI in a mediterranean clinical sample. Public health nutrition 29, e10 (2026). 
+127. Górnicka, M. et al. Anthropometric Indices as Predictive Screening Tools for Obesity in Adults; The Need 
+to Define Sex-Specific Cut-Off Points for Anthropometric Indices. Applied Sciences 12, (2022) . 
+https://doi.org/10.3390/app12126165. 
+128. Kuang, M. et al. The value of combining the simple anthropometric obesity parameters, Body Mass Index 
+(BMI) and a Body Shape Index (ABSI), to assess the risk of non-alcoholic fatty liver disease. Lipids in 
+health and disease 21, 104 (2022). 
+129. Rahman, M. H. & Sharma, J. An analysis of indices and ratios in anthropometric body measurements among 
+team sports athletes. International Journal of Scientific Reports 10, 111–119 (2024). 
+130. Salaroli, L. B. & Martins, C. A. Conicity index: an anthropometric indicator of abdominal obesity. Journal 
+of Human Growth and Development 32, 181–184 (2022). 
+131. Samarein, M. R. et al. Comparisons and associations among anthropometric indices of first and second 
+division and assistant soccer referees. Frontiers in psychology 14, 1149779 (2023). 
+132. Silva, Y. F. R., do Prado, C. B., Muniz, V. M., Haraguchi, F. K. & Salaroli, L. B. Cardiovascular risk 
+assessed by the conicity index in Brazilian adults: findings from the national health survey. Frontiers in 
+Nutrition Volume 13-2026, (2026) . https://doi.org/10.3389/fnut.2026.1688180. 
+133. Esparza-Ros, F. & Vaquero-Cristóbal, R. Analysis of Proportionality Through Anthropometric Assessment. 
+in Anthropometry: Fundamentals of Application and Interpretation (eds Esparza-Ros, F. & Vaquero-
+
+============================================================
+PAGE 51
+============================================================
+49 
+ 
+Cristóbal, R.) 81–101 (Springer Nature Switzerland, Cham, 2025). . https://doi.org/10.1007/978-3-031-
+77535-2_6. 
+134. Khodadadi, F. et al. The Effect of High-Intensity Interval Training Type on Body Fat Percentage, Fat and 
+Fat-Free Mass: A Systematic Review and Meta-Analysis of Randomized Clinical Trials. Journal of Clinical 
+Medicine 12, (2023) . https://doi.org/10.3390/jcm12062291. 
+135. Reale, R., Burke, L. M., Cox, G. R. & Slater, G. Body composition of elite Olympic combat sport athletes. 
+European 
+Journal 
+of 
+Sport 
+Science 
+20, 
+147–156 
+(2020) 
+. 
+https://doi.org/https://doi.org/10.1080/17461391.2019.1616826. 
+136. Neagu, M. & Neagu, A. A Decade of Progress in Ultrasound Assessments of Subcutaneous and Total Body 
+Fat: A Scoping Review. Life 15, 236 (2025) . https://doi.org/10.3390/life15020236. 
+137. Silveira, E. A., Barbosa, L. S., Rodrigues, A. P. S., Noll, M. & De Oliveira, C. Body fat percentage 
+assessment by skinfold equation, bioimpedance and densitometry in older adults. Archives of Public Health 
+78, 65 (2020) . https://doi.org/10.1186/s13690-020-00449-4. 
+138. Messina, C. et al. Body composition with dual energy X-ray absorptiometry: from basics to new tools. 
+Quantitative imaging in medicine and surgery 10, 1687 (2020). 
+139. Ofenheimer, A. et al. Reference values of body composition parameters and visceral adipose tissue (VAT) 
+by DXA in adults aged 18–81 years—results from the LEAD cohort. European journal of clinical nutrition 
+74, 1181–1191 (2020). 
+140. Campa, F. et al. Bioelectrical impedance analysis versus reference methods in the assessment of body 
+composition in athletes. European Journal of Applied Physiology 122, 561–589 (2022). 
+141. Kasper, A. M. et al. Come back skinfolds, all is forgiven: a narrative review of the efficacy of common 
+body composition methods in applied sports practice. Nutrients 13, 1075 (2021). 
+142. Holmes, C. J. & Racette, S. B. The utility of body composition assessment in nutrition and clinical practice: 
+an overview of current methodology. Nutrients 13, 2493 (2021). 
+143. Lee, M., Jebb, S. A., Oke, J. & Piernas, C. Reference values for skeletal muscle mass and fat mass measured 
+by bioelectrical impedance in 390 565 UK adults. Journal of cachexia, sarcopenia and muscle 11, 487–496 
+(2020). 
+144. Sebastia-Rico, J., Soriano, J. M., Gonzalez-Galvez, N. & Martinez-Sanz, J. M. Body composition of male 
+professional soccer players using different measurement methods: a systematic review and meta-analysis. 
+Nutrients 15, 1160 (2023). 
+145. Oliveira, B. R. de et al. Performance of body fat percentage, fat mass index and body mass index for 
+detecting cardiometabolic outcomes in Brazilian adults. Nutrients 15, 2974 (2023). 
+146. Merchant, R. A. et al. Relationship of fat mass index and fat free mass index with body mass index and 
+association with function, cognition and sarcopenia in pre-frail older adults. Frontiers in endocrinology 12, 
+765415 (2021). 
+147. Marini, E. et al. Phase angle and bioelectrical impedance vector analysis in the evaluation of body 
+composition in athletes. Clinical Nutrition 39, 447–454 (2020). 
+148. Mendoza-Muñoz, M. et al. Influence of body composition on physical fitness in adolescents. Medicina 56, 
+328 (2020). 
+149. Jayedi, A., Khan, T. A., Aune, D., Emadi, A. & Shab-Bidar, S. Body fat and risk of all-cause mortality: a 
+systematic review and dose-response meta-analysis of prospective cohort studies. International journal of 
+obesity 46, 1573–1581 (2022). 
+150. Khor, E. Q.-E. et al. Obesity definitions in sarcopenic obesity: differences in prevalence, agreement and 
+association with muscle function. The Journal of frailty & aging 9, 37–43 (2020). 
+151. Saito, H. et al. Sarcopenic obesity is associated with impaired physical function and mortality in older 
+patients with heart failure: insight from FRAGILE-HF. BMC geriatrics 22, 556 (2022). 
+152. Seo, Y., Song, H. J. & Song, Y. R. Fat‐to‐muscle ratio as a predictor of insulin resistance and metabolic 
+syndrome in Korean adults. Journal of cachexia, sarcopenia and muscle 11, 710–725 (2020). 
+153. Giovanelli, L. et al. Body composition assessment in a large cohort of Olympic athletes with different 
+training loads: possible reference values for fat mass and fat-free mass domains. Acta Diabetologica 61, 
+361–372 (2024) . https://doi.org/10.1007/s00592-023-02203-y. 
+
+============================================================
+PAGE 52
+============================================================
+50 
+ 
+154. Ubago-Guisado, E. et al. Influence of different sports on fat mass and lean mass in growing girls. Journal 
+of Sport and Health Science 6, 213–218 (2017) . https://doi.org/https://doi.org/10.1016/j.jshs.2015.06.001. 
+155. Visser, M. et al. Validity of fan-beam dual-energy X-ray absorptiometry for measuring fat-free mass and 
+leg muscle mass. Journal of applied physiology 87, 1513–1520 (1999). 
+156. Jagim, A. R. et al. Fat-free mass index in sport: normative profiles and applications for collegiate athletes. 
+The Journal of Strength & Conditioning Research 10–1519 (2022). 
+157. Matias, C. N. et al. Fat-free mass bioelectrical impedance analysis predictive equation for athletes using a 
+4-compartment model. International journal of sports medicine 42, 27–32 (2021). 
+158. Prior, B. M. et al. Muscularity and the density of the fat-free mass in athletes. Journal of Applied Physiology 
+90, 1523–1531 (2001). 
+159. Brandner, C. F., Harty, P. S., Luedke, J. A., Erickson, J. L. & Jagim, A. R. Sport differences in fat-free mass 
+index among a diverse sample of NCAA Division III collegiate athletes. The Journal of Strength & 
+Conditioning Research 36, 2212–2217 (2022). 
+160. Jagim, A. R. et al. Fat-Free Mass Index in Sport: Normative Profiles and Applications for Collegiate 
+Athletes. The Journal of Strength & Conditioning Research 38, (2024). 
+161. Oliver, C. J. et al. Fat‐Free Mass: Friend or Foe to Metabolic Health? Journal of cachexia, sarcopenia and 
+muscle 16, e13714 (2025). 
+162. Magee, M. K., Fields, J. B., Jagim, A. R. & Jones, M. T. Fat-free mass index in a large sample of National 
+Collegiate Athletic Association men and women athletes from a variety of sports. The Journal of Strength 
+& Conditioning Research 38, 311–317 (2024). 
+163. Popp, C. J. & Jesch, E. D. The relationship between cardiorespiratory fitness and indices of fat mass and 
+fat-free mass in adults. Frontiers in Sports and Active Living Volume 7-2025, (2025) . 
+https://doi.org/10.3389/fspor.2025.1583432. 
+164. Gažarová, M., Bihari, M., Lorková, M., Lenártová, P. & Habánová, M. The use of different anthropometric 
+indices to assess the body composition of young women in relation to the incidence of obesity, sarcopenia 
+and the premature mortality risk. International Journal of Environmental Research and Public Health 19, 
+12449 (2022). 
+165. Kawakami, R. et al. Fat-Free Mass Index as a Surrogate Marker of Appendicular Skeletal Muscle Mass 
+Index for Low Muscle Mass Screening in Sarcopenia. Journal of the American Medical Directors 
+Association 23, 1955-1961.e3 (2022) . https://doi.org/https://doi.org/10.1016/j.jamda.2022.08.016. 
+166. AlMasud, A. A. et al. Relationship of fat mass index and fat free mass index with body mass index and 
+association with sleeping patterns and physical activity in Saudi young adults women. Journal of Health, 
+Population and Nutrition 44, 64 (2025) . https://doi.org/10.1186/s41043-025-00795-5. 
+167. Kasović, M., Štefan, L., Neljak, B., Petrić, V. & Knjaz, D. Reference Data for Fat Mass and Fat-Free Mass 
+Measured by Bioelectrical Impedance in Croatian Youth. International Journal of Environmental Research 
+and Public Health 18, (2021) . https://doi.org/10.3390/ijerph18168501. 
+168. González-Cano, H. et al. Do muscle mass and body fat differ between elite and amateur natural physique 
+athletes on competition day? A preliminary, cross-sectional, anthropometric study. The Journal of Strength 
+& Conditioning Research 38, 951–956 (2024). 
+169. Kurinami, N. et al. Body muscle-to-fat ratio, rather than fat-to-muscle ratio, significantly correlates with 
+measured insulin resistance in patients with type 2 diabetes mellitus. Journal of Clinical Medicine Research 
+13, 387 (2021). 
+170. Kurinami, N. et al. Body Muscle-to-Fat Ratio (BMFR) as a Promising Anthropometric Index for Use in the 
+Evaluation of Insulin Resistance and Metabolic Disease Risk: a Narrative Review. Current Obesity Reports 
+14, 76 (2025). 
+171. Campa, F. et al. A New Strategy to Integrate Heath–Carter Somatotype Assessment with Bioelectrical 
+Impedance Analysis in Elite Soccer Players. Sports 8, 142 (2020) . https://doi.org/10.3390/sports8110142. 
+172. Drywień, M., Górnicki, K. & Górnicka, M. Application of artificial neural network to somatotype 
+determination. Applied Sciences 11, 1365 (2021). 
+173. Bertuccioli, A. et al. A new strategy for somatotype assessment using bioimpedance analysis: Stratification 
+according to sex. Journal of functional morphology and kinesiology 7, 86 (2022).  
+
+============================================================
+PAGE 53
+============================================================
+51 
+ 
+174. Castillo, M. et al. Body Composition and Determination of Somatotype of the Spanish Elite Female Futsal 
+Players. Applied Sciences 12, 5708 (2022) . https://doi.org/10.3390/app12115708. 
+175. Germic, A., Filipcic, T. & Filipcic, A. Anthropometric Characteristics and Somatotype of Young Slovenian 
+Tennis Players. Applied Sciences 15, 8584 (2025). 
+176. Vybornaya, K. V. & Nikityuk, D. B. Somatotyping according to the Heath-Carter scheme-the relationship 
+between body type and gender, age and level of physical activity. Voprosy Pitaniia 94, 18–37 (2025). 
+177. Sakibaev, K. et al. Assessing the consistency between the anthropometric method and bioelectrical 
+impedance analysis when calculating the Heath-Carter somatotype in people without obesity: a cross-
+sectional study. Journal of Electrical Bioimpedance 16, 99–106 (2025). 
+178. Ondrejová, B., Bednarčíková, L., Ferenčík, N. & Živčák, J. Validation of Automated Somatotype 
+Estimation Proposal Using Full-Body 3D Scanning. Bioengineering 12, 717 (2025). 
+179. Semenov, M. M. et al. Evaluation of the somatotype of patients with class 1, 2 and 3 obesity according to 
+the Heath-Carter scheme using various formulas. Bulletin of Rehabilitation Medicine 21, 78–90 (2022). 
+180. Liu, X. et al. Obesity and heath-carter somatotyping of 3438 adults in the Xinjiang Uygur autonomous 
+region of China by multivariate analysis. Diabetes, Metabolic Syndrome and Obesity 659–670 (2021). 
+181. Shahidi, S. H., Yalçın, M. & Holway, F. E. Anthropometric and somatotype characteristics of top elite 
+Turkish national jumpers. International Journal of Kinanthropometry 3, 45–55 (2023). 
+182. Sarabia, J. M., Doménech, C., Roche, E., Vicente-Salar, N. & Reina, R. Anthropometrical features of para-
+footballers according to their cerebral palsy profiles and compared to controls. International Journal of 
+Environmental Research and Public Health 17, 9071 (2020). 
+183. Becerra-Patiño, B. A. et al. Physical Fitness, Body Composition, Somatotype, and Phantom Strategy (Z-
+Score) in U13, U15, and U17 Female Soccer Players: A Comparative and Correlational Study. 
+Biomechanics 5, 85 (2025) . https://doi.org/10.3390/biomechanics5040085. 
+184. Sanchez-Martinez, J. & Hernández-Jaña, S. Morphological differences of street workout athletes according 
+to the training experience. International Journal of Morphology 40, 320–326 (2022). 
+185. Holway, F. et al. Kinanthropometry and Anatomical Body Composition of Elite Soccer Players in 
+Argentina: The FUTREF Project. International Journal of Kinanthropometry 4, 62–71 (2024). 
+186. Lopes, A. L. et al. Anthropometric profile of the Brazilian male judo team: cross-sectional study. Retos 64, 
+44–54 (2025). 
+187. Menargues-Ramírez, R., Sospedra, I., Holway, F., Hurtado-Sánchez, J. A. & Martínez-Sanz, J. M. 
+Evaluation of body composition in CrossFit® athletes and the relation with their results in official training. 
+International Journal of Environmental Research and Public Health 19, 11003 (2022). 
+188. Duarte, C. K. et al. Prediction equations to estimate muscle mass using anthropometric data: a systematic 
+review. Nutrition Reviews 81, 1414–1440 (2023). 
+189. Kawakami, R. et al. Development and validation of a simple anthropometric equation to predict 
+appendicular 
+skeletal 
+muscle 
+mass. 
+Clinical 
+Nutrition 
+40, 
+5523–5530 
+(2021) 
+. 
+https://doi.org/10.1016/j.clnu.2021.09.032. 
+190. Kołodziej, M., Sebastjan, A. & Ignasiak, Z. Appendicular skeletal muscle mass and quality estimated by 
+bioelectrical impedance analysis in the assessment of frailty syndrome risk in older individuals. Aging 
+Clinical and Experimental Research 34, 2081–2088 (2022). 
+191. Chen, L.-K. et al. Asian Working Group for Sarcopenia: 2019 consensus update on sarcopenia diagnosis 
+and treatment. Journal of the American Medical Directors Association 21, 300–307 (2020). 
+192. He, H. et al. Normative values of hand grip strength in a large unselected Chinese population: Evidence 
+from the China National Health Survey. Journal of Cachexia, Sarcopenia and Muscle 14, 1312–1321 
+(2023) . https://doi.org/10.1002/jcsm.13223. 
+193. Assumpção, D. de et al. Changes in anthropometric indicators and gait speed in older adults: cohort study. 
+Revista Brasileira de Geriatria e Gerontologia 25, e210238 (2022). 
+194. Grygorieva, N. et al. Assessment of appendicular lean mass using basic demographic and anthropometric 
+indices. Physiological Journal/Fiziologichnyi Zhurnal 71, (2025). 
+195. Rodriguez, C., Mota, J. D., Palmer, T. B., Heymsfield, S. B. & Tinsley, G. M. Skeletal muscle estimation: 
+a review of techniques and their applications. Clinical Physiology and Functional Imaging 44, 261–284 
+(2024). 
+
+============================================================
+PAGE 54
+============================================================
+52 
+ 
+196. Perrey, S., Quaresima, V. & Ferrari, M. Muscle Oximetry in Sports Science: An Updated Systematic 
+Review. Sports Medicine 54, 975–996 (2024) . https://doi.org/10.1007/s40279-023-01987-x. 
+197. McCarthy, C. et al. Smartphone prediction of skeletal muscle mass: model development and validation in 
+adults. 
+The 
+American 
+Journal 
+of 
+Clinical 
+Nutrition 
+117, 
+794–801 
+(2023) 
+. 
+https://doi.org/10.1016/j.ajcnut.2023.02.003. 
+198. Ye, H. et al. Do dietary supplements prevent loss of muscle mass and strength during muscle disuse? A 
+systematic review and meta-analysis of randomized controlled trials. Frontiers in Nutrition 10, 1093988 
+(2023). 
+199. Lukaski, H. & Raymond-Pope, C. J. New frontiers of body composition in sport. International journal of 
+sports medicine 42, 588–601 (2021). 
+200. Campa, F., Toselli, S., Mazzilli, M., Gobbo, L. A. & Coratella, G. Assessment of body composition in 
+athletes: a narrative review of available methods with special reference to quantitative and qualitative 
+bioimpedance analysis. Nutrients 13, 1620 (2021). 
+201. Gómez-Ambrosi, J., Catalán, V. & Frühbeck, G. The evolution of the understanding of obesity over the last 
+100 years. International journal of obesity 49, 168–176 (2025). 
+202. Uppal, A. & Upadhyay, A. A review of scientific methods for measuring body composition: Advancements 
+and emerging techniques. International Journal of Physical Education, Fitness and Sports 13, 21–30 
+(2024). 
+203. Silva, A. M. et al. The bioelectrical impedance analysis (BIA) international database: aims, scope, and call 
+for data. European journal of clinical nutrition 77, 1143–1150 (2023). 
+204. Baglietto, N., Vaquero-Cristóbal, R., Albaladejo-Saura, M., Mecherques-Carini, M. & Esparza-Ros, F. 
+Assessing skeletal muscle mass and lean body mass: an analysis of the agreement among dual X-ray 
+absorptiometry, anthropometry, and bioelectrical impedance. Frontiers in nutrition 11, 1445892 (2024). 
+205. Huber, F. A., Del Grande, F., Rizzo, S., Guglielmi, G. & Guggenberger, R. MRI in the assessment of 
+adipose tissues and muscle composition: how to use it. Quantitative imaging in medicine and surgery 10, 
+1636 (2020). 
+206. Naik, B. T., Hashmi, M. F. & Bokde, N. D. A Comprehensive Review of Computer Vision in Sports: Open 
+Issues, 
+Future 
+Trends 
+and 
+Research 
+Directions. 
+Applied 
+Sciences 
+12, 
+(2022) 
+. 
+https://doi.org/10.3390/app12094429. 
+207. Ash, G. I. et al. Establishing a Global Standard for Wearable Devices in Sport and Exercise Medicine: 
+Perspectives from Academic and Industry Stakeholders. Sports Medicine 51, 2237–2250 (2021) . 
+https://doi.org/10.1007/s40279-021-01543-5. 
+208. Migliaccio, G. M., Padulo, J. & Russo, L. The Impact of Wearable Technologies on Marginal Gains in 
+Sports Performance: An Integrative Overview on Advances in Sports, Exercise, and Health. Applied 
+Sciences 14, (2024) . https://doi.org/10.3390/app14156649. 
+209. Silva, A. M. et al. The bioelectrical impedance analysis (BIA) international database: aims, scope, and call 
+for data. European journal of clinical nutrition 77, 1143–1150 (2023). 
+ 

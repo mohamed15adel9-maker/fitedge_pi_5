@@ -1,31 +1,119 @@
+# ==========================================================
 # Python
+# ==========================================================
+
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Virtual environment
+# Virtual environments
 .venv/
+venv/
+env/
+ENV/
 
-# Database
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==========================================================
+# Environment & Secrets
+# ==========================================================
+
+.env
+.env.*
+
+# Google OAuth
+credentials.json
+token.json
+auth/credentials.json
+auth/token.json
+
+# API secrets
+auth/intervals_secrets.json
+auth/wger_secrets.json
+
+# ==========================================================
+# Databases
+# ==========================================================
+
+*.db
+*.sqlite
+*.sqlite3
 memory.db
 
+# ==========================================================
 # Audio
+# ==========================================================
+
 audio/*.wav
+*.mp3
 
-# LLM models
-models/*.gguf
+# ==========================================================
+# AI Models
+# ==========================================================
 
-# Piper voices
-tts/voices/*.onnx
+models/
+*.gguf
+*.bin
+*.onnx
+*.pt
+*.pth
 
-# Whisper models
-whisper.cpp/models/*.bin
+# Keep the JSON voice configuration
+!tts/voices/*.onnx.json
 
-# Whisper build
+# ==========================================================
+# whisper.cpp
+# ==========================================================
+
 whisper.cpp/build/
+whisper.cpp/models/
+whisper.cpp/.git/
 
+# ==========================================================
 # CMake
+# ==========================================================
+
 CMakeFiles/
 CMakeCache.txt
+cmake-build-*/
 
-# VS Code
+# ==========================================================
+# IDEs
+# ==========================================================
+
 .vscode/
+.idea/
+
+# ==========================================================
+# OS Files
+# ==========================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================================
+# Logs
+# ==========================================================
+
+*.log
+
+# ==========================================================
+# Git
+# ==========================================================
+
+.git_backup/

@@ -1,0 +1,1294 @@
+SPORTS INJURY PREVENTION: A CONCISE REVIEW Tarantino Domiziano1,2 & Brancaccio Paola2  1Department of Musculoskeletal Disorders, School of Medicine and Surgery University of Salerno Salerno, Italy 2Post Graduate University Course NK_Move: Dietetics and Nutrition for Wellness, Sport and Physical performance. Dipartimento di Farmacia, University of Salerno, Via Giovanni Paolo II- Fisciano (SA), Italy  Email address: nutriketo@unisa.it  
+
+Paper Metadata
+Concise review of sports injury prevention covering screening, medical assessment, musculoskeletal evaluation, fitness testing, and evidence-based prevention strategies.
+
+
+============================================================
+PAGE 1
+============================================================
+December 30, 2019
+Special Issue • 2019 • vol.1 • 1-11
+Tarantino Domiziano1,2 & Brancaccio Paola2
+1Department of Musculoskeletal Disorders, School of Medicine and Surgery University of Salerno
+Salerno, Italy
+2Post Graduate University Course NK_Move: Dietetics and Nutrition for Wellness, Sport and
+Physical performance. Dipartimento di Farmacia, University of Salerno, Via Giovanni Paolo II- Fisciano
+(SA), Italy
+Email address: nutriketo@unisa.it
+Abstract
+Introduction: It is widely recognised that physically active lifestyle and sport participation have the
+potential to improve health. However, involvement in sports can increase the risk of sustaining an
+injury. Recently, a growing interest in the issue of sports injury prevention has been registered. Despite
+the variety of preventive intervention proposed, the translation of this evidence into real-word sport
+settings is still poor.
+Methods: Review of the available literature.
+Results: Pre-participation screening is used to identify conditions that might adversely affect sport
+participation and identify injury risk, need for pre-habilitation or rehabilitation, as well as establish
+baselines of athlete health, from an orthopedic /musculoskeletal and general medical perspective.
+Medical assessment must include respiratory disease, neurological and general health screening.
+Cardiac screening is aimed at identifying those athletes who may have underlying conditions that may
+lead to sudden cardiac arrest or death. Musculoskeletal screening includes a variety of tests and
+intervention aimed at the detection and correction of any potential problems with athlete’s
+musculoskeletal composition. Physical and fitness assessment is used to evaluate athletic qualities and
+to identify the strengths and weaknesses of an athlete. Kinesio taping and physcology can be used as
+adjuncts for sports injury prevention.
+Discussion: Injury prevention should be a primary goal for team-sport athletes of all ages and
+participation. Further researches are required to improve the translation of sports injury prevention
+protocols into the real-world sport settings.
+Keywords: Sports injury, injury prevention, injury screening
+
+============================================================
+PAGE 2
+============================================================
+Tarantino & Brancaccio
+(pag 1-11)
+Introduction
+It is widely recognised that physically active
+lifestyle and sport participation have the potential
+to improve health (1–3).  In the USA, from 2003 to
+2015, average daily participation rates in sports and
+exercise increased by 3.6% and, in 2015, the 19.5% of
+those aged 15 and older participated in some form
+of exercise (4). In 2014, in Europe, some 44 % of the
+EU population aged 15 or over reported that they
+practised sport at least once a week (5).
+However, involvement in sports can increase the
+risk of sustaining an injury.  About 8.6 million sports-
+related injuries were documented per year between
+2011 and 2014 in the USA (with an incidence rate of
+34 injuries per 1000 persons) (6). The majority of
+these injuries were lower extremity strains and
+sprains sustained during basketball, American
+football and soccer (42%) (6). A similar rate of 26
+injuries per 1000 persons was registered for the
+European Union, with a peak occurring in the 15–19
+years age group (7).
+The most common traumatic injuries in team ball
+sports, such as basketball, volleyball, soccer and
+field hockey, are ligament injuries of the ankle (15%
+of all reported sports injuries), followed by the knee
+(3%) (8,9), whereas overuse injuries mostly affect
+the groin area and represent 5%–10% of all sports-
+related injuries (10,11).
+Injury risk factors may have intrinsic (age, sex,
+general health, physical fitness, genetics) and
+extrinsic
+(sports
+venue,
+equipment
+and
+environmental) origins (12,13). The risk for injuries
+associated with these intrinsic and extrinsic risk
+factors can be reduced if athletes complete specific
+exercise programmes (14–16).
+For all the above-mentioned reasons, the
+prevention of sport injuries is important to maintain
+and increase a physically active lifestyle and sports
+participation, and to maximise the related health
+and societal benefits (17).
+Recently, a growing interest in the issue of sports
+injury
+prevention
+has
+been
+registered,
+and
+numerous studies and systematic reviews have been
+performed to evaluate the efficacy of preventive
+intervention on the risk of sport injuries and even to
+reduce the risk of recurrent injury (18–20). Despite
+the variety of preventive interventations proposed,
+the translation of this evidence in real-word sport
+settings is lagging (21,22). So, the difficulty to
+implement the prevention protocols, together with
+some levels of risks that are intrinsic to sport
+practice, injuries continue to occur (23,24).
+Given the heterogeneity of sports injuries and
+proposed strategies for their prevention, the aim of
+this study is to give a general overview about the
+most used protocols and screening tools for sports
+injuries prevention.
+Methods
+For the purpose of this review, the studies
+selected from the available literature and later
+examined were mainly reviews and books that
+proposed programmes and screening tools for
+sports injury prevention.
+Results
+Pre-participation screening
+Pre-participation screening (PPS) has become a
+routine tool in the assessment of players at the
+beginning of a new season, or when a new player
+joins a new training group (25).
+Not all pre-participation medicals should follow
+the same format, but should be tailored to the
+needs of the medical team, the organisation and the
+athlete.
+The main reasons for performing a PPS in sport
+are to identify conditions that might adversely
+affect the sport’s participation and identify injury
+risk, need for pre-habilitation or rehabilitation, as
+well as establish baselines of athlete health, from an
+orthopaedic/musculoskeletal and general medical
+(including cardiovascular) perspective (25).
+It is also important to allow the medical team to
+uncover and discuss high-risk behaviours, such as
+infections, alcohol use, smoking and drug use (25).
+For example, it is well recognized that the use of
+fluoroquinolones (i.e. a kind of antibiotic drug) can
+induce tendinopathy (26). Tendinopathies, regarded
+as a mix of pain, swelling (diffuse or localized) and
+impaired performance (27), are common in elite and
+recreational
+athletes
+and
+are
+traditionally
+considered overuse injuries, involving excessive
+tensile loading and subsequent breakdown of the
+loaded tendon (28–30).
+
+============================================================
+PAGE 3
+============================================================
+Tarantino & Brancaccio
+(pag 1-11)
+In the PPS process, it is important to collect data
+from the athlete, such as: personal life, medical and
+social history (birth defects, childhood illness,
+genetic trait, eating disorders, etc), athlete’s family
+history (cardiovascular, respiratory, inflammatory
+diseases, etc), musculoskeletal history (previous
+trauma and management), sport-specific history
+(athlete’s background within the sport), previous
+strength training programmes as do pre-habilitation
+or rehabilitation regimes (25).
+Often missed, but vitally important, is the need
+to know what nutritional input that they get in
+terms of supplementation, allergy medication or any
+special diet (25). Consistent consumption of a diet
+that is well-designed for the athlete in terms of
+calories, protein, carbohydrates, and fluids will
+support training and promote optimal performance.
+The well-nourished athlete should have reduced risk
+for injury and possess a solid foundation to support
+recovery from injury and skeletal trauma. Athletic
+trainers and therapists should encourage good
+eating behaviors in their athletes: in this way they
+can promote practices that will reduce the risk of
+injury in their athlete (31).
+Medical assessment
+Most examination processes are tailored to the
+needs of the athlete and the medical team, but it is
+important to use this to obtain baseline readings on
+the general medical status of your athlete. Height,
+weight, BMI and other anthropometric measures
+such as skinfold thickness can be recorded (25).
+In
+adolescents,
+being
+overweight/obese
+increases the risk of time loss injury and knee injury:
+for this reason, sport injury prevention training
+programs should include strategies that target all
+known risk factors for injury (32).
+The
+medical
+examination
+must
+include:
+respiratory disease screening (such as exercise-
+induced asthma, which is highly prevalent in elite
+athletes) (33), neurological screening (in particular
+in sports where concussion usually occurs), and
+general health screening (such as blood tests and
+hormonal status).
+A recent review (34) reported that different
+biomarkers in the blood, such as hematological,
+biochemical, hormonal, and serological biomarkers,
+can be used to monitor performance, overtraining,
+and overall health in competitive athletes.
+Cardiac screening
+Cardiac screening is aimed at identifying those
+athletes, between the ages of 14 and 35 years old,
+who may have underlying conditions that may lead
+to sudden cardiac arrest (SCA) or death. Sudden
+cardiac death (SCD) is defined as an “unexpected
+death occurring as a result of natural causes in
+which loss of all functions occurred instantaneously
+or within 6 hours of onset of symptoms” (35).
+The prevalence of cardiovascular disorders
+known to cause SCD in young athletes is
+approximately 3 on 1.000 persons (36,37). It is
+estimated that the 80% of all non-traumatic deaths
+in young competitive athletes are due to inherited
+congenital structural or functional abnormalities,
+most of which can be identified during life (35,38).
+Male athletes appear to be at a greater risk of
+exercise-related SCA, and a particularly vulnerable
+cohort is adolescent males <18 years of age (39).
+Race is also an influencing risk factor, with black
+athletes being at higher risk than white athletes,
+particularly
+concerning
+hypertrophic
+cardiomyopathy (40).
+In 2005, European recommendations were
+established endorsing a screening protocol that
+prior to participation in organised sport any fit and
+healthy young person should have cardiac screening
+that includes a resting 12-lead heart rate monitoring
+(ECG) (41).  This recommendation was informed by
+the Italian experience of mandatory cardiac
+screening and has since been supported by such
+bodies as the International Olympic Committee
+(IOC),
+International
+Federation
+of
+Football
+Association (FIFA) and an institutional review board
+(IRB) (36,42).
+The knowledge that 70–80% of all young athletes
+with congenital abnormalities, whether structural or
+electrical in origin, are asymptomatic prior to the
+event (35) provides the stimulus to do everything
+possible
+to
+uncover
+underlying
+cardiac
+abnormalities. This is why a structured screening
+process of all athletes, not just the symptomatic
+ones, is critical.
+
+============================================================
+PAGE 4
+============================================================
+Tarantino & Brancaccio
+(pag 1-11)
+The medical history and physical examination for
+the cardiac screening should be collected as follows:
+establish the family history (i.e. cases of SCD in the
+family), ask the athlete if he experienced episodes
+of syncope, or palpitations, or shortness of breath,
+or if the athlete was diagnosed a cardiac murmur
+(25).
+Anyway,
+a
+negative
+history
+or
+physical
+examination is not enough to clear an athlete, so
+further screening is still required to ensure a full
+cardiac screen. This screen should be performed
+with: 12-led echocardiogram (to classify the heart as
+either ‘normal’, requiring no further testing, or
+‘abnormal’,
+requiring
+further
+evaluation),
+echocardiogram, exercise stress test/ECG test, 24-
+hour Holter test, and cardiac magnetic resonance
+imaging (25).
+Musculoskeletal screening
+Musculoskeletal (MSK) injury prevention is a
+process whereby the athlete is screened through a
+variety of tests to identify any potential problems
+with their MSK composition. These problems can
+then be identified and training practices put in place
+to either eradicate these problems or reduce their
+possible impact. Several procedures are used by
+sports practitioners with varying degrees of success
+as the need for one common procedure for MSK
+screening becomes apparent (43).
+Injury prevention exercise programmes (IPEPs),
+such as the FIFA 11 (44) + and the Knaekontroll (45),
+consist of a combination of balance, plyometric,
+stability and sport-specific exercises targeting
+established lower limb injury risk factors (46,47).
+IPEPs contribute to a reduction of the risk of
+sustaining sports injuries in athletes. The current
+evidence indicates that general or mixed IPEPs tend
+to be more efficacious in preventing sport injuries in
+athletes, than sports-specific programs (48).
+The back and knee are two of the major areas
+that the screening process needs to assess, due to
+their importance to locomotion and therefore the
+resultant sporting performance (43).
+An injury to the ACL is one of the most serious
+problems that can happen to an athlete and have a
+serious effect on their career (49). The major risk
+factors associated with ACL injuries include lower
+extremity malalignments, ligamentous laxity, lower
+extremity
+muscular
+strength
+considerations,
+neuromuscular
+control,
+hormonal
+influences,
+intercondylar notch width and the biomechanics of
+the athletes’ sporting techniques (49).
+ACL sprains occur as a consequence of the
+magnitude and rate of knee valgus whilst landing or
+turning. In order to reduce the risk of ACL injuries,
+an athlet who practices a high-risk ACL injury sport
+(such as soccer or basketball) should also practise
+exercises that reduce frontal or transverse plane
+forces through the knee joint (50).
+The strength of the muscles around the knee has
+an important role to play in stabilising the joint and
+therefore reducing the chances of injury.
+A reduction in hamstring to quadriceps strength
+ratio has been shown to be predictive of ACL injury
+in female athletes (51). Aagaard (52) suggested that
+an eccentric hamstring to concentric quadriceps
+ratio (during isokinetic knee flexion and extension)
+<0.9 places an athlete at a high risk of ACL injury.
+Reduced strength of the hamstrings relative to
+the quadriceps has also been proposed as a risk
+factor for hamstring tears (53).  Since hamstring
+strain injuries are endemic in running-based sports,
+elite sporting clubs invest significant efforts in
+eccentric hamstring and lumbo-pelvic conditioning
+programmes for the prevention of primary and
+recurrent hamstring injuries.
+Increasing
+strain
+tolerance
+by
+increasing
+hamstring strength may reduce hamstring injury risk
+in sprinters (50). Anyway, while eccentric training
+has proven effective in the prevention of primary
+and recurrent hamstring strains, there is only
+modest scientific evidence that confirms that
+lumbo-pelvic stability is an important and modifiable
+risk factor for hamstring injury (54).
+The rehabilitator can only improve and modify
+the strength and neuromuscular control risk factors,
+which is why these are key areas of a screening
+process (49).
+Neuromuscular control tests for the lower limb
+often involve a variety of movements but with
+common goals: to obtain an objective assessment of
+function and to challenge dynamic knee stability
+during landing and deceleration (49).
+
+============================================================
+PAGE 5
+============================================================
+Tarantino & Brancaccio
+(pag 1-11)
+A range of tests can be used to achieve these
+goals, such as the single-leg hop, one-leg vertical
+jump, timed hop, figure of eight running, side
+stepping and stair running. These tests can also be
+combined with isokinetic testing to give a full
+picture of the knee (55).
+Muscle imbalances between limbs as well as
+within are important in assessing the potential for
+injury in the knee, particularly in females where such
+imbalances are found in 20–30% of athletes (49,56).
+Anyway, if the implication of soft tissue
+imbalances
+and
+asymmetries
+on
+athletic
+performance and injury remains unclear, certain
+imbalances
+and
+asymmetries,
+may
+result
+in
+abnormal biomechanics or kinetic chain disruptions,
+with the athlete placed at a high risk of injury (53).
+In sport, the kinetic chain concept is often used
+when describing athletic movements, such as
+throwing, running and jumping. The term “kinetic
+chain” describes how components of a system that
+are interlinked by pin joints can be affected by
+movement of just one component (53).
+Top-level athletes provide the best examples of
+the human kinetic chain working effectively. The
+ability to produce repetitive, powerful and energy-
+efficient movement is almost a prerequisite for
+success at the highest level in sport. While
+movement technique is key to kinetic chain
+performance, equally important is the need for well-
+developed basic physical attributes, such as balance,
+stability and strength.
+Isokinetic testing can be used, through the study
+of biomechanics, in a variety of ways to profile an
+athlete to identify potential areas of injury concern
+(43). Inefficient movement mechanics lead to injury
+accelerating muscle fatigue and putting excessive
+stress on joints (53).
+Once deficiencies in the kinetic chain are
+identified, the next step is to design interventions to
+correct the faulty mechanics. For example, an
+improvement of the power output has been found
+to offer about a 10% reduction in injuries (57).
+The interventions selected will depend on the
+sport, the individual athlete needs and the situation
+(i.e. competition, training or rehabilitation phase).
+The coach, strength and conditioning coach and
+physiotherapist should all contribute during this
+stage (53).
+The use of core (regarded as the muscles around
+the trunk and pelvis) stability training is often used
+to help improve the weak mechanics. Anyway, even
+if core implementation components represent the
+most crucial and indispensable aspects of an
+implementation program (given its vital role in the
+generation and transfer of energy in the kinetic
+chain)
+(53),
+the
+current
+reporting
+of
+core
+implementation components in team ball sport
+IPEPs trials is inadequate (58).
+The flexibility of the muscles in the lower limbs
+plays an important role in the prevention of injuries
+to the area and should be incorporated in muscle
+development programs (43). Muscle stretching
+training is commonly used by athletes. Anyway, a
+meta-analysis performed by Lauersen et. al (19)
+showed that  stretching added no beneficial effect
+in decreasing sports injuries. Several other studies
+found limited evidence to support the benefits of
+stretching before or after training for injury
+prevention (59,60).
+Physical and fitness assessment
+The assessment of athletic qualities is one of the
+most important aspects of a comprehensive athletic
+development model (61).
+The maximal strenght, force development,
+maximal power, muscular endurance, jump (vertical
+and horizontal) and hop assessment, sprinting
+speed,
+agility,
+balance
+tests,
+and
+isotonic/isometric/isokinetic measurements, should
+all be assessed through different kind of specific
+tests (61,62).
+While the strength, power and movement
+qualities discussed underpin an athlete’s potential,
+the ability to endure and express repeated
+performance within and across a sport match is
+critical, since the majority of injuries occur toward
+the second half of a sport match, with endurance
+likely being a contributing factor (61,63).
+Fatigue can reduce muscles capacity to create
+large, rapid forces and reduce reaction times,
+concentration and joint proprioception. For these
+reasons, managing fatigue is a vital component of
+reducing injury risk (50). Planned variation of
+training volume on a daily, weekly and monthly basis
+reduces the monotony of training, which reduces
+the risk of injury and illness in athletes (64).
+
+============================================================
+PAGE 6
+============================================================
+Tarantino & Brancaccio
+(pag 1-11)
+Fitness testing allows coaches and rehabilitators
+to identify an athlete’s strengths and weaknesses,
+enabling them to tailor and adjust training and
+rehabilitation according to the athlete’s greatest
+needs (62).
+Kinesio taping in injury prevention
+The introduction of the kinesio taping (KT, i.e the
+application of elastic and adhesive tape) is
+increasing in clinical practice due to its use by
+athletes at major sporting events (65,66).
+Theorised mechanisms of action are different,
+including reduction of pain through stimulation of
+sensory afferents, increased range of motion due to
+enhanced
+local
+circulation,
+increased
+proprioception, reduced amount of inflammatory
+substances and increased lymphatic drenage (67–
+69). However, even if the use of KT was found to be
+somehow useful in injury prevention in some sports
+(70,71), its clinical benefits remain unclear, and there
+is little quality evidence to support the use of KT
+over
+other
+types
+of
+elastic
+taping
+in
+the
+management or prevention of sports injuries
+(65,66).
+Psychology in injury prevention
+Educating and assisting athletes to control and
+regulate their own physiological response to stress
+is useful in the prevention of injury (72). Teaching
+deep relaxation techniques to all athletes to enable
+their bodies to naturally produce a state conducive
+to healing can prevent minor injuries from becoming
+more serious and make them less susceptible to
+injury. One role of the sport psychologist is to help
+their athletes to become psychologically robust to
+prevent injury. Research has demonstrated that
+athletes high in hardiness (i.e. athlete’s ability to
+withstand difficulties and adversity) are less prone
+to injury, and that hardiness can facilitate the rate
+and quality of their recovery from injury (73). What
+athletes experience prior to injury is important, and
+there is a good level of evidence to support the
+argument that an athlete can have a psychological
+vulnerability to injury (74).
+Discussion
+In modern competitive sport, injured athletes are
+under pressure to return to competition as early as
+possible, and they are also afraid of losing their
+place in the team due to the highly competitive
+scenario and naturally come under higher pressures
+to return to play (75).
+For this reason, injury prevention should be a
+primary goal for team-sport athletes of all ages and
+participation
+levels
+(eg,
+recreational,
+semiprofessional, professional) since an injury
+results in performance disability, loss of playing
+time, high financial burden for the athlete’s
+employer as well as the healthcare system and an
+increased risk of reinjury and chronicity (11).
+Compliance and adherence are important in
+sport injury prevention research and practice
+(76,77). For example, identifying the salient
+psychological factors that relate to individuals'
+compliance with prevention and rehabilitation for
+ACL injuries, will provide important knowledge of
+manipulable factors that could be targeted in injury
+management interventions (78).
+Despite the growing interest in the field of sports
+injury prevention, the transfer from theoretical
+knowledge to practical routine is overall incomplete
+(79).
+Sports injury prevention is still an area of public
+health practice that is often unaddressed at a
+population level, so a gap remains in the use or
+application of this information from those in public
+health. This gap may be due to the lack of time
+and/or capacity to interpret this literature to
+support injury prevention practice (80).
+For all the above-mentioned reasons, further
+researches are required to improve the translation
+of protocols for sports injury prevention into the
+real-world sport settings.
+References
+1.  Warburton, D. E., Nicol, C. W., & Bredin, S. S.
+(2006). Health benefits of physical activity:
+the evidence. Cmaj, 174(6), 801-809.
+2. Landry, B. W., & Driscoll, S. W. (2012).
+Physical
+activity
+in
+children
+and
+adolescents. PM&R, 4(11), 826-832.
+3. Physical activity [Internet]. [cited 2019 Jun
+10].
+Available
+from:
+https://www.who.int/news-room/fact-
+sheets/detail/physical-activity
+4. Woods RA. Sports and Exercise : Spotlight
+on Statistics: U.S. Bureau of Labor Statistics
+[Internet]. [cited 2019 Jun 11]. Available
+
+============================================================
+PAGE 7
+============================================================
+Tarantino & Brancaccio
+(pag 1-11)
+from:
+https://www.bls.gov/spotlight/2017/sports-
+and-exercise/home.htm
+5. Statistics on sport participation - Statistics
+Explained [Internet]. [cited 2019 Jun 11].
+Available
+from:
+https://ec.europa.eu/eurostat/statistics-
+explained/index.php/Statistics_on_sport_pa
+rticipation#Active_participation_in_sport
+6. Sheu, Y., Chen, L. H., & Hedegaard, H. (2016).
+Sports-and
+Recreation-related
+Injury
+Episodes
+in
+the
+United
+States,
+2011-
+2014. National health statistics reports, (99),
+1-12.
+7. Reports | EuroSafe [Internet]. [cited 2019
+Jun
+15].
+Available
+from:
+http://www.eurosafe.eu.com/key-
+actions/injury-data/reports
+8. Ter Stege, M. H., Dallinga, J. M., Benjaminse,
+A., & Lemmink, K. A. (2014). Effect of
+interventions on potential, modifiable risk
+factors for knee injury in team ball sports: a
+systematic review. Sports Medicine, 44(10),
+1403-1426.
+9. Hootman, J. M., Dick, R., & Agel, J. (2007).
+Epidemiology of collegiate injuries for 15
+sports: summary and recommendations for
+injury
+prevention
+initiatives. Journal
+of
+athletic training, 42(2), 311.
+10. Pettersson, M., & Lorentzon, R. (1993). Ice
+hockey injuries: a 4-year prospective study
+of a Swedish elite ice hockey team. British
+journal of sports medicine, 27(4), 251-254.
+11. Esteve, E., Rathleff, M. S., Bagur-Calafat, C.,
+Urrutia,
+G.,
+&
+Thorborg,
+K.
+(2015).
+Prevention of groin injuries in sports: a
+systematic review with meta-analysis of
+randomised controlled trials. British journal
+of sports medicine, 49(12), 785-791.
+12. Bahr, R., & Holme, I. (2003). Risk factors for
+sports
+injuries—a
+methodological
+approach. British
+journal
+of
+sports
+medicine, 37(5), 384-392.
+13. XIX CONGRESSO NAZIONALE S.I.C.O.O.P.
+SOCIETA’
+ITALIANA
+CHIRURGHI
+ORTOPEDICI DELL’OSPEDALITA’ PRIVATA
+ACCREDITATA,
+Aicale
+R,
+Tarantino
+D,
+Maccauro G, Peretti GM, Maffulli N. Genetics
+in orthopaedic practice. J Biol Regul
+Homeost Agents. 2019 Apr;33(2 Suppl.
+1):103–17.
+14. Sugimoto, D., Myer, G. D., Foss, K. D. B., &
+Hewett, T. E. (2015). Specific exercise effects
+of
+preventive
+neuromuscular
+training
+intervention on anterior cruciate ligament
+injury risk reduction in young females: meta-
+analysis and subgroup analysis. Br J Sports
+Med, 49(5), 282-289.
+15. Rössler R, Donath L, Verhagen E, Junge A,
+Schweizer T, Faude O. (2014). Exercise-based
+injury prevention in child and adolescent
+sport: a systematic review and meta-
+analysis.
+Sports
+Med
+Auckl
+NZ.
+Dec;44(12):1733–48.
+16. Taylor JB, Waxman JP, Richter SJ, Shultz SJ.
+(2015). Evaluation of the effectiveness of
+anterior cruciate ligament injury prevention
+programme
+training
+components:
+a
+systematic review and meta-analysis. Br J
+Sports Med. 49(2):79–87.
+17. Verhagen E, Bolling C, Finch CF. (2015).
+Caution this drug may cause serious   harm!
+Why we must report adverse   effects of
+physical activity promotion. Br J Sports Med.
+2, 49(1):1–2.
+18. Klügl M, Shrier I, McBain K, Shultz R,
+Meeuwisse WH, Garza D, et al. (2010).The
+prevention of sport injury: an analysis of
+12,000 published manuscripts. Clin J Sport
+Med Off J Can Acad Sport Med. 20(6):407–
+12.
+19. Lauersen JB, Bertelsen DM, Andersen LB.
+(2014).The
+effectiveness
+of
+exercise
+interventions to prevent sports injuries: a
+systematic review and meta-analysis of
+randomised controlled trials. Br J Sports
+Med. 1, 48(11):871–7.
+20. Leppänen M, Aaltonen S, Parkkari J,
+Heinonen
+A,
+Kujala
+UM.
+(2014).
+Interventions to prevent sports related
+injuries: a systematic review and meta-
+analysis of randomised controlled trials.
+Sports Med Auckl NZ., 44(4):473–86.
+21. Finch
+CF.
+(2014).
+No
+longer
+lost
+in
+translation: the art and science of sports
+injury prevention implementation research.
+Br J Sports Med. 45(16):1253–7.
+
+============================================================
+PAGE 8
+============================================================
+Tarantino & Brancaccio
+(pag 1-11)
+22. O’Brien
+J,
+Finch
+CF.
+(2014).
+The
+implementation of musculoskeletal injury-
+prevention exercise programmes in team
+ball sports: a systematic review employing
+the RE-AIM framework. Sports Med Auckl
+NZ. 44(9):1305–18.
+23. Fuller CW. (2007). Managing the risk of
+injury in sport. Clin J Sport Med Off J Can
+Acad Sport Med. 17(3):182–7.
+24. Hägglund M, Waldén M, Til L, Pruna R.
+(2014). The importance of epidemiological
+research in sports medicine. Apunts Med
+LEsport Engl Ed. 45(166):57–9.
+25. Bundy M, Hodgson L. (2016). Medical
+assessment and pre-participation screening.
+In:
+Sports
+Injury
+Prevention
+and
+Rehabilitation: Integrating Medicine and
+Science for Performance Solutions. 1st ed.
+Abingdon, New York: Routledge;. p. 45–61.
+26. Bisaccia DR, Aicale R, Tarantino D, Peretti
+GM, Maffulli N. (2019). Biological and
+chemical
+changes
+in
+fluoroquinolone-
+associated tendinopathies: a systematic
+review. Br Med Bull. 130(1):39–49.
+27. Maffulli N, Khan KM, Puddu G. (1998).
+Overuse tendon conditions: time to change
+a confusing terminology. Arthrosc J Arthrosc
+Relat Surg Off Publ Arthrosc Assoc N Am Int
+Arthrosc Assoc. 14(8):840–3.
+28. Waldecker U, Hofmann G, Drewitz S. (2012).
+Epidemiologic investigation of 1394 feet:
+coincidence of hindfoot malalignment and
+Achilles tendon disorders. Foot Ankle Surg
+Off J Eur Soc Foot Ankle Surg. 18(2):119–23.
+29. Albers IS, Zwerver J, Diercks RL, Dekker JH,
+Van den Akker-Scheek I. (2016). Incidence
+and
+prevalence
+of
+lower
+extremity
+tendinopathy in a Dutch general practice
+population: a cross sectional study. BMC
+Musculoskelet Disord [Internet]. [cited 2017
+Dec
+30];17.
+Available
+from:
+https://www.ncbi.nlm.nih.gov/pmc/articles/P
+MC4711046/
+30. Aicale R, Tarantino D, Maffulli N. (2018).
+Overuse injuries in sport: a comprehensive
+overview. J Orthop Surg.  5, 13(1):309.
+31. Rodriguez N. The Role of Nutrition in Injury
+Prevention and Healing. Athl Ther Today
+[Internet]. 1999 Nov 1 [cited 2019 Jun 26];
+Available
+from:
+https://journals.humankinetics.com/doi/abs/1
+0.1123/att.4.6.27
+32. Richmond SA, Nettel-Aguirre A, Doyle-Baker
+PK, Macpherson A, Emery CA. (2016).
+Examining Measures of Weight as Risk
+Factors
+for
+Sport-Related
+Injury
+in
+Adolescents. J Sports Med Hindawi Publ
+Corp. 7316947.
+33. Ansley L, Kippelen P, Dickinson J, Hull JHK.
+(2012). Misdiagnosis of exercise-induced
+bronchoconstriction in professional soccer
+players. Allergy. 67(3):390–5.
+34. San-Millán I. (2019). Blood Biomarkers in
+Sports Medicine and Performance and the
+Future of Metabolomics. Methods Mol Biol
+Clifton NJ. 1978:431–46.
+35. Sharma S, Whyte G, McKenna WJ. (1997).
+Sudden death from cardiovascular disease in
+young athletes: fact or fiction? Br J Sports
+Med. 31(4):269–76.
+36. Maron
+Barry
+J.,
+Thompson
+Paul
+D.,
+Ackerman Michael J., Balady Gary, Berger
+Stuart,
+Cohen
+David,
+et
+al.
+(2007).
+Recommendations
+and
+Considerations
+Related to Preparticipation Screening for
+Cardiovascular Abnormalities in Competitive
+Athletes:
+Update.
+Circulation.
+27;115(12):1643–55.
+37. Wilson MG, Basavarajaiah S, Whyte GP, Cox
+S, Loosemore M, Sharma S. (2008). Efficacy
+of personal symptom and family history
+questionnaires when screening for inherited
+cardiac
+pathologies:
+the
+role
+of
+electrocardiography. Br J Sports Med.
+242(3):207–11.
+38. Papadakis, M., Whyte, G., & Sharma, S.
+(2008).
+Preparticipation
+screening
+for
+cardiovascular
+abnormalities
+in
+young
+competitive athletes. Bmj, 337, a1596.
+39. Sheikh, N., & Sharma, S. (2011). Overview of
+sudden cardiac death in young athletes. The
+Physician and sportsmedicine, 39(4), 22-36.
+40. Maron, B. J., Carney, K. P., Lever, H. M.,
+Lewis, J. F., Barac, I., Casey, S. A., & Sherrid,
+M. V. (2003). Relationship of race to sudden
+cardiac death in competitive athletes with
+hypertrophic cardiomyopathy. Journal of the
+
+============================================================
+PAGE 9
+============================================================
+Tarantino & Brancaccio
+(pag 1-11)
+American College of Cardiology, 41(6), 974-
+980.
+41. Corrado, D., Pelliccia, A., Bjørnstad, H. H.,
+Vanhees, L., Biffi, A., Borjesson, M., ... &
+Mellwig, K. P. (2005). Cardiovascular pre-
+participation
+screening
+of
+young
+competitive athletes for prevention of
+sudden death: proposal for a common
+European protocol: consensus statement of
+the Study Group of Sport Cardiology of the
+Working Group of Cardiac Rehabilitation and
+Exercise Physiology and the Working Group
+of Myocardial and Pericardial Diseases of the
+European Society of Cardiology. European
+heart journal, 26(5), 516-524.
+42. Zipes, D. P., Camm, A. J., Borggrefe, M.,
+Buxton, A. E., Chaitman, B., Fromer, M., ... &
+Roden, D. M. (2006). ACC/AHA/ESC 2006
+guidelines for management of patients with
+ventricular arrhythmias and the prevention
+of
+sudden
+cardiac
+death—executive
+summary: a report of the American College
+of Cardiology/American Heart Association
+Task Force and the European Society of
+Cardiology
+Committee
+for
+Practice
+Guidelines (Writing Committee to Develop
+Guidelines for Management of Patients With
+Ventricular Arrhythmias and the Prevention
+of Sudden Cardiac Death). Journal of the
+American College of Cardiology, 48(5), 1064-
+1108.
+43. Barter P. Injury prevention and screening. In:
+Sports Rehabilitation and Injury Prevention.
+1st ed. Chichester: Wiley-Blackwell; 2010. p.
+15–37.
+44. Soligard, T., Myklebust, G., Steffen, K.,
+Holme, I., Silvers, H., Bizzini, M., ... &
+Andersen, T. E. (2008). Comprehensive
+warm-up programme to prevent injuries in
+young
+female
+footballers:
+cluster
+randomised controlled trial. Bmj, 337, a2469.
+45. Waldén, M., Atroshi, I., Magnusson, H.,
+Wagner,
+P.,
+&
+Hägglund,
+M.
+(2012).
+Prevention
+of
+acute
+knee
+injuries
+in
+adolescent female football players: cluster
+randomised controlled trial. Bmj, 344, e3042
+46. Huebscher, M., Zech, A., Pfeifer, K., Haensel,
+F.,
+Vogt,
+L.,
+&
+Banzer,
+W.
+(2010).
+Neuromuscular training for sports injury
+prevention: a systematic review. Medicine &
+Science in Sports & Exercise, 42(3), 413-421..
+47. Herman, K., Barton, C., Malliaras, P., &
+Morrissey, D. (2012). The effectiveness of
+neuromuscular warm-up strategies, that
+require
+no
+additional
+equipment,
+for
+preventing lower limb injuries during sports
+participation:
+a
+systematic
+review. BMC
+medicine, 10(1), 75.
+48. Mugele, H., Plummer, A., Steffen, K., Stoll, J.,
+Mayer, F., & Müller, J. (2018). General versus
+sports-specific injury prevention programs in
+athletes: A systematic review on the effect
+on injury rates. PloS one, 13(10), e0205635.
+49. Bonci, C. M. (1999). Assessment and
+evaluation
+of
+predisposing
+factors
+to
+anterior cruciate ligament injury. Journal of
+athletic training, 34(2), 155.
+50. Rosenblatt
+B.
+(2015).Strength
+and
+conditioning
+in
+injury
+prevention
+and
+rehabilitation. In: S Joyce, D., & Lewindon, D.
+(Eds.). Sports
+injury
+prevention
+and
+rehabilitation:
+integrating
+medicine
+and
+science
+for
+performance
+solutions.
+Routledge.
+51. Myer, G. D., Ford, K. R., Foss, K. D. B., Liu, C.,
+Nick, T. G., & Hewett, T. E. (2009). The
+relationship of hamstrings and quadriceps
+strength to anterior cruciate ligament injury
+in female athletes. Clinical journal of sport
+medicine, 19(1), 3-8.
+52. Aagaard, P., Simonsen, E. B., Magnusson, S.
+P., Larsson, B., & Dyhre-Poulsen, P. (1998). A
+new concept for isokinetic hamstring:
+quadriceps
+muscle
+strength
+ratio. The
+American journal of sports medicine, 26(2),
+231-237.
+53. Joyce, D., & Lewindon, D. (2015). Assessing
+and developing the kinetic chain (Ian
+Prangley). In Sports Injury Prevention and
+Rehabilitation (pp. 89-106). Routledge
+54. Shield, A. J., & Bourne, M. N. (2018).
+Hamstring injury prevention practices in elite
+sport: Evidence for eccentric strength vs.
+Lumbo-pelvic
+training. Sports
+Medicine, 48(3), 513-524.
+55. Barber, S. D., Noyes, F. R., Mangine, R. E., &
+Hartman,
+W.
+(1990).
+Quantitative
+assessment of functional limitations in
+
+============================================================
+PAGE 10
+============================================================
+Tarantino & Brancaccio
+(pag 1-11)
+normal and anterior cruciate ligament-
+deficient knees. Clinical Orthopaedics and
+Related Research®, 255, 204-214.
+56. Gabbe, B. J., Bennell, K. L., Wajswelner, H., &
+Finch, C. F. (2004). Reliability of common
+lower extremity musculoskeletal screening
+tests. Physical Therapy in Sport, 5(2), 90-97.
+57. Rosenblum, K. E., & Shankar, A. (2006). A
+study of the effects of isokinetic pre-
+employment physical capability screening in
+the reduction of musculoskeletal disorders
+in
+a
+labor
+intensive
+work
+environment. Work, 26(2), 215-228.
+58. O'Brien, J., & Finch, C. F. (2014). A systematic
+review of core implementation components
+in
+team
+ball
+sport
+injury
+prevention
+trials. Injury prevention, 20(5), 357-362.
+59. Shrier, I. (1999). Stretching before exercise
+does not reduce the risk of local muscle
+injury: a critical review of the clinical and
+basic science literature. Clinical journal of
+sport medicine: official journal of the
+Canadian Academy of Sport Medicine, 9(4),
+221-227.
+60. Lewis, J. (2014). A systematic literature
+review
+of
+the
+relationship
+between
+stretching
+and
+athletic
+injury
+prevention. Orthopaedic Nursing, 33(6), 312-
+320.
+61.  Winkelman N. (2016). Assessing athletic
+qualities. In: Sports Injury Prevention and
+Rehabilitation: Integrating Medicine and
+Science for Performance Solutions. 1st ed.
+Abingdon, New York: Routledge. p. 95–105.
+62. Comfort, P., & Matthews, M. (2010).
+Assessment
+and
+needs
+analysis. Sports
+Rehabilitation and Injury Prevention, 39-80.
+63. Gabbett, T. J. (2004). Incidence of injury in
+junior
+and
+senior
+rugby
+league
+players. Sports Medicine, 34(12), 849-859.
+64. Foster, C. A. R. L. (1998). Monitoring training
+in athletes with reference to overtraining
+syndrome. Medicine and science in sports and
+exercise, 30, 1164-1168.
+65. Kamper, S. J., & Henschke, N. (2013). Kinesio
+taping for sports injuries. Br J Sports
+Med, 47(17), 1128-1129.
+66. Williams, S., Whatman, C., Hume, P. A., &
+Sheerin,
+K.
+(2012).
+Kinesio
+taping
+in
+treatment
+and
+prevention
+of
+sports
+injuries. Sports medicine, 42(2), 153-164.
+67. Thelen, M. D., Dauber, J. A., & Stoneman, P.
+D. (2008). The clinical efficacy of kinesio
+tape for shoulder pain: a randomized,
+double-blinded,
+clinical
+trial. journal
+of
+orthopaedic & sports physical therapy, 38(7),
+389-395.
+68. Yoshida, A., & Kahanov, L. (2007). The effect
+of kinesio taping on lower trunk range of
+motions. Research in sports medicine, 15(2),
+103-112.
+69. Pyšný L, Pyšná J, Petrů D. Kinesio Taping Use
+in Prevention of Sports Injuries During
+Teaching of Physical Education and Sport.
+Procedia - Soc Behav Sci. 2015 May
+13;186:618–23.
+70. Li H, Qu S, Li P. Kinesio Taping in Prevention
+of Injuries with Badminton Players. DEStech
+Trans Mater Sci Eng [Internet]. 2016 [cited
+2019 Jun 26];0(icmsme). Available from:
+http://dpi-
+proceedings.com/index.php/dtmse/article/vi
+ew/7510
+71. Berezutsky, V. (2019). Possibilities of kinesio
+taping to prevent injuries of professional
+dancers. International
+Journal
+of
+Occupational Safety and Ergonomics, 25(4),
+638-645.
+72. Calvert T. (2016). Psychology in injury
+prevention and rehabilitation. In: Sports
+Injury
+Prevention
+and
+Rehabilitation:
+Integrating
+Medicine
+and
+Science
+for
+Performance Solutions. 1st ed. Abingdon,
+New York: Routledge; p. 22–30.
+73. Wadey, R., Evans, L., Hanton, S., & Neil, R.
+(2012).
+An
+examination
+of
+hardiness
+throughout the sport injury process. British
+Journal of Health Psychology, 17(1), 103-128.
+74. Arvinen-Barrow, M., & Walker, N. (Eds.).
+(2013). The psychology of sport injury and
+rehabilitation. Routledge.
+75. Dhillon, H., Dhilllon, S., & Dhillon, M. S.
+(2017). Current concepts in sports injury
+rehabilitation. Indian
+journal
+of
+orthopaedics, 51(5), 529.
+76. van Reijen, M., Vriend, I., Van Mechelen, W.,
+Finch, C. F., & Verhagen, E. A. (2016).
+Compliance with sport injury prevention
+
+============================================================
+PAGE 11
+============================================================
+Tarantino & Brancaccio
+(pag 1-11)
+interventions
+in
+randomised
+controlled
+trials:
+a
+systematic
+review. Sports
+medicine, 46(8), 1125-1139.
+77. Owoeye, O. B., McKay, C. D., Verhagen, E. A.,
+& Emery, C. A. (2018). Advancing adherence
+research in sport injury prevention.
+78. Chan, D. K. C., Lee, A. S. Y., Hagger, M. S.,
+Mok, K. M., & Yung, P. S. H. (2017). Social
+psychological
+aspects
+of
+ACL
+injury
+prevention and rehabilitation: An integrated
+model for behavioral adherence. Asia-Pacific
+journal of sports medicine, arthroscopy,
+rehabilitation and technology, 10, 17-20..
+79. Loose, O., Achenbach, L., Fellner, B.,
+Lehmann, J., Jansen, P., Nerlich, M., ... &
+Krutsch, W. (2018). Injury prevention and
+return to play strategies in elite football: no
+consent
+between
+players
+and
+team
+coaches. Archives of orthopaedic and trauma
+surgery, 138(7), 985-992.
+80. Richmond, S. A., Black, A. M., Jacob, J.,
+Babul, S., & Pike, I. (2019). ‘Active & Safe
+Central’: development of an online resource
+for the prevention of injury in sport and
+recreational
+activity. Injury
+prevention,
+injuryprev-2019.

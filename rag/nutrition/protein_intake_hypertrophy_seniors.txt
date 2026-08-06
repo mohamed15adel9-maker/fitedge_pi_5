@@ -1,0 +1,585 @@
+Protein Intake for Skeletal Muscle Hypertrophy with Resistance Training in Seniors Ryan D. Andrews, David A. MacLean, and Steven E. Riechman
+
+Paper Metadata
+This study examined whether habitual daily protein intake influenced muscle hypertrophy in older adults who all consumed a post-exercise protein supplement during a 12-week resistance training program.
+
+
+======================================================================
+PAGE 1
+======================================================================
+© 2006 Human Kinetics, Inc.
+Protein Intake
+for Skeletal Muscle Hypertrophy
+with Resistance Training in Seniors
+Ryan D. Andrews, David A. MacLean, and Steven E. Riechman
+Variability in protein consumption may influence muscle mass changes induced by
+resistance exercise training (RET). We sought to administer a post-exercise protein
+supplement and determine if daily protein intake variability affected variability
+in muscle mass gains. Men (N = 22) and women (N = 30) ranging in age from 60
+to 69 y participated in a 12-wk RET program. At each RET session, participants
+consumed a post-exercise drink (0.4 g/kg lean mass protein). RET resulted in
+significant increases in lean mass (1.1 ±1.5 kg), similar between sexes (P > 0.05).
+Variability in mean daily protein intake was not associated with change in lean
+mass (r < 0.10, P > 0.05).  The group with the highest protein intake (1.35 g · kg-1 ·
+d-1, n = 8) had similar (P > 0.05) changes in lean mass as the group with the lowest
+daily protein intake (0.72 g · kg-1 · d-1, n = 9). These data suggest that variability in
+total daily protein intake does not affect variability in lean mass gains with RET
+in the context of post-exercise protein supplementation.
+Key Words: strength training, protein, elderly, post workout, amino acids, hyper-
+trophy
+Skeletal muscle mass increases from 25% of body weight at birth to 45% in the
+young adult, then declines to < 27% after age 70, in a process termed sarcopenia
+(13). Exercise and nutrition are modifiable risk factors for sarcopenia (11, 16,
+22, 32) as well as other major chronic diseases of aging including cardiovascular
+disease, diabetes, and obesity (18, 20, 26, 39).
+Two factors that contribute to sarcopenia may be inadequate protein intake
+and decreased physical activity levels (17, 25, 30). Nutritional intake has also
+been shown to influence subsequent skeletal muscle adaptations and hypertrophy
+with resistance training (15). Nutrient energy is partitioned toward protection of
+skeletal muscle and protein synthesis with resistance exercise training (RET) (1).
+Participating in a single session of RET in a fasted state results in muscle protein
+breakdown that exceeds synthesis (27). Amino acid ingestion in conjunction with
+Andrews is with the Johns Hopkins Weight Management Center, Lutherville, MD 21093. MacLean is
+with the Northern Ontario School of Medicine, Sudbury, ON P3E 2C6. Riechman is with the Dept of
+Health and Kinesiology, Texas A&M University, College Station, TX 77843-4243.
+
+======================================================================
+PAGE 2
+======================================================================
+RET favorably alters this response (36) by inducing an anabolic reaction that
+seems to last up to 24 h (28). Supplementation that accompanies RET can influence
+aminoacidemia and nutrient delivery to muscle fibers (27). Higher levels of amino
+acids in the blood being delivered to muscle cells may be a rate-limiting step in
+the anabolic response to RET (35, 36).
+Muscle hypertrophy and strength improvement can occur in the elderly popula-
+tion with RET, independent of optimal nutritional intake (2), but to a lesser degree
+than younger subjects (12). Conflicting results have been demonstrated when
+assessing the optimal daily protein intake in the elderly (4, 5, 7, 8, 14, 37, 38, 40)
+while less information is available in the context of RET. Establishing the optimal
+amount of protein intake may play a key role in the prevention of sarcopenia.
+It is clear that post-exercise protein supplementation has a benefit to increase
+skeletal muscle anabolism. It is not clear, however, whether variability in habitual
+protein intake in addition to supplementation over a 12-wk RET period will also
+influence muscle hypertrophy. The purpose of this study was to examine whether
+variability of protein intake from food was associated to variability in lean mass
+gains with resistance training in the context of 0.4 g/kg lean mass post-exercise
+protein supplementation in men and women age 60 to 69 y. We proposed that
+consuming 0.4 g of protein per kilogram of lean body mass immediately after a
+workout would reduce the effect of habitual intake of protein from food in the range
+of 0.6 to 1.5 g · kg-1 · d-1 on muscle mass gains with RET.  At least 80% power
+was needed to detect a 0.5 kg difference in change in lean mass for every 0.2 g/kg
+protein intake difference (alpha set at 0.05). Alternatively, there was greater than
+80% power to detect less than a 0.25 kg change in lean mass with 0.6 g/kg protein
+intake difference (difference between low and high group in Figure 1). Although
+increasing sample size may have clarified the marginal associations, the size of
+the effect is small.
+Figure 1 — Unadjusted mean change in lean body mass for each group of protein intake,
+based on grams per kilogram of total body weight (#TBW) (P > 0.05).
+
+======================================================================
+PAGE 3
+======================================================================
+Methods
+Subjects
+Recruitment took place initially by way of advertisements, flyers, and mailings
+to local community and senior centers. Participants were eligible for the study
+if they were between the ages of 60 and 69 y. After recruitment, an initial health
+assessment was completed by a nurse practitioner to determine eligibility for the
+study. Exclusions were made for abnormal electrocardiograms, uncontrolled hyper­
+tension, known heart disease, and uncontrolled diabetes. Also excluded were those
+individuals who engaged in 1 h or more of RET per week as determined by an
+activity questionnaire (19, 21). Participants were instructed not to perform RET
+outside of the program and to maintain all other non-RET activities at the same
+level. Fifty-two (one dropout, N = 51 in analysis) 60 to 69 y olds participated in this
+study (22 men, 30 women). After all procedures were explained, the participants
+gave written informed consent.  The Kent State University Institutional Review
+Board approved this study.
+Assessments, Orientations,
+and Resistance Exercise Training
+Following the physical examination by the nurse practitioner, a dual energy X-ray
+absorptiometry (DEXA) scan (Hologic 4500 QDR; Bedford, MA) was performed
+to acquire baseline body composition. After participants were screened and
+accepted into the study, 2 wk (six meetings) of orientation sessions were conducted
+(1:15/session) to instruct the proper techniques of the training program. Subjects
+performed all exercises during the orientation at a reduced load (estimated 40 to
+50% 1-repetition maximum) to induce neuromuscular adaptations to standard-
+ize subsequent strength testing. Upon completion of the orientation sessions, the
+baseline performance assessments were conducted. One repetition maximum
+(1RM), defined as the highest resistance at which one repetition can be success-
+fully completed (29), testing was performed on each machine used for training.
+This was conducted following a standardized warm-up protocol, which consisted
+of 10 min on Schwinn Aerodyne cycle ergometers (Schwinn Fitness, Inc., Denver,
+CO), along with a 5-min dynamic full body stretching routine.
+After the collection of these baseline measures, the 12 wk of RET were per-
+formed on non-consecutive days (excluding weekends) using Cybex RET equip-
+ment (Cybex, Cybex International, Inc., Medway, MA) in the Kent State Exercise
+Physiology labs. Exercise was supervised at all times by research assistants. The
+exercises performed consisted of leg press, knee extension, seated leg curl, chest
+press, lat pulldown, tricep extension, bicep curl, and calf raise. Following the stan-
+dard warm-up, three sets of 8 to 12 repetitions were performed on each exercise
+using a weight that was 75% of the subjects predetermined 1RM. Participants were
+instructed to do as many repetitions as possible on every set until muscle failure or
+until 12 repetitions were achieved. Subjects were given 60 s of rest between each
+set and 2 min of rest between exercises. Resistance settings were increased when
+participants were able to complete 12 repetitions on a particular set (checked by
+staff). This was to maintain the relative difficulty at the same level for all partici-
+pants throughout the study.
+
+======================================================================
+PAGE 4
+======================================================================
+Nutrition Instruction, Supplementation, and Assessment
+During each of the six orientation sessions, 30 min consisted of nutrition seminars
+educating subjects on the fundamentals of proper nutrition, supplementation, and
+proper food log documentation. The nutrition education was based on standard
+recommendations by the National Academy of Sciences with the modification
+of protein intake to 1.0 g · kg-1 · d-1 from 0.8 g · kg-1 · d-1, excluding the Boost
+HP supplementation (9). This modification is consistent with some evidence
+that protein intake requirements are elevated with age (5). Feedback on the food
+logs throughout the study was provided. Informational handouts on healthy food
+selections and behavior modification were administered during the seminars. The
+nutrition education sessions were also used to explain the reasoning behind use of
+Boost HP (Novartis and Mead Johnson Nutritionals; 240 kcals, 15 g protein, 33 g
+CHO, 6 g fat, per 8 oz.) and guide the proper use of food logs. Boost HP was given
+immediately post exercise in the amount of 0.4 g of protein/kg of lean mass. Three
+subjects did not tolerate the Boost HP supplement, and were provided alternatives
+with equivalent protein and calories (AdvantEdge Protein Drink, Energy, Athletics,
+Strength; Golden, CO). Examples of foods and food logs were provided, along with
+in-depth instruction and guidance on accuracy of measurement. Food logs were kept
+three times per week on non-consecutive days (Sunday, Tuesday, Thursday), thus,
+the Boost HP that was consumed on training days (Monday, Wednesday, Friday)
+was not included in the dietary analysis.  With 0.4 g/kg of protein being consumed
+in the post-workout period (and not being included in the dietary intake analysis) it
+is important to address that the protein supplement only amounted to an additional
+0.1 g · kg-1 · d-1 total mass per day (0.4 g/kg × 3 d/wk, averaged over 7 d = 0.17 g ·
+kg-1 · d-1 lean: when it is scaled to total mass = about 0.1 g · kg-1 · d-1).
+Data Computation and Statistical Analysis
+Food log analysis was conducted using Nutribase V Clinical (CyberSoft, Inc.,
+­Phoenix, AZ). Entry of over 1800 food logs was performed by three trained individu-
+als to minimize internal error. There was no criterion used for food record validity.
+Average macronutrient and micronutrient intakes for 36 food logs per person were
+transferred to SPSS software for statistical analyses. SPSS software (version 10.1;
+SPSS, Inc., Chicago, IL) was used to determine whether protein intake influenced
+change in lean mass with RET. Pearson correlations between change in lean mass
+and dietary protein or branched chain amino acid intake in grams, grams per kilo-
+gram of total body mass, and grams per kilogram of lean mass were calculated.
+Groups of protein intake (0.6 to 0.8, 0.8 to 1.0, 1.0 to 1.2, and 1.2 to 1.5 g · kg-1 ·
+d-1 total body weight) were analyzed for differences in change in lean mass using
+one-way analysis of variance. A regression analysis was performed to determine
+the independent association of protein intake to lean mass changes.
+Results
+Baseline characteristics of the 51 participants are given in Table 1. RET resulted in
+significant increases in lean mass (1.1 ± 1.5 kg) that were not different (P > 0.05)
+between men (+1.2 ± 1.7 kg) and women (+1.0 ± 1.4 kg). Considering these simi-
+larities, data were pooled for subsequent analyses.
+
+======================================================================
+PAGE 5
+======================================================================
+Table 1  Characteristics of the Study Population at Baseline
+Men (N = 21)
+Women (N = 30)
+Mean
+SD
+Mean
+SD
+Height (cm)
+176.6
+7.2
+162.2
+5.8
+Weight (kg)
+87.3
+16.3
+74.3
+12.3
+Body fat (kg)
+23.0
+8.1
+29.4
+8.3
+Body lean mass (kg)
+62.0
+8.5
+43.4
+4.9
+Age (y)
+64.3
+3.1
+63.6
+2.8
+Table 2  Adherence to Nutritional Recommendations
+Men (N = 21)
+Women (N = 30)
+Mean
+SD
+Mean
+SD
+kcal intake (kcal/kg total weight)
+23.4
+5.0
+21.9
+5.4
+Protein intake (g/kg total weight)
+1.0
+0.2
+1.0
+0.2
+Dietary fiber intake (g)
+24.6
+10.7
+19.7
+7.4
+kcal intake (kcal/kg lean mass)
+32.4
+6.1
+36.9
+7.9
+% of total kcal from fat
+31.0
+6.0
+32.5
+6.5
+% of total kcal from saturated fat
+9.2
+2.5
+9.4
+2.5
+% of total kcal from CHO
+52.1
+8.1
+49.7
+7.9
+% of total kcal from protein
+17.5
+2.1
+18.5
+3.9
+A key objective of the study was to provide adequate protein via post-exercise
+supplementation and daily protein goal of 1.0 g · kg-1 · d-1. This was apparently
+successful as the 12-wk mean consumption of protein per kilogram of body weight
+was not significantly associated to change in lean mass (r < 0.10, P > 0.05). A
+secondary objective of the study was to reach macronutrient ratios similar to the
+Dietary Reference Intakes; this was nearly achieved with the mean intake of all
+macronutrients being within 3.5% (Table 2).
+Table 3 shows no significant associations between gain in lean mass and total
+protein intake. Table 3 also indicates that branched chain amino acid (BCAA)
+intake is not significantly associated to change in total whole body lean mass (r <
+0.23, P > 0.05) even after adjusting BCAA intake to body weight. Energy intake
+is included in Table 3 and has no significant association to gain in lean mass. The
+protein intake over the 12-wk training period, broken down into four groups is
+shown in Figure 1.  As protein intake increases, there is no additional increase in
+lean body mass. Protein intake per kilogram of lean mass was not significantly
+correlated to change in strength (Table 4). Splitting analyses by sex did not alter
+any associations. In subjects that did not receive Boost HP supplement (N = 3, due
+to intolerance) there was no difference in muscle gain, and excluding these three
+subjects from the analysis did not alter the associations or conclusions.
+
+======================================================================
+PAGE 6
+======================================================================
+Table 3  Association Between Change in Lean Mass
+and Dietary Factors
+Change in lean mass (N = 51)
+r
+P
+Total protein
+g/d
+0.196
+0.169
+g · kg-1 TBW* · d-1
+0.019
+0.896
+g · kg-1 LM# · d-1
+0.078
+0.585
+BCAA
+g/d
+0.228
+0.108
+g · kg-1TBW* · d-1
+0.120
+0.404
+g · kg-1LM# · d-1
+0.146
+0.307
+Energy
+kcal
+0.229
+0.103
+kcal · kg-1TBW* · d-1
+0.040
+0.776
+kcal · kg-1LM# · d-1
+0.105
+0.460
+*TBW: total body weight
+# LM: lean mass
+Table 4  Association Between Protein Intake (grams per kg lean
+mass/day) and Change in Upper or Lower Body Strength (N = 51)
+Protein intake [g · kg-1 (LM#) · d-1]
+r
+P
+Change in 1RM (%)
+Leg press
+0.23
+0.10
+Knee extension
+0.06
+0.68
+Chest press
+0.18
+0.20
+Leg curl
+–0.004
+0.98
+Lat pulldown
+–0.15
+0.30
+Arm curl
+0.07
+0.64
+Arm extension
+0.23
+0.10
+# Lean mass
+Discussion
+Our data show that consuming protein in excess of 0.8 g · kg-1 · d-1 of total body
+weight was not associated with further muscle hypertrophy or strength in men and
+women age 60 to 69 in the context of consuming 0.4 g/kg lean mass of protein
+immediately after RET. Our data also suggest that variability in BCAA intake was
+not associated with variability in skeletal muscle hypertrophy.
+Campbell et al. (6) demonstrated that an alteration in protein intake influ-
+ences the relative uptake and efficiency of nitrogen (N) utilization in older people
+throughout 12 wk of RET. This suggests that muscle hypertrophy patterns are
+directly related to nutrient intake and dietary control (40). Campbell et al. (6) also
+reported decreases in fat-free mass and increases in fat mass in older individuals
+
+======================================================================
+PAGE 7
+======================================================================
+who consumed the  Recommended Dietary Allowance (RDA) for protein throughout
+14 wk while consuming adequate energy. These authors suggest that the RDA for
+protein may be marginally in­adequate for lean muscle deposition (6). In a similar
+study, Meredith et al. (24) reported additional energy provided in a supplement
+resulted in greater hypertrophy. This finding indicates that total energy may also
+influence lean tissue accretion (24). The participants in the present study had an
+increase in fat-free mass and a decrease in fat mass. The difference may be because
+the mean intake of protein was 1.0 g · kg-1 · d-1 total body weight in the current
+study, which is 0.2 g · kg-1 · d-1 higher than the recommended RDA and total energy
+appeared to be similar between differing levels of protein consumption. Also, unlike
+participants in these previous studies, the participants in the current study were
+consuming 0.4 g/kg lean mass of protein immediately after RET, which may be a
+factor for eliciting muscle hypertrophy with RET in the elderly.
+While much data have shown that the RDA for protein may not be adequate
+for muscle mass maintenance in the elderly (4, 5, 14, 37, 38), other research has
+indicated that the 0.8 g · kg-1 · d-1 recommendation is sufficient based on nitrogen
+balance (7, 8). However, these studies were conducted in a sedentary population
+and physical stress, such as RET, may alter this need. RET induces amino acid
+mobilization from the body’s free amino acid pool during recovery from an acute
+bout of resistance training, emphasizing the role of amino acids and their use during
+an increased anabolic period (3). A study by Pitkanen et al. (28) had subjects engage
+in 21 total sets of leg exercises; the results showed the exercise group having a 21%
+increase of muscle protein synthesis and a muscle protein breakdown of 17%. These
+were both recorded at 195 min post exercise. The increase in protein breakdown
+possibly occurred in order to provide amino acids in the fasting conditions for
+muscle protein synthesis. Biolo et al. (3) has examined untrained men 3 h after a
+heavy resistance exercise session and found an increase of 100% in muscle protein
+synthesis and a 50% increase in muscle protein degradation (3). These data support
+the need for a nutritional intervention after a RET session.
+Previous studies have suggested increased protein needs when engaging in RET.
+While most of these studies have been conducted in young, male subjects, during
+intense training, the possibility exists that older men and women may benefit from
+increasing protein intake as well. Current researchers suggest the protein need of
+novice male bodybuilders is approximately 1.2 to 1.7 g · kg-1 · d-1 (23, 33, 34). In
+the case of the present study, variation in protein intake from 0.6 to 1.5 g · kg-1 · d-1
+was not associated to variability in lean mass gain with the major difference being
+the administration of 0.4 g/kg lean mass protein immediately after RET.
+Other studies suggest that elevating muscle protein synthesis may be accom-
+plished through the use of a post-exercise supplement. A key factor that can influence
+the amino acid delivery and transport during the post-exercise period is availability.
+Blood flow to the skeletal muscle after RET is greatly increased and may enhance
+the delivery of amino acids to myocytes increasing the rate of protein synthesis.
+Esmarck et al. (10), in a similar design to the present study, discovered that
+protein supplementation immediately following exercise was vital for the develop­
+ment of skeletal muscle. Subjects who consumed 10 g of protein immediately after
+exercise increased lean mass 1.8% whereas those who waited 2 h lost 1.5% of their
+lean mass. However, only 4 d of food records at the beginning and conclusion of
+the Esmarck (10) study were collected. With such a limited time frame for dietary
+
+======================================================================
+PAGE 8
+======================================================================
+data collection, this only provides a weak indication of habitual daily protein intake.
+Roy et al. (31) found that the provision of a post-exercise supplement containing
+protein resulted in a better maintenance of fat-free mass and a more positive nitrogen
+balance as compared to the same amount of protein provided in the morning (31).
+This provides further evidence for the timing of protein delivery in the post-exercise
+period. Consuming protein in the post-exercise period may be a way to minimize
+overall protein intake and conserve fat-free mass during periods of either increased
+energy expenditure or marginal protein intake.
+An important consideration in the present study is that this population was
+previously untrained (no more than 3 h of exercise per week), and the volume of
+the RET program over the 12 wk study period was only moderate. Other studies
+have shown a greater need for protein in strength trained individuals, and this may
+be due to the higher overall training volume and greater protein utilization. Another
+important consideration is that although 36 food logs were completed by every
+subject with detailed training on their use, this type of data is known to be flawed
+in some individuals. To confirm the present results, a randomized double-blind
+study would be necessary.
+In the context of post-RET supplementation, the present study conflicts with
+previous studies that would suggest an individual should increase total daily protein
+intake above the RDA when engaged in a moderately intense resistance training
+program. If our results are confirmed, consuming 0.4 g/kg of protein after a RET
+session may assist in the prevention of sarcopenia, allow individuals to reduce
+overall daily energy load from protein, and reduce the total daily protein load for
+those who may need to restrict intake. Many elderly participants may be concerned
+about caloric load, or may have conditions that require dietary restrictions. This
+study adds additional support for the importance of post-exercise nutrient supple-
+mentation and is the first to suggest that total protein needs may not be elevated
+with training.
+Acknowledgments
+This study was partially supported by NIH grant RO1 AG21024 (Steven E. Riechman)
+as well as a grant from Mead Johnson (David A. MacLean) and NASA grant NAG-9-1259
+(David A. MacLean). Mead Johnson and Novartis generously provided the Boost HP protein
+supplement for this study (Steven E. Riechman). The authors wish to express their gratitude
+to the participants and the students at Kent State University whose hard work made this
+project possible. A special thanks to Linnea Ray, Molly Singletary, Dr. Natalie Caine-Bish,
+and Amy Miracle.
+References
+1.	 Achten, J., M. Gleeson, A.E. Jeukendrup. Determination of the exercise intensity that
+elicits maximal fat oxidation. Med. Sci. Sports Exerc. 34:92-97, 2002.
+2.	 Baumgartner, R.N., P.M. Stauber, D. McHugh, K.M. Koehler, P.J. Garry. Cross-sectional
+age differences in body composition in persons 60+ years of age. J. Gerontol. A. Biol.
+Sci. Med. Sci. 50:M307-M316, 1995.
+3.	 Biolo, G., S.P. Maggi, B.D. Williams, K.D. Tipton, R.R. Wolfe. Increased rates of
+muscle protein turnover and amino acid transport after resistance exercise in humans.
+Am. J. Physiol. 268(3 Pt 1):E514-E520, 1995.
+
+======================================================================
+PAGE 9
+======================================================================
+4.	 Bunker, V.W., M.S. Lawson, M.F. Stanfield, B.E. Clayton. Nitrogen balance studies in
+apparently healthy elderly people and those who are housebound. Br. J. Nutr. 57:211-
+221, 1987.
+5.	 Campbell, W.W., M.C. Crim, G.E. Dallal, V.R. Young, W.J. Evans. Increased protein
+requirements in elderly people: new data and retrospective reassessments. Am. J. Clin.
+Nutr. 60:501-509, 1994.
+6.	 Campbell, W.W., T.A. Trappe, A.C. Jozsi, L.J. Kruskall, R.R. Wolfe, W.J. Evans. Dietary
+protein adequacy and lower body versus whole body resistive training in older humans.
+J. Physiol. 542(Pt 2):631-642, 2002.
+7.	 Campbell, W.W., T.A. Trappe, R.R. Wolfe, W.J. Evans. The Recommended Dietary
+Allowance for protein may not be adequate for older people to maintain skeletal muscle.
+J. Gerontol. A Biol. Sci. Med. Sci. 56:M373-M380, 2001.
+8.	 Cheng, A., A. Gomez, J. Bergan, L. Tung-Ching, F. Monckeberg, C. Chichester. Com-
+parative nitrogen balance study between young and aged adults using three levels of
+protein intake from a combination wheat-soy-milk mixture. Am. J. Clin. Nutr. 31:12-22,
+1978.
+9.	 Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol,
+Protein, and Amino Acids (2002). This report may be accessed via www.nap.edu.
+10.	 Esmarck, B., J.L. Andersen, S. Olsen, E.A. Richter, M. Mizuno, M. Kjaer. Timing of
+postexercise protein intake is important for muscle hypertrophy with resistance training
+in elderly humans. J. Physiol. 535(Pt 1):301-311, 2001.
+11.	 Fiatarone, M.A., E.F. O’Neill, N.D. Ryan, K.M. Clements, G.R. Solares, M.E. Nelson,
+S.B.  Roberts, J.J. Kehayias, L.A. Lipsitz, W.J. Evans. Exercise training and nutritional
+supplementation for physical frailty in very elderly people. N. Engl. J. Med. 330:1769-
+1775, 1994.
+12.	 Frontera, W.R., C.N. Meredith, K.P. O’Reilly, H.G. Knuttgen, W.J. Evans. Strength
+conditioning in older men: skeletal muscle hypertrophy and improved function. J. Appl.
+Physiol. 64:1038-1044, 1988.
+13.	 Fukagawa, N.K., V.R. Young. Protein and amino acid metabolism and requirements in
+older persons. Clin. Geriatr. Med. 3:329-341, 1987.
+14.	 Gersovitz, M., H. Munro, N. Scrimshaw, V. Young. Human protein requirements:
+assessment of the adequacy of the current recommended dietary allowance for dietary
+protein in elderly men and women. Am. J. Clin. Nutr. 35:6-14, 1982.
+15.	 Haub, M.D., A.M. Wells, M.A. Tarnopolsky, W.W. Campbell. Effect of protein source
+on resistive-training-induced changes in body composition and muscle size in older
+men. Am. J. Clin. Nutr. 76:511-517, 2002.
+16.	 Hurley, B.F., S.M. Roth. Strength training in the elderly. Sports Med. 30:249-268,
+2000.
+17.	 Kamel, H.K., D. Maas, E.H. Duthie Jr. Role of hormones in the pathogenesis and
+management of sarcopenia. Drugs Aging. 19:865-877, 2002.
+18.	 Klein, S., N.F. Sheard, X. Pi-Sunyer, A. Daly, J. Wylie-Rosett, K. Kulkarni, N.G. Clark;
+American Diabetes Association; North American Association for the Study of Obesity;
+American Society for Clinical Nutrition. Weight management through lifestyle modifi-
+cation for the prevention and management of type 2 diabetes: rationale and strategies.
+A statement of the American Diabetes Association, the North American Association
+for the Study of Obesity, and the American Society for Clinical Nutrition. Am. J. Clin.
+Nutr. 80:257-263, 2004.
+19.	 Kriska, A.M., P.H. Bennett. An epidemiological perspective of the relationship between
+physical activity and NIDDM: from activity assessment to intervention. Diabetes Metab.
+Rev. 8:355-372, 1992.
+20.	 Kriska, A.M., L.M. Delahanty, K.K. Pettee. Lifestyle intervention for the prevention of
+type 2 diabetes: translation and future recommendations. Curr. Diabetes Rep. 4:113-
+118, 2004.
+
+======================================================================
+PAGE 10
+======================================================================
+21.	 Kriska, A.M., W.C. Knowler, R.E. LaPorte, A.L. Drash, R.R. Wing, S.N. Blair, P.H.
+Bennett,  L.H. Kuller. Development of questionnaire to examine relationship of physical
+activity and diabetes in Pima Indians. Diabetes Care. 13:401-411, 1990.
+22.	 Latham, N.K., D.A. Bennett, C.M. Stretton, C.S. Anderson. Systematic review of
+progressive resistance strength training in older adults. J. Gerontol. A Biol. Sci. Med.
+Sci. 59:M48-M61, 2004.
+23.	 Lemon, P.W., M.A. Tarnopolsky, J.D. MacDougall, S.A. Atkinson. Protein requirements
+and muscle mass/strength changes during intensive training in novice bodybuilders. J.
+Appl. Physiol. 73:767-775, 1992.
+24.	 Meredith, C.N., W.R. Frontera, K.P. O’Reilly, W.J. Evans. Body composition in
+elderly men: effect of dietary modification during strength training. J. Am. Geriatr.
+Soc. 40:155-162, 1992.
+25.	 Navarro, A., J.M. Lopez-Cepero, M.J. Sanchez del Pino. Skeletal muscle and aging.
+Front. Biosci. 6:D26-D44, 2001.
+26.	 Pelkman, C.L., V.K. Fishell, D.H. Maddox, T.A. Pearson, D.T. Mauger, P.M. Kris-
+Etherton. Effects of moderate-fat (from monounsaturated fat) and low-fat weight-loss
+diets on the serum lipid profile in overweight and obese men and women. Am. J. Clin.
+Nutr. 79:204-212, 2004.
+27.	 Phillips, S.M., K.D. Tipton, A.A. Aarsland, S.P. Cortiella, S.E. Wolf, R.R. Wolfe. Mixed
+muscle protein synthesis and breakdown after resistance exercise in humans. Am. J.
+Physiol. Endocrinol. Metab. 273:E99-E107, 1997.
+28.	 Pitkanen, H.T., T. Nykanen, J. Knuutinen, K. Lahti, O. Keinanen, M. Alen, P.V. Komi,
+A. A. Mero. Free amino acid pool and muscle protein balance after resistance exercise.
+Med. Sci. Sports Exerc. 35:784-792, 2003.
+29.	 Riechman, S.E., T.J. Fabian, P.D. Kroboth, R.E. Ferrell. Steroid sulfatase gene varia-
+tion and DHEA responsiveness to resistance exercise in MERET. Physiol. Genomics.
+17:300-306, 2004.
+30.	 Roubenoff, R. The pathophysiology of wasting in the elderly. J. Nutr. 129:256S-259S,
+1999.
+31.	 Roy, B.D., K. Luttmer, M.J. Bosman, M.A. Tarnopolsky. The influence of the timing
+of macronutrient intake on energy balance and protein metabolism in active females
+participating in endurance training. Int. J. Sport Nutr. Exerc. Metab. 12:172-188,
+2002.
+32.	 Szulc, P., F. Duboeuf, F. Marchand, P.D. Delmas. Hormonal and lifestyle determinants
+of appendicular skeletal muscle mass in men: the MINOS study. Am. J. Clin. Nutr.
+80:496-503, 2004.
+33.	 Tarnopolsky, M.A., S.A. Atkinson, J.D. MacDougall, A. Chesley, S. Phillips, H.P.
+Schwarcz.  Evaluation of protein requirements for trained strength athletes. J. Appl.
+Physiol. 73:1986-1995, 1992.
+34.	 Tarnopolsky, M.A., J.D. MacDougall, S.A. Atkinson. Influence of protein intake and
+training status on nitrogen balance and lean body mass. J. Appl. Physiol. 64:187-193,
+1988.
+35.	 Tipton, K.D., E. Borsheim, S.E. Wolf, A.P. Sanford, R.R. Wolfe. Acute response of
+net muscle protein balance reflects 24 h balance following exercise and amino acid
+ingestion. Am. J. Physiol. Endocrinol. Metab. 284:E76-E89, 2003.
+36.	 Tipton, K.D., A.A. Ferrando, S.M. Phillips, D. Doyle, R.R. Wolfe. Postexercise net
+protein synthesis in human muscle from orally administered amino acids. Am. J. Physiol.
+Endocrinol. Metab. 276:E628-E634, 1999.
+37.	 Uauy, R., N. Scrimshaw, V. Young. Human protein requirements: nitrogen balance
+response to graded levels of egg protein in elderly men and women. Am. J. Clin. Nutr.
+31:779-785, 1978.
+38.	 Welle, S., S. Totterman, C. Thornton. Effect of age on muscle hypertrophy induced by
+resistance training. J. Gerontol. A Biol. Sci. Med. Sci. 51:M270-M275, 1996.
+
+======================================================================
+PAGE 11
+======================================================================
+39.	 Yu-Poth, S., G. Zhao, T. Etherton, M. Naglak, S. Jonnalagadda, P.M. Kris-Etherton.
+Effects of the National Cholesterol Education Program’s Step I and Step II dietary
+intervention programs on cardiovascular disease risk factors: a meta-analysis. Am. J.
+Clin. Nutr. 69:632-646, 1999.
+40.	 Zanni, E., D. Calloway, A. Zezulka. Protein requirements of elderly men. J. Nutr.
+109:513-524, 1979.
+
+======================================================================
+PAGE 12
+======================================================================

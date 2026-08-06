@@ -1,0 +1,1385 @@
+Motricidade © Edições Desafio Singular 2020, vol. 16, n. 1, pp. 18-27 http://dx.doi.org/10.6063/motricidade.20191 Manuscript received at January 6th 2020; Accepted at February 10th 2020 1 REP, Exercise Institute, Lisboa, Portugal. 2 Sport Sciences Department, University of Trás-os-Montes e Alto Douro, Vila Real, Portugal. 3 Research Centre in Sports Sciences, Health Sciences and Human Development, CIDESD, Portugal.
+
+============================================================
+PAGE 1
+============================================================
+Motricidade
+© Edições Desafio Singular
+2020, vol. 16, n. 1, pp. 18-27
+http://dx.doi.org/10.6063/motricidade.20191
+Manuscript received at January 6th 2020; Accepted at February 10th 2020
+1 REP, Exercise Institute, Lisboa, Portugal.
+2 Sport Sciences Department, University of Trás-os-Montes e Alto Douro, Vila Real, Portugal.
+3 Research Centre in Sports Sciences, Health Sciences and Human Development, CIDESD, Portugal.
+4 Centre for Investigation, Formation, Innovation and Intervention in Sport, Faculty of Sports, University of Porto, Porto,
+Portugal.
+* Corresponding author: Complexo desportivo da UTAD, Quinta de Prados, 5000-801, Vila Real, Portugal
+Email: josevilaca@utad.pt
+A review of the effects of static stretching in human mobility and
+strength training as a more powerful alternative: Towards a
+different paradigm
+João C. Moscão1, José Vilaça-Alves2,3*, José Afonso4
+RESEARCH NOTE
+ABSTRACT
+Flexibility is a measurable physical capacity considered as a key component of physical fitness. Poor
+flexibility is usually attributed to excessive tension exerted by the antagonist muscles of the movement
+and, supported by weak scientific evidence, passive stretching is considered as the most effective
+intervention in the promotion of the muscle extensibility, in attempting to improve mobility. The
+proposal of this paper is a review of the effects of static stretching in human movement and a
+presentation of strength training as a more robust alternative based on scientific evidence. First, we try to
+define which factors influence the ability of the human body to move into their functional safety range of
+motion. Second, we present a critical scientific literature review of the effects of static stretching in the
+promotion of range of motion, injury prevention, and sports performance. Third, we propose alternatives
+to static stretching such as proprioceptive neuromuscular facilitation, dynamic stretching, and especially
+strength/resistance training, in the promotion of a better range of motion. Finally, we conclude that
+perhaps problems of flexibility/mobility should not be addressed with static processes, but with
+movement.
+Keywords: flexibility, mobility, range of motion, stretching, strength training, review
+INTRODUCTION
+Flexibility is a measurable physical capacity
+considered as a key component of physical
+fitness
+(Heyward,
+2006;
+Knudson,
+2007;
+Pescatello, 2014), thereby contributing to the
+health and performance of joints and the
+musculoskeletal
+system.
+Sports
+sciences
+commonly apply the term "flexibility" to denote
+the ability to move a joint through its maximum
+range of motion or ROM (Heyward, 2006;
+Pescatello, 2014; Zatsiorsky & Prilutsky, 2012).
+Notwithstanding,
+the
+human
+body
+moves
+through rotations around joint axes, meaning
+that "mobility" is probably a more accurate term
+to describe this ability (Harvey et al., 2017;
+Medeiros & Martini, 2018), even because it is
+the word that, in most English-language
+dictionaries, denotes the ability to move.
+In practical terms, the focus is usually on
+muscle extensibility (Levangie & Norkin, 2011;
+Lippert, 2011), and therefore flexibility — or
+mobility — problems are often attributed to
+excessive tension exerted by the antagonist's
+muscles (Nordez et al., 2017), which may be
+producing such tension to protect the joint.
+However, in recent years there has been
+increasing evidence that muscle
+weakness
+(Hurley, 1999; Roos, Herzog, Block, & Bennell,
+2010; Waryasz & McDermott, 2008) is a major
+factor behind reduced mobility (Zatsiorsky &
+Prilutsky, 2012). Consequently, training muscle
+contractility is likely to improve mobility.
+
+============================================================
+PAGE 2
+============================================================
+Alternatives to static stretching | 19
+Furthermore, the role of bone and joint
+structure, fascia, ligaments and nerves (both
+signal
+regulation
+and
+actual
+physical
+deformation, as shortening and elongation or
+stretching) have been recognized as important
+limiters of ROM (Junior, 2004; Kapandji, 2006;
+Levangie
+&
+Norkin,
+2011;
+Weppler
+&
+Magnusson, 2010; Zatsiorsky & Prilutsky,
+2012), and their extensibility is much less
+modifiable than muscle extensibility or strength.
+Additionally, ROM can be passive (i.e., provoked
+by an external agent, such as gravity, another
+person of the same person in another body part)
+or active (i.e., provoked by an internal agent —
+internal forces, intrinsic to the involved regions)
+(Heyward, 2006; Zatsiorsky & Prilutsky, 2012).
+Regardless of terminology and of the quality
+of supporting evidence, stretching emerges as an
+intervention that elongates the tissues in
+attempting to improve mobility (Knudson, 2007;
+Lippert, 2011; Nordez et al., 2017). However,
+we should point out that movement and,
+naturally, contraction, is three-dimensional.
+Considering the three geometric axes that
+configure the muscle's structure, it should be
+noted that while stretching elongates the tissue
+along its longest axis, it diminishes the
+physiological cross-sectional area (PCA) on the
+other two – i.e., it promotes muscle transverse
+shortening. On the contrary, it is muscular
+shortening along the long axis that promotes an
+increase in the tissue's PCA, thus lengthening
+the other two axes.
+So, paradoxically, shortening lengthens the
+tissue on two out of three axes, while stretching
+only lengthens the tissue on one axis out of
+three. Still, world-acclaimed guidelines such as
+those of the National Strength and Conditioning
+Association and the American College of Sports
+Medicine
+recommend
+the
+utilization
+of
+stretching in all exercise programs, as a means
+of promoting muscular elongation and flexibility
+(Clark, Luccet, & Sutton, 2011; Pescatello,
+2014). Notwithstanding, the three-dimensional
+analysis of movement axes reveals that it is
+impossible to move without elongating along at
+least one of the involved axes.
+Therefore, all training, including movement,
+is, by definition, training of shortening and
+stretching cycles (SSCs) (Kenney, Wilmore, &
+Costill, 2012). Ergo, resistance training is also,
+inherently, one way to elongate. Moreover, we
+should take into consideration that in the active
+modality of stretching, the internal forces that
+stretch the targeted tissue area in fact forces
+produced by muscles that are shortening, with
+contraction of certain muscles being the key for
+the stretching of others.
+Of
+note,
+there
+seems
+to
+persist
+a
+misconception in the sports communities,
+stating that stretching would be a protocol of
+mild intensity, while flexibility would be a
+protocol of high intensity. First and foremost,
+flexibility is a physical capacity, while stretching
+is a means of developing said capacity. Secondly,
+stretching can vary in intensity, from light to
+heavy
+(Apostolopoulos,
+Metsios,
+Flouris,
+Koutedakis, & Wyon, 2015), like any other
+training
+parameter.
+Thirdly,
+this
+is
+also
+inconsistent with our terminology concerning
+other training factors. For example, resistance
+training using 1RM, 10RM, or even non-
+maximal repetitions is always considered as a
+form of strength training. However, if we
+applied the previous logic, only 1RM would be
+considered
+strength
+training.
+Therefore,
+stretching does not imply an intensity; instead,
+it can present a range of intensities.
+It has been further suggested that the
+inclusion of stretching protocols in training
+programs is based more strongly on tradition
+than on science (Baxter, Naughton, Sparks,
+Norton, & Bentley, 2017). Our goal is, therefore,
+to review the known acute and chronic effects of
+passive and active static stretching protocols in
+multiple
+dimensions
+(e.g.,
+warm-up,
+performance, injury prevention). Building upon
+the limitations of those protocols, we will review
+three alternative methods for developing a range
+of motion: (i) proprioceptive neuromuscular
+facilitation; (ii) dynamic stretching; and (iii)
+resistance or strength training.
+
+============================================================
+PAGE 3
+============================================================
+20 | JC Moscão, J Vilaça-Alves, J Afonso
+Static stretching: From promises to actual
+effects
+Static stretching is, perhaps, the most
+commonly applied stretching method across
+general, athletic, and clinical populations (Kay &
+Blazevich, 2012), and it seems consensual that it
+promotes increases in passive ROM (Medeiros
+& Martini, 2018; Thomas, Bianco, Paoli, &
+Palma, 2018), whether through an increase in
+muscle extensibility or growth intolerance to
+stretching (Blazevich et al., 2014; Freitas et al.,
+2017; Konrad & Tilp, 2014; Lima, Carneiro,
+Alves, Peixinho, & Oliveira, 2015), namely
+through changing of the perceived discomfort
+associated with stretching (Medeiros & Martini,
+2018). One of the main arguments in support of
+static stretching is its alleged role in injury
+prevention. However, chronic applications of
+stretching to reduce the incidence and/or
+graveness of muscle contractures are ineffective
+and may even increase pain perception, as well
+as provoke numerous deleterious secondary
+effects, such as numbness, swelling, and
+cutaneous lesions (Harvey et al., 2017).
+It has also been suggested that most
+musculoskeletal injuries occur far from the ROM
+limits (Thacker, Gilchrist, Stroup, & Kimsey,
+2004), raising doubts concerning the relevance
+of increasing ROM. Indeed, we have to consider
+that more ROM may allow the joint to move
+into perilous situations while demanding the
+nervous system to control a higher number of
+degrees of freedom, paradoxically increasing the
+risk of injury (Magnusson, 1998). Moreover, it is
+common
+for
+guidelines
+to
+propose
+that
+stretching is performed until slight discomfort is
+achieved (ACSM, 2018). However, this implies
+that the joint is already being confronted with its
+limits, and it might be speculated that this
+closeness to the limits is potentially dangerous
+since we are dealing closely with joint limits.
+Special care should be taken when passive
+stretching is being conducted since the healthy
+limits of ROM may easily be surpassed by the
+application of external forces (Levangie &
+Norkin, 2011).
+A review conducted by Herbert and Gabriel
+(2002), concluded that stretching is a highly
+ineffective intervention, requiring approximately
+23 years to prevent one injury. Furthermore,
+there have been reports of stretching-induced
+injuries (Bracko, 2002). In addition, when static
+stretching is associated with a slight reduction
+in injury risk, other warm-up activities are also
+present, and it is therefore impossible to state
+that such risk reduction is due to stretching or
+to the other protocols (McHugh & Cosgrave,
+2010). More recently, Behm, Blazevich, Kay, and
+McHugh (2016) performed a systematic review
+showing that stretching does not reduce injury
+risk. As a result, even the ACSM has stated that
+there is no consistent link between stretching
+and reduction of injury risk (ACSM, 2018).
+An extensive systematic review by Lauersen,
+Bertelsen, and Andersen (2013) verified that
+both resistance and "proprioceptive" training
+protocols (under quotation marks because all
+exercise promotes proprioceptive adaptations,
+and
+because
+the
+so-called
+proprioceptive
+protocols are protocols under unstable surfaces
+and request too much more than merely
+proprioception) were effective in reducing injury
+risk while stretching protocols were not.
+Passive static stretching is considered a
+useful tool for improving ROM and is routinely
+used in training protocols (Behm et al., 2016).
+However, the ability to voluntarily regulate
+ROM, actively controlling movement, is decisive
+for joint health, and therefore active ROM may
+be considered functional (McHugh & Cosgrave,
+2010; Sharman, Cresswell, & Riek, 2006), while
+passive ROM may not. A systematic review has
+shown that improvements in classical measures
+of ROM do not necessarily translate to
+increments
+in
+functional
+mobility
+tests
+(Stathokostas, Little, Vandervoort, & Paterson,
+2012). The study of Moreside and McGill (2013)
+has shown that an increase in passive ROM may
+even
+negatively
+transfer
+to
+active
+ROM.
+Moreover, passive stretching may increase the
+delay in the neuromuscular response, increasing
+the risk of injury (Minshull, Eston, Bailey, Rees,
+&
+Gleeson,
+2013).
+Importantly,
+many
+purportedly active stretching protocols are
+actually pseudo-active, since – as we have
+already stated – one body part is being used to
+
+============================================================
+PAGE 4
+============================================================
+Alternatives to static stretching | 21
+impose external forces on another part. For
+example, in the frog position, the arms are
+actively pushing the knees down, thereby
+passively stretching the adductor region.
+Similar to active static stretching, passive
+static
+stretching
+induces
+a
+slight
+acute
+impairment of performance in respect to
+strength, speed, and agility; however, the
+chronic effects on strength might be positive
+(Shrier, 2004). This concurs with our argument
+that static stretching is but a form of isometric
+strength training: one where a specific group of
+muscles works isometrically in a shortened
+position,
+while
+their
+antagonists
+work
+isometrically
+in
+a
+lengthened
+position.
+Notwithstanding,
+these
+chronic
+effects
+of
+stretching on strength are derived from studies
+with
+questionable
+methodologic
+protocols,
+usually with a high risk of bias (Medeiros &
+Martini, 2018). Therefore, it might not be
+surprising that some studies report that chronic
+stretching is no better than a control group for
+improving strength (LaRoche, Lussier, & Roy,
+2008),
+while
+others
+report
+that
+adding
+stretching to a resistance training protocol may
+enhance strength gains (Kakkonen, Nelson,
+Tarawhiti, Buckingham, & Winchester, 2010),
+and still, others describe how adding stretching
+to a
+resistance training protocol actually
+impaired strength gains (Bastos et al., 2013).
+Conversely, the acute effects depressing
+performance seem to be well established in the
+literature (Avela, Kyrolainen, & Komi, 1999;
+Haddad et al., 2013; McHugh & Cosgrave, 2010;
+Nelson,
+Driscoll,
+Landin,
+Young,
+&
+Schexnayder, 2005; Rubini, Costa, & Gomes,
+2007; Sayers, Farley, Fuller, Jubenville, &
+Caputo, 2008; Simic, Sarabon, & Markovic,
+2012).
+Likely,
+such
+effects
+are
+neurally
+mediated, as they may affect both the stretched
+and the non-stretch muscles (Masugi, Obata,
+Inoue, Kawashima, & Nakazawa, 2017). A more
+controversial topic pertains the duration of each
+stretching, with (Matsuo et al., 2013) denoting
+that protocols lasting from 20 seconds to 300
+seconds similarly impaired strength, while
+(Behm
+et
+al.,
+2016)
+showed
+that
+such
+impairments were exponentiated by stretches
+lasting for 60 seconds or more.
+Alternatives to static stretching
+A review of chronic effects of stretching
+protocols on the ROM of the lower limbs
+(Thomas et al., 2018) concluded that active
+static, passive static, ballistic, and proprioceptive
+neuromuscular
+facilitation
+(PNF)
+were
+all
+equally effective in increasing passive ROM.
+Proprioceptive neuromuscular facilitation
+PNF is a group of stretching techniques that
+combine passive static stretching with muscle
+contractions (more usually isometric, but also
+concentric, depending on the specific technique
+applied), and is considered a powerful tool for
+improving mobility (ACSM, 2018; Thomas et al.,
+2018), with gains in passive ROM superior to
+those obtained with static stretching (Behm et
+al., 2016). Despite its popularity, we still do not
+have a solid understanding of the mechanisms
+underlying
+its
+effects
+(Hindle,
+Whitcomb,
+Briggs, & Hong, 2012). There are several
+techniques within PNF, but perhaps the two
+most widely studied are contract-relax (CR) and
+contract-relax-contract
+antagonists
+(CRCA).
+Since
+these
+PNF
+techniques
+are
+usually
+performed with high intensity, the subjects are
+exposed to potentially increased injury risk
+(Hindle et al., 2012; Kay, Dods, & Blazevich,
+2016). A modified CR method allows the joint
+to
+return
+to
+a
+previous
+position,
+and
+contractions are performed further away from
+the joint ROM limits. This latter method is as
+effective as more mainstream approaches while
+reducing the risk of injury (Kay et al., 2016).
+Interestingly, the gains obtained in both
+passive and active ROM testing seem to increase
+in par with the increase in the duration of the
+isometric contractions (Cayco, Labro, & Gordon,
+2019; Hindle et al., 2012; Rowlands, Marginson,
+& Lee, 2003), strongly suggesting that the
+component
+of
+voluntary
+contraction
+is
+determinant
+in
+the
+effectiveness
+of
+PNF
+methods, as is what distinguishes them from
+traditional static stretching. However, the acute
+effects of PNF also impair strength levels,
+
+============================================================
+PAGE 5
+============================================================
+22 | JC Moscão, J Vilaça-Alves, J Afonso
+although less than static stretching, and there is
+no
+established
+association
+between
+the
+application of these methods and injury risk
+(Behm et al., 2016).
+Dynamic stretching
+In a very real, non-allegorical sense, dynamic
+stretching is but a form of strength training
+where body weight and gravity are the only
+variables involved, i.e., there is no additional
+external load (Opplert & Babault, 2017). If a
+person performs an overhead squat, we call it
+"mobility training". If the same person performs
+the
+same
+overhead
+squat,
+but
+with
+a
+superimposed barbell, we suddenly call it
+"resistance training". They are pretty much the
+same protocol; the main difference is the
+magnitude of the external load – and on both
+examples, there is a confront between body and
+resistance. Dynamic stretching increases active
+and passive ROM (Opplert & Babault, 2017),
+and since the subject only moves through the
+active ROM, dynamic stretching usually does
+not relate so closely with the maximum ROM
+(Behm et al., 2016). In our view, this constitutes
+a more secure type of exercise than the more
+commonly used static stretching.
+Acutely,
+dynamic
+stretching
+could
+be
+hypothesized to improve performance. However,
+studies have revealed that it is, at best, slightly
+beneficial (Behm et al., 2016; Opplert & Babault,
+2017; Peck, Chomko, Gaz, & Farrel, 2014). This
+fact might imply some redundancy: exercises
+specifically
+designed
+to
+promote
+dynamic
+stretching will probably add little to regular
+warm-up
+exercises,
+which
+also
+require
+movement
+and,
+therefore,
+imply
+dynamic
+stretching. Overall, the small improvements in
+performance
+after
+performing
+dynamic
+stretching may be attributable to the voluntary
+muscle contractions that are applied, possibly
+through
+the
+post-activation
+potentiation
+phenomenon (Opplert & Babault, 2017).
+Strength/resistance training
+Since all movement occurs in the form of
+stretch and shortening cycles or SSCs (Kenney et
+al., 2012), it is no surprise to claim that
+resistance training is a form of stretching and
+may, therefore, improve mobility (Haff, 2006).
+But strength training is an active, voluntary,
+dynamic form of stretching. Indeed, strength
+training is dynamic stretching. Often, strength
+training
+is
+performed
+against
+external
+resistances, but this is not mandatory. Moreover,
+strength training has been shown to improve
+mobility in sedentary adults (Leite et al., 2017;
+Monteiro et al., 2008; Santos et al., 2010) and
+elders (Carneiro et al., 2015), as well in trained
+adults (Júnior, Leite, & Reis, 2011; Souza et al.,
+2013) and in elite athletes (Saraiva et al., 2014).
+Furthermore,
+resistance training has been
+shown to be the most effective method for injury
+prevention (Attar, Soomro, Sinclair, Pappas, &
+Sanders, 2016; Lauersen et al., 2013; Suchomel,
+Nimphius, & Stone, 2016; Thacker et al., 2004).
+In a comparative study, Morton, Whitehead,
+Brinkert,
+and
+Caine
+(2011)
+showed
+that
+resistance training produced greater mobility
+gains than passive static stretching. A 16-week
+study in sedentary women compared resistance
+training only, passive static stretching only, and
+resistance training plus passive static stretching,
+and found that all protocols produced similar
+improvements in mobility (Simão et al., 2011).
+In a study with ballerinas (Wyon, Smith, &
+Koutedakis, 2013), resistance training (named
+dynamic stretching by the authors), low-
+intensity passive static stretching and high-
+intensity
+passive
+static
+stretching
+were
+compared (although it is not very clear how
+intensity level was determined). The three
+groups exhibited similar improvements in
+passive ROM, but for active ROM the resistance
+training group showed superior increments. In
+trained men, resistance training only was as
+effective in improving mobility as resistance
+training plus passive static stretching (Bastos et
+al., 2013).
+Overall, these studies concur to underline the
+positive role of strength training on mobility.
+The first possible mechanism is obvious:
+strength exercises imply alternated cycles of
+shortening and lengthening, and so they
+constitute a dynamic form of elongating the
+muscle tissue. The second mechanism likely
+
+============================================================
+PAGE 6
+============================================================
+Alternatives to static stretching | 23
+relies on a more precisely regulated coactivation
+of the agonistic and antagonistic muscle pairs
+(Dal Maso, Longcamp, & Amarantini, 2012;
+Duchateau & S., 2014; Kandel, Schwartz, Jessel,
+Siegelbaum,
+&
+Hudspeth,
+2013;
+Remaud,
+Guével, & Cornu, 2007). Regarding this very
+regulation, and in light of the evidence
+mentioned
+above
+on
+the
+coactivation
+phenomenon, in the absence of joint or bone
+impediments, poor mobility may result from an
+exaggerated co-activation of the antagonistic
+muscles
+and/or
+muscle
+weakness
+of
+the
+agonistic muscles. In both cases, the voluntary
+movement fails to produce an adequate balance
+of forces and its mobility becomes reduced. In
+this vein, big differences between active and
+passive ROM may reflect a weakness of the
+agonistic muscles, in which case strength
+training will be more effective than passive
+stretching of the antagonists (Zatsiorsky &
+Prilutsky, 2012).
+It should be underlined that the muscle does
+not stretch by itself, but only when faced with a
+winning external force (Hamill & Knutzen,
+2003). In the absence of such external forces,
+the muscle always shortens, as the intrinsic
+mechanics of muscle contraction always attempt
+to promote concentric actions (Widmaier, Raff,
+& Strang, 2006). Moreover, the nervous system
+can regulate the frequency and intensity of the
+signals to both alpha and gamma motoneurons,
+both those signals always promote shortening
+and never muscle stretching (Kenney et al.,
+2012; Widmaier et al., 2006). Therefore,
+stretching is not an active property of the
+muscles; instead, for
+muscles to stretch,
+different muscles have to shorten and force the
+others to stretch (Latash, 2008). The muscle
+always produces forces, and mobility derives
+from the equilibrium of those forces (Levangie
+& Norkin, 2011) – i.e., mobility (as its
+synonymous "flexibility") is a product of muscle
+contraction.
+In this respect, even isometric training may
+prove useful since the muscle performs short-
+scale stretching and shortening cycles (Kay &
+Blazevich,
+2012;
+Latash,
+2008).
+Isometric
+strength training has been shown to minimize
+antagonistic co-activation, therefore improving
+agonistic contractility (Dal Maso et al., 2012;
+Lee, Kang, & Shin, 2015). The same was verified
+by (Kofotolis & Kellis, 2006), who applied PNF-
+like protocols but having removed the passive
+stretching component, meaning they applied
+isometric strength training. Of interest, the
+improvements in strength were not limited to
+isometric evaluations but extended to dynamic
+evaluations. Moreover, the authors showed
+improvements in active ROM, even though the
+isometric training was conducted far from the
+ROM limits. Similar results have been reported
+by (Ferber, Osterning, & Gravelle, 2002) and
+(Kofotolis, Vlachopoulos, & Kellis, 2008). In
+conclusion, unlike what is mentioned in several
+guidelines, mobility can improve even when
+working far from the existing ROM limits,
+which constitutes a very relevant security factor.
+In
+addition,
+another
+major
+advantage
+of
+isometric training is the possibility to adjust the
+load to every intended angle properly.
+FINAL REMARKS: TOWARDS A NEW PARADIGM
+FOR DEVELOPING A RANGE OF MOTION
+All movement presupposes SSCs, i.e., all
+movement
+requires
+both
+shortening
+and
+lengthening of the musculoskeletal system
+(Kenney et al., 2012). Even isometric training
+requires micro-movements (since the muscle
+has to generate force), and therefore requires
+micro-scale SSCs. As we have previously seen,
+static stretching can be considered an isometric
+stimulus where the agonist's muscles are in a
+shortened
+position,
+while
+the
+antagonist's
+muscles are in a lengthened position. On the
+other end of the spectrum, all dynamic strength
+training
+implies
+both
+shortening
+and
+lengthening.
+This
+presents
+four
+major
+implications: (i) strength training represents a
+great method for improving mobility; (ii)
+shortening training lengthens two of the three
+axes of movement; (iii) since we do not apply
+passive techniques in strength training, we
+should rethink the application of passive
+techniques such as passive static stretching; (iv)
+and even isometric exercise far from the ROM
+limits can be effective in improving mobility.
+
+============================================================
+PAGE 7
+============================================================
+24 | JC Moscão, J Vilaça-Alves, J Afonso
+Perhaps problems of flexibility/mobility should
+not be addressed with static processes, but with
+movement.
+PRACTICAL RECOMMENDATIONS
+We suggest that the commonly applied term
+"flexibility" is replaced by "mobility", recognizing
+the multi-factorial aspects that condition this
+quality (e.g., bone and joint structure, the
+interplay between agonistic and antagonistic
+muscle groups). We also suggest that the
+commonly
+applied
+expression
+"dynamic
+stretching" is replaced by "strength exercise",
+recognizing the enormous similarity between
+definitions
+and
+the
+physical
+relationship
+between body and resistance. Furthermore,
+there
+are
+several
+methods
+for
+improving
+mobility, and the promises of static stretching
+(both active and passive) have met with
+disappointing results. At the same time,
+strength training has emerged as a powerful
+method for generating improvements in several
+aspects of health and performance, one of them
+being mobility.
+Therefore, we recommend that practitioners
+apply strength training methods for improving
+the mobility of their athletes or clients. We
+further invite practitioners to prefer active over
+passive methods, promoting the ability to
+produce movement voluntarily and avoiding
+damaging the invisible, complex, under the skin
+structure that is the human body. Finally, we
+should rethink the concept that more ROM is
+always better because this is false and may peril
+the integrity of the joint structure and therefore
+expose the athlete to an increased risk of injury.
+Acknowledgments:
+Nothing to declare.
+Conflict of interests:
+Nothing to declare.
+Funding:
+Nothing to declare.
+REFERENCES
+Knauth, D. R., Couto, M. T., & Figueiredo, W. S.
+(2012). A visão dos profissionais sobre a
+presençae as demandas dos homens nos serviços
+de saúde: perspectivas para a análise da
+implantaçãoda Política Nacional de Atenção
+Integral à Saúde do Homem. Ciência & Saúde
+Coletiva, 17(10), 2617-2626.
+ACSM. (2018). ACSM's Guidelines for Exercise Testing
+and Prescription (10th Ed.): Lippincott Williams &
+Wilkins.
+Apostolopoulos,
+N.,
+Metsios,
+G.,
+Flouris,
+A.,
+Koutedakis, Y., & Wyon, M. (2015). The
+relevance of stretch intensity and position – a
+systematic review. Frontiers in Psychology, 6, 1128.
+doi:10.3389/fpsyg.2015.01128
+Attar, W., Soomro, N., Sinclair, P., Pappas, E., &
+Sanders, R. (2016). Effect of injury prevention
+programs that include the Nordic hamstring
+exercise on hamstring injury rates in soccer
+players: a systematic review and meta-analysis.
+Sports
+Medicine,
+47(5),
+907-916.
+doi:10.1007/s40279-016-0638-2
+Avela, J., Kyrolainen, H., & Komi, P. (1999). Altered
+reflex sensitivity after repeated and prolonged
+passive muscle stretching. Journal of Applied
+Physiology,
+86(4),
+1283-1291.
+doi:10.1152/jappl.1999.86.4.1283
+Bastos, C., Vilaça-Alves, J., Reis, V., Tavares, G.,
+Gomes, T., & Novaes, J. (2013). Chronic Effect
+of the Combinations of Resistance Exercises
+With Static Stretching Exercises on Flexibility
+Levels in Trained Men. The Journal of Sports
+Medicine and Physical Fitness, 53, 44-50.
+Baxter, C., Naughton, L., Sparks, A., Norton, L., &
+Bentley, D. (2017). Impact of stretching on the
+performance and injury risk of long-distance
+runners. Research in Sports Medicine, 25(1), 78–90.
+doi:10.1080/15438627.2016.1258640
+Behm, D., Blazevich, A., Kay, A., & McHugh, M.
+(2016). Acute effects of muscle stretching on
+physical performance, range of motion, and
+injury incidence in healthy active individuals: a
+systematic review. Applied Physiology Nutrition and
+Metabolism,
+41(1),
+1-11.
+doi:10.1139/apnm-
+2015-0235
+Blazevich, A., Cannavan, D., Waugh, C., Miller, S.,
+Thorlund, J., & Aagaard, P. (2014). Range of
+Motion, Neuromechanical, and Architectural
+Adaptations to Plantar Flexor Stretch Training in
+Humans. Journal of Applied Physiology, 117(5),
+452-462. doi:10.1152/japplphysiol.00204.2014
+Bracko, M. (2002). Can Stretching Prior to Exercise
+and Sports Improve Performance and Prevent
+Injury? ACSM's Health & Fitness Journal, 6(5), 17-
+22.
+Carneiro, N., Ribeiro, A., Nascimento, M., Gobbo, L.,
+Schoenfeld, B., Júnior, A., . . . Cyrino, E. (2015).
+Effects
+of
+Different
+Resistance
+Training
+Frequencies on Flexibility in Older Women.
+
+============================================================
+PAGE 8
+============================================================
+Alternatives to static stretching | 25
+Clinical Interventions in Aging, 10, 531-538.
+doi:10.2147/CIA.S77433
+Cayco, C., Labro, A., & Gordon, E. (2019). Hold-relax
+and contractrelax stretching for hamstrings
+flexibility: a systematic review with meta-
+analysis. Physical Therapy in Sport, 35, 42-55.
+doi:10.1016/j.ptsp.2018.11.001
+Clark, M., Luccet, S., & Sutton, B. (2011). NASM
+Essentials of Fitness Personal Training (4th Ed.):
+Lippincott Williams & Wilkins.
+Dal Maso, F., Longcamp, M., & Amarantini, D.
+(2012). Training-related decrease in antagonist
+muscles activation is associated with increase
+motor cortex activation: evidence of central
+mechanisms for control of antagonist muscles.
+Experimental Brain Research, 220(3-4), 287-295.
+doi:10.1007/s00221-012-3137-1
+Duchateau, J., & S., B. (2014). The neural control of
+co-activation
+during
+fatiguing
+contractions
+revisited.
+Journal
+of
+Electromyography
+and
+Kinesiology,
+24(6),
+780-788.
+doi:10.1016/j.jelekin.2014.08.006
+Ferber, R., Osterning, L., & Gravelle, D. (2002).
+Effect of PNF stretch techniques on knee flexor
+muscle EMG activity in older adults. Journal of
+Electromyography and Kinesiology, 12(5), 391-397.
+Freitas, S., Mendes, B., Le Sant, G., Andrade, R.,
+Nordez, A., & Z., M. (2017). Can chronic
+stretching change the muscle-tendon mechanical
+properties? A review. Scandinavian Journal of
+Medicine & Science in Sports, 28(3), 794-806.
+doi:10.1111/sms.12957
+Haddad, M., Dridi, A., Moktar, C., Chaouachi, A.,
+Wong, D., & Chamari, K. (2013). Static
+Stretching Can Impair Explosive Performance
+For At Least 24 Hours. Journal of Strength &
+Conditioning
+Research,
+28(1),
+140-146.
+doi:10.1519/JSC.0b013e3182964836
+Haff, G. (2006). Roundtable Discussion: Flexibility
+Training. Strength and Conditioning Journal, 28(2).
+Hamill, J., & Knutzen, K. (2003). Biomechanical Basis of
+Human Movement (2nd Ed.): Lippincott Williams
+& Wilkins.
+Harvey, L., Katalinic, O., Herbert, R., Moseley, A.,
+Lannin, N., & Schurr, K. (2017). Stretch for the
+treatment and prevention of contracture: an
+abridged republication of a Cochrane Systematic
+Review. Journal of Physiotherapy, 63(2), 67-75.
+Herbert, R., & Gabriel, M. (2002). Effects of
+stretching before and after exercising on muscle
+soreness and risk of injury: systematic review.
+BMJ,
+325(7362),
+468.
+doi:10.1136/bmj.325.7362.468
+Heyward, V. (2006). Advanced Fitness Assessment and
+Exercise Prescription (5th Ed.): Human Kinetics.
+Hindle, K., Whitcomb, T., Briggs, W., & Hong, J.
+(2012).
+Proprioceptive
+Neuromuscular
+Facilitation (PNF): Its Mechanisms and Effects
+on Range of Motion and Muscular Function.
+Journal
+of
+Human
+Kinetics,
+31,
+105-113.
+doi:10.2478/v10078-012-0011-y
+Hurley, M. (1999). The role of muscle weakness in
+the pathogenesis of osteoarthritis. Rheumatic
+Disease Clinics of North American College of Sports
+Medicine, 25(2), 283-298.
+Junior, A. (2004). Flexibilidade e Alongamento. Brazil:
+Manole.
+Júnior, R., Leite, T., & Reis, V. (2011). Influence of
+the number of sets at a strength training in the
+flexibility gains. Journal of Human Kinetics Special
+Issue,
+29A,
+47-52.
+doi:10.2478/v10078-011-
+0058-1
+Kakkonen, J., Nelson, A., Tarawhiti, T., Buckingham,
+P.,
+&
+Winchester,
+J.
+(2010).
+Early-phase
+resistance training strength gains in novice
+lifters are enhanced by doing static stretching.
+Journal of Strength & Conditioning Research, 24(2),
+502-506. doi:10.1519/JSC.0b013e3181c06ca0
+Kandel, E., Schwartz, J., Jessel, T., Siegelbaum, S., &
+Hudspeth, A. (2013). Principles of Neural Science
+(5th Ed.). New York USA: McGraw-Hill.
+Kapandji, A. (2006). The Physiology of the Joints (6th
+Ed.) (Vol. 1, 2 and 3). Churchill Livingstone.
+Elsevier.
+Kay, A., & Blazevich, A. (2012). Effect of acute static
+stretch on maximal muscle performance: a
+systematic review. Medicine & Science in Sports &
+Exercise,
+44(1),
+154-164.
+doi:10.1249/MSS.0b013e318225cb27
+Kay, A., Dods, S., & Blazevich, A. (2016). Acute
+effects of contractrelax (CR) stretch versus a
+modified CR technique. European Journal of
+Applied
+Physiology,
+116(3),
+611-621.
+doi:
+10.1007/s00421-015-3320-8
+Kenney, W. L., Wilmore, J. H., & Costill, D. L.
+(2012). Physiology of Sport and Exercise (5th Ed.).
+Champaign, Illinois: Human Kinetics.
+Knudson, D. (2007). Fundamentals of Biomechanics (2nd
+Ed.): Springer.
+Kofotolis, N., & Kellis, E. (2006). Effects of a two 4-
+week proprioceptive neuromuscular facilitation
+programs on muscle endurance, flexibility, and
+functional performance in women with chronic
+low back pain. Physical Therapy, 86(7), 1001-
+1012.
+Kofotolis, N., Vlachopoulos, S., & Kellis, E. (2008).
+Sequentially Allocated Clinical Trial of Rhythmic
+Stabilization Exercises and TENS in Women
+with
+Chronic
+Low
+Back
+Pain.
+Clinical
+Rehabilitation,
+22(2),
+99-111.
+doi:10.1177/0269215507080122
+Konrad, A., & Tilp, M. (2014). Increased range of
+motion after static stretching is not due to
+changes in muscle and tendon structures. Clin
+Biomech
+(Bristol,
+Avon),
+29(6),
+636-642.
+doi:10.1016/j.clinbiomech.2014.04.013
+LaRoche, D., Lussier, M., & Roy, S. (2008). Chronic
+Stretching and Voluntary Muscle Force. Journal
+of Strength & Conditioning Research, 22(2), 589-
+596. doi:10.1519/JSC.0b013e3181636aef
+Latash, M. (2008). Neurophysiological Basis of Human
+Movement: Human Kinetics.
+
+============================================================
+PAGE 9
+============================================================
+26 | JC Moscão, J Vilaça-Alves, J Afonso
+Lauersen, J., Bertelsen, D., & Andersen, L. (2013).
+The effectiveness of exercise interventions to
+prevent sports injuries: a systematic review and
+meta-analysis of randomised controlled trials.
+British Journal of Sports Medicine, 48(11), 871-877.
+doi:10.1136/bjsports-2013-092538
+Lee, N., Kang, H., & Shin, G. (2015). Use of
+antagonist muscle EMG in the assessment of
+neuromuscular health of the low back. Journal of
+Physiologica
+Anthropology,
+34,
+18.
+doi:10.1186/s40101-015-0055-5
+Leite, T., Costa, P., Leite, R., Novaes, J., Fleck, S., &
+Simão, R. (2017). Effects of different number of
+sets
+of
+resistance
+training
+on
+flexibility.
+International Journal of Exercise Science, 10(3), 354-
+364.
+Levangie, P., & Norkin, C. (2011). Joint Structure and
+Function: F. A. Davis Company.
+Lima, K., Carneiro, S., Alves, D., Peixinho, C., &
+Oliveira, L. (2015). Assessment of muscle
+architecture of the biceps femoris and vastus
+lateralis by ultrasound after a chronic stretching
+program. Clinical Journal of Sport Medicine, 25(1),
+55-60. doi:10.1097/JSM.0000000000000069
+Lippert, L. (2011). Clinical kinesiology and Anatomy (5th
+Ed.): F.A. Davis Company.
+Magnusson, S. (1998). Passive properties of human
+skeletal muscle during stretch maneuvers. A
+review. Scandinavian Journal of Medicine & Science
+in Sports & Exercise, 8(2), 65-77.
+Masugi, Y., Obata, H., Inoue, D., Kawashima, N., &
+Nakazawa, K. (2017). Neural effects of muscle
+stretching on the spinal reflexes in multiple
+lower-limb muscles. Plos One, 12(6), e0180275.
+doi: 10.1371/journal.pone.0180275
+Matsuo, S., Suzuki, S., Iwata, M., Banno, Y., Asai, Y.,
+Tsuchida, W., & Inoue, T. (2013). Acute Effects
+of Different Stretching Durations on Passive
+Torque, Mobility, and Isometric Muscle Force.
+Journal of Strength & Conditioning Research, 27(12),
+3367-3376. doi:10.1519/JSC.0b013e318290c26f
+McHugh, M., & Cosgrave, C. (2010). To stretch or
+not to stretch: the role of stretching in injury
+prevention and performance. Scandinavian Journal
+of Medicine & Science in Sports, 20(2), 169-181.
+doi:10.1111/j.1600-0838.2009.01058.x
+Medeiros, D., & Martini, T. (2018). Chronic effect of
+different
+types
+of
+stretching
+on
+ankle
+dorsiflexion range of motion: Systematic review
+and meta-analysis. Foot (Edimburg), 34, 28-35.
+doi:10.1016/j.foot.2017.09.006
+Minshull, C., Eston, R., Bailey, A., Rees, D., &
+Gleeson, N. (2013). The differential effects of
+PNF versus passive stretch conditioning on
+neuromuscular performance. European Journal of
+Sport
+Science,
+14(3),
+233-241.
+doi:10.1080/17461391.2013.799716
+Monteiro, W., Simão, R., Polito, M., Santana, C.,
+Chaves, R., Bezerra, E., & Fleck, S. (2008).
+Influence
+of
+Strength
+Training
+on
+Adult
+Women's Flexibility. Journal of Strength &
+Conditioning
+Research,
+22(3),
+672-677.
+doi:10.1519/JSC.0b013e31816a5d45
+Moreside, J., & McGill, S. (2013). Improvements in
+hip flexibility donot transfer to mobility in
+functional movement patterns. Journal of Strength
+& Conditioning Research, 27(10), 2635-2643.
+doi:10.1519/JSC.0b013e318295d521
+Morton, S., Whitehead, J., Brinkert, H., & Caine, D.
+(2011). Resistance Training vs. Static Stretching:
+Effects on Flexibility and Strength. Journal of
+Strength & Conditioning Research, 25(12), 3391-
+3398. doi:10.1519/JSC.0b013e31821624aa
+Nelson, A., Driscoll, N., Landin, D., Young, M., &
+Schexnayder, I. (2005). Acute effects of passive
+muscle stretching on sprint performance. Journal
+of
+Sports
+Sciences,
+23(5),
+449-454.
+doi:10.1080/02640410410001730205
+Nordez, A., Gross, R., Andrade, R., Sant, G., Freitas,
+S., Ellis, R., . . . Hug, F. (2017). Non-muscular
+structures can limit the maximal joint range of
+motion
+during
+stretching.
+Sports
+Medicine,
+47(10), 1925-1929. doi:10.1007/s40279-017-
+0703-5
+Opplert, J., & Babault, N. (2017). Acute effects of
+dynamic stretching on muscle flexibility and
+performance:
+an
+analysis
+of
+the
+current
+literature.
+Sports
+Medicine,
+48(2),
+299-325.
+doi:10.1007/s40279-017-0797-9
+Peck, E., Chomko, G., Gaz, D., & Farrel, A. (2014).
+The Effects of Stretching on Performance.
+Current Sports Medicine Reports. Stretching and
+Performance,
+13(3),
+179-185.
+doi:10.1249/JSR.0000000000000052
+Pescatello, L. (2014). ACSM's Guidelines for Exercise
+Testing and Prescription (9th Ed.): Lippincott
+Williams & Wilkins.
+Remaud, A., Guével, A., & Cornu, C. (2007).
+Antagonist muscle co-activation and muscle
+inhibition: Effects on external torque regulation
+and resistance training-induced adaptations.
+Clinical
+Neurophysiology,
+37(1),
+1-14.
+doi:10.1016/j.neucli.2007.01.002
+Roos, E., Herzog, W., Block, J., & Bennell, K. (2010).
+Muscle weakness, afferent sensory dysfunction
+and exercise in knee osteoarthritis. Nature
+Reviews
+Rheumatology,
+7(1),
+57-63.
+doi:10.1038/nrrheum.2010.195
+Rowlands, A., Marginson, V., & Lee, J. (2003).
+Chronic flexibility gains: effect of isometric
+contraction
+duration
+during
+proprioceptive
+neuromuscular
+facilitation
+stretching
+techniques. Research Quarterly for Exercise and
+Sport,
+74(1),
+47-51.
+doi:10.1080/02701367.2003.10609063
+Rubini, E., Costa, A., & Gomes, P. (2007). The effects
+of stretching on strength performance. Sports
+Medicine,
+37(3),
+213-224.
+doi:10.2165/00007256-200737030-00003
+Santos, E., Rhea, M., Simão, R., Dias, I., Salles, B.,
+Novaes, J., . . . Bunker, D. (2010). Influence of
+Moderately
+Intense
+Strength
+Training
+on
+
+============================================================
+PAGE 10
+============================================================
+Alternatives to static stretching | 27
+Flexibility in Sedentary Young Women. Journal of
+Strength & Conditioning Research, 24(11), 3144-
+3149. doi:10.1519/JSC.0b013e3181e38027
+Saraiva, A., Reis, V., Costa, P., Bentes, C., Costa e
+Silva, G., & Novaes, J. (2014). Chronic Effects of
+Different Resistance Training Exercise Orders on
+Flexibility in Elite Judo Athletes. Journal of
+Human Kinetics, 40, 129-137. doi:10.2478/hukin-
+2014-0015
+Sayers, A., Farley, R., Fuller, D., Jubenville, C., &
+Caputo, J. (2008). The Effect of Static Stretching
+on Phases of Sprint Performance in Elite Soccer
+Players. Journal of Strength & Conditioning Research,
+22(5),
+1416-1421.
+doi:10.1519/JSC.0b013e318181a450
+Sharman, M., Cresswell, A., & Riek, S. (2006).
+Proprioceptive
+Neuromuscular
+Facilitation
+Stretching,
+Mechanisms
+and
+Clinical
+Implications. Sports Medicine, 36(11), 929-939.
+doi:10.2165/00007256-200636110-00002
+Shrier,
+I.
+(2004).
+Does
+Stretching
+Improve
+Performance? A Systematic and Critical Review
+of the Literature. Clinical Journal of Sport Medicine,
+14(5), 267-273.
+Simão, R., Lemos, A., Salles, B., Leite, T., Oliveira, É.,
+Rhea, M., & Reis, V. (2011). The Influence of
+Strength, Flexibility, and Simultaneous Training
+on Flexibility and Strength Gains. Journal of
+Strength & Conditioning Research, 25(5), 1333-
+1338. doi:10.1519/JSC.0b013e3181da85bf
+Simic, L., Sarabon, N., & Markovic, G. (2012). Does
+pre-exercise static stretching inhibit maximal
+muscular
+performance?
+A
+meta-analytical
+review. Scandinavian Journal of Medicine & Science
+in Sports, 23(2), 131-148. doi:10.1111/j.1600-
+0838.2012.01444.x
+Souza, A., Bentes, C., Salles, B., Reis, V., Vilaça-Alves,
+C., Miranda, H., & Novaes, J. (2013). Influence
+of Inter-set Stretching on Strength, Flexibility
+and Hormonal Adaptations. Journal of Human
+Kinetics, 36, 127-135. doi:10.2478/hukin-2013-
+Stathokostas, L., Little, R., Vandervoort, A., &
+Paterson, D. (2012). Flexibility training and
+functional ability in older adults: a systematic
+review. Journal of Aging Research, 306818.
+doi:10.1155/2012/306818
+Suchomel, T., Nimphius, S., & Stone, M. (2016). The
+Importance of Muscular Strength in Athletic
+Performance. Sports Medicine, 46(10), 1419-1449.
+doi:10.1007/s40279-016-0486-0
+Thacker, S., Gilchrist, J., Stroup, D., & Kimsey, D.
+(2004). The impact of stretching on sports injury
+risk: a systematic review of the literature.
+Medicine & Science in Sports & Exercise, 36(3), 371-
+378. doi:10.1249/01.mss.0000117134.83018.f7
+Thomas, E., Bianco, A., Paoli, A., & Palma, A. (2018).
+The relation between stretching typology and
+stretching duration: the effects on range of
+motion. International Journal of Sports Medicine,
+39(4), 243-254. doi:10.1055/s-0044-101146
+Waryasz, G., & McDermott, A. (2008). Patellofemoral
+pain syndrome (PFPS): a systematic review of
+anatomy and potential risk
+factors. Dynamic Medicine, 7, 9. doi:10.1186/1476-
+5918-7-9
+Weppler, C., & Magnusson, S. (2010). Increasing
+Muscle Extensibility: A Matter of Increasing
+Length or Modifying Sensation? Physical Therapy,
+90(3), 438-449. doi:10.2522/ptj.20090012
+Widmaier, E., Raff, H., & Strang, K. (2006). Vander's
+Human Physiology. The Mechanisms of Body Function
+(10th Ed.): McGraw-Hill International Edition.
+Wyon, M., Smith, A., & Koutedakis, Y. (2013). A
+comparison of strength and stretch interventions
+on active and passive ranges of motion in
+dancers: a randomised controlled trial. Journal of
+Strength & Conditioning Research, 27(11), 3053-
+3059. doi:10.1519/JSC.0b013e31828a4842
+Zatsiorsky, V., & Prilutsky, B. (2012). Biomechanics of
+Skeletal Muscle: Human Kinetics.
+All content of Journal Motricidade is licensed under Creative Commons, except when
+otherwise specified and in content retrieved from other bibliographic sources.

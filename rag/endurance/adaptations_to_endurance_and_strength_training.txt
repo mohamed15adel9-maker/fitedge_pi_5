@@ -1,0 +1,1830 @@
+Adaptations to Endurance and Strength Training David C. Hughes,1 Stian Ellefsen,2,3 and Keith Baar1 1Department of Neurobiology, Physiology and Behavior, Functional Molecular Biology Laboratory, University of California Davis, Davis, California 95616 2Section of Sports Sciences, Lillehammer University College, 2604 Lillehammer, Norway 3Innlandet Hospital Trust, 2380 Brumunddal, Norway
+
+Paper Metadata
+This review summarizes the physiological and molecular adaptations to endurance training, strength training, and concurrent training, highlighting current evidence and unresolved questions.
+
+
+======================================================================
+PAGE 1
+======================================================================
+David C. Hughes,1 Stian Ellefsen,2,3 and Keith Baar1
+1Department of Neurobiology, Physiology and Behavior, Functional Molecular Biology Laboratory, University
+of California Davis, Davis, California 95616
+2Section of Sports Sciences, Lillehammer University College, 2604 Lillehammer, Norway
+3Innlandet Hospital Trust, 2380 Brumunddal, Norway
+Correspondence: kbaar@ucdavis.edu
+The capacity for human exercise performance can be enhanced with prolonged exercise
+training, whether it is endurance- or strength-based. The ability to adapt through exercise
+training allows individuals to perform at the height of their sporting event and/or maintain
+peak physical condition throughout the life span. Our continued drive to understand how to
+prescribe exercise to maximize health and/or performance outcomes means that our knowl-
+edge of the adaptations that occur as a result of exercise continues to evolve. This review will
+focus on current and new insights into endurance and strength-training adaptations and will
+highlight important questions that remain as far as how we adapt to training.
+I
+n response to exercise, humans alter the phe-
+notype of their skeletal muscle; changing the
+store of nutrients, amount and type of metabolic
+enzymes, amount of contractile protein, and stiff-
+ness of the connective tissue, to name but a few
+of the adaptations. The shift in phenotype is the
+result of the frequency, intensity, and duration of
+theexercise in combinationwiththe age,genetics,
+gender, fueling, and training history of the indi-
+vidual (Joyner and Coyle 2008; Brooks 2011).
+Therefore, even though exercise is often referred
+to as a single stimulus and we have looked for
+generalized responses, how any individual re-
+sponds to exercise training will vary based on
+things we understand and (likely) many more
+that we do not. As is the norm, this article will
+focus on the things that we already understand,
+but will highlight important questions that re-
+main as far as how we adapt to training.
+Exercise is generally separated into aerobic/
+endurance and power/strength activities. En-
+durance exercise is classically performed against
+a relatively low load overa long duration, where-
+as strength exercise is performed against a rela-
+tively high load for a short duration. However,
+pure endurance and pure strength exercise is
+rare. Most activities combine endurance and
+strength and this type of training has been
+termed concurrent exercise. Furthermore, re-
+cent work showing that short high-intensity ex-
+ercise can lead to endurance adaptations and
+low-load exercise that approaches failure can
+lead to strength adaptations has challenged
+our understanding of which type of exercise
+results in which phenotypic shift in muscle.
+Classic endurance training is known to result
+in enhanced cardiac output, maximal oxygen
+consumption, and mitochondrial biogenesis
+Editors: Juleen R. Zierath, Michael J. Joyner, and John A. Hawley
+Additional Perspectives on The Biology of Exercise available at www.perspectivesinmedicine.org
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 2
+======================================================================
+(Holloszy 1967; Coyle et al. 1983, 1986, 1988;
+Holloszy and Coyle 1984; Favier et al. 1986).
+The overall improvement in both central and
+peripheral tissues allows for enhanced exercise
+economy and a greater ability for an individual
+to run for longer distances and times (Brooks
+2011). In contrast, strength training results in
+increases in muscle size (cross-sectional area
+[CSA]), neural adaptations (motor output),
+and improved strength (maximal force produc-
+tion) (Narici et al. 1989; Staron et al. 1991; Pyka
+et al. 1994; Ha¨kkinen et al. 1998a). These pos-
+itive alterations in physical capacity allow an
+individual to be stronger, more powerful, and
+maintain a better quality of life throughout the
+life span (Visser et al. 2005; Goodpaster et al.
+2006; Newman et al. 2006).
+Indeed, both endurance and strength-train-
+ing adaptations not only contribute toward
+potential sporting excellence but, in most in-
+stances, contribute toward the delayed onset of
+age-related diseases (McGregor et al. 2014;
+Zampieri et al. 2015; Cartee et al. 2016). This
+article focuses on recent concepts and new lit-
+erature in the ﬁeld of endurance and strength
+training and how this new information has
+changed the dogma of how exercise enhances
+physical performance and overall adaptation.
+Finally, the combination of endurance and
+strength exercise and recent advances in our un-
+derstanding of concurrent training will also be
+brieﬂy discussed in the latter part of this article.
+ENDURANCE TRAINING
+Endurance training leads to adaptations in both
+the cardiovascular and musculoskeletal system
+that supports an overall increase in exercise
+capacity and performance (Brooks 2011). The
+local adaptations in skeletal muscle, such as in-
+creased mitochondrial biogenesis and capillary
+density, aid in the body’s ability to transport
+and use oxygen to generate energy and therefore
+delay the onset of muscle fatigue during pro-
+longed aerobic performance (Joyner and Coyle
+2008).
+The
+mitochondrion
+is
+the
+main
+organelle for energy production through the
+generation of adenosine triphosphate (ATP)
+via the electron transport system (ETS), using
+substrates generated in the tricarboxylic acid
+(TCA) cycle (Egan and Zierath 2013; Bishop
+et al. 2014). Recent studies have begun to inves-
+tigate the impact of exercise-induced mito-
+chondrial biogenesis adaptations from the per-
+spective of mitochondrial content and function
+with varying exercise intensity paradigms (Ser-
+piello et al. 2012; Granata et al. 2016a,b; Mac-
+Innis et al. 2016). Studies investigating the role
+of the intensity and volume of exercise on mi-
+tochondrial adaptations have been conducted
+using long slow-distance (LSD) training, sprint
+interval training ([SIT]; ≏30 sec maximal
+bouts) and high-intensity interval training
+(HIIT; 1–4 min all-out bouts) (Gibala et al.
+2014). Traditional LSD training entails an indi-
+vidual sustaining a submaximal workload for a
+long period of time, or successfully completing
+a ﬁxed distance/time through a higher than av-
+erage power output (Coyle 1995). On the other
+hand, HIIT and SIT require the individual to
+perform repeated bouts at close to maximal in-
+tensity for a short period of time with a reduced
+training volume (Laursen and Jenkins 2002; Gi-
+bala et al. 2006). Many studies have highlighted
+similarities in adaptations for mitochondria
+markers (e.g., peroxisome proliferator-acti-
+vated receptor g coactivator 1a [PGC-1a])
+and skeletal muscle oxidative capacity in both
+training models (Gibala et al. 2009; Little et al.
+2010b, 2011; Jacobs et al. 2013b; Cochran et al.
+2014), and, therefore, HIIT/SIT has been pro-
+posed as a time-effective strategy for enhancing
+aerobic adaptations (Gibala and McGee 2008;
+Gillen and Gibala 2013).
+More recent studies have begun to directly
+address the importance of exercise intensity ver-
+sus volume in relation to mitochondrial content
+and function (Daussin et al. 2008; Jacobs et al.
+2013b; Cochran et al. 2014; Granata et al. 2016b;
+MacInnis et al. 2016). Granata and colleagues
+(2016b) used all three exercise protocols (LSD,
+HIIT, and SIT), matching volume in the tradi-
+tional and HIIT groups, on young moderately
+trained men. After 4 wk of training, the investi-
+gators observed a 25% increase in maximal
+mitochondrial respiration only in the SIT
+group, with no changes seen in either the LSD
+or HIIT groups. The increased level of mito-
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 3
+======================================================================
+chondrial respiration within the SIT group was
+accompanied by changes in PGC-1a, p53, and
+PHF20 protein content. PHF20 is important
+for both stabilizing and up-regulating p53 (Cui
+et al. 2012; Park et al. 2012), whereas p53 is a
+tumor suppressor and involved in the regula-
+tion of mitochondrial function (Matoba et al.
+2006; Park et al. 2009). In contrast to the Gra-
+nata study, HIITalone has been shown to inﬂu-
+ence mitochondrial content and respiration
+(Daussin et al. 2008; Jacobs et al. 2013b). Jacobs
+et al. (2013b) observed increased mitochondrial
+respiration along with alterations in content
+(measured by cytochrome c oxidase [COX] ac-
+tivity) culminating in increased exercise capac-
+ity after only 2 wk of HIIT training. Further
+support for mitochondrial adaptations with
+HIIT comes from a within-subject study that
+showed 2 wk of training resulted in increased
+mitochondrial volume density and respira-
+tion (MacInnis et al. 2016). The discrepancies
+between these studies may be because of differ-
+ences in subject training status, experimental
+design, and methodological measures imple-
+mented for assessing mitochondrial adapta-
+tions. The optimal study to conclusively address
+this issue would use all three training models
+and a within-subject crossover design.
+When the intensityof training is maintained
+and only the volume manipulated, the mito-
+chondrial adaptation differs again, using a de-
+sign inwhich 10 subjects performed HIITonce a
+day three times a week, then twice a day three
+times aweek, followed by once a day two times a
+week. Granata and colleagues (Granata et al.
+2016b) showed that mitochondrial respiration
+and citrate synthase (CS) activity increased
+(≏50%) during only the high-volume training
+period. The increase in mitochondrial respira-
+tion was accompanied by increased ETS and
+regulatory proteins, such as PGC-1a, p53, and
+PHF20. Following 2 wk of decreased training
+volume, mitochondrial-speciﬁc respiration re-
+mained high, with a slight decrease in CS activ-
+ity being the only sign of detraining. Overall,
+these studies suggest that high-intensity training
+is important for increasing mitochondrial ac-
+tivity, whereas a greater training volume is need-
+ed to increase mitochondrial mass (Fig. 1)
+(MacInnis et al. 2016). However, the predomi-
+nant marker used to determine alterations in
+mitochondrial content has been CS activity.
+Future studies should look to use electron mi-
+croscopy and identify other markers that may
+more be reﬂective of mitochondrial activity
+(e.g., subsarcolemma vs. intermyoﬁbrillar loca-
+tion of mitochondria) and mass changes in
+skeletal muscle.
+Classically, PGC-1a has been anointed as
+the “master regulator of mitochondrial biogen-
+esis” and a fundamental component of exercise-
+induced adaptations with endurance training
+(Baar et al. 2002; Pilegaard et al. 2003; Little et
+al. 2010a). In recent years, another protein, p53,
+has emerged as a key player in substrate metab-
+olism and mitochondrial biogenesis (Park et al.
+2009; Saleem and Hood 2013; Bartlett et al.
+2014). p53 was the ﬁrst tumor suppressor pro-
+tein discovered (Baker et al. 1989; Nigro et al.
+1989). In this role, p53 regulates cell-cycle ar-
+rest, apoptosis, angiogenesis, DNA repair, and
+cell senescence (Levine et al. 2006). Initial stud-
+ies using mouse knockout (KO) models lacking
+p53 identiﬁed a further role for this protein in
+controlling mitochondrial content, with KO
+mice displaying reduced mitochondria in both
+subsarcolemmal and intermyoﬁbrillar com-
+partments, together with reduced COX activity
+and PGC-1a compared with wild-type animals
+(Saleem et al. 2009). Furthermore, the loss of
+p53 and subsequent decrease in mitochondrial
+content and function resulted in reduced exer-
+cise capacityand performance (Parket al. 2009).
+The current proposed mechanisms for how
+p53 may regulate mitochondrial biogenesis is
+through targeting the mitochondrial genome
+and speciﬁcally interacting with mitochondrial
+transcription factor A (Tfam) (Saleem and
+Hood 2013). Saleem and Hood (2013) reported
+that, with acute exercise and muscle contrac-
+tion, p53 translocates from the nucleus and pos-
+itively modulates Tfam activity. In terms of cur-
+rent human data, Bartlett et al. (2012) observed
+increased p53 phosphorylation 3 h postexercise,
+although this alteration in p53 phosphorylation
+occurred after acute bouts of both continuous
+endurance and HIITexercise. In contrast, Gra-
+nata and colleagues showed that p53 increases
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 4
+======================================================================
+with maximal sprint training, whereas HIIT
+or continuous endurance training has no effect
+on p53 content (Granata et al. 2016b). It is
+important to note that the regulation of p53
+may not only be inﬂuenced by exercise intensity
+but also the nutritional status of the working
+muscle during training sessions, for example,
+reduced carbohydrate availability (Bartlett et
+al. 2013). Future research is required to un-
+derstand the time course of p53 activation and
+involvement in mitochondrial biogenesis with
+respect to endurance exercise (Bartlett et al.
+2014). Understanding this signaling cascade
+will not only be important from a human per-
+formance perspective but also from a health
+standpoint in which exercise might be used to
+support treatments in cancer therapy (Saleem
+and Hood 2013).
+In addition to alterations in oxygen deliv-
+ery, substrate metabolism, and mitochondrial
+mass within skeletal muscle after endurance
+training, other factors contribute toward the
+resulting enhanced exercise performance and
+improved running economy (Saunders et al.
+2004; Barnes and Kilding 2015). One such fac-
+tor is the stiffness of the muscle–extracellular
+matrix (ECM)–tendon unit, because adapta-
+tions within this system will enhance the body’s
+ability to store and use elastic energy more ef-
+ﬁciently. An increase in elastic energy storage
+and recoil results in decreased ground contact
+time and reduced energy cost (Arampatzis et al.
+2006; Fletcher et al. 2010). Indeed, runners who
+display and/or develop a longer and stiffer
+musculotendonous system appear to have a
+lower oxygen uptake (VO2) when performing
+at submaximal running velocities (Craib et al.
+1996; Albracht and Arampatzis 2013; Barnes
+et al. 2014). A second factor contributing to
+improved running and cycling economy is neu-
+ral adaptation. Muscle recruitment patterns
+vary greatly between highly trained individuals
+and novice counterparts (Paavolainen et al.
+1999b,c; Chapman et al. 2008). Highly trained
+individuals may have the capacity to elicit in-
+creased muscle coactivation, leg stiffness, and
+greater eccentric to concentric muscle activity,
+which allows for more efﬁcient usage of stored
+elastic energy, lowering the metabolic cost of
+exercise (Paavolainen et al. 1999b; Heise et al.
+2008). In contrast, stretching interventions
+used to enhance ﬂexibility tend to decrease
+economy, although these results have been
+equivocal (Craib et al. 1996; Nelson et al.
+2001; Shrier 2004). Some of the possible rea-
+sons for the contrasting evidence with stretch-
+Mitochondrial respiration
+Mitochondrial content
+Volume
+Intensity
+SIT
+HIIT
+LSD
+Figure 1. Schematic diagram of training intensity and volume on mitochondrial respiration versus content
+adaptations through endurance training. Recent evidence suggests that increases in exercise intensity (sprint
+interval training [SIT]; high-intensity interval training [HIIT]) lead to enhanced mitochondrial respiration and
+function, whereas prolonged low-intensity and high-volume (long slow-distance [LSD] training) endurance
+exercise appears to aid in increased mitochondrial content within skeletal muscle.
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 5
+======================================================================
+ing include the length of intervention program
+(acute vs. chronic), the inﬂuence of gender in
+pooled studies, methodological designs, and
+treadmill familiarization (Craib et al. 1996;
+Nelson et al. 2001; Shrier 2004; Allison et al.
+2008; Trehearn and Buresh 2009).
+Training to improve the connective tissue
+stiffness and neuromuscular components is
+quite different than classic endurance training.
+Here, training is based on strength/power and
+plyometric exercises to heighten the neuromus-
+cular adaptations (e.g., muscle activation,
+motor unit recruitment) and the stiffness of
+the muscle–ECM–tendon unit (Storen et al.
+2008; Yamamoto et al. 2008; Beattie et al.
+2014). A good example of this work is an early
+study by Paavolainen and colleagues (1999a)
+who investigated the impact of explosive-type
+strength training in well-trained endurance
+athletes on endurance performance (5-km
+time trial, running economy, etc.). After 9 wk
+of training, the investigators reported a 3% im-
+provement in 5-km time trial with a tendency to
+decrease VO2max. The improved performance
+resulted largely from improvements in running
+economy. Subsequent research has highlighted
+an additive effect of incorporating a strength-
+training program into the training of predomi-
+nately endurance-trained athletes, both during
+preseason and in season (Rønnestad et al. 2010).
+The proposed mechanisms for these improve-
+ments in endurance performance are improved
+neural function (maximal voluntary contrac-
+tion, rate of force development [RFD]), in-
+creases in type IIA muscle ﬁbers (less fatigable),
+and increased muscle–ECM–tendon stiffness
+(Aagaard and Andersen 2010; Aagaard et al.
+2011). Further, the addition of strength training
+has been observed to improve exercise economy
+better than endurance training alone (Sunde
+et al. 2010; Beattie et al. 2014; Vikmoen et al.
+2015) and the inclusion of strength training
+may enhance performance during the later
+stages of competition (Rønnestad et al. 2011).
+One way to distinguish between the muscle–
+ECM–stiffness and neural adaptations would
+be to perform the strength/plyometric training
+on one leg and determine whether cross-limb
+transfer has resulted in improved performance
+in the opposite limb indicative of a neural adap-
+tation (see below). However, these experiments
+have yet to be performed with endurance-type
+exercise. Further, caution is warranted for
+strength training to improve endurance perfor-
+mance as there is also evidence to suggest that
+increasing endurance and strength training vol-
+ume together may lead to impairments in both
+adaptations and performance (Hickson 1980;
+Rønnestad et al. 2012; Jones et al. 2013).
+The last adaptation to endurance exercise
+trainingthatwewouldlike tohighlightismuscle
+hypertrophy and growth (Harber et al. 2009b,
+2012; Konopka and Harber 2014). Over a 12-wk
+endurance-training
+program,
+muscle
+mass
+has been reported to increase by 7% to 11%
+(Konopka et al. 2010; Trappe et al. 2011; Harber
+et al. 2012). This increase in musclemass iscom-
+parable to resistance exercise training over the
+same time period (Trappe et al. 2011; Mitchell
+et al. 2012). These reported increases in muscle
+mass with endurance training have been pre-
+dominately observed in the quadriceps muscle,
+the mode of exercise used was cycling, and the
+individuals undertaking training had a limited
+level of exercise experience and/or sedentary
+lifestyle (Konopka and Harber 2014). Nonethe-
+less, it appears that hypertrophy occurs in the
+quadriceps muscle with classical motor endur-
+ance training if the frequency of training and
+load are high enough (Konopka and Harber
+2014). From a mechanistic perspective, acute
+studies have reported increases in muscle pro-
+tein synthesis (MPS) with aerobic exercise, in-
+dependent of age (Short et al. 2004; Harberet al.
+2009a, 2010; Durham et al. 2010). For example,
+Short and colleagues (2004) observed a 22%
+increase in MPS with 4 mo of cycling (up to
+45 min at 80% peak heart rate, 3–4 days/wk).
+The observed increases in MPS with aerobic
+exercise do not appear to be driven by complex
+1 of the mechanistic target of rapamycin com-
+plex 1 (mTORC1) (Durham et al. 2010; Philp
+et al. 2015). Using rapamycin (an inhibitor of
+mTORC1 activation), Philp and colleagues
+(2015) reported increases in muscle and mito-
+chondrial protein synthesis rates following en-
+durance exercise in rats, even when mTORC1
+signaling was completely suppressed. The ﬁnd-
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 6
+======================================================================
+ings by Philp and colleagues are in contrast
+with previous ﬁndings reporting increased
+MPS and mTORC1 activation with aerobic ex-
+ercise (Mascher et al. 2011; Edgett et al. 2013;
+Di Donato et al. 2014). As mentioned previous-
+ly with other facets of endurance adaptation,
+the impact of exercise intensity, modality, and
+level of muscle ﬁber recruitment may be a
+potential explanation for the contrast in ﬁnd-
+ings between studies. Speciﬁcally, hypertrophy
+has been observed almost exclusively following
+training for cycling. Future studies should seek
+to implement other modes of endurance exer-
+cise such as running using different loads/
+modes (uphill vs. ﬂat) with the same volume
+to determine whether this affects MPS acutely
+and muscle size following training. From a
+mechanistic standpoint, subsequent studies
+will need to assess the contributions of feeding,
+myostatin signaling, and other mTOR-inde-
+pendent mechanisms toward endurance-related
+muscle hypertrophy.
+STRENGTH TRAINING
+Strength training leads to an increase in muscle
+strength and power as a result of neuromuscular
+adaptations, increases in muscle CSA, and alter-
+ations in connective tissue stiffness (Knuttgen
+and Kraemer 1987). The result is a rapid initial
+increase in strength as an individual learns an
+exercise (Fig. 2) (Sale 1988), followed by slowed
+progression as the muscle grows (Fry 2004; Fol-
+land and Williams 2007; Wernbom et al. 2007).
+Strength training has classically varied the ex-
+ternal load and volume to enhance either the
+neuromuscular drive or muscle CSA, generally
+training with a load between 1RM (repetition
+maximum) to 10RM and a volume of four to
+12 repetitions (Fry 2004). The adaptations to
+resistance training are generally evident after 8
+to 12 wk (Ha¨kkinen et al. 1998b; Folland and
+Williams 2007). However, some studies have
+observed increases in muscle strength and
+CSA after only 2 to 4 wk (Staron et al. 1994;
+Seynnes et al. 2007; DeFreitas et al. 2011; Brook
+et al. 2015; Damas et al. 2016). This early in-
+crease in strength is likely caused by neuromus-
+cular and connective tissue adaptations (Sale
+1988), whereas the early increases in muscle
+CSA size may be the result of edema (Damas
+et al. 2016).
+Because of the rapid nature of the neuro-
+muscular adaptations and the ability to mea-
+Training
+studies
+Long-term
+strength training
+Elite
+athletes
+Neural adaptation
+Muscle mass
+Strength changes
+Time
+Improvement
+Figure 2. Alterations in strength, mass, and neural adaptations with resistance exercise over time. Resistance
+exercise studies (8 to 12 wkof training) displayan early increase in strength as a result of neural adaptations. With
+prolonged strength training, muscle mass slowly increases and drives the later changes in strength after neural
+adaptations begin to plateau. Finally, at the elite level, individuals show small changes in all three core adap-
+tations that accompany strength training. At this point, new stimuli (possibly targeting the extracellular matrix
+[ECM]) are needed to increase strength.
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 7
+======================================================================
+sure changes in CSA, most early studies within
+this ﬁeld have focused on these responses (Cu-
+reton et al. 1988; Narici et al. 1989; Staron et al.
+1991, 1994). Adaptations observed within the
+neuromuscular system have centered on in-
+creases in skill acquisition through the nervous
+system and increased maximal muscle activa-
+tion by way of motor unit synchronization,
+muscle recruitment, and increased neural acti-
+vation (Enoka 1988; Jones et al. 1989). In terms
+of hypertrophy, the main focus for adaptation
+has been on increases in CSA for individual
+muscle ﬁbers, adding sarcomeres in parallel
+(Cureton et al. 1988; Frontera et al. 1988; Staron
+et al. 1990). Early mechanistic studies focused
+on alterations within the hormone milieu after
+acute resistance exercise as a potential contrib-
+uting factor toward hypertrophy (Kraemer et al.
+1991; Ha¨kkinen and Pakarinen 1993; McCall
+et al. 1999). However, recent evidence appears
+to cast doubt over the hypothesisthat hormones
+contribute to exercise-induced muscle hyper-
+trophy and growth (West et al. 2009, 2010,
+2012; Schroeder et al. 2013; Morton et al. 2016).
+The importance of the central neural com-
+ponent on strength adaptations is most evident
+when one limb is trained and the other limb
+goes untrained. In this situation, muscle CSA
+does not change in the untrained leg, yet a sig-
+niﬁcant increase in strength occurs from train-
+ing the contralateral limb (Houston et al. 1983;
+Yasuda and Miyamura 1983; Munn et al. 2004,
+2005). A meta-analysis on the contralateral
+strength-training effect suggests that strength
+improves 7.6% in the nonexercised limb (56%
+of what happens in the exercised limb), with
+training lasting for between 15 and 48 sessions
+(Munn et al. 2004; Carroll et al. 2006). Some of
+the proposed mechanisms for this phenome-
+non are localized muscle adaptations, cross-
+limb cortical interaction, and adaptations in
+spinal cord excitability (Carroll et al. 2006). Ul-
+timately, the unilateral strength training may
+cause adaptations in neural drive that “spill
+over” into the untrained limb and, in addition,
+the untrained limb may access the neuromuscu-
+lar adaptations that occur within the control
+system with this type of training (Carroll et al.
+2006). Most recently, Kidgell and colleagues
+(2015) highlighted a greater cross-transfer of
+strength with an eccentric (47%) versus concen-
+tric (28%) loading group. One of the possible
+reasons for the greater effect with eccentric
+loading was a larger increase in corticospinal
+excitability, which has been proposed as the
+mechanism underlying the effect (Latella et al.
+2012). However, given that it was ﬁrst observed
+in 1894 (Scripture et al. 1894), we still under-
+stand very little about the contralateral strength-
+training effect and the role of the systemic
+environment in this phenomenon (Yasuda
+and Miyamura 1983; West et al. 2015).
+Another adaptation observed with strength
+training is an increase in the RFD (Aagaard et al.
+2002; Suetta et al. 2004; Andersen and Aagaard
+2006; Mafﬁuletti et al. 2016). The RFD refers to
+the rate of increase in force at the onset of con-
+traction, that is, the slope of the force–time
+curve (Sleivert and Wenger 1994; Aagaard
+et al. 2002). An early study by Aagaard and col-
+leagues (2002) demonstrated a 15% increase in
+RFD after 14 wk of heavy strength training. In
+addition, there were increases in both EMG am-
+plitude and rate of EMG increase with training,
+indicating an enhancement in neural drive. This
+suggests that RFD is related to alterations in
+neural drive. Other factors that contribute to
+RFD are muscle ﬁber type and force transfer.
+Studies on the role of ﬁber type indicate that
+type II ﬁbers show a greater RFD (Korhonen
+et al. 2006; Aagaard et al. 2007); thus, increases
+in type II ﬁber CSAwith strength training would
+complement the increased neural drive (Staron
+et al. 1990, 1991; Mero et al. 2013). Our under-
+standing of how force transfer contributes to
+RFD is in its infancy (Hughes et al. 2015). The
+cytoskeletal network within muscle transmits
+force both along the length of each muscle ﬁber
+(longitudinally) and from the center to the out-
+side of the ﬁber (laterally) (Hughes et al. 2015).
+Importantly, .80% of force produced within a
+ﬁber istransferred laterally from proteins within
+the ﬁber to ECM proteins outside the ﬁber
+(Ramaswamy et al. 2011). Key components of
+the force transfer apparatus include intracellular
+proteins (titin, dystrophin, etc.), transitional
+complexes (dystrophin-associated glycoprotein
+complex [DAGC] and integrins), and extracel-
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 8
+======================================================================
+lular proteins (collagens I, III, IV, V, and VI)
+(Fig. 3). Dystrophin is essential for lateral force
+transmission (Ramaswamy et al. 2011; Hughes
+et al. 2015), whereas titin and nebulin are more
+important for transmitting force longitudinally
+and the stiffness of the sarcomere (Ottenheijm
+et al. 2012; Herzog et al. 2016; Powers et al.
+2016). The essential role of ECM proteins in
+RFD was most clearly shown by Mebes and col-
+leagues (2008) in women with Ehlers–Danlos
+syndrome ( joint hypermobility). In this work,
+women with hypermobile joints showed a 15%
+slower RFD with no difference in maximal
+force, showing the essential role of connective
+tissue in RFD. There is limited data on the ad-
+aptations of these cytoskeleton proteins to
+strength training, with some studies reporting
+no changes (McGuigan et al. 2003; Woolsten-
+hulme et al. 2006) and other studies indicating
+improvements (Lehti et al. 2007; Kosek and
+Bamman 2008; Parcell et al. 2009; Macaluso
+et al. 2014). Interestingly, there is cross-section-
+al evidence for differing levels of force transfer
+proteins between trained and untrained athletes
+(McBride et al. 2003). However, more studies
+are required to address the inﬂuence of strength
+training on the cytoskeleton protein network
+and force transmission. This is especially true
+as these groups of proteins appear to play a key
+role in protecting against contraction-induced
+muscle injury and possibly in mechanotrans-
+duction (Lovering and De Deyne 2004; Boppart
+et al. 2006; Palmisano et al. 2015; Hughes et al.
+2016).
+As with endurance training, a shift in the
+existing muscle hypertrophy paradigm appears
+to be emerging because recent evidence suggests
+that load does not determine the increase in
+CSA that occurs with strength training. In these
+studies, lifting a low load to positive failure pro-
+duces equal hypertrophy to using a high load
+and fewer repetitions to reach failure (Mitchell
+Types I and III
+(fibrillar)
+collagens
+Type VI collagen
+Type IV
+collagen
+DAGC
+Actin
+Dystrophin
+Laminin-2α
+β α
+β
+α
+Integrins
+Figure 3. Interaction of the extracellular matrix (ECM), connective tissue, and cytoskeleton protein networks
+surrounding skeletal muscle myoﬁbrils. Research on the cellular adaptations that occur with strength training
+have predominantly focused within skeletal muscle. Recent research has begun to highlight the role of the
+dystrophin-associated glycoprotein complex (DAGC) and integrin complexes in force transmission and the
+possible contribution of structures outside the muscle to force transfer and overall strength. Few studies have
+investigated the contribution of the ECM to muscle force transfer and/or how these complexes may adapt over a
+period of timewith training. However, hyperlax individuals (with mutations in collagen VI) show slowed rates of
+force development, indicating that the ECM is important in muscle function.
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 9
+======================================================================
+et al. 2012; Ogasawara et al. 2013; Schoenfeld et
+al. 2015; Morton et al. 2016). In the new para-
+digm, momentary muscular failure is impor-
+tant for hypertrophy. The hypothesis for the
+importance of failure centers on muscle ﬁber
+recruitment; at failure, all motor units are re-
+cruited regardless of the load (Counts et al.
+2016). In an interesting recent investigation,
+Counts and colleagues (2016) used a “no-
+load” intervention in which individuals repeat-
+edly contracted a muscle as hard as they could
+through a full range of motion. The investiga-
+tors observed similar increases in muscle thick-
+ness in the “no-load” and high-load groups.
+However, even though the increase in CSA
+with no-, low-, and high-load training is equiv-
+alent, high loads are needed to maximize
+strength gains (Schoenfeld et al. 2015). The ef-
+fect of low-load training on muscle mass should
+not be surprising given the ability of cycling to
+increase muscle mass (see above); however, the
+molecular pathways that convert any load into a
+biochemical signal that results in muscle hyper-
+trophy remain elusive. Acute studies have sug-
+gested that there is a load-dependent increase in
+mTORC1 activity after resistance exercise that
+correlates with the resulting increase in muscle
+mass following training (Baar and Esser 1999).
+The increase in mTORC1 activity is the result
+of signaling through a PI3K/Akt-independent
+RxRxxS/T kinase (Jacobs et al. 2013a). How-
+ever, whether the increase in mTORC1 activity
+following acute resistance exercise is driving
+muscle hypertrophy or simply reﬂects the
+amount of injuryand subsequent inﬂammatory
+response and how the mTORC1 response is al-
+tered byexercising to failure hasyet to be shown.
+Similarly, the role of mTORC1-independent
+mechanisms, such as myostatin signaling and
+ribosomal biogenesis, requires more research
+before their role in training-induced muscle hy-
+pertrophy is understood.
+CONCURRENT TRAINING
+Simultaneously participating in both endur-
+ance and strength-training programs results in
+a similar increase in VO2max but impaired
+strength adaptations when compared with
+strength training alone (Hickson 1980). There
+is some evidence that concurrent training
+prevents muscle hypertrophy (Kraemer et al.
+1995); however, when the frequency or intensity
+of concurrent training is decreased below 4 days
+a week and 70% of VO2max, muscle growth can
+occur normally. This suggests that something
+about the volume and/or the intensity of
+training underlies the concurrent training ef-
+fect. One suggestion is that the greater training
+volume and intensity results in a signiﬁcantly
+greater caloric deﬁcit and that this decreases the
+protein synthetic response to feeding (Areta
+et al. 2014). Examining the caloric cost of
+training from the Hickson study (Fig. 4) shows
+that at week 5 of the study, the concurrent train-
+ing group was expending ≏6000 kcal per week
+compared with ≏2000 kcal per week in the
+strength training alone group, and this differ-
+Strength improvement
+(strength group)
+Strength improvement
+(concurrent group)
+Energy expended
+(concurrent group)
+Energy expended
+(strength group)
+1RM squat (kg)
+Energy expended (kcal/wk)
+Training duration (wk)
+Figure 4. The impact of strength training and concur-
+rent exercise on energy consumption. The classic
+Hickson (1980) study was the ﬁrst to observe a de-
+cline in strength improvement and strength perfor-
+mance (1RM [repetition maximum] squat) over time
+with concurrent training (closed blue squares). The
+decline in strength adaptations occurred once the
+concurrent group was expending double the kcal/
+wk of the strength training only group (open circles).
+This suggests that the impairment in strength adap-
+tations with concurrent exercise could reﬂect the role
+of negative energy balance on muscle hypertrophy.
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 10
+======================================================================
+ence continued to increase for the last 5 wk of
+the study. The resulting 4000 kcal per week dif-
+ference in energy expenditure could easily un-
+derlie the difference in muscle size and strength.
+Another possible explanation for the impaired
+strength adaptation is that endurance training
+decreases the neural drive associated with
+strength training. McCarthy and colleagues
+(2002) would argue against this hypothesis
+because they showed that there was no differ-
+ence in EMG amplitude in men who performed
+wk
+of
+concurrent
+training
+compared
+with those who performed strength training
+alone. However, it should be noted that these
+investigators failed to see an effect of concurrent
+training on the strength adaptation, indicating
+that the training intensity or volume was not
+enough to see a concurrent training effect. As
+with other training modalities, the effect of
+concurrent training on force transfer has yet to
+be described. Grosset and colleagues (2009)
+have suggested that endurance training de-
+creases force transfer; however, whether this
+could contribute to the concurrent training ef-
+fect has yet to be determined.
+As far as molecular mechanisms, the inter-
+action between the AMP-activated protein ki-
+nase (AMPK), which is activated by high-inten-
+sity endurance exercise, and mTORC1, which is
+activated by resistance exercise, has been the
+major focus of the research. This focus is the
+result of work in vitro in dividing cells that
+shows that AMPK can directly inhibit mTORC1
+via three distinct mechanisms (Inoki et al. 2002;
+Gwinn et al. 2008; Zhang et al. 2014). In agree-
+ment with the cell culture data, in rodent mod-
+els inwhich animals are treated with the AMPK-
+activating drug AICAR, the activation of
+mTORC1 is clearly decreased following resis-
+tance exercise (Thomson et al. 1985). However,
+in human studies, the activation of AMPK by
+high-intensity endurance exercise has minimal
+effects on mTORC1 activation following resis-
+tance exercise (Apro et al. 2015). The difference
+between the rodent and human data could re-
+ﬂect the fact that exercise preferentially activates
+the a2 isoform of AMPK (Lee-Young et al.
+2008), whereas AICAR would activate both
+the a1 and a2 isoforms. Interestingly, the a1
+isoform of AMPK is activated to inhibit load-
+induced muscle growth in vivo (McGee et al.
+2008) and when this protein is knocked out
+the result is greater load-induced muscle hyper-
+trophy (Mounier et al. 2009). This suggests that
+the inhibition of mTORC1 as a result of activa-
+tion of AMPK byendurance exercise is likely not
+the molecular mechanism underlying the im-
+paired hypertrophy and strength with concur-
+rent training.
+GENETICS
+An important aspect to all training adaptations,
+be they strength or endurance, is genetics (Bou-
+chard et al. 2011). Over the last decade, the
+literature has begun to detail the role played
+by heritability and genetic differences (poly-
+morphisms) in training adaptations (Beunen
+and Thomis 2004; Huygens et al. 2004; Tim-
+mons et al. 2010; Bouchard et al. 2011; Hughes
+et al. 2011). Numerous studies have highlighted
+the diversity of responses to endurance (Tim-
+mons et al. 2010) or strength-training programs
+(Petrella et al. 2008; Erskine et al. 2010) in hu-
+mans and in rats (Koch et al. 2013), often clas-
+sifying individuals as nonresponders or extreme
+responders based on the muscle phenotypes
+measured (Petrella et al. 2008; Timmons et al.
+2010; Davidsen et al. 2011; Thalacker-Mercer
+et al. 2013; Churchward-Venne et al. 2015;
+Stec et al. 2016). However, Churchward-Venne
+and colleagues (2015) have challenged the idea
+of nonresponders to resistance exercise. In a ret-
+rospective analysis of a resistance-type exercise
+program in older men and women, these inves-
+tigators reported that, even though a large het-
+erogeneity in the adaptive responses existed, all
+of the individuals displayed the capacity to
+adapt with resistance-type exercise training. A
+similar challenge has recently been raised for
+endurance exercise, suggesting that nonre-
+sponders who exercised harder were able to
+show some adaptation (Montero and Lundby
+2017). Although the existence of true nonre-
+sponders remains controversial, the extent of
+strength and endurance adaptations that occur
+through training does vary widely (Petrella et al.
+2008; Thalacker-Mercer et al. 2013; Stec et al.
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 11
+======================================================================
+2016) based on messenger RNA (mRNA) and
+microRNA proﬁles and translational capacity
+(Timmons et al. 2010; Davidsen et al. 2011;
+Phillips et al. 2013; Thalacker-Mercer et al.
+2013; Stec et al. 2016). Further, the fact that
+rats and mice can be bred for more or less im-
+provement in running capacity indicates that
+there are clearly genes that are determining
+our response to training (Koch et al. 2013).
+Once we better understand the variability in
+adaptations, we may be able to use this infor-
+mation to determine the optimal training pro-
+gram for a given individual. However, these ad-
+vancements will heavily depend on the usage of
+large cohorts through collaborative initiatives
+such as the Molecular Transducers of Physi-
+cal Activity in Humans National Institutes of
+Health
+consortium
+(commonfund.nih.gov/
+MolecularTransducers).
+SUMMARY
+The effect of exercise training on muscle phe-
+notype has been appreciated for millennia. In
+general, individuals who train byexercising for a
+long time will develop better oxygen delivery to
+muscle and endurance capacity, whereas those
+who work against a heavy load will get bigger
+and stronger muscles. However, recent work
+using high-intensity short-duration interval
+training to increase endurance and low-load re-
+sistance training to failure to increase muscle
+size and strength have challenged the classical
+view of training speciﬁcity. For us to truly un-
+derstand and predict the adaptation that will
+result from a given exercise, we need to better
+understand the molecular mechanisms that un-
+derlie the change in muscle phenotype with
+training. Our progress in this area has been
+slow because of the inherent bias toward signal-
+ing molecules that have already been identiﬁed.
+To take the next step forward, we need to assess
+the molecular events that are initiated after dif-
+ferent types of exercise (following acclimatiza-
+tion) that result in similar muscular adaptations
+in an unbiased manner. When we have identi-
+ﬁed potential candidate molecules, we will then
+need to understand how these events interact
+with our response to feeding because, in the
+end, a combination of exercise and nutrition
+are required for the changes that we see in mus-
+cle phenotype with training.
+REFERENCES
+Aagaard P, Andersen JL. 2010. Effects of strength training on
+endurance capacity in top-level endurance athletes.
+Scand J Med Sci Sports 20: 39–47.
+Aagaard P, Simonsen EB, Andersen JL, Magnusson P, Dyhre-
+Poulsen P. 2002. Increased rate of force development and
+neural drive of human skeletal muscle following resis-
+tance training. J Appl Physiol (1985) 93: 1318–1326.
+Aagaard P, Magnusson PS, Larsson B, Kjær M, Krustrup P.
+2007. Mechanical muscle function, morphology, and ﬁ-
+ber type in lifelong trained elderly. Med Sci Sports Exerc
+39: 1989–1996.
+Aagaard P, Andersen J, Bennekou M, Larsson B, Olesen J,
+Crameri R, Magnusson SP, Kjaer M. 2011. Effects of re-
+sistance training on endurance capacity and muscle ﬁber
+composition in young top-level cyclists. Scand J Med Sci
+Sports 21: e298–e307.
+Albracht K, Arampatzis A. 2013. Exercise-induced changes
+in triceps surae tendon stiffness and muscle strength af-
+fect running economy in humans. Eur J Appl Physiol 113:
+1605–1615.
+Allison SJ, Bailey DM, Folland JP. 2008. Prolonged static
+stretching does not inﬂuence running economy despite
+changes in neuromuscular function. J Sports Sci 26:
+1489–1495.
+Andersen LL, Aagaard P. 2006. Inﬂuence of maximal muscle
+strength and intrinsic muscle contractile properties on
+contractile rate of force development. Eur J Appl Physiol
+96: 46–52.
+Apro W, Moberg M, Hamilton DL, Ekblom B, van Hall G,
+Holmberg HC, Blomstrand E. 2015. Resistance exercise-
+induced S6K1 kinase activity is not inhibited in human
+skeletal muscle despite prior activation of AMPK by
+high-intensity interval cycling. Am J Physiol Endocrinol
+Metab 308: E470–E481.
+Arampatzis A, De Monte G, Karamanidis K, Morey-Klaps-
+ing G, Staﬁlidis S, Bru¨ggemann GP. 2006. Inﬂuence of the
+muscle-tendon unit’s mechanical and morphological
+properties on running economy. J Exp Biol 209: 3345–
+3357.
+Areta JL, Burke LM, Camera DM, West DW, Crawshay S,
+Moore DR, Stellingwerff T, Phillips SM, Hawley JA, Cof-
+fey VG. 2014. Reduced resting skeletal muscle protein
+synthesis is rescued by resistance exercise and protein
+ingestion following short-term energy deﬁcit. Am J Phys-
+iol Endocrinol Metab 306: E989–E997.
+Baar K, Esser K. 1999. Phosphorylation of p70S6k correlates
+with increased skeletal muscle mass following resistance
+exercise. Am J Physiol Cell Physiol 276: C120–C127.
+Baar K, Wende AR, Jones TE, Marison M, Nolte LA, Chen
+M, Kelly DP, Holloszy JO. 2002. Adaptations of skeletal
+muscle to exercise: Rapid increase in the transcriptional
+coactivator PGC-1. FASEB J 16: 1879–1886.
+Baker SJ, Fearon ER, Nigro JM, Hamilton SR, Preisinger AC,
+Jessup JM, vanTuinen P, Ledbetter DH, Barker DF, Naka-
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 12
+======================================================================
+mura Y, et al. 1989. Chromosome 17 deletions and p53
+gene mutations in colorectal carcinomas. Science 244:
+217–221.
+Barnes KR, Kilding AE. 2015. Strategies to improve running
+economy. Sports Med 45: 37–56.
+Barnes KR, Mcguigan MR, Kilding AE. 2014. Lower-body
+determinants of running economy in male and female
+distance runners. J Strength Cond Res 28: 1289–1297.
+Bartlett JD, Joo CH, Jeong TS, Louhelainen J, Cochran AJ,
+Gibala MJ, Gregson W, Close GL, Drust B, Morton JP.
+2012. Matched work high-intensity interval and contin-
+uous running induce similar increases in PGC-1a
+mRNA, AMPK, p38, and p53 phosphorylation in human
+skeletal muscle. J Appl Physiol (1985) 112: 1135–1143.
+Bartlett JD, Louhelainen J, Iqbal Z, Cochran AJ, Gibala MJ,
+Gregson W, Close GL, Drust B, Morton JP. 2013. Reduced
+carbohydrate availability enhances exercise-induced p53
+signaling in human skeletal muscle: Implications for mi-
+tochondrial biogenesis. Am J Physiol Regul Integr Comp
+Physiol 304: R450–R458.
+Bartlett JD, Close GL, Drust B, Morton JP. 2014. The emerg-
+ing role of p53 in exercise metabolism. Sports Med 44:
+303–309.
+Beattie K, Kenny IC, Lyons M, Carson BP. 2014. The effect of
+strength training on performance in endurance athletes.
+Sports Med 44: 845–865.
+Beunen G, Thomis M. 2004. Gene powered? Where to go
+from heritability (h2) in muscle strength and power? Ex-
+erc Sport Sci Rev 32: 148–154.
+Bishop DJ, Granata C, Eynon N. 2014. Can we optimise the
+exercise training prescription to maximise improvements
+in mitochondria function and content? Biochim Biophys
+Acta 1840: 1266–1275.
+Boppart MD, Burkin DJ, Kaufman SJ. 2006. a7b1-integrin
+regulates mechanotransduction and prevents skeletal
+muscle injury. Am J Physiol Cell Physiol 290: C1660–
+C1665.
+Bouchard C, Rankinen T, Timmons JA. 2011. Genomics and
+genetics in the biology of adaptation to exercise. Compr
+Physiol 1: 1603–1648.
+Brook MS, Wilkinson DJ, Mitchell WK, Lund JN, Szewczyk
+NJ, Greenhaff PL, Smith K, Atherton PJ. 2015. Skeletal
+muscle hypertrophy adaptations predominate in the ear-
+ly stages of resistance exercise training, matching deute-
+rium oxide-derived measures of muscle protein synthesis
+and mechanistic target of rapamycin complex 1 signal-
+ing. FASEB J 29: 4485–4496.
+Brooks GA. 2012. Bioenergetics of exercising humans.
+Compr Physiol 2: 537–562.
+Carroll TJ, Herbert RD, Munn J, Lee M, Gandevia SC. 2006.
+Contralateral effects of unilateral strength training: Evi-
+dence and possible mechanisms. J Appl Physiol (1985)
+101: 1514–1522.
+Cartee GD, Hepple RT, Bamman MM, Zierath JR. 2016.
+Exercise promotes healthy aging of skeletal muscle. Cell
+Metab 23: 1034–1047.
+Chapman AR, Vicenzino B, Blanch P, Hodges PW. 2008.
+Patterns of leg muscle recruitment vary between novice
+and highly trained cyclists. J Electromyogr Kinesiol 18:
+359–371.
+Churchward-Venne TA, Tieland M, Verdijk LB, Leenders M,
+Dirks ML, de Groot LC, van Loon LJ. 2015. There are no
+nonresponders to resistance-type exercise training in
+older men and women. J Am Med Dir Assoc 16: 400–411.
+Cochran AJ, Percival ME, Tricarico S, Little JP, Cermak N,
+Gillen JB, Tarnopolsky MA, Gibala MJ. 2014. Intermit-
+tent and continuous high-intensity exercise training in-
+duce similar acute but different chronic muscle adapta-
+tions. Exp Physiol 99: 782–791.
+Counts BR, Buckner SL, Dankel SJ, Jessee MB, Mattocks KT,
+Mouser JG, Laurentino GC, Loenneke JP. 2016. The acute
+and chronic effects of “NO LOAD” resistance training.
+Physiol Behav 164: 345–352.
+Coyle EF. 1995. Integration of the physiological factors de-
+termining endurance performance ability. Exerc Sport Sci
+Rev 23: 25–64.
+Coyle E, Hagberg J, Hurley B, Martin W, Ehsani A, Holloszy
+J. 1983. Carbohydrate feeding during prolonged strenu-
+ous exercise can delay fatigue. J Appl Physiol (1985) 55:
+230–235.
+Coyle EF, Coggan AR, Hemmert M, Ivy JL. 1986. Muscle
+glycogen utilization during prolonged strenuous exercise
+when fed carbohydrate. J Appl Physiol (1985) 61: 165–
+172.
+Coyle EF, Coggan AR, Hopper M, Walters TJ. 1988. Deter-
+minants of endurance inwell-trained cyclists. JAppl Phys-
+iol (1985) 64: 2622–2630.
+Craib MW, Mitchell VA, Fields KB, Cooper TR, Hopewell R,
+Morgan DW. 1996. The association between ﬂexibility
+and running economy in sub-elite male distance runners.
+Med Sci Sports Exerc 28: 737–743.
+Cui G, Park S, Badeaux AI, Kim D, Lee J, Thompson JR, Yan
+F, Kaneko S, Yuan Z, Botuyan MV. 2012. PHF20 is an
+effector protein of p53 double lysine methylation that
+stabilizes and activates p53. Nat Struct Mol Biol 19:
+916–924.
+Cureton KJ, Collins MA, Hill DW, McElhannon FM Jr. 1988.
+Muscle hypertrophy in men and women. Med Sci Sports
+Exerc 20: 338–344.
+Damas F, Phillips SM, Lixandrao ME, Vechin FC, Libardi
+CA, Roschel H, Tricoli V, Ugrinowitsch C. 2016. Early
+resistance training-induced increases in muscle cross-
+sectional area are concomitant with edema-induced
+muscle swelling. Eur J Appl Physiol 116: 49–56.
+Daussin FN, Zoll J, Ponsot E, Dufour SP, Doutreleau S,
+Lonsdorfer E, Ventura-Clapier R, Mettauer B, Piquard
+F, Geny B. 2008. Training at high exercise intensity pro-
+motes qualitative adaptations of mitochondrial function
+in human skeletal muscle. J Appl Physiol (1985) 104:
+1436–1441.
+Davidsen PK, Gallagher IJ, Hartman JW, Tarnopolsky MA,
+Dela F, Helge JW, Timmons JA, Phillips SM. 2011. High
+responders to resistance exercise training demonstrate
+differential regulation of skeletal muscle microRNA ex-
+pression. J Appl Physiol (1985) 110: 309–317.
+DeFreitas JM, Beck TW, Stock MS, Dillon MA, Kasishke PR
+II. 2011. An examination of the time course of training-
+induced skeletal muscle hypertrophy. Eur J Appl Physiol
+111: 2785–2790.
+Di Donato DM, West DW, Churchward-Venne TA, Breen L,
+Baker SK, Phillips SM. 2014. Inﬂuence of aerobic exercise
+intensity on myoﬁbrillar and mitochondrial protein syn-
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 13
+======================================================================
+thesis in young men during early and late postexercise
+recovery. Am J Physiol Endocrinol Metab 306: E1025–
+E1032.
+Durham WJ, Casperson SL, Dillon EL, Keske MA, Paddon-
+Jones D, Sanford AP, Hickner RC, Grady JJ, Shefﬁeld-
+Moore M. 2010. Age-related anabolic resistance after en-
+durance-type exercise in healthy humans. FASEB J 24:
+4117–4127.
+Edgett BA, Fortner ML, Bonen A, Gurd BJ. 2013. Mamma-
+lian target of rapamycin pathway is up-regulated by both
+acute endurance exercise and chronic muscle contraction
+in rat skeletal muscle. Appl Physiol Nutr Metab 38: 862–
+869.
+Egan B, Zierath JR. 2013. Exercise metabolism and the mo-
+lecular regulation of skeletal muscle adaptation. Cell
+Metab 17: 162–184.
+Enoka RM. 1988. Muscle strength and its development.
+Sports Med 6: 146–168.
+Erskine RM, Jones DA, Williams AG, Stewart CE, Degens H.
+2010. Inter-individual variability in the adaptation of
+human muscle speciﬁc tension to progressive resistance
+training. Eur J Appl Physiol 110: 1117–1125.
+Favier R, Constable S, Chen M, Holloszy J. 1986. Endurance
+exercise training reduces lactate production. J Appl Phys-
+iol (1985) 61: 885–889.
+Fletcher JR, Esau SP, MacIntosh BR. 2010. Changes in ten-
+don stiffness and running economy in highly trained
+distance runners. Eur J Appl Physiol 110: 1037–1046.
+Folland JP, Williams AG. 2007. Morphological and neuro-
+logical contributions to increased strength. Sports Med
+37: 145–168.
+Frontera WR, Meredith CN, O’Reilly KP, Knuttgen HG,
+Evans WJ. 1988. Strength conditioning in older men:
+Skeletal muscle hypertrophy and improved function. J
+Appl Physiol (1985) 64: 1038–1044.
+Fry AC. 2004. The role of resistance exercise intensity on
+muscle ﬁbre adaptations. Sports Med 34: 663–679.
+Gibala MJ, McGee SL. 2008. Metabolic adaptationsto short-
+term high-intensity interval training: A little pain fora lot
+of gain? Exerc Sport Sci Rev 36: 58–63.
+Gibala MJ, Little JP, Van Essen M, Wilkin GP, Burgomaster
+KA, Safdar A, Raha S, Tarnopolsky MA. 2006. Short-term
+sprint interval versus traditional endurance training:
+Similar initial adaptations in human skeletal muscle
+and exercise performance. J Physiol 575: 901–911.
+Gibala MJ, McGee SL, Garnham AP, Howlett KF, Snow RJ,
+Hargreaves M. 2009. Brief intense interval exercise acti-
+vates AMPK and p38 MAPK signaling and increases the
+expression of PGC-1a in human skeletal muscle. J Appl
+Physiol (1985) 106: 929–934.
+Gibala MJ, Gillen JB, Percival ME. 2014. Physiological and
+health-related adaptations to low-volume interval train-
+ing: Inﬂuences of nutrition and sex. Sports Med 44:
+S127–S137.
+Gillen JB, Gibala MJ. 2013. Is high-intensity interval train-
+ing a time-efﬁcient exercise strategy to improve health
+and ﬁtness? Appl Physiol Nutr Metab 39: 409–412.
+Goodpaster BH, Park SW, Harris TB, Kritchevsky SB, Nevitt
+M, Schwartz AV, Simonsick EM, Tylavsky FA, Visser M,
+Newman AB. 2006. The loss of skeletal muscle strength,
+mass, and quality in older adults: The health, aging and
+body composition study. J Gerontol A Biol Sci Med Sci 61:
+1059–1064.
+Granata C, Oliveira RS, Little JP, Renner K, Bishop DJ.
+2016a. Mitochondrial adaptations to high-volume exer-
+cise training are rapidly reversed after a reduction in
+training volume in human skeletal muscle. FASEB J 30:
+3413–3423.
+Granata C, Oliveira RS, Little JP, Renner K, Bishop DJ.
+2016b. Training intensity modulates changes in PGC-
+1a and p53 protein content and mitochondrial respira-
+tion, but not markers of mitochondrial content in hu-
+man skeletal muscle. FASEB J 30: 959–970.
+Grosset JF, Piscione J, Lambertz D, Pe´rot C. 2009. Paired
+changes in electromechanical delay and musculo-tendi-
+nous stiffness after endurance or plyometric training. Eur
+J Appl Physiol 105: 131–139.
+Gwinn DM, Shackelford DB, Egan DF, Mihaylova MM,
+Mery A, Vasquez DS, Turk BE, Shaw RJ. 2008. AMPK
+phosphorylation of raptor mediates a metabolic check-
+point. Mol Cell 30: 214–226.
+Ha¨kkinen K, Pakarinen A. 1993. Acute hormonal responses
+to two different fatiguing heavy-resistance protocols in
+male athletes. J Appl Physiol (1985) 74: 882–887.
+Ha¨kkinen K, Kallinen M, Izquierdo M, Jokelainen K, Lassila
+H, Ma¨lkia¨ E, Kraemer W, Newton R, Alen M. 1998a.
+Changes in agonist-antagonist EMG, muscle CSA, and
+force during strength training in middle-aged and older
+people. J Appl Physiol (1985) 84: 1341–1349.
+Ha¨kkinen K, Newton RU, Gordon SE, McCormick M, Volek
+JS, Nindl BC, Gotshalk LA, Campbell WW, Evans WJ,
+Ha¨kkinen A. 1998b. Changes in muscle morphology,
+electromyographic activity, and force production charac-
+teristics during progressive strength training in young
+and older men. J Gerontol A Biol Sci Med Sci 53: B415–
+B423.
+Harber MP, Crane JD, Dickinson JM, Jemiolo B, Raue U,
+Trappe TA, Trappe SW. 2009a. Protein synthesis and the
+expression of growth-related genes are altered by running
+in humanvastus lateralis and soleus muscles. Am J Physiol
+Regul Integr Comp Physiol 296: R708–R714.
+Harber MP, Konopka AR, Douglass MD, Minchev K, Ka-
+minsky LA, Trappe TA, Trappe S. 2009b. Aerobic exercise
+training improves whole muscle and single myoﬁber size
+and function in older women. Am J Physiol Regul Integr
+Comp Physiol 297: R1452–R1459.
+Harber MP, Konopka AR, Jemiolo B, Trappe SW, Trappe TA,
+Reidy PT. 2010. Muscle protein synthesis and gene ex-
+pression during recovery from aerobic exercise in the
+fasted and fed states. Am J Physiol Regul Integr Comp
+Physiol 299: R1254–R1262.
+Harber MP, Konopka AR, Undem MK, Hinkley JM, Min-
+chev K, Kaminsky LA, Trappe TA, Trappe S. 2012. Aerobic
+exercise training induces skeletal muscle hypertrophyand
+age-dependent adaptations in myoﬁber function in
+young and older men. J Appl Physiol (1985) 113: 1495–
+1504.
+Heise G, Shinohara M, Binks L. 2008. Biarticular leg muscles
+and links to running economy. Int J Sports Med 29: 688–
+691.
+Herzog W, Schappacher G, DuVall M, Leonard TR, Herzog
+JA. 2016. Residual force enhancement following eccentric
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 14
+======================================================================
+contractions: A new mechanism involving titin. Physiol-
+ogy 31: 300–312.
+Hickson RC. 1980. Interference of strength development by
+simultaneously training for strength and endurance. Eur
+J Appl Physiol Occup Physiol 45: 255–263.
+Holloszy JO. 1967. Biochemical adaptations in muscle ef-
+fects of exercise on mitochondrial oxygen uptake and
+respiratory enzyme activity in skeletal muscle. J Biol
+Chem 242: 2278–2282.
+Holloszy JO, Coyle EF. 1984. Adaptations of skeletal muscle
+to endurance exercise and their metabolic consequences.
+J Appl Physiol (1985) 56: 831–838.
+Houston M, Froese E, Valeriote SP, Green HJ, Ranney DA.
+1983. Muscle performance, morphology and metabolic
+capacity during strength training and detraining: A one
+leg model. Eur J Appl Physiol Occup Physiol 51: 25–35.
+Hughes DC, Day SH, Ahmetov II, Williams AG. 2011. Ge-
+netics of muscle strength and power: Polygenic proﬁle
+similarity limits skeletal muscle performance. J Sports
+Sci 29: 1425–1434.
+Hughes DC, Wallace MA, Baar K. 2015. Effects of aging,
+exercise, and disease on force transfer in skeletal muscle.
+Am J Physiol Endocrinol Metab 309: E1–E10.
+Hughes DC, Marcotte GR, Marshall AG, West DW, Baehr
+LM, Wallace MA, Saleh PM, Bodine SC, Baar K. 2016.
+Age-related differences in dystrophin: Impact on force
+transfer proteins, membrane integrity, and neuromuscu-
+lar junction stability. J Gerontol A Biol Sci Med Sci doi:
+10.1093/gerona/glw109.
+Huygens W, Thomis MA, Peeters MW, Vlietinck RF, Beunen
+GP. 2004. Determinants and upper-limit heritabilities of
+skeletal muscle mass and strength. Can J Appl Physiol 29:
+186–200.
+Inoki K, Li Y, Zhu T, Wu J, Guan KL. 2002. TSC2 is phos-
+phorylated and inhibited by Akt and suppresses mTOR
+signalling. Nat Cell Biol 4: 648–657.
+Jacobs BL, You JS, Frey JW, Goodman CA, Gundermann
+DM, Hornberger TA. 2013a. Eccentric contractions in-
+crease the phosphorylation of tuberous sclerosis com-
+plex-2 (TSC2) and alter the targeting of TSC2 and the
+mechanistic target of rapamycin to the lysosome. J Phys-
+iol 591: 4611–4620.
+Jacobs RA, Flu¨ck D, Bonne TC, Bu¨rgi S, Christensen PM,
+Toigo M, Lundby C. 2013b. Improvements in exercise
+performance with high-intensity interval training coin-
+cide with an increase in skeletal muscle mitochondrial
+content and function. J Appl Physiol (1985) 115: 785–
+793.
+Jones D, Rutherford O, Parker D. 1989. Physiological
+changes in skeletal muscle as a result of strength training.
+Q J Exp Physiol 74: 233–256.
+Jones TW, Howatson G, Russell M, French DN. 2013. Per-
+formance and neuromuscular adaptations following dif-
+fering ratios of concurrent strength and endurance train-
+ing. J Strength Cond Res 27: 3342–3351.
+Joyner MJ, Coyle EF. 2008. Endurance exercise performance:
+The physiology of champions. J Physiol 586: 35–44.
+Kidgell DJ, Frazer AK, Rantalainen T, Ruotsalainen I, Ah-
+tiainen J, Avela J, Howatson G. 2015. Increased cross-
+education of muscle strength and reduced corticospinal
+inhibition following eccentric strength training. Neuro-
+science 300: 566–575.
+Knuttgen HG, Kraemer WJ. 1987. Terminology and mea-
+surement in exercise performance. J Strength Cond Res 1:
+1–10.
+Koch LG, Pollott GE, Britton SL. 2013. Selectively bred rat
+model system for low and high response to exercise train-
+ing. Physiol Genomics 45: 606–614.
+Konopka AR, Harber MP. 2014. Skeletal muscle hypertro-
+phy after aerobic exercise training. Exerc Sport Sci Rev 42:
+53–61.
+Konopka AR, Douglass MD, Kaminsky LA, Jemiolo B,
+Trappe TA, Trappe S, Harber MP. 2010. Molecular adap-
+tations to aerobic exercise training in skeletal muscle of
+older women. J Gerontol A Biol Sci Med Sci 65: 1201–
+1207.
+Korhonen MT, Cristea A, Ale´n M, Ha¨kkinen K, Sipila¨ S,
+Mero A, Viitasalo JT, Larsson L, Suominen H. 2006. Ag-
+ing, muscle ﬁber type, and contractile function in sprint-
+trained athletes. J Appl Physiol (1985) 101: 906–917.
+Kosek DJ, Bamman MM. 2008. Modulation of the dystro-
+phin-associated protein complex in response to resis-
+tance training in young and older men. J Appl Physiol
+(1985) 104: 1476–1484.
+Kraemer WJ, Gordon S, Fleck S, Marchitelli L, Mello R,
+Dziados J, Friedl K, Harman E, Maresh C, Fry A. 1991.
+Endogenous anabolic hormonal and growth factor re-
+sponses to heavy resistance exercise in males and females.
+Int J Sports Med 12: 228–235.
+Kraemer WJ, Patton JF, Gordon SE, Harman EA, Deschenes
+MR, Reynolds K, Newton RU, Triplett NT, Dziados JE.
+1995. Compatibility of high-intensity strength and en-
+durance training on hormonal and skeletal muscle adap-
+tations. J Appl Physiol (1985) 78: 976–989.
+Latella C, Kidgell DJ, Pearce AJ. 2012. Reduction in cortico-
+spinal inhibition in the trained and untrained limb fol-
+lowing unilateral leg strength training. Eur J Appl Physiol
+112: 3097–3107.
+Laursen PB, Jenkins DG. 2002. The scientiﬁc basis for high-
+intensity interval training. Sports Med 32: 53–73.
+Lee-Young RS, Koufogiannis G, Canny BJ, McConell GK.
+2008. Acute exercise does not cause sustained elevations
+in AMPK signaling orexpression. Med Sci Sports Exerc 40:
+1490–1494.
+Lehti TM, Kalliokoski R, Komulainen J. 2007. Repeated
+bout effect on the cytoskeletal proteins titin, desmin,
+and dystrophin in rat skeletal muscle. J Muscle Res Cell
+Motil 28: 39–47.
+Levine A, Hu W, Feng Z. 2006. The P53 pathway: What
+questions remain to be explored? Cell Death Differ 13:
+1027–1036.
+Little JP, Safdar A, Cermak N, Tarnopolsky MA, Gibala MJ.
+2010a. Acute endurance exercise increases the nuclear
+abundance of PGC-1a in trained human skeletal muscle.
+Am J Physiol Regul Integr Comp Physiol 298: R912–R917.
+Little JP, Safdar A, Wilkin GP, Tarnopolsky MA, Gibala MJ.
+2010b. A practical model of low-volume high-intensity
+interval training induces mitochondrial biogenesis in hu-
+man skeletal muscle: Potential mechanisms. J Physiol 588:
+1011–1022.
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 15
+======================================================================
+Little JP, Safdar A, Bishop D, Tarnopolsky MA, Gibala MJ.
+2011. An acute bout of high-intensity interval training
+increases the nuclear abundance of PGC-1a and activates
+mitochondrial biogenesis in human skeletal muscle. Am J
+Physiol Regul Integr Comp Physiol 300: R1303–R1310.
+Lovering RM, De Deyne PG. 2004. Contractile function,
+sarcolemma integrity, and the loss of dystrophin after
+skeletal muscle eccentric contraction-induced injury.
+Am J Physiol Cell Physiol 286: C230–C238.
+Macaluso F, Isaacs AW, Di Felice V, Myburgh KH. 2014.
+Acute change of titin at mid-sarcomere remains despite
+8 wk of plyometric training. J Appl Physiol (1985) 116:
+1512–1519.
+MacInnis MJ, Zacharewicz E, Martin BJ, Haikalis ME, Skelly
+LE, Tarnopolsky MA, Murphy RM, Gibala MJ. 2016. Su-
+perior mitochondrial adaptations in human skeletal
+muscle after interval compared to continuous single-leg
+cycling matched for total work. J Physiol doi: 10.1113/
+JP272570.
+Mafﬁuletti NA, Aagaard P, Blazevich AJ, Folland J, Tillin N,
+Duchateau J. 2016. Rate of force development: Physio-
+logical and methodological considerations. Eur J Appl
+Physiol 116: 1091–1116.
+Mascher H, Ekblom B, Rooyackers O, Blomstrand E. 2011.
+Enhanced rates of muscle protein synthesis and elevated
+mTOR signalling following endurance exercise in human
+subjects. Acta Physiol (Oxf ) 202: 175–184.
+Matoba S, Kang JG, Patino WD, Wragg A, Boehm M, Gav-
+rilova O, Hurley PJ, Bunz F, Hwang PM. 2006. p53 regu-
+lates mitochondrial respiration. Science 312: 1650–1653.
+McBride JM, Triplett-McBride T, Davie AJ, Abernethy PJ,
+Newton RU. 2003. Characteristics of titin in strength and
+power athletes. Eur J Appl Physiol 88: 553–557.
+McCall GE, Byrnes WC, Fleck SJ, Dickinson A, Kraemer WJ.
+1999. Acute and chronic hormonal responses to resis-
+tance training designed to promote muscle hypertrophy.
+Can J Appl Physiol 24: 96–107.
+McCarthy JP, Pozniak MA, Agre JC. 2002. Neuromuscular
+adaptations to concurrent strength and endurance train-
+ing. Med Sci Sports Exerc 34: 511–519.
+McGee SL, Mustard KJ, Hardie DG, Baar K. 2008. Normal
+hypertrophy accompanied by phosphoryation and acti-
+vation of AMP-activated protein kinase a1 following
+overload in LKB1 knockout mice. J Physiol 586: 1731–
+1741.
+McGregor RA, Cameron-Smith D, Poppitt SD. 2014. It is
+not just muscle mass: A review of muscle quality, com-
+position and metabolism during ageing as determinants
+of muscle function and mobility in later life. Longev
+Healthspan 3: 9.
+McGuigan MR, Sharman MJ, Newton RU, Davie AJ, Mur-
+phy AJ, McBride JM. 2003. Effect of explosive resistance
+training on titin and myosin heavy chain isoforms in
+trained subjects. J Strength Cond Res 17: 645–651.
+Mebes C, Amstutz A, Luder G, Ziswiler HR, Stettler M,
+Villiger PM, Radlinger L. 2008. Isometric rate of force
+development, maximum voluntary contraction, and bal-
+ance in women with and without joint hypermobility.
+Arthritis Rheum 59: 1665–1669.
+Mero A, Hulmi J, Salmija¨rvi H, Katajavuori M, Haverinen
+M, Holviala J, Ridanpa¨a¨ T, Ha¨kkinen K, Kovanen V, Ah-
+tiainen J. 2013. Resistance training induced increase in
+muscle ﬁber size in young and older men. Eur J Appl
+Physiol 113: 641–650.
+Mitchell CJ, Churchward-Venne TA, West DW, Burd NA,
+Breen L, Baker SK, Phillips SM. 2012. Resistance exercise
+load does not determine training-mediated hypertrophic
+gains in young men. J Appl Physiol (1985) 113: 71–77.
+Montero D, Lundby C. 2017. Refuting the myth of non-
+response to exercise training: “Non-responders” do re-
+spond to higher dose of training. J Physiol doi: 10.1113/
+JP273480.
+Morton RW, Oikawa SY, Wavell CG, Mazara N, McGlory C,
+Quadrilatero J, Baechler BL, Baker SK, Phillips SM. 2016.
+Neither load nor systemic hormones determine resis-
+tance training-mediated hypertrophy or strength gains
+in resistance-trained young men. J Appl Physiol (1985)
+121: 129–138.
+Mounier R, Lantier L, Leclerc J, Sotiropoulos A, Pende M,
+Daegelen D, Sakamoto K, Foretz M, Viollet B. 2009. Im-
+portant role for AMPKa1 in limiting skeletal muscle cell
+hypertrophy. FASEB J 23: 2264–2273.
+Munn J, Herbert RD, Gandevia SC. 2004. Contralateral ef-
+fects of unilateral resistance training: A meta-analysis. J
+Appl Physiol (1985) 96: 1861–1866.
+Munn J, Herbert RD, Hancock MJ, Gandevia SC. 2005.
+Training with unilateral resistance exercise increases con-
+tralateral strength. J Appl Physiol (1985) 99: 1880–1884.
+Narici MV, Roi G, Landoni L, Minetti A, Cerretelli P. 1989.
+Changes in force, cross-sectional area and neural activa-
+tion during strength training and detraining of the hu-
+man quadriceps. Eur J Appl Physiol Occup Physiol 59:
+310–319.
+Nelson A, Kokkonen J, Eldredge C, Cornwell A, Glickman-
+Weiss E. 2001. Chronic stretching and running economy.
+Scand J Med Sci Sports 11: 260–265.
+Newman AB, Kupelian V, Visser M, Simonsick EM, Good-
+paster BH, Kritchevsky SB, Tylavsky FA, Rubin SM, Har-
+ris TB. 2006. Strength, but not muscle mass, is associated
+with mortality in the health, aging and body composition
+study cohort. J Gerontol A Biol Sci Med Sci 61: 72–77.
+Nigro JM, Baker SJ, Preisinger AC, Jessup JM, Hostetter R,
+Cleary K, Bigner SH, Davidson N, Baylin S, Devilee P, et
+al. 1989. Mutations in the p53 gene occur in diverse hu-
+man tumour types. Nature 342: 705–708.
+Ogasawara R, Loenneke JP, Thiebaud RS, Abe T. 2013. Low-
+load bench press training to fatigue results in muscle
+hypertrophy similar to high-load bench press training.
+Int J Clin Med 4: 114.
+Ottenheijm CA, Granzier H, Labeit S. 2012. The sarcomeric
+protein nebulin: Another multifunctional giant in charge
+of muscle strength optimization. Front Physiol 3: 37.
+Paavolainen L, Ha¨kkinen K, Ha¨ma¨la¨inen I, Nummela A,
+Rusko H. 1999a. Explosive-strength training improves
+5-km running time by improving running economy
+and muscle power. J Appl Physiol (1985) 86: 1527–1533.
+Paavolainen L, Nummela A, Rusko H, Ha¨kkinen K. 1999b.
+Neuromuscular characteristics and fatigue during 10 km
+running. Int J Sports Med 20: 516–521.
+Paavolainen LM, Nummela A, Rusko HK. 1999c. Neuro-
+muscular characteristics and muscle power as determi-
+nants of 5-km running performance. Med Sci Sports Exerc
+31: 124–130.
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 16
+======================================================================
+Palmisano MG, Bremner SN, Hornberger TA, Meyer GA,
+Domenighetti AA, Shah SB, Kiss B, Kellermayer M, Ryan
+AF, Lieber RL. 2015. Skeletal muscle intermediate ﬁla-
+ments form a stress-transmitting and stress-signaling
+network. J Cell Sci 128: 219–224.
+Parcell AC, Woolstenhulme MT, Sawyer RD. 2009. Structural
+protein alterations to resistance and endurance cycling
+exercise training. J Strength Cond Res 23: 359–365.
+Park JY, Wang Py, Matsumoto T, Sung HJ, Ma W, Choi JW,
+Anderson SA, Leary SC, Balaban RS, Kang JG. 2009. p53
+improves aerobic exercise capacity and augments skeletal
+muscle mitochondrial DNA content. Circ Res 105: 705–
+712.
+Park S, Kim D, Dan HC, Chen H, Testa JR, Cheng JQ. 2012.
+Identiﬁcation of Akt interaction protein PHF20/TZP
+that transcriptionally regulates p53. J Biol Chem 287:
+11151–11163.
+Petrella JK, Kim Js, Mayhew DL, Cross JM, Bamman MM.
+2008. Potent myoﬁber hypertrophy during resistance
+training in humans is associated with satellite cell-medi-
+ated myonuclear addition: A cluster analysis. J Appl Phys-
+iol (1985) 104: 1736–1742.
+Phillips BE, Williams JP, Gustafsson T, Bouchard C, Ranki-
+nen T, Knudsen S, Smith K, Timmons JA, Atherton PJ.
+2013. Molecular networks of human muscle adaptation
+to exercise and age. PLoS Genet 9: e1003389.
+Philp A, Schenk S, Perez-Schindler J, Hamilton DL, Breen L,
+Laverone E, Jeromson S, Phillips SM, Baar K. 2015. Ra-
+pamycin does not prevent increases in myoﬁbrillar or
+mitochondrial protein synthesis following endurance ex-
+ercise. J Physiol 593: 4275–4284.
+Pilegaard H, Saltin B, Neufer PD. 2003. Exercise induces
+transient transcriptional activation of the PGC-1a gene
+in human skeletal muscle. J Physiol 546: 851–858.
+Powers K, Nishikawa K, Joumaa V, Herzog W. 2016. De-
+creased force enhancement in skeletal muscle sarcomeres
+with a deletion in titin. J Exp Biol 219: 1311–1316.
+Pyka G, Lindenberger E, Charette S, Marcus R. 1994. Muscle
+strength and ﬁber adaptations to a year-long resistance
+training program in elderly men and women. J Gerontol
+49: M22–M27.
+Ramaswamy KS, Palmer ML, van der Meulen JH, Renoux A,
+Kostrominova TY, Michele DE, Faulkner JA. 2011. Lateral
+transmission of force is impaired in skeletal muscles of
+dystrophic mice and very old rats. J Physiol 589: 1195–
+1208.
+Rønnestad BR, Hansen EA, Raastad T. 2010. In-season
+strength maintenance training increases well-trained cy-
+clists’ performance. Eur J Appl Physiol 110: 1269–1282.
+Rønnestad BR, Hansen EA, Raastad T. 2011. Strength train-
+ing improves 5-min all-out performance following
+185 min of cycling. Scand J Med Sci Sports 21: 250–259.
+Rønnestad BR, Hansen EA, Raastad T. 2012. High volume of
+endurance training impairs adaptations to 12 weeks of
+strength training in well-trained endurance athletes. Eur J
+Appl Physiol 112: 1457–1466.
+Sale DG. 1988. Neural adaptation to resistance training. Med
+Sci Sports Exerc 20: S135–S145.
+Saleem A, Hood DA. 2013. Acute exercise induces tumour
+suppressor protein p53 translocation to the mitochon-
+dria and promotes a p53–Tfam–mitochondrial DNA
+complex in skeletal muscle. J Physiol 591: 3625–3636.
+Saleem A, Adhihetty PJ, Hood DA. 2009. Role of p53 in
+mitochondrial biogenesis and apoptosis in skeletal mus-
+cle. Physiol Genomics 37: 58–66.
+Saunders PU, Pyne DB, Telford RD, Hawley JA. 2004. Fac-
+tors affecting running economy in trained distance run-
+ners. Sports Med 34: 465–485.
+Schoenfeld BJ, Peterson MD, Ogborn D, Contreras B, Son-
+mez GT. 2015. Effects of low-vs. high-load resistance
+training on muscle strength and hypertrophy in well-
+trained men. J Strength Cond Res 29: 2954–2963.
+Schroeder ET, Villanueva M, West D, Phillips SM. 2013. Are
+acute post-resistance exercise increases in testosterone,
+growth hormone, and IGF-1 necessary to stimulate skel-
+etal muscle anabolism and hypertrophy? Med Sci Sports
+Exerc 45: 2044–2051.
+Scripture E, Smith TL, Brown EM. 1894. On the education
+of muscular control and power. Stud Yale Psychol Lab 2:
+114–119.
+Serpiello FR, McKenna MJ, Bishop DJ, Aughey RJ, Caldow
+MK, Cameron-Smith D, Stepto NK. 2012. Repeated
+sprints alter signaling related to mitochondrial biogene-
+sis in humans. Med Sci Sports Exerc 44: 827–834.
+Seynnes OR, de Boer M, Narici MV. 2007. Early skeletal
+muscle hypertrophy and architectural changes in re-
+sponse to high-intensity resistance training. J Appl Phys-
+iol (1985) 102: 368–373.
+Short KR, Vittone JL, Bigelow ML, Proctor DN, Nair KS.
+2004. Age and aerobic exercise training effects on whole
+body and muscle protein metabolism. Am J Physiol En-
+docrinol Metab 286: E92–E101.
+Shrier I. 2004. Does stretching improve performance?: A
+systematic and critical review of the literature. Clin J Sport
+Med 14: 267–273.
+Sleivert GG, Wenger HA. 1994. Reliability of measuring iso-
+metric and isokinetic peak torque, rate of torque devel-
+opment, integrated electromyography, and tibial nerve
+conduction velocity. Arch Phys Med Rehabil 75: 1315–
+1321.
+Staron R, Malicky E, Leonardi M, Falkel J, Hagerman F,
+Dudley G. 1990. Muscle hypertrophy and fast ﬁber type
+conversions in heavy resistance-trained women. Eur J
+Appl Physiol Occup Physiol 60: 71–79.
+Staron RS, Leonardi MJ, Karapondo DL, Malicky ES, Falkel
+JE, Hagerman FC, Hikida RS. 1991. Strength and skeletal
+muscle adaptations in heavy-resistance-trained women
+after detraining and retraining. J Appl Physiol (1985) 70:
+631–640.
+Staron R, Karapondo D, Kraemer W, Fry A, Gordon S, Falkel
+J, Hagerman F, Hikida R. 1994. Skeletal muscle adapta-
+tions during early phase of heavy-resistance training in
+men and women. J Appl Physiol (1985) 76: 1247–1255.
+Stec MJ, Kelly NA, Many GM, Windham ST, Tuggle SC,
+Bamman MM. 2016. Ribosome biogenesis may augment
+resistance training-induced myoﬁber hypertrophy and is
+required for myotube growth in vitro. Am J Physiol En-
+docrinol Metab 310: E652–E661.
+Storen O, Helgerud J, Stoa EM, Hoff J. 2008. Maximal
+strength training improves running economy in distance
+runners. Med Sci Sports Exerc 40: 1087.
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 17
+======================================================================
+Suetta C, Aagaard P, Rosted A, Jakobsen AK, Duus B, Kjaer
+M, Magnusson SP. 2004. Training-induced changes in
+muscle CSA, muscle strength, EMG, and rate of force
+development in elderlysubjects after long-term unilateral
+disuse. J Appl Physiol (1985) 97: 1954–1961.
+Sunde A, Støren Ø, Bjerkaas M, Larsen MH, Hoff J, Hel-
+gerud J. 2010. Maximal strength training improves cy-
+cling economy in competitive cyclists. J Strength Cond
+Res 24: 2157–2165.
+Thalacker-Mercer A, Stec M, Cui X, Cross J, Windham S,
+Bamman M. 2013. Cluster analysis reveals differential
+transcript proﬁles associated with resistance training-in-
+duced human skeletal muscle hypertrophy. Physiol Geno-
+mics 45: 499–507.
+Thomson DM, Fick CA, Gordon SE. 1985. AMPKactivation
+attenuates S6K1, 4E-BP1, and eEF2 signaling responses
+to high-frequency electrically stimulated skeletal muscle
+contractions. J Appl Physiol (1985) 104: 625–632.
+Timmons JA, Knudsen S, Rankinen T, Koch LG, Sarzynski
+M, Jensen T, Keller P, Scheele C, Vollaard NB, Nielsen S.
+2010. Using molecular classiﬁcation to predict gains in
+maximal aerobic capacity following endurance exercise
+training in humans. J Appl Physiol (1985) 108: 1487–
+1496.
+Trappe TA, Carroll CC, Dickinson JM, LeMoine JK, Haus
+JM, Sullivan BE, Lee JD, Jemiolo B, Weinheimer EM,
+Hollon CJ. 2011. Inﬂuence of acetaminophen and ibu-
+profen on skeletal muscle adaptations to resistance exer-
+cise in older adults. Am J Physiol Regul Integr Comp Phys-
+iol 300: R655–R662.
+Trehearn TL, Buresh RJ. 2009. Sit-and-reach ﬂexibility and
+running economy of men and women collegiate distance
+runners. J Strength Cond Res 23: 158–162.
+Vikmoen O, Ellefsen S, Trøen Ø, Hollan I, Hanestadhaugen
+M, Raastad T, Rønnestad BR. 2015. Strength training
+improves cycling performance, fractional utilization of
+VO2max and cycling economy in female cyclists. Scand J
+Med Sci Sports 26: 384–396.
+Visser M, Goodpaster BH, Kritchevsky SB, Newman AB,
+Nevitt M, Rubin SM, Simonsick EM, Harris TB. 2005.
+Muscle mass, muscle strength, and muscle fat inﬁltration
+as predictors of incident mobility limitations in well-
+functioning older persons. J Gerontol A Biol Sci Med Sci
+60: 324–333.
+Wernbom M, Augustsson J, Thomee´ R. 2007. The inﬂuence
+of frequency, intensity, volume and mode of strength
+training on whole muscle cross-sectional area in humans.
+Sports Med 37: 225–264.
+West DW, Kujbida GW, Moore DR, Atherton P, Burd NA,
+Padzik JP, De Lisio M, Tang JE, Parise G, Rennie MJ. 2009.
+Resistance exercise-induced increases in putative anabol-
+ic hormones do not enhance muscle protein synthesis or
+intracellular signalling in young men. J Appl Physiol
+(1985) 587: 5239–5247.
+West DW, Burd NA, Tang JE, Moore DR, Staples AW, Hol-
+werda AM, Baker SK, Phillips SM. 2010. Elevations in
+ostensibly anabolic hormones with resistance exercise en-
+hance neither training-induced muscle hypertrophy nor
+strength of the elbow ﬂexors. J Appl Physiol (1985) 108:
+60–67.
+West DW, Burd NA, Churchward-Venne TA, Camera DM,
+Mitchell CJ, Baker SK, Hawley JA, Coffey VG, Phillips
+SM. 2012. Sex-based comparisons of myoﬁbrillar protein
+synthesis after resistance exercise in the fed state. J Appl
+Physiol (1985) 112: 1805–1813.
+West DWD, Lee-Barthel A, McIntyre T, Shamim B, Lee CA,
+Baar K. 2015. The exercise-induced biochemical milieu
+enhances collagen content and tensile strength of engi-
+neered ligaments. J Appl Physiol (1985) 593: 4665–4675.
+Woolstenhulme MT, Conlee RK, Drummond MJ, Stites AW,
+Parcell AC. 2006. Temporal response of desmin and dys-
+trophin proteins to progressive resistance exercise in hu-
+man skeletal muscle. J Appl Physiol (1985) 100: 1876–
+1882.
+Yamamoto LM, Lopez RM, Klau JF, Casa DJ, Kraemer WJ,
+Maresh CM. 2008. The effects of resistance training on
+endurance distance running performance among highly
+trained runners: A systematic review. J Strength Cond Res
+22: 2036–2044.
+Yasuda Y, Miyamura M. 1983. Cross transfer effects of mus-
+cular training on blood ﬂow in the ipsilateral and con-
+tralateral forearms. Eur J Appl Physiol Occup Physiol 51:
+321–329.
+Zampieri S, Pietrangelo L, Loeﬂer S, Fruhmann H, Voge-
+lauer M, Burggraf S, Pond A, Grim-Stieger M, Cvecka J,
+Sedliak M. 2015. Lifelong physical exercise delays age-
+associated skeletal muscle decline. J Gerontol A Biol Sci
+Med Sci 70: 163–173.
+Zhang CS, Jiang B, Li M, Zhu M, Peng Y, Zhang YL, Wu YQ,
+Li TY, Liang Y, Lu Z, et al. 2014. The lysosomal v-ATPase-
+Ragulator complex is a common activator for AMPK and
+mTORC1, acting as a switch between catabolism and
+anabolism. Cell Metab 20: 526–540.
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 18
+======================================================================
+10, 2017
+2018; doi: 10.1101/cshperspect.a029769 originally published online May
+Cold Spring Harb Perspect Med
+
+David C. Hughes, Stian Ellefsen and Keith Baar
+Subject Collection
+
+The Biology of Exercise
+Adaptations to Endurance Exercise
+Exosomes as Mediators of the Systemic
+Adeel Safdar and Mark A. Tarnopolsky
+Effects of Exercise and Aging on Skeletal Muscle
+Giovanna Distefano and Bret H. Goodpaster
+Challenges
+Advances, Current Knowledge, and Future
+Muscle Mitochondrial Biogenesis: Historical
+Molecular Basis of Exercise-Induced Skeletal
+Christopher G.R. Perry and John A. Hawley
+Muscle-Adipose Tissue Cross Talk
+Kristin I. Stanford and Laurie J. Goodyear
+Exercise Metabolism: Fuels for the Fire
+Mark Hargreaves and Lawrence L. Spriet
+Specificity
+Performance Fatigability: Mechanisms and Task
+Sandra K. Hunter
+Health Benefits of Exercise
+Gregory N. Ruegsegger and Frank W. Booth
+David C. Hughes, Stian Ellefsen and Keith Baar
+Fiber Hypertrophy
+Molecular Regulation of Exercise-Induced Muscle
+Gregory R. Adams
+Marcas M. Bamman, Brandon M. Roberts and
+The Bioenergetics of Exercise
+P. Darrell Neufer
+Responses to Exercise
+Physiological Redundancy and the Integrative
+Michael J. Joyner and Jerome A. Dempsey
+Structure, and Health in Humans
+Effects of Exercise on Vascular Function,
+Daniel J. Green and Kurt J. Smith
+On the Run for Hippocampal Plasticity
+Praag
+C'iana Cooper, Hyo Youl Moon and Henriette van
+Complex
+Control of Muscle Metabolism by the Mediator
+Bassel-Duby
+Leonela Amoasii, Eric N. Olson and Rhonda
+http://perspectivesinmedicine.cshlp.org/cgi/collection/
+For additional articles in this collection, see
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
+
+======================================================================
+PAGE 19
+======================================================================
+Handling
+2+
+The Importance of Strictly Controlled Cellular Ca
+Molecular Basis for Exercise-Induced Fatigue:
+Westerblad
+Arthur J. Cheng, Nicolas Place and Håkan
+between Low Exercise Capacity and Disease Risk
+Theoretical and Biological Evaluation of the Link
+Lauren Gerard Koch and Steven L. Britton
+http://perspectivesinmedicine.cshlp.org/cgi/collection/
+For additional articles in this collection, see
+on August 6, 2026 - Published by Cold Spring Harbor Laboratory Press
+http://perspectivesinmedicine.cshlp.org/
