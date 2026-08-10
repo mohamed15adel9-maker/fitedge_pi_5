@@ -1,14 +1,11 @@
+
 """
 rag/retrieval.py
 
-Provides retrieve(query): given the user's message, finds the most
-relevant passages from the fitness knowledge base and returns them as text.
+Retrieves relevant fitness knowledge from ChromaDB.
 
-This is called on EVERY turn (Pattern 1), so the model always has trusted
-knowledge in front of it before it answers.
-
-The model and ChromaDB client are loaded ONCE when this module is imported,
-not on every call, so retrieval stays fast.
+The model and ChromaDB client are loaded once when this module is imported.
+Retrieved knowledge is capped to prevent unnecessarily large LLM prompts.
 """
 
 from pathlib import Path
@@ -16,59 +13,93 @@ from pathlib import Path
 import chromadb
 from sentence_transformers import SentenceTransformer
 
+
 ROOT = Path(__file__).resolve().parent.parent
 CHROMA_DIR = ROOT / "rag" / "chroma_store"
 COLLECTION_NAME = "fitness_knowledge"
 EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
 
-# How many passages to return each turn.
-TOP_K = 3
+# Number of passages to retrieve.
+TOP_K = 2
 
-# --- load once at import time ---
+# Maximum amount of retrieved text inserted into the LLM prompt.
+MAX_KNOWLEDGE_CHARS = 3000
+
+
 _model = None
 _collection = None
 
 
 def _load():
-    """Lazily load the model and collection the first time we need them."""
     global _model, _collection
+
     if _model is None:
+        print("Loading SentenceTransformer...")
         _model = SentenceTransformer(EMBED_MODEL_NAME)
+        print("SentenceTransformer loaded.")
+
     if _collection is None:
+        print("Opening ChromaDB...")
         client = chromadb.PersistentClient(path=str(CHROMA_DIR))
+        print("Getting collection...")
         _collection = client.get_collection(COLLECTION_NAME)
+        print("Collection ready.")
 
 
 def retrieve(query, top_k=TOP_K):
     """
-    Returns the most relevant knowledge passages for `query`, joined into
-    one string. Returns a safe message if the knowledge base is empty or
-    unavailable (so the caller never crashes).
+    Retrieve relevant fitness knowledge.
+
+    Returns a maximum of MAX_KNOWLEDGE_CHARS characters so that
+    RAG does not unnecessarily inflate the LLM prompt.
     """
+
     if not query or not query.strip():
         return "No relevant knowledge found."
 
     try:
         _load()
     except Exception as e:
-        # e.g. the collection doesn't exist yet (ingest not run).
         return f"Knowledge base unavailable ({e})."
 
     try:
         query_embedding = _model.encode([query]).tolist()
+
         results = _collection.query(
             query_embeddings=query_embedding,
             n_results=top_k,
         )
+
     except Exception as e:
         return f"Knowledge lookup failed ({e})."
 
-    # results["documents"] is a list-of-lists (one list per query).
     documents = results.get("documents", [[]])
     passages = documents[0] if documents else []
 
     if not passages:
         return "No relevant knowledge found."
 
-    # Join the passages into one readable block.
-    return "\n\n".join(passages)
+    # Add passages until the character budget is reached.
+    selected = []
+    total_chars = 0
+
+    for passage in passages:
+        if not passage:
+            continue
+
+        remaining = MAX_KNOWLEDGE_CHARS - total_chars
+
+        if remaining <= 0:
+            break
+
+        if len(passage) > remaining:
+            passage = passage[:remaining]
+
+        selected.append(passage)
+        total_chars += len(passage)
+
+    if not selected:
+        return "No relevant knowledge found."
+
+    return "\n\n".join(selected)
+

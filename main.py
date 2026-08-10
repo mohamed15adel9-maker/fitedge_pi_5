@@ -11,30 +11,46 @@ CONVERSATION_ID = "default"
 
 def main():
     while True:
+        print("1. Waiting for wake word...")
         wait_for_wake_word()
 
+        print("2. Recording...")
         recorded_audio = record_audio()
+
+        print("3. Transcribing...")
         transcribed_text = transcribe(recorded_audio)
         print("Transcribed text:", transcribed_text)
 
         if not transcribed_text or not transcribed_text.strip():
             continue
 
-        # save the user message so conversation memory accumulates
+        print("4. Saving user message...")
         add_message(CONVERSATION_ID, "user", transcribed_text)
 
-        # build_prompt already includes the system prompt + context + message
+        print("5. Building prompt...")
+        prompt = build_prompt(transcribed_text)
+        with open("/tmp/fitedge_prompt.txt", "w", encoding="utf-8") as f:f.write(prompt)
+        print("Prompt length:", len(prompt))
+        print("Prompt preview:")
+        print(prompt[:3000])
+        print("END PROMPT PREVIEW")
+        print("Prompt built.")
+
         messages = [
-            {"role": "user", "content": build_prompt(transcribed_text)},
+            {"role": "user", "content": prompt},
         ]
 
-        # run the agent loop (tool-calling happens inside)
+        print("6. Calling agent...")
         response = run_agent(messages)
+        print("Agent finished.")
 
-        # save the reply
+        print("7. Saving assistant message...")
         add_message(CONVERSATION_ID, "assistant", response)
 
+        print("8. Speaking...")
         speak(response)
+
+        print("Done.")
 
 
 if __name__ == "__main__":

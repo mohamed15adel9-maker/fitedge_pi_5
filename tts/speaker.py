@@ -1,7 +1,8 @@
+
 from pathlib import Path
 from piper import PiperVoice
 import wave
-import winsound
+import subprocess
 
 VOICE_PATH = Path("tts/voices/en_US-john-medium.onnx")
 
@@ -12,9 +13,13 @@ voice = PiperVoice.load(str(VOICE_PATH))
 def speak(text):
     output_file = "audio/response.wav"
 
+    # Generate speech
     with wave.open(output_file, "wb") as wav_file:
         voice.synthesize_wav(text, wav_file)
 
-    winsound.PlaySound(output_file, winsound.SND_FILENAME)
+    # Play through PipeWire's default audio sink.
+    # The default sink is currently Devia-EM019 (Bluetooth headphones).
+    subprocess.run(["pw-play", output_file], check=True)
 
     return output_file
+

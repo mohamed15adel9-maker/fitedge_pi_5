@@ -1,70 +1,188 @@
+
 import json
 
-from brain.llm import think            # must accept a messages list (see note below)
-from tools.executor import run_tool    # your dispatcher: run_tool(name, args) -> result
+from brain.llm import think
+from tools.executor import run_tool
 
-MAX_ROUNDS = 5   # safety valve — never loop forever
+
+MAX_ROUNDS = 3
 
 
 def try_parse_tool_request(reply_text):
     """
-    Decide whether the LLM's reply is a tool request or a final answer.
-    Returns {"tool": ..., "args": {...}} if it's a tool request, else None.
+    Parse the JSON tool request returned by brain.llm.think().
+
+    Expected format:
+
+    {
+        "tool": "get_active_goals",
+        "args": {}
+    }
     """
+
+    if not reply_text:
+        return None
+
+    text = reply_text.strip()
+
     try:
-        data = json.loads(reply_text.strip())
+        data = json.loads(text)
     except (json.JSONDecodeError, ValueError):
-        return None            # not JSON → it's a normal answer
+        return None
 
-    if isinstance(data, dict) and "tool" in data:
-        # make sure there's always an args dict so callers can rely on it
-        if "args" not in data or not isinstance(data["args"], dict):
-            data["args"] = {}
-        return data
+    if not isinstance(data, dict):
+        return None
 
-    return None                # JSON but not a tool request → treat as answer
+    if "tool" not in data:
+        return None
+
+    tool_name = data.get("tool")
+
+    if not isinstance(tool_name, str) or not tool_name.strip():
+        return None
+
+    args = data.get("args", {})
+
+    if not isinstance(args, dict):
+        args = {}
+
+    return {
+        "tool": tool_name.strip(),
+        "args": args,
+    }
 
 
 def run_agent(messages):
     """
-    messages: a list like
-        [{"role": "system", "content": ...},
-         {"role": "user",   "content": ...}]
-    Returns the final text answer (str).
+    Run the FitEdge agent.
+
+    brain.llm.think() returns a string:
+
+    Normal answer:
+        "You don't have any active goals."
+
+    Tool request:
+        {"tool":"get_active_goals","args":{}}
+
+    The agent executes the tool and sends the result
+    back to the LLM for the final answer.
     """
+
     for round_number in range(MAX_ROUNDS):
 
-        # 1. Ask the LLM with the full conversation so far.
+        print(
+            f"Agent round {round_number + 1}/{MAX_ROUNDS}",
+            flush=True,
+        )
+
+        # -----------------------------------------------------
+        # ASK LLM
+        # -----------------------------------------------------
+
         reply = think(messages)
 
-        # 2. Tool request or final answer?
+        if not reply:
+            return "I couldn't generate a response."
+
+        print(
+            f"LLM reply: {reply[:500]}",
+            flush=True,
+        )
+
+        # -----------------------------------------------------
+        # CHECK FOR TOOL REQUEST
+        # -----------------------------------------------------
+
         request = try_parse_tool_request(reply)
 
-        # 3a. Normal answer → done.
-        if request is None:
-            return reply
+        # -----------------------------------------------------
+        # NORMAL ANSWER
+        # -----------------------------------------------------
 
-        # 3b. It wants a tool → run it.
+        if request is None:
+
+            print(
+                "Agent produced final answer.",
+                flush=True,
+            )
+
+            return reply.strip()
+
+        # -----------------------------------------------------
+        # TOOL REQUEST
+        # -----------------------------------------------------
+
         tool_name = request["tool"]
         tool_args = request["args"]
 
-        try:
-            result = run_tool(tool_name, tool_args)
-        except Exception as e:
-            # If the tool fails, tell the LLM instead of crashing —
-            # it gets another round to recover (e.g. fix a bad query).
-            result = f"ERROR running tool '{tool_name}': {e}"
+        print(
+            f"Agent requested tool: {tool_name}",
+            flush=True,
+        )
 
-        # 4. Record what happened, so next round the LLM sees:
-        #    - that it asked for a tool (its own request)
-        #    - what the tool returned
-        messages.append({"role": "assistant", "content": reply})
+        print(
+            f"Tool arguments: {tool_args}",
+            flush=True,
+        )
+
+        # -----------------------------------------------------
+        # EXECUTE TOOL
+        # -----------------------------------------------------
+
+        try:
+
+            result = run_tool(
+                tool_name,
+                tool_args,
+            )
+
+        except Exception as e:
+
+            result = (
+                f"ERROR running tool '{tool_name}': "
+                f"{type(e).__name__}: {e}"
+            )
+
+        print(
+            f"Tool result: {str(result)[:500]}",
+            flush=True,
+        )
+
+        # -----------------------------------------------------
+        # SEND TOOL RESULT BACK TO LLM
+        # -----------------------------------------------------
+
+        # The LLM originally requested the tool.
         messages.append({
-            "role": "user",
-            "content": f"Tool '{tool_name}' returned: {result}"
+            "role": "assistant",
+            "content": reply,
         })
 
-        # loop continues → LLM now reasons with the new information
+        # Give the tool result to the LLM.
+        messages.append({
+            "role": "user",
+            "content": (
+                f"TOOL RESULT\n"
+                f"Tool: {tool_name}\n"
+                f"Result: {result}\n\n"
+                f"Use this result to answer the user's original request."
+            ),
+        })
 
-    # 5. Safety valve — too many rounds without a final answer.
-    return "Sorry, I couldn't complete that request. Please try again."
+        # Continue to next round.
+        # The LLM should now produce the final answer.
+
+    # ---------------------------------------------------------
+    # MAX ROUNDS
+    # ---------------------------------------------------------
+
+    print(
+        "Agent stopped: maximum tool rounds reached.",
+        flush=True,
+    )
+
+    return (
+        "I couldn't complete the request within "
+        "the allowed number of tool calls."
+    )
+
