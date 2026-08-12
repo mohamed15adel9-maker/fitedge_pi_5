@@ -12,7 +12,7 @@ def record_audio(filename="audio/recording.wav", duration=5):
     audio = sd.rec(
         int(duration * RECORD_RATE),
         samplerate=RECORD_RATE,
-        device=1,          # USB PnP microphone
+        device=0,          # USB PnP microphone
         channels=1,
         dtype=np.int16
     )

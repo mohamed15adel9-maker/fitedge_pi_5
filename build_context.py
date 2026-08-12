@@ -1,7 +1,7 @@
-
 from memory.manager import get_all_facts, get_recent_messages
 from brain.prompts import system_prompt
 from rag.retrieval import retrieve
+
 
 USER_ID = 1
 CONVERSATION_ID = "default"
@@ -12,7 +12,10 @@ MAX_HISTORY_MESSAGES = 4
 def build_context(user_message):
     parts = []
 
-    # --- RAG knowledge ---
+    # ---------------------------------------------------------
+    # RAG knowledge
+    # ---------------------------------------------------------
+
     knowledge = retrieve(user_message)
 
     if knowledge and not knowledge.startswith("No relevant"):
@@ -20,7 +23,10 @@ def build_context(user_message):
             "RELEVANT KNOWLEDGE:\n" + knowledge
         )
 
-    # --- User facts ---
+    # ---------------------------------------------------------
+    # User facts
+    # ---------------------------------------------------------
+
     facts = get_all_facts(USER_ID)
 
     if facts:
@@ -28,11 +34,15 @@ def build_context(user_message):
             f"{fact['key']}: {fact['value']}"
             for fact in facts
         )
+
         parts.append(
             "USER FACTS:\n" + fact_text
         )
 
-    # --- Recent conversation ---
+    # ---------------------------------------------------------
+    # Recent conversation
+    # ---------------------------------------------------------
+
     msgs = get_recent_messages(
         CONVERSATION_ID,
         limit=MAX_HISTORY_MESSAGES
@@ -52,10 +62,26 @@ def build_context(user_message):
 
 
 def build_prompt(user_message):
-    return (
-        system_prompt()
-        + "\n\n"
-        + build_context(user_message)
-        + "\n\nUSER:\n"
-        + user_message
-    )
+    """
+    Build Ollama-compatible chat messages.
+
+    Returns a list of dictionaries instead of one giant string.
+    """
+
+    context = build_context(user_message)
+
+    system_content = system_prompt()
+
+    if context:
+        system_content += "\n\n" + context
+
+    return [
+        {
+            "role": "system",
+            "content": system_content,
+        },
+        {
+            "role": "user",
+            "content": user_message,
+        },
+    ]
