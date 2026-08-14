@@ -43,24 +43,24 @@ from tools.intervals import get_recent_activities, get_activity_details, get_wel
 USER_ID = 1
 
 
-def run_tool(name, args,user_id):
+def run_tool(name, args,user_ID):
     """Execute one FitEdge tool and return its result."""
 
     # =====================================================
     # DATABASE — READ  (user_id injected here)
     # =====================================================
     if name == "get_active_goals":
-        return get_active_goals(USER_ID)
+        return get_active_goals(user_ID)
     if name == "get_latest_measurement":
-        return get_latest_measurement(USER_ID)
+        return get_latest_measurement(user_ID)
     if name == "get_active_injuries":
-        return get_active_injuries(USER_ID)
+        return get_active_injuries(user_ID)
     if name == "get_recent_workouts_db":
-        return get_workouts(USER_ID, limit=args.get("limit", 5))
+        return get_workouts(user_ID, limit=args.get("limit", 5))
     if name == "get_user_fact":
-        return get_fact(USER_ID, args.get("key", ""))
+        return get_fact(user_ID, args.get("key", ""))
     if name == "get_user_profile":
-        return get_user(USER_ID)
+        return get_user(user_ID)
 
     # =====================================================
     # DATABASE — WRITE
@@ -77,7 +77,7 @@ def run_tool(name, args,user_id):
 
     if name == "create_goal":
         goal_id = db_create_goal(
-            user_id=USER_ID,
+            user_id= user_ID,
             title=args.get("title"),
             description=args.get("description"),
             priority=args.get("priority"),
@@ -90,7 +90,7 @@ def run_tool(name, args,user_id):
 
     if name == "create_measurement":
         measurement_id = db_create_measurement(
-            user_id=USER_ID,
+            user_id=user_ID,
             date=args.get("date"),
             weight=args.get("weight"),
             body_fat=args.get("body_fat"),
@@ -112,7 +112,7 @@ def run_tool(name, args,user_id):
 
     if name == "create_injury":
         injury_id = db_create_injury(
-            user_id=USER_ID,
+            user_id=user_ID,
             body_part=args.get("body_part"),
             description=args.get("description"),
             severity=args.get("severity"),
@@ -124,7 +124,7 @@ def run_tool(name, args,user_id):
 
     if name == "create_fact":
         fact_id = db_create_fact(
-            user_id=USER_ID,
+            user_id=user_ID,
             key=args.get("key"),
             value=args.get("value"),
             confidence=args.get("confidence", 1.0),

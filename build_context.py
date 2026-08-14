@@ -27,7 +27,7 @@ def build_context(user_message,user_id):
     # User facts
     # ---------------------------------------------------------
 
-    facts = get_all_facts(USER_ID)
+    facts = get_all_facts(user_id)
 
     if facts:
         fact_text = "\n".join(
