@@ -8,11 +8,19 @@ def record_audio(filename="audio/recording.wav", duration=5):
     TARGET_RATE = 16000
 
     print("Recording... Speak now!")
+    print("Default devices:", sd.default.device)
+    print(sd.query_devices())
+    for i, d in enumerate(sd.query_devices()):
+        if d["max_input_channels"] > 0:
+            temp = i
+            break
+
+    print("Recording from device:", temp)
 
     audio = sd.rec(
         int(duration * RECORD_RATE),
         samplerate=RECORD_RATE,
-        device=0,          # USB PnP microphone
+        device=temp,          # USB PnP microphone
         channels=1,
         dtype=np.int16
     )

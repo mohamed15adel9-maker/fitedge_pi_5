@@ -1,413 +1,141 @@
-import json
+"""
+brain/agent.py
+
+Hybrid agent:
+  route → tool group → BOUNDED NATIVE TOOL LOOP → build_context → final answer
+
+The loop feeds each tool result back to the model as a native role:"tool"
+message, so the model can call another tool if genuinely needed, up to
+MAX_ROUNDS. RAG/facts/history are added ONLY at the final-answer stage.
+"""
 
 from brain.llm import (
-    think,
+    route_request,
+    chat_with_tools,
     generate_final_answer,
-    generate_general_answer,
 )
-
 from tools.executor import run_tool
-
 from build_context import build_context
 
+MAX_ROUNDS = 5
 
-MAX_ROUNDS = 3
+# Single-user system: the DB tools operate on this user.
+USER_ID = 1
 
-
-# =========================================================
-# TOOL REQUEST PARSER
-# =========================================================
-
-def try_parse_tool_request(reply_text):
-    """
-    Parse the JSON tool request returned by brain.llm.think().
-
-    Expected:
-
-    {
-        "tool": "get_active_goals",
-        "args": {}
-    }
-    """
-
-    if not reply_text:
-        return None
-
-    text = reply_text.strip()
-
-    try:
-        data = json.loads(text)
-
-    except (json.JSONDecodeError, ValueError):
-        return None
-
-    if not isinstance(data, dict):
-        return None
-
-    if "tool" not in data:
-        return None
-
-    tool_name = data.get("tool")
-
-    if not isinstance(tool_name, str):
-        return None
-
-    if not tool_name.strip():
-        return None
-
-    args = data.get("args", {})
-
-    if not isinstance(args, dict):
-        args = {}
-
-    return {
-        "tool": tool_name.strip(),
-        "args": args,
-    }
-
-
-# =========================================================
-# GET ORIGINAL USER MESSAGE
-# =========================================================
 
 def get_user_message(messages):
-    """
-    Extract the original user request.
-
-    We intentionally ignore TOOL RESULT messages.
-    """
-
+    """Extract the latest real user request (ignore tool-result messages)."""
     for message in reversed(messages):
-
         if not isinstance(message, dict):
             continue
-
         if message.get("role") != "user":
             continue
-
         content = message.get("content", "")
-
-        if not content:
-            continue
-
-        if str(content).startswith("TOOL RESULT"):
-            continue
-
-        return str(content)
-
+        if content:
+            return str(content)
     return ""
 
 
-# =========================================================
-# AGENT
-# =========================================================
-
 def run_agent(messages):
-    """
-    Run the FitEdge agent.
-
-    Architecture:
-
-        User request
-             ↓
-        Qwen router
-             ↓
-        Domain
-             ↓
-        Minimal Qwen tool selection
-             ↓
-        Native tool call
-             ↓
-        Python executor
-             ↓
-        Tool result
-             ↓
-        Build rich context
-             ├── RAG
-             ├── user facts
-             └── recent conversation
-             ↓
-        Qwen final answer
-             ↓
-        Return answer
-    """
-
-    # -----------------------------------------------------
-    # GET ORIGINAL USER REQUEST
-    # -----------------------------------------------------
-
     user_message = get_user_message(messages)
-
     if not user_message:
-
-        print(
-            "Agent: Could not find user message.",
-            flush=True,
-        )
-
         return "I couldn't determine what you are asking."
 
-    print(
-        f"Agent user request: {user_message}",
-        flush=True,
-    )
+    print(f"Agent: user request -> {user_message}", flush=True)
 
-    # =====================================================
-    # ROUND 1
-    #
-    # Router + native tool selection.
-    #
-    # IMPORTANT:
-    # We DO NOT send RAG/facts/history here.
-    # =====================================================
+    # -----------------------------------------------------
+    # 1. ROUTE
+    # -----------------------------------------------------
+    domain = route_request(user_message)
+    print(f"Agent: domain -> {domain}", flush=True)
 
-    print(
-        "Agent round 1/3",
-        flush=True,
-    )
+    # -----------------------------------------------------
+    # 2. "none" -> no tools, answer with context directly
+    # -----------------------------------------------------
+    if domain == "none":
+        context = _safe_context(user_message)
+        return generate_final_answer(user_message, tool_summary="", context=context)
 
+    # -----------------------------------------------------
+    # 3. BOUNDED NATIVE TOOL LOOP
+    # -----------------------------------------------------
+    loop_messages = [
+        {"role": "system", "content":
+            "Use tools to gather what you need. When done, stop calling tools."},
+        {"role": "user", "content": user_message},
+    ]
+    tool_summaries = []
+
+    for round_num in range(1, MAX_ROUNDS + 1):
+        print(f"Agent: tool round {round_num}/{MAX_ROUNDS}", flush=True)
+
+        reply = chat_with_tools(loop_messages, domain)
+
+        # Append the assistant turn (may contain tool_calls) to the history.
+        loop_messages.append({
+            "role": "assistant",
+            "content": reply.content or "",
+            "tool_calls": reply.tool_calls or [],
+        })
+
+        # No tool calls -> the model is done gathering.
+        if not reply.tool_calls:
+            print("Agent: no more tool calls; exiting loop.", flush=True)
+            break
+
+        # Execute each requested tool and feed results back natively.
+        for call in reply.tool_calls:
+            name = call.function.name
+            args = dict(call.function.arguments or {})
+
+            # Inject user_id for DB tools that need it.
+            args = _inject_user_id(name, args)
+
+            print(f"Agent: calling {name} args={args}", flush=True)
+            try:
+                result = run_tool(name, args)
+            except Exception as e:
+                result = f"ERROR: {type(e).__name__}: {e}"
+
+            result_text = str(result)
+            print(f"Agent: {name} -> {result_text[:300]}", flush=True)
+            tool_summaries.append(f"{name}: {result_text}")
+
+            loop_messages.append({
+                "role": "tool",
+                "content": result_text,
+            })
+
+    # -----------------------------------------------------
+    # 4. BUILD CONTEXT (RAG + facts + history) — final stage only
+    # -----------------------------------------------------
+    context = _safe_context(user_message)
+
+    # -----------------------------------------------------
+    # 5. FINAL ANSWER
+    # -----------------------------------------------------
+    tool_summary = "\n".join(tool_summaries)
+    return generate_final_answer(user_message, tool_summary=tool_summary, context=context)
+
+
+# ---------------------------------------------------------
+# helpers
+# ---------------------------------------------------------
+def _inject_user_id(name, args):
+    """DB tools operate on the single user; add user_id if the tool needs it."""
+    db_tools_needing_user = {
+        "get_active_goals", "get_latest_measurement", "get_active_injuries",
+        "get_recent_workouts_db", "get_user_fact", "get_user_profile",
+        "create_goal", "create_measurement", "create_injury", "create_fact",
+    }
+    if name in db_tools_needing_user:
+        args.setdefault("user_id", USER_ID)
+    return args
+
+
+def _safe_context(user_message):
     try:
-
-        reply, tool_group = think(
-            [
-                {
-                    "role": "user",
-                    "content": user_message,
-                }
-            ],
-            tool_group=None,
-        )
-
+        return build_context(user_message)
     except Exception as e:
-
-        print(
-            f"Agent error during tool selection: "
-            f"{type(e).__name__}: {e}",
-            flush=True,
-        )
-
-        return "I couldn't generate a response."
-
-    if not reply:
-
-        print(
-            "Agent: Empty response from tool selector.",
-            flush=True,
-        )
-
-        return "I couldn't generate a response."
-
-    print(
-        f"Agent tool group: {tool_group}",
-        flush=True,
-    )
-
-    print(
-        f"LLM tool-selection reply: {reply[:500]}",
-        flush=True,
-    )
-
-    # =====================================================
-    # NO TOOL REQUEST
-    # =====================================================
-
-    request = try_parse_tool_request(
-        reply
-    )
-
-    if request is None:
-
-        # -------------------------------------------------
-        # If domain was "none", this is a normal question.
-        #
-        # Now we can safely build the rich context.
-        # -------------------------------------------------
-
-        print(
-            "Agent: No tool request.",
-            flush=True,
-        )
-
-        print(
-            "Agent: Building context for final answer...",
-            flush=True,
-        )
-
-        try:
-
-            context = build_context(
-                user_message
-            )
-
-        except Exception as e:
-
-            print(
-                f"Context error: "
-                f"{type(e).__name__}: {e}",
-                flush=True,
-            )
-
-            context = ""
-
-        print(
-            f"Agent: Context length: {len(context)}",
-            flush=True,
-        )
-
-        # -------------------------------------------------
-        # GENERAL ANSWER
-        # -------------------------------------------------
-
-        try:
-
-            final_answer = generate_general_answer(
-                user_message=user_message,
-                context=context,
-            )
-
-        except Exception as e:
-
-            print(
-                f"Final answer error: "
-                f"{type(e).__name__}: {e}",
-                flush=True,
-            )
-
-            return "I couldn't generate a response."
-
-        if not final_answer:
-
-            return "I couldn't generate a response."
-
-        print(
-            "Agent: Final answer generated.",
-            flush=True,
-        )
-
-        return final_answer
-
-    # =====================================================
-    # TOOL REQUEST
-    # =====================================================
-
-    tool_name = request["tool"]
-    tool_args = request["args"]
-
-    print(
-        f"Agent requested tool: {tool_name}",
-        flush=True,
-    )
-
-    print(
-        f"Tool arguments: {tool_args}",
-        flush=True,
-    )
-
-    # =====================================================
-    # EXECUTE TOOL
-    # =====================================================
-
-    try:
-
-        result = run_tool(
-            tool_name,
-            tool_args,
-        )
-
-    except Exception as e:
-
-        result = {
-            "success": False,
-            "error": (
-                f"{type(e).__name__}: {e}"
-            ),
-        }
-
-    print(
-        f"Tool result: {str(result)[:1000]}",
-        flush=True,
-    )
-
-    # =====================================================
-    # BUILD RICH CONTEXT
-    #
-    # THIS IS WHERE RAG NOW GOES.
-    #
-    # Tool selection has already finished.
-    # =====================================================
-
-    print(
-        "Agent: Building rich final-answer context...",
-        flush=True,
-    )
-
-    try:
-
-        context = build_context(
-            user_message
-        )
-
-    except Exception as e:
-
-        print(
-            f"Context error: "
-            f"{type(e).__name__}: {e}",
-            flush=True,
-        )
-
-        context = ""
-
-    print(
-        f"Agent: Rich context length: "
-        f"{len(context)}",
-        flush=True,
-    )
-
-    # =====================================================
-    # FINAL QWEN ANSWER
-    # =====================================================
-
-    print(
-        "Agent: Sending tool result + context "
-        "to final Qwen...",
-        flush=True,
-    )
-
-    try:
-
-        final_answer = generate_final_answer(
-            user_message=user_message,
-            tool_name=tool_name,
-            tool_result=result,
-            context=context,
-        )
-
-    except Exception as e:
-
-        print(
-            f"Final answer error: "
-            f"{type(e).__name__}: {e}",
-            flush=True,
-        )
-
-        return "I couldn't generate a response."
-
-    # =====================================================
-    # FINAL RESULT
-    # =====================================================
-
-    if not final_answer:
-
-        return "I couldn't generate a response."
-
-    print(
-        "Agent: Final answer generated.",
-        flush=True,
-    )
-
-    print(
-        f"Final answer: {final_answer[:500]}",
-        flush=True,
-    )
-
-    return final_answer
+        print(f"Agent: context error {type(e).__name__}: {e}", flush=True)
+        return ""

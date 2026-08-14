@@ -2,7 +2,7 @@ from recorder.recorder import record_audio
 from speech.transcriber import transcribe
 from tts.speaker import speak
 from wakeword.detector import wait_for_wake_word
-
+from cleaning_speech import clean_for_speech
 from brain.agent import run_agent
 
 from memory.manager import add_message
@@ -156,6 +156,7 @@ def main():
         # current user message as old conversation history.
         # -----------------------------------------------------
 
+        speech = clean_for_speech(response)
         print("6. Saving conversation...")
 
         add_message(
@@ -173,11 +174,12 @@ def main():
         # -----------------------------------------------------
         # 7. SPEAK RESPONSE
         # -----------------------------------------------------
+        
 
         print("7. Speaking...")
 
         speak(
-            response
+            speech
         )
 
         print("Done.")

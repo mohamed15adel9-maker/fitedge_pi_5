@@ -17,7 +17,10 @@ model = Model(
 )
 
 def wait_for_wake_word():
+    model.reset()
     start_microphone()
+    for _ in range(3):
+        get_microphone_chunk()
     print("Waiting for wake word...")
 
     debug_audio = []      # <-- add this
