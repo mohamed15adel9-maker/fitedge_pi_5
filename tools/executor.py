@@ -43,7 +43,7 @@ from tools.intervals import get_recent_activities, get_activity_details, get_wel
 USER_ID = 1
 
 
-def run_tool(name, args):
+def run_tool(name, args,user_id):
     """Execute one FitEdge tool and return its result."""
 
     # =====================================================

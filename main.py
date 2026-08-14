@@ -141,7 +141,7 @@ def main():
         print("5. Calling agent...")
 
         response = run_agent(
-            messages
+            messages,1
         )
 
         print("Agent finished.")

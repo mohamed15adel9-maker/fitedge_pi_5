@@ -1,12 +1,14 @@
 """
 brain/agent.py
 
-Hybrid agent:
-  route → tool group → BOUNDED NATIVE TOOL LOOP → build_context → final answer
+Hybrid agent with MULTI-DOMAIN routing:
+  route (-> list of domains) -> BOUNDED NATIVE TOOL LOOP -> build_context -> final answer
 
 The loop feeds each tool result back to the model as a native role:"tool"
 message, so the model can call another tool if genuinely needed, up to
 MAX_ROUNDS. RAG/facts/history are added ONLY at the final-answer stage.
+
+user_id is passed in (multi-user): it flows main -> run_agent -> run_tool.
 """
 
 from brain.llm import (
@@ -19,12 +21,9 @@ from build_context import build_context
 
 MAX_ROUNDS = 5
 
-# Single-user system: the DB tools operate on this user.
-USER_ID = 1
-
 
 def get_user_message(messages):
-    """Extract the latest real user request (ignore tool-result messages)."""
+    """Extract the latest real user request."""
     for message in reversed(messages):
         if not isinstance(message, dict):
             continue
@@ -36,7 +35,7 @@ def get_user_message(messages):
     return ""
 
 
-def run_agent(messages):
+def run_agent(messages, user_id):
     user_message = get_user_message(messages)
     if not user_message:
         return "I couldn't determine what you are asking."
@@ -44,24 +43,25 @@ def run_agent(messages):
     print(f"Agent: user request -> {user_message}", flush=True)
 
     # -----------------------------------------------------
-    # 1. ROUTE
+    # 1. ROUTE  (returns a LIST of domains)
     # -----------------------------------------------------
-    domain = route_request(user_message)
-    print(f"Agent: domain -> {domain}", flush=True)
+    domains = route_request(user_message)
+    print(f"Agent: domains -> {domains}", flush=True)
 
     # -----------------------------------------------------
-    # 2. "none" -> no tools, answer with context directly
+    # 2. "none" only -> no tools, answer with context directly
     # -----------------------------------------------------
-    if domain == "none":
-        context = _safe_context(user_message)
+    if domains == ["none"]:
+        context = _safe_context(user_message, user_id)
         return generate_final_answer(user_message, tool_summary="", context=context)
 
     # -----------------------------------------------------
-    # 3. BOUNDED NATIVE TOOL LOOP
+    # 3. BOUNDED NATIVE TOOL LOOP (across all routed domains)
     # -----------------------------------------------------
     loop_messages = [
         {"role": "system", "content":
-            "Use tools to gather what you need. When done, stop calling tools."},
+            "Use tools to gather what you need. For multi-step requests, gather "
+            "all needed information first, then act. When done, stop calling tools."},
         {"role": "user", "content": user_message},
     ]
     tool_summaries = []
@@ -69,31 +69,25 @@ def run_agent(messages):
     for round_num in range(1, MAX_ROUNDS + 1):
         print(f"Agent: tool round {round_num}/{MAX_ROUNDS}", flush=True)
 
-        reply = chat_with_tools(loop_messages, domain)
+        reply = chat_with_tools(loop_messages, domains)
 
-        # Append the assistant turn (may contain tool_calls) to the history.
         loop_messages.append({
             "role": "assistant",
             "content": reply.content or "",
             "tool_calls": reply.tool_calls or [],
         })
 
-        # No tool calls -> the model is done gathering.
         if not reply.tool_calls:
             print("Agent: no more tool calls; exiting loop.", flush=True)
             break
 
-        # Execute each requested tool and feed results back natively.
         for call in reply.tool_calls:
             name = call.function.name
             args = dict(call.function.arguments or {})
 
-            # Inject user_id for DB tools that need it.
-            args = _inject_user_id(name, args)
-
             print(f"Agent: calling {name} args={args}", flush=True)
             try:
-                result = run_tool(name, args)
+                result = run_tool(name, args, user_id)
             except Exception as e:
                 result = f"ERROR: {type(e).__name__}: {e}"
 
@@ -107,9 +101,9 @@ def run_agent(messages):
             })
 
     # -----------------------------------------------------
-    # 4. BUILD CONTEXT (RAG + facts + history) — final stage only
+    # 4. BUILD CONTEXT (RAG + facts + history) - final stage only
     # -----------------------------------------------------
-    context = _safe_context(user_message)
+    context = _safe_context(user_message, user_id)
 
     # -----------------------------------------------------
     # 5. FINAL ANSWER
@@ -121,21 +115,9 @@ def run_agent(messages):
 # ---------------------------------------------------------
 # helpers
 # ---------------------------------------------------------
-def _inject_user_id(name, args):
-    """DB tools operate on the single user; add user_id if the tool needs it."""
-    db_tools_needing_user = {
-        "get_active_goals", "get_latest_measurement", "get_active_injuries",
-        "get_recent_workouts_db", "get_user_fact", "get_user_profile",
-        "create_goal", "create_measurement", "create_injury", "create_fact",
-    }
-    if name in db_tools_needing_user:
-        args.setdefault("user_id", USER_ID)
-    return args
-
-
-def _safe_context(user_message):
+def _safe_context(user_message, user_id):
     try:
-        return build_context(user_message)
+        return build_context(user_message, user_id)
     except Exception as e:
         print(f"Agent: context error {type(e).__name__}: {e}", flush=True)
         return ""

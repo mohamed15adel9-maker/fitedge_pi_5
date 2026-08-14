@@ -9,7 +9,7 @@ CONVERSATION_ID = "default"
 MAX_HISTORY_MESSAGES = 4
 
 
-def build_context(user_message):
+def build_context(user_message,user_id):
     parts = []
 
     # ---------------------------------------------------------

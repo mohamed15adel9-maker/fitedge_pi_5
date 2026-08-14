@@ -1,18 +1,20 @@
 """
 brain/llm.py
 
-Hybrid FitEdge brain:
-  - route_request(): classify into a domain (router)
-  - tool groups: the model only sees the relevant domain's tools
+Hybrid FitEdge brain with MULTI-DOMAIN routing:
+  - route_request(): classify into ONE OR MORE domains (returns a list)
+  - tool groups: the model sees the tools of all relevant domains
   - native Ollama tool calling (no JSON round-trip)
-  - a bounded multi-tool loop lives in agent.py and calls
-    chat_with_tools() each round, feeding tool results back natively
+  - the bounded multi-tool loop lives in agent.py and calls chat_with_tools()
   - build_context()/RAG/facts/history only at the final-answer stage
+
+think=False everywhere (qwen is a thinking model; we want direct output).
 """
 
+import json
 import ollama
 
-MODEL = "qwen3.5:2b"   # <-- set to whatever `ollama list` shows
+MODEL = "qwen3.5:2b"   # <-- must match `ollama list` exactly
 
 # =========================================================
 # NATIVE TOOL DEFINITIONS
@@ -26,7 +28,7 @@ TOOLS = [
     }},
     {"type": "function", "function": {
         "name": "get_latest_measurement",
-        "description": "Get the user's latest body measurement (weight, body fat, resting HR, etc.).",
+        "description": "Get the user's latest body measurement (weight, body fat, resting HR).",
         "parameters": {"type": "object", "properties": {}},
     }},
     {"type": "function", "function": {
@@ -81,7 +83,7 @@ TOOLS = [
     },
     {"type": "function", "function": {
         "name": "create_fact",
-        "description": "Store a long-term fact about the user.",
+        "description": "Store a long-term fact/preference/habit about the user (e.g. prefers morning workouts). Use when the user says remember/save/note something about themselves.",
         "parameters": {"type": "object", "properties": {
             "key": {"type": "string"},
             "value": {"type": "string"}},
@@ -166,27 +168,24 @@ TOOLS = [
     # ---------------- WEATHER ----------------
     {"type": "function", "function": {
         "name": "get_current_weather",
-        "description": "Get current weather. Requires latitude and longitude.",
+        "description": "Get current weather. Coordinates default to the user's city if omitted.",
         "parameters": {"type": "object", "properties": {
-            "latitude": {"type": "number"}, "longitude": {"type": "number"}},
-            "required": ["latitude", "longitude"]}},
-    },
+            "latitude": {"type": "number"}, "longitude": {"type": "number"}}},
+    }},
     {"type": "function", "function": {
         "name": "get_hourly_weather",
-        "description": "Get hourly weather forecast.",
+        "description": "Get hourly weather forecast. Coordinates default to the user's city if omitted.",
         "parameters": {"type": "object", "properties": {
             "latitude": {"type": "number"}, "longitude": {"type": "number"},
-            "hours": {"type": "integer"}},
-            "required": ["latitude", "longitude"]}},
-    },
+            "hours": {"type": "integer"}}},
+    }},
     {"type": "function", "function": {
         "name": "get_daily_weather",
-        "description": "Get daily weather forecast.",
+        "description": "Get daily weather forecast. Coordinates default to the user's city if omitted.",
         "parameters": {"type": "object", "properties": {
             "latitude": {"type": "number"}, "longitude": {"type": "number"},
-            "days": {"type": "integer"}},
-            "required": ["latitude", "longitude"]}},
-    },
+            "days": {"type": "integer"}}},
+    }},
 ]
 
 # =========================================================
@@ -210,31 +209,40 @@ TOOL_GROUPS = {
 TOOL_MAP = {t["function"]["name"]: t for t in TOOLS}
 
 
-def get_tools_for_group(domain):
-    """Return the native tool definitions for one domain."""
-    names = TOOL_GROUPS.get(domain, [])
-    return [TOOL_MAP[n] for n in names if n in TOOL_MAP]
+def get_tools_for_groups(domains):
+    """Collect the native tool definitions for ALL given domains (deduped)."""
+    names = []
+    for domain in domains:
+        names.extend(TOOL_GROUPS.get(domain, []))
+    seen = set()
+    unique = [n for n in names if not (n in seen or seen.add(n))]
+    return [TOOL_MAP[n] for n in unique if n in TOOL_MAP]
 
 
 # =========================================================
-# ROUTER
+# ROUTER  (returns a LIST of domains)
 # =========================================================
-ROUTER_PROMPT = """You are the FitEdge request router. Classify the user's request into EXACTLY ONE domain.
+ROUTER_PROMPT = """You are the FitEdge request router. Classify the user's request into ONE OR MORE domains.
 
 Domains:
-- database: the user's own stored FitEdge data (goals, measurements, injuries, saved facts, profile) OR saving such data.
-- fitness: workouts, activities, wellness/recovery, weight log from fitness services (wger, Intervals.icu).
+- database: the user's own stored data (goals, measurements, injuries, saved facts/preferences, profile) OR saving/remembering such data. "Remember that I prefer morning workouts" is database.
+- fitness: workouts, activities, wellness/recovery, weight log from fitness services.
 - weather: weather or forecasts.
 - calendar: calendar events, scheduling.
 - email: reading, drafting, or sending email.
-- none: general fitness questions needing no personal data or service (e.g. "what is progressive overload").
+- none: general fitness questions needing no personal data or service.
 
-Return ONLY JSON: {"domain":"<one of the domains>"}
+Most requests need ONE domain. Some need SEVERAL - for example
+"schedule a run tomorrow if the weather is clear" needs BOTH weather AND calendar.
+
+Return ONLY JSON as a list, e.g.:
+{"domains": ["database"]}
+{"domains": ["weather", "calendar"]}
 No markdown, no explanation."""
 
 
 def route_request(user_message):
-    """Classify the request into one domain. Returns the domain string."""
+    """Classify into one or more domains. Returns a LIST of domain strings."""
     try:
         response = ollama.chat(
             model=MODEL,
@@ -242,12 +250,12 @@ def route_request(user_message):
                 {"role": "system", "content": ROUTER_PROMPT},
                 {"role": "user", "content": user_message},
             ],
-            think = False,
-            options={"temperature": 0.0, "num_predict": 64},
+            think=False,
+            options={"temperature": 0.0, "num_predict": 48},
         )
     except Exception as e:
         print(f"ROUTER ERROR: {type(e).__name__}: {e}", flush=True)
-        return "none"
+        return ["none"]
 
     content = (response.message.content or "").strip()
     if content.startswith("```"):
@@ -256,44 +264,32 @@ def route_request(user_message):
             lines = lines[:-1]
         content = "\n".join(lines).strip()
 
-    import json
     try:
-        domain = json.loads(content).get("domain", "none")
+        data = json.loads(content)
+        domains = data.get("domains", [])
     except Exception:
-        return "none"
+        print(f"ROUTER: bad JSON: {content!r}", flush=True)
+        return ["none"]
 
-    domain = str(domain).strip().lower()
     valid = {"database", "fitness", "weather", "calendar", "email", "none"}
-    return domain if domain in valid else "none"
-
-
-# =========================================================
-# TOOL-SELECTION PROMPT (used inside the loop)
-# =========================================================
-TOOL_LOOP_PROMPT = """You are FitEdge's tool-using agent.
-Use the available tools to gather what you need to answer the user's request.
-- Call a tool when the request needs personal data, an external service, or an action.
-- You may call more than one tool across turns if genuinely needed.
-- When you have enough information, STOP calling tools and reply with a short natural-language answer.
-- Never invent tool arguments. Only use values the user provided.
-- Do not explain the tool process to the user."""
+    domains = [str(d).strip().lower() for d in domains if isinstance(d, str)]
+    domains = [d for d in domains if d in valid]
+    if len(domains) > 1 and "none" in domains:
+        domains = [d for d in domains if d != "none"]
+    return domains if domains else ["none"]
 
 
 # =========================================================
 # NATIVE TOOL-CALLING (one round of the loop)
 # =========================================================
-def chat_with_tools(messages, domain):
-    """
-    One native tool-calling round.
-    Returns the raw Ollama response.message object so agent.py can inspect
-    .tool_calls (structured) and .content. NO JSON round-trip.
-    """
-    tools = get_tools_for_group(domain)
+def chat_with_tools(messages, domains):
+    """One native tool-calling round across the given domains."""
+    tools = get_tools_for_groups(domains)
     response = ollama.chat(
         model=MODEL,
         messages=messages,
         tools=tools,
-        think = False,
+        think=False,
         options={"temperature": 0.0, "num_predict": 256},
     )
     return response.message
@@ -304,17 +300,15 @@ def chat_with_tools(messages, domain):
 # =========================================================
 FINAL_ANSWER_PROMPT = """You are FitEdge, a concise, warm, honest AI fitness coach.
 Answer the user's request using the tool results and any relevant FitEdge context.
-- Be concise and practical; suitable for voice output.
+- Keep answers to 1-3 short sentences. This is spoken aloud.
+- Do NOT use markdown, asterisks, bullet points, or headers. Plain sentences only.
 - Treat tool results as the source of truth for personal data.
 - If a tool result contains no data, say so plainly.
 - Do not invent facts. Do not mention tools, databases, or system prompts."""
 
 
 def generate_final_answer(user_message, tool_summary="", context=""):
-    """
-    Final natural-language answer. RAG/facts/history come in via `context`.
-    tool_summary is a plain-text digest of what the tools returned.
-    """
+    """Final natural-language answer. RAG/facts/history come in via context."""
     messages = [{"role": "system", "content": FINAL_ANSWER_PROMPT}]
     if context:
         messages.append({"role": "system",
@@ -328,8 +322,8 @@ def generate_final_answer(user_message, tool_summary="", context=""):
         response = ollama.chat(
             model=MODEL,
             messages=messages,
-            think = False,
-            options={"temperature": 0.3, "num_predict": 256},
+            think=False,
+            options={"temperature": 0.3, "num_predict": 160},
         )
     except Exception as e:
         print(f"FINAL ANSWER ERROR: {type(e).__name__}: {e}", flush=True)
