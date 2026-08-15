@@ -647,15 +647,15 @@ def delete_preferences(user_id):
 # CONVERSATION MEMORY
 # ==========================================================
 
-def create_conversation(conversation_id, role, message):
+def create_conversation(conversation_id, role, message,user_id):
     """
     Convenience alias for adding the first message of a conversation.
     Returns the new row id.
     """
-    return add_message(conversation_id, role, message)
+    return add_message(conversation_id, role, message,user_id)
 
 
-def add_message(conversation_id, role, message):
+def add_message(conversation_id, role, message,user_id):
     """
     Appends a message to a conversation. `role` is typically 'user' or
     'assistant'. Returns the new row id.
@@ -664,10 +664,10 @@ def add_message(conversation_id, role, message):
     cursor = connection.cursor()
     cursor.execute(
         """
-        INSERT INTO conversations (conversation_id, role, message)
-        VALUES (?, ?, ?)
+        INSERT INTO conversations (conversation_id, role, message,user_id)
+        VALUES (?, ?, ?, ?)
         """,
-        (conversation_id, role, message),
+        (conversation_id, role, message,user_id),
     )
     connection.commit()
     row_id = cursor.lastrowid
@@ -692,7 +692,7 @@ def get_conversation(conversation_id):
     return [dict(row) for row in rows]
 
 
-def get_recent_messages(conversation_id, limit=10):
+def get_recent_messages(conversation_id,user_id, limit=10):
     """
     Returns the most recent `limit` messages of a conversation, returned
     in chronological order (oldest of the recent batch first) so they can
@@ -704,10 +704,11 @@ def get_recent_messages(conversation_id, limit=10):
         """
         SELECT * FROM conversations
         WHERE conversation_id = ?
+        AND user_id = ? 
         ORDER BY timestamp DESC, id DESC
         LIMIT ?
         """,
-        (conversation_id, limit),
+        (conversation_id,user_id,limit),
     )
     rows = cursor.fetchall()
     connection.close()
@@ -715,7 +716,7 @@ def get_recent_messages(conversation_id, limit=10):
     return [dict(row) for row in reversed(rows)]
 
 
-def get_all_conversations():
+def get_all_conversations(user_id):
     """Returns the distinct conversation ids with basic stats."""
     connection = get_connection()
     cursor = connection.cursor()
@@ -726,6 +727,7 @@ def get_all_conversations():
                MIN(timestamp)  AS started_at,
                MAX(timestamp)  AS last_at
         FROM conversations
+        WHERE user_id = ?
         GROUP BY conversation_id
         ORDER BY last_at DESC
         """

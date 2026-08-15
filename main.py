@@ -35,10 +35,11 @@ def is_done_phrase(text):
 
 
 def main():
+    current_user_id = None
+    last_active = time.time()
 
     while True:
-        current_user_id = None
-        last_active = time.time()
+        
 
         # -----------------------------------------------------
         # 1. WAIT FOR WAKE WORD
@@ -95,7 +96,7 @@ def main():
         if not transcribed_text or not transcribed_text.strip():
             continue
 
-        if is_done_phrase(text):
+        if is_done_phrase(transcribed_text):
             speak("Goodbye!")
             current_user_id = None
             continue
@@ -196,7 +197,7 @@ def main():
         print("5. Calling agent...")
 
         response = run_agent(
-            messages,1
+            messages,current_user_id
         )
 
         print("Agent finished.")
@@ -214,16 +215,18 @@ def main():
         speech = clean_for_speech(response)
         print("6. Saving conversation...")
 
+        print(speech)
+
         add_message(
             CONVERSATION_ID,
             "user",
-            transcribed_text,
+            transcribed_text,current_user_id
         )
 
         add_message(
             CONVERSATION_ID,
             "assistant",
-            response,
+            response,user_id
         )
 
         # -----------------------------------------------------
