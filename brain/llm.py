@@ -200,8 +200,8 @@ TOOL_GROUPS = {
     "calendar": ["get_calendar_events", "add_calendar_event"],
     "email": ["draft_email", "send_email", "read_recent_emails"],
     "fitness": [
-        "get_recent_workouts", "get_weight_log", "add_weight_entry",
-        "get_recent_activities", "get_wellness", "get_activity_details",
+        "get_recent_workouts", "get_weight_log", 
+        "get_recent_activities", "get_wellness", "get_activity_details","create_goal"
     ],
     "weather": ["get_current_weather", "get_hourly_weather", "get_daily_weather"],
 }
@@ -222,23 +222,33 @@ def get_tools_for_groups(domains):
 # =========================================================
 # ROUTER  (returns a LIST of domains)
 # =========================================================
-ROUTER_PROMPT = """You are the FitEdge request router. Classify the user's request into ONE OR MORE domains.
+ROUTER_PROMPT = """
+You are the FitEdge router. Classify the user's request into one or more domains.
 
 Domains:
-- database: the user's own stored data (goals, measurements, injuries, saved facts/preferences, profile) OR saving/remembering such data. "Remember that I prefer morning workouts" is database.
-- fitness: workouts, activities, wellness/recovery, weight log from fitness services.
-- weather: weather or forecasts.
-- calendar: calendar events, scheduling.
-- email: reading, drafting, or sending email.
-- none: general fitness questions needing no personal data or service.
+- database: Read/write the user's stored data (goals, measurements, injuries, profile, preferences, facts). Also use when saving or remembering new information.
+- fitness: Workouts, exercises, activities, wellness, recovery, or fitness service data.
+- weather: Weather or forecasts.
+- calendar: Calendar events or scheduling.
+- email: Read, draft, reply to, or send emails.
+- none: General questions that require none of the above.
 
-Most requests need ONE domain. Some need SEVERAL - for example
-"schedule a run tomorrow if the weather is clear" needs BOTH weather AND calendar.
+Rules:
+- Return all required domains.
+- Use "database" whenever personal data is read or stored.
+- If a request stores fitness data (e.g., weight, goals), return both "database" and "fitness".
+- Never return "none" with another domain.
 
-Return ONLY JSON as a list, e.g.:
-{"domains": ["database"]}
-{"domains": ["weather", "calendar"]}
-No markdown, no explanation."""
+Examples:
+{"domains":["database"]}
+{"domains":["fitness"]}
+{"domains":["database","fitness"]}
+{"domains":["weather","calendar"]}
+{"domains":["none"]}
+
+Return ONLY valid JSON:
+{"domains":["domain1","domain2"]}
+"""
 
 
 def route_request(user_message):

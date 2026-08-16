@@ -3,7 +3,7 @@ from brain.prompts import system_prompt
 from rag.retrieval import retrieve
 
 
-USER_ID = 1
+#USER_ID = 1
 CONVERSATION_ID = "default"
 
 MAX_HISTORY_MESSAGES = 4
@@ -45,6 +45,7 @@ def build_context(user_message,user_id):
 
     msgs = get_recent_messages(
         CONVERSATION_ID,
+        user_id,
         limit=MAX_HISTORY_MESSAGES
     )
 
@@ -61,14 +62,14 @@ def build_context(user_message,user_id):
     return "\n\n".join(parts)
 
 
-def build_prompt(user_message):
+def build_prompt(user_message,user_id):
     """
     Build Ollama-compatible chat messages.
 
     Returns a list of dictionaries instead of one giant string.
     """
 
-    context = build_context(user_message)
+    context = build_context(user_message,user_id)
 
     system_content = system_prompt()
 

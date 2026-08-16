@@ -196,11 +196,15 @@ CREATE TABLE IF NOT EXISTS conversations (
 
     conversation_id TEXT NOT NULL,
 
+    user_id INTEGER,
+
     role TEXT NOT NULL,
 
     message TEXT NOT NULL,
 
-    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+    FOREIGN KEY(user_id) REFERENCES users(id)
 
 );
 
