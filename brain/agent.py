@@ -1,15 +1,4 @@
-"""
-brain/agent.py
 
-Hybrid agent with MULTI-DOMAIN routing:
-  route (-> list of domains) -> BOUNDED NATIVE TOOL LOOP -> build_context -> final answer
-
-The loop feeds each tool result back to the model as a native role:"tool"
-message, so the model can call another tool if genuinely needed, up to
-MAX_ROUNDS. RAG/facts/history are added ONLY at the final-answer stage.
-
-user_id is passed in (multi-user): it flows main -> run_agent -> run_tool.
-"""
 
 from brain.llm import (
     route_request,
@@ -42,22 +31,13 @@ def run_agent(messages, user_id):
 
     print(f"Agent: user request -> {user_message}", flush=True)
 
-    # -----------------------------------------------------
-    # 1. ROUTE  (returns a LIST of domains)
-    # -----------------------------------------------------
     domains = route_request(user_message)
     print(f"Agent: domains -> {domains}", flush=True)
 
-    # -----------------------------------------------------
-    # 2. "none" only -> no tools, answer with context directly
-    # -----------------------------------------------------
     if domains == ["none"]:
         context = _safe_context(user_message, user_id)
         return generate_final_answer(user_message, tool_summary="", context=context)
 
-    # -----------------------------------------------------
-    # 3. BOUNDED NATIVE TOOL LOOP (across all routed domains)
-    # -----------------------------------------------------
     loop_messages = [
         {"role": "system", "content":
             "Use tools to gather what you need. For multi-step requests, gather "
@@ -100,21 +80,12 @@ def run_agent(messages, user_id):
                 "content": result_text,
             })
 
-    # -----------------------------------------------------
-    # 4. BUILD CONTEXT (RAG + facts + history) - final stage only
-    # -----------------------------------------------------
     context = _safe_context(user_message, user_id)
 
-    # -----------------------------------------------------
-    # 5. FINAL ANSWER
-    # -----------------------------------------------------
     tool_summary = "\n".join(tool_summaries)
     return generate_final_answer(user_message, tool_summary=tool_summary, context=context)
 
 
-# ---------------------------------------------------------
-# helpers
-# ---------------------------------------------------------
 def _safe_context(user_message, user_id):
     try:
         return build_context(user_message, user_id)

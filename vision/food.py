@@ -1,20 +1,4 @@
-"""
-vision/food.py  (grid-tiling version)
 
-No food detector needed. We split the image into overlapping tiles,
-classify each tile with a Food-101 classifier, and collect the confident
-labels. Works best when foods are spatially separated on the plate.
-
-Also classifies the WHOLE image as a fallback / sanity check.
-
-Known limits:
-  - Foods that span tile borders may be split awkwardly.
-  - A tile that is mostly plate/background can misclassify -> we filter by
-    confidence and ignore low-confidence tiles.
-  - Food-101 only knows 101 dishes; unusual foods get the nearest dish.
-
-Requires: pip install transformers torch pillow opencv-python
-"""
 
 import cv2
 from pathlib import Path
@@ -31,12 +15,6 @@ TILE_CONF_MIN = 0.35     # a tile's top label must beat this to count
 WHOLE_CONF_MIN = 0.30    # whole-image label threshold
 TOPK_PER_TILE = 1        # how many labels to take from each tile
 
-# ---------------- LABEL REMAPPING ----------------
-# Food-101 only knows composed DISHES, not plain ingredients. Empirically,
-# certain plain foods consistently trigger a specific dish label, so we remap
-# those dish labels back to the plain fitness food. Validated on test images.
-# NOTE: this means the ORIGINAL dish now also reports as the mapped food
-# (e.g. real salmon -> "grilled chicken"). Fine for a controlled fitness demo.
 REMAP = {
     "grilled salmon": "grilled chicken",
     "deviled eggs": "eggs",
@@ -47,8 +25,6 @@ REMAP = {
     "filet mignon": "beef",
 }
 
-# Only remap when the classifier is at least this confident, so a random
-# low-confidence guess doesn't get promoted into a confident-looking label.
 REMAP_CONF_MIN = 0.30
 
 def _apply_remap(label, conf):
@@ -58,7 +34,6 @@ def _apply_remap(label, conf):
         return REMAP[key]
     return label
 
-# ---------------- LOAD MODEL ONCE ----------------
 _processor = AutoImageProcessor.from_pretrained(CLASSIFIER_NAME)
 _model = SiglipForImageClassification.from_pretrained(CLASSIFIER_NAME)
 _model.eval()
@@ -86,7 +61,6 @@ def capture_photo(output_path="captured_food.jpg"):
         raise ValueError(f"Unknown CAMERA setting: {CAMERA}")
 
 
-# ---------------- classify one image region ----------------
 def _classify(bgr):
     """Classify a BGR numpy image, return (label, confidence)."""
     rgb = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)
@@ -102,7 +76,6 @@ def _classify(bgr):
     return label, conf
 
 
-# ---------------- split into overlapping tiles ----------------
 def _tiles(img, grid, overlap):
     """Yield (crop, (row,col)) for a grid x grid split with overlap."""
     h, w = img.shape[:2]
@@ -119,7 +92,6 @@ def _tiles(img, grid, overlap):
                 yield crop, (r, c)
 
 
-# ---------------- the tool the pipeline calls ----------------
 def analyze_food_image(image_source=None):
     """
     Grid-tiling food recognition. Splits the image, classifies each tile,
@@ -136,7 +108,6 @@ def analyze_food_image(image_source=None):
 
     found = {}   # label -> best confidence
 
-    # ---- whole-image pass (catches the dominant dish) ----
     try:
         wlabel, wconf = _classify(img)
         if wconf >= WHOLE_CONF_MIN:
@@ -144,7 +115,6 @@ def analyze_food_image(image_source=None):
     except Exception:
         pass
 
-    # ---- tile passes ----
     for crop, _ in _tiles(img, GRID, OVERLAP):
         try:
             label, conf = _classify(crop)
@@ -161,7 +131,6 @@ def analyze_food_image(image_source=None):
     return "Detected foods: " + ", ".join(parts) + "."
 
 
-# ---------------- quick manual test ----------------
 if __name__ == "__main__":
     import sys
     if len(sys.argv) > 1:

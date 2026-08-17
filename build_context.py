@@ -12,10 +12,7 @@ MAX_HISTORY_MESSAGES = 4
 def build_context(user_message,user_id):
     parts = []
 
-    # ---------------------------------------------------------
-    # RAG knowledge
-    # ---------------------------------------------------------
-
+    
     knowledge = retrieve(user_message)
 
     if knowledge and not knowledge.startswith("No relevant"):
@@ -23,10 +20,7 @@ def build_context(user_message,user_id):
             "RELEVANT KNOWLEDGE:\n" + knowledge
         )
 
-    # ---------------------------------------------------------
-    # User facts
-    # ---------------------------------------------------------
-
+    
     facts = get_all_facts(user_id)
 
     if facts:
@@ -39,10 +33,7 @@ def build_context(user_message,user_id):
             "USER FACTS:\n" + fact_text
         )
 
-    # ---------------------------------------------------------
-    # Recent conversation
-    # ---------------------------------------------------------
-
+    
     msgs = get_recent_messages(
         CONVERSATION_ID,
         user_id,
@@ -63,11 +54,7 @@ def build_context(user_message,user_id):
 
 
 def build_prompt(user_message,user_id):
-    """
-    Build Ollama-compatible chat messages.
-
-    Returns a list of dictionaries instead of one giant string.
-    """
+    
 
     context = build_context(user_message,user_id)
 

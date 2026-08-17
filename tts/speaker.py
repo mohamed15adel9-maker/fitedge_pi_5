@@ -17,8 +17,6 @@ def speak(text):
     with wave.open(output_file, "wb") as wav_file:
         voice.synthesize_wav(text, wav_file)
 
-    # Play through PipeWire's default audio sink.
-    # The default sink is currently Devia-EM019 (Bluetooth headphones).
     subprocess.run(["pw-play", output_file], check=True)
 
     return output_file

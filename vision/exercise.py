@@ -1,58 +1,4 @@
-"""
-vision/exercise.py
 
-Exercise recognition using a pretrained YOLOv8-Pose model.
-
-Pipeline
---------
-Image / Camera
-      ↓
-YOLOv8 Pose
-      ↓
-17 COCO body keypoints
-      ↓
-Keypoint confidence filtering
-      ↓
-Joint-angle + body-geometry extraction
-      ↓
-Multiple exercise scores
-      ↓
-Best exercise classification
-      ↓
-Movement/state classification
-
-Supported exercises
--------------------
-- squat
-- lunge
-- push-up
-- plank
-- deadlift / RDL
-- bicep curl
-- overhead press
-- lateral raise
-- jumping jack
-- standing / neutral
-- unknown
-
-Important
----------
-A single image cannot determine true movement direction or repetition count.
-
-For example, a person with bent knees could be:
-    - descending into a squat
-    - at the bottom of a squat
-    - ascending from a squat
-
-A single frame can classify the POSITION/state reasonably well,
-but true "moving up/down" classification requires multiple frames.
-
-The sequence classifier at the bottom of this file is provided for that.
-
-Requires
---------
-pip install ultralytics opencv-python
-"""
 
 import math
 from collections import Counter
@@ -62,25 +8,16 @@ from typing import Dict, List, Optional, Tuple
 from ultralytics import YOLO
 
 
-# ============================================================
-# CONFIG
-# ============================================================
 
 CAMERA = "webcam"                 # "webcam" or "pi"
 POSE_MODEL_PATH = "yolov8n-pose.pt"
 CONF_THRESHOLD = 0.40
 
-# Individual keypoints below this confidence are considered
-# unreliable.
 KEYPOINT_CONF_THRESHOLD = 0.35
 
-# Minimum number of useful keypoints needed for classification.
 MIN_VALID_KEYPOINTS = 8
 
 
-# ============================================================
-# COCO KEYPOINT INDICES
-# ============================================================
 
 KP = {
     "nose": 0,

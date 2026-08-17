@@ -24,7 +24,7 @@ def execute_query(sql):
     if not rows:
         return "No results found."
 
-    # Format rows as readable text for the LLM
+    
     result_lines = []
     for row in rows:
         row_dict = dict(row)

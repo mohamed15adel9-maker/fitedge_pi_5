@@ -18,7 +18,6 @@ from display.oled_faces import (
 # Show sleeping face immediately on startup
 sleeping_face()
 
-# Import Whisper only after the OLED has updated
 from speech.transcriber import load_model, transcribe
 
 # Load the Whisper model while the sleeping face is displayed
@@ -28,8 +27,7 @@ CONVERSATION_ID = "default"
 DONE_PHRASES = ["i'm done", "i am done", "that's all", "log me out",
                 "goodbye", "sign me out", "im done"]
 
-SESSION_TIMEOUT = 300   # 5 minutes of inactivity -> auto logout
-
+SESSION_TIMEOUT = 300  
 
 def lookup_user_by_name(spoken_name):
     """Fuzzy-match the spoken name to a user. Returns user_id or None."""
@@ -52,10 +50,7 @@ def main():
     current_user_id = None
     last_active = time.time()
 
-    # -------------------------
-    # Helper functions
-    # -------------------------
-
+    
     def ask_text(question):
         """Ask until a non-empty response is received."""
         while True:
@@ -110,10 +105,7 @@ def main():
 
     while True:
 
-        # -----------------------------------------------------
-        # 1. WAIT FOR WAKE WORD
-        # -----------------------------------------------------
-        smiling_face()
+         smiling_face()
         print("1. Waiting for wake word...")
         wait_for_wake_word()
 
@@ -121,10 +113,7 @@ def main():
             print("Session timed out.")
             current_user_id = None
 
-        # -----------------------------------------------------
-        # LOGIN / CREATE USER
-        # -----------------------------------------------------
-
+        
         if current_user_id is None:
 
             name = ask_text("Who am I speaking with?")
@@ -158,16 +147,10 @@ def main():
             )
             continue
 
-        # -----------------------------------------------------
-        # 2. RECORD AUDIO
-        # -----------------------------------------------------
         
         print("2. Recording...")
         listening_face()
         recorded_audio = record_audio()
-        # -----------------------------------------------------
-        # 3. TRANSCRIBE
-        # -----------------------------------------------------
         thinking_face()
         print("3. Transcribing...")
 
@@ -195,30 +178,7 @@ def main():
 
         last_active = time.time()
 
-        # -----------------------------------------------------
-        # 4. BUILD MINIMAL MESSAGE
-        #
-        # IMPORTANT:
-        #
-        # Do NOT build RAG/context here.
-        #
-        # The agent must first let Qwen:
-        #
-        #     user request
-        #          ↓
-        #       router
-        #          ↓
-        #     tool selection
-        #
-        # Only AFTER the tool executes will agent.py build:
-        #
-        #     RAG
-        #     user facts
-        #     conversation history
-        #     tool result
-        #
-        # This keeps the Qwen tool-selection prompt small.
-        # -----------------------------------------------------
+       
 
         print("4. Building messages...")
 
@@ -239,10 +199,7 @@ def main():
             transcribed_text,
         )
 
-        # -----------------------------------------------------
-        # DEBUG USER REQUEST
-        # -----------------------------------------------------
-
+        
         try:
 
             with open(
@@ -268,22 +225,7 @@ def main():
 
         print("Messages built.")
 
-        # -----------------------------------------------------
-        # 5. CALL AGENT
-        #
-        # The agent now handles:
-        #
-        #     Router
-        #       ↓
-        #     Tool selection
-        #       ↓
-        #     Tool execution
-        #       ↓
-        #     RAG + facts + history
-        #       ↓
-        #     Final Qwen answer
-        # -----------------------------------------------------
-
+        
         print("5. Calling agent...")
         thinking_face()
         response = run_agent(
@@ -293,16 +235,7 @@ def main():
 
         print("Agent finished.")
 
-        # -----------------------------------------------------
-        # 6. SAVE CONVERSATION
-        #
-        # Save AFTER the agent finishes.
-        #
-        # This is intentional:
-        # build_context() inside agent.py will not see the
-        # current user message as old conversation history.
-        # -----------------------------------------------------
-
+        
         speech = clean_for_speech(response)
         print("6. Saving conversation...")
 
@@ -320,9 +253,6 @@ def main():
             response,current_user_id
         )
 
-        # -----------------------------------------------------
-        # 7. SPEAK RESPONSE
-        # -----------------------------------------------------
         
 
         print("7. Speaking...")

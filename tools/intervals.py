@@ -1,23 +1,4 @@
-"""
-tools/intervals.py
 
-Reads training data from Intervals.icu (your iPhone/Apple Health data syncs
-in via the Intervals.icu Companion app).
-
-Functions:
-  - get_recent_activities(days_back, limit)  rich summary of recent activities
-  - get_activity_details(activity_id)        splits/intervals for one activity
-  - get_wellness(days_back)                  full daily wellness + fitness stats
-
-SETUP (one time):
-  1. Free account at https://intervals.icu
-  2. Companion iPhone app -> connect Apple Health so data syncs in.
-  3. Settings > Developer Settings -> API key + athlete id ("i12345").
-  4. auth/intervals_secrets.json:
-     {"athlete_id": "i12345", "api_key": "YOUR_KEY"}
-
-Auth: HTTP Basic, username "API_KEY", password = your key.
-"""
 
 import json
 from pathlib import Path
@@ -29,8 +10,6 @@ AUTH_DIR = Path(__file__).resolve().parent.parent / "auth"
 SECRETS_FILE = AUTH_DIR / "intervals_secrets.json"
 API_BASE = "https://intervals.icu/api/v1"
 
-# Rich set of summary fields to request per activity. Only those that exist
-# on a given activity come back; the rest are simply absent.
 ACTIVITY_FIELDS = ",".join([
     "id", "name", "type", "start_date_local",
     "distance", "moving_time", "elapsed_time",
@@ -42,7 +21,7 @@ ACTIVITY_FIELDS = ",".join([
     "calories",
     "icu_training_load", "icu_intensity",
     "icu_zone_times",
-    "pace", "gap",  # grade-adjusted pace
+    "pace", "gap",  
     "feel", "icu_rpe",
 ])
 
@@ -66,7 +45,6 @@ def _fmt_duration(seconds):
     if not seconds or seconds <= 0:
         return "?"
     minutes = int(seconds // 60)
-    # guard obvious bad data (e.g. a stuck timer showing thousands of minutes)
     if minutes > 24 * 60:
         return f"{minutes} min (check data)"
     if minutes >= 60:

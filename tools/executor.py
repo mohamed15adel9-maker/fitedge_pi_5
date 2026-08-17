@@ -1,15 +1,3 @@
-"""
-tools/executor.py
-
-Executes one FitEdge tool by name. This is the single translation layer:
-    LLM tool name  ->  the real function (with user_id injected for DB tools)
-
-Single-user system: all database operations use USER_ID.
-"""
-
-# =========================================================
-# DATABASE  (your own memory/manager.py — no wrapper)
-# =========================================================
 from memory.manager import (
     # reads
     get_active_goals,
@@ -26,29 +14,22 @@ from memory.manager import (
     create_fact as db_create_fact,
 )
 
-# =========================================================
 # CALENDAR / WEATHER / EMAIL
-# =========================================================
 from tools.calendar import get_calendar_events, add_calendar_event
 from tools.weather import get_current_weather, get_hourly_weather, get_daily_weather
 from tools.email import draft_email, send_email, read_recent_emails
 
-# =========================================================
 # WGER / INTERVALS
-# =========================================================
+
 from tools.wger import get_recent_workouts, get_weight_log, add_weight_entry
 from tools.intervals import get_recent_activities, get_activity_details, get_wellness
 
-# Single-user system.
 USER_ID = 1
 
 
 def run_tool(name, args,user_ID):
-    """Execute one FitEdge tool and return its result."""
-
-    # =====================================================
-    # DATABASE — READ  (user_id injected here)
-    # =====================================================
+    # DATABASE
+    
     if name == "get_active_goals":
         return get_active_goals(user_ID)
     if name == "get_latest_measurement":
@@ -62,9 +43,7 @@ def run_tool(name, args,user_ID):
     if name == "get_user_profile":
         return get_user(user_ID)
 
-    # =====================================================
-    # DATABASE — WRITE
-    # =====================================================
+    # DATABASE
     if name == "create_user":
         user_id = db_create_user(
             name=args.get("name"),
@@ -132,9 +111,8 @@ def run_tool(name, args,user_ID):
         return {"success": True, "fact_id": fact_id,
                 "message": "Fact stored successfully."}
 
-    # =====================================================
     # CALENDAR
-    # =====================================================
+
     if name == "get_calendar_events":
         return get_calendar_events(
             days_ahead=args.get("days_ahead", 7),
@@ -148,9 +126,8 @@ def run_tool(name, args,user_ID):
             duration_minutes=args.get("duration_minutes", 60),
         )
 
-    # =====================================================
     # EMAIL
-    # =====================================================
+
     if name == "draft_email":
         return draft_email(args.get("to", ""), args.get("subject", ""), args.get("body", ""))
     if name == "send_email":
@@ -158,9 +135,8 @@ def run_tool(name, args,user_ID):
     if name == "read_recent_emails":
         return read_recent_emails(max_results=args.get("max_results", 5))
 
-    # =====================================================
-    # WGER / STRENGTH
-    # =====================================================
+    # WGER
+
     if name == "get_recent_workouts":
         return get_recent_workouts(limit=args.get("limit", 5))
     if name == "get_weight_log":
@@ -171,9 +147,8 @@ def run_tool(name, args,user_ID):
             entry_date=args.get("entry_date"),
         )
 
-    # =====================================================
-    # CARDIO / RECOVERY (Intervals.icu)
-    # =====================================================
+    # CARDIO
+
     if name == "get_recent_activities":
         return get_recent_activities(
             days_back=args.get("days_back", 14),
@@ -184,9 +159,8 @@ def run_tool(name, args,user_ID):
     if name == "get_activity_details":
         return get_activity_details(args.get("activity_id"))
 
-    # =====================================================
     # WEATHER
-    # =====================================================
+
     if name == "get_current_weather":
         lat = args.get("latitude") or 31.2
         lon = args.get("longitude") or 29.9
@@ -214,7 +188,4 @@ def run_tool(name, args,user_ID):
             days=args.get("days", 7),
         ))
 
-    # =====================================================
-    # UNKNOWN
-    # =====================================================
     return f"Unknown tool: {name}"

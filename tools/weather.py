@@ -1,11 +1,4 @@
-"""
-tools/weather.py
 
-Weather tools the LLM can call:
-    - get_current_weather(...)
-    - get_hourly_weather(...)
-    - get_daily_weather(...)
-"""
 
 import requests
 
@@ -13,16 +6,13 @@ BASE_URL = "https://api.open-meteo.com/v1/forecast"
 
 
 def _request(params):
-    """Internal helper for making Open-Meteo requests."""
     response = requests.get(BASE_URL, params=params, timeout=10)
     response.raise_for_status()
     return response.json()
 
 
 def get_current_weather(latitude, longitude):
-    """
-    Returns the current weather.
-    """
+    
 
     params = {
         "latitude": latitude,
@@ -43,10 +33,7 @@ def get_current_weather(latitude, longitude):
 
 
 def get_hourly_weather(latitude, longitude, hours=24):
-    """
-    Returns the next few hours of weather.
-    Default: next 24 hours.
-    """
+    
 
     params = {
         "latitude": latitude,
@@ -68,11 +55,7 @@ def get_hourly_weather(latitude, longitude, hours=24):
 
 
 def get_daily_weather(latitude, longitude, days=7):
-    """
-    Returns the daily forecast.
-    Default: next 7 days.
-    Maximum supported by Open-Meteo is typically 16 days.
-    """
+    
 
     params = {
         "latitude": latitude,

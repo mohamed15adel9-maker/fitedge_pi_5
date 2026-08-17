@@ -1,20 +1,4 @@
-"""
-tools/wger.py
 
-Reads strength-training data from wger (hosted at wger.de).
-
-SETUP (one time):
-  1. Free account at https://wger.de
-  2. Log some workouts so there's data to read.
-  3. Get your API token: wger.de > your account settings > API.
-  4. Put it in auth/wger_secrets.json:
-     {"token": "YOUR_API_TOKEN"}
-
-Auth: a token in the Authorization header ("Token <token>").
-
-Requires:
-    pip install requests
-"""
 
 import json
 from pathlib import Path
@@ -35,9 +19,7 @@ def _headers():
 
 
 def get_recent_workouts(limit=5):
-    """
-    Returns the user's recent workout sessions as readable text.
-    """
+
     try:
         resp = requests.get(
             f"{API_BASE}/workoutsession/",
@@ -72,9 +54,7 @@ def get_recent_workouts(limit=5):
 
 
 def get_weight_log(limit=5):
-    """
-    Returns recent bodyweight entries as readable text.
-    """
+    
     try:
         resp = requests.get(
             f"{API_BASE}/weightentry/",
@@ -96,9 +76,7 @@ def get_weight_log(limit=5):
 
 
 def add_weight_entry(weight, entry_date=None):
-    """
-    Adds a bodyweight entry. entry_date is 'YYYY-MM-DD' (defaults to today).
-    """
+    
     try:
         from datetime import date as _date
         payload = {

@@ -1,12 +1,4 @@
-"""
-tools/calendar.py
 
-The calendar tools the LLM can call:
-  - get_calendar_events(...)  reads upcoming events
-  - add_calendar_event(...)   creates a new event
-
-Both return plain strings the LLM can read.
-"""
 
 from datetime import datetime, timedelta
 
@@ -14,9 +6,7 @@ from auth.google_auth import get_calendar_service
 
 
 def get_calendar_events(days_ahead=7, max_results=10):
-    """
-    Returns the user's upcoming events over the next `days_ahead` days.
-    """
+    
     try:
         service = get_calendar_service()
 
@@ -50,15 +40,7 @@ def get_calendar_events(days_ahead=7, max_results=10):
 
 
 def add_calendar_event(title, date, start_time="09:00", duration_minutes=60):
-    """
-    Adds an event to the user's primary calendar.
-
-    Args:
-        title: event name, e.g. "Long run"
-        date: "YYYY-MM-DD", e.g. "2026-05-01"
-        start_time: "HH:MM" 24-hour, e.g. "09:00"
-        duration_minutes: how long the event lasts
-    """
+    
     try:
         service = get_calendar_service()
 

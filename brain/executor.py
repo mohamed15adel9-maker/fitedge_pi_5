@@ -1,24 +1,12 @@
-"""
-tools/executor.py
-
-Executes one FitEdge tool by name. This is the single translation layer:
-    LLM tool name  ->  the real function (with user_id injected for DB tools)
-
-Single-user system: all database operations use USER_ID.
-"""
-
-# =========================================================
-# DATABASE  (your own memory/manager.py — no wrapper)
-# =========================================================
 from memory.manager import (
-    # reads
+    
     get_active_goals,
     get_latest_measurement,
     get_active_injuries,
     get_workouts,
     get_fact,
     get_user,
-    # writes
+    
     create_user as db_create_user,
     create_goal as db_create_goal,
     create_measurement as db_create_measurement,

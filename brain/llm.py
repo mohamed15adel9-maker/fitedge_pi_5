@@ -1,24 +1,10 @@
-"""
-brain/llm.py
 
-Hybrid FitEdge brain with MULTI-DOMAIN routing:
-  - route_request(): classify into ONE OR MORE domains (returns a list)
-  - tool groups: the model sees the tools of all relevant domains
-  - native Ollama tool calling (no JSON round-trip)
-  - the bounded multi-tool loop lives in agent.py and calls chat_with_tools()
-  - build_context()/RAG/facts/history only at the final-answer stage
-
-think=False everywhere (qwen is a thinking model; we want direct output).
-"""
 
 import json
 import ollama
 
-MODEL = "qwen3.5:2b"   # <-- must match `ollama list` exactly
+MODEL = "qwen3.5:2b"   
 
-# =========================================================
-# NATIVE TOOL DEFINITIONS
-# =========================================================
 TOOLS = [
     # ---------------- DATABASE ----------------
     {"type": "function", "function": {
@@ -188,9 +174,6 @@ TOOLS = [
     }},
 ]
 
-# =========================================================
-# TOOL GROUPS
-# =========================================================
 TOOL_GROUPS = {
     "database": [
         "get_active_goals", "get_latest_measurement", "get_active_injuries",
@@ -219,9 +202,6 @@ def get_tools_for_groups(domains):
     return [TOOL_MAP[n] for n in unique if n in TOOL_MAP]
 
 
-# =========================================================
-# ROUTER  (returns a LIST of domains)
-# =========================================================
 ROUTER_PROMPT = """
 You are the FitEdge router. Classify the user's request into one or more domains.
 
@@ -289,9 +269,6 @@ def route_request(user_message):
     return domains if domains else ["none"]
 
 
-# =========================================================
-# NATIVE TOOL-CALLING (one round of the loop)
-# =========================================================
 def chat_with_tools(messages, domains):
     """One native tool-calling round across the given domains."""
     tools = get_tools_for_groups(domains)
@@ -305,9 +282,6 @@ def chat_with_tools(messages, domains):
     return response.message
 
 
-# =========================================================
-# FINAL ANSWER (context enters HERE, not in the loop)
-# =========================================================
 FINAL_ANSWER_PROMPT = """You are FitEdge, a concise, warm, honest AI fitness coach.
 Answer the user's request using the tool results and any relevant FitEdge context.
 - Keep answers to 1-3 short sentences. This is spoken aloud.

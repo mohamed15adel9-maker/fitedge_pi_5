@@ -27,13 +27,12 @@ def record_audio(filename="audio/recording.wav", duration=5):
 
     sd.wait()
 
-    # Convert to mono 1D array
+    
     audio = audio.flatten()
 
-    # Resample 44.1 kHz -> 16 kHz
+    
     audio = resample_poly(audio, up=160, down=441)
 
-    # Convert to float32 in [-1, 1] (most STT models expect this)
     audio = audio.astype(np.float32) / 32768.0
 
     sf.write(filename, audio, TARGET_RATE)
