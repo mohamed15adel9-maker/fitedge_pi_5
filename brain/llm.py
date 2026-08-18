@@ -222,33 +222,39 @@ def get_tools_for_groups(domains):
 # =========================================================
 # ROUTER  (returns a LIST of domains)
 # =========================================================
-ROUTER_PROMPT = """
-You are the FitEdge router. Classify the user's request into one or more domains.
+ROUTER_PROMPT = """You are the FitEdge request router. Classify the user's request into ONE OR MORE domains. Return ONLY JSON, e.g. {"domains": ["database"]}.
 
 Domains:
-- database: Read/write the user's stored data (goals, measurements, injuries, profile, preferences, facts). Also use when saving or remembering new information.
-- fitness: Workouts, exercises, activities, wellness, recovery, or fitness service data.
-- weather: Weather or forecasts.
-- calendar: Calendar events or scheduling.
-- email: Read, draft, reply to, or send emails.
-- none: General questions that require none of the above.
+- database: the user's OWN stored data — their goals, measurements, weight, injuries, saved facts/preferences, profile — OR saving/remembering such data. ("What are my goals?", "remember I prefer mornings" -> database)
+- fitness: workouts, activities, recovery, or data from fitness services (NOT the user's goals/injuries/facts — those are database).
+- weather: weather, temperature, rain, or forecasts.
+- calendar: calendar events or scheduling.
+- email: reading, drafting, or sending email.
+- none: general fitness questions needing no personal data or service.
 
-Rules:
-- Return all required domains.
-- Use "database" whenever personal data is read or stored.
-- If a request stores fitness data (e.g., weight, goals), return both "database" and "fitness".
-- Never return "none" with another domain.
+CRITICAL — MULTIPLE DOMAINS:
+A request often needs MORE THAN ONE domain. You MUST include EVERY domain the request touches. If the user asks about two different things joined by "and", return a domain for EACH part. Do NOT return just one domain when the request clearly covers two.
+
+Look for multiple topics: if the user mentions weather AND their goals, that is TWO domains. If they mention their goals AND their injuries, both are database. If they mention the weather AND scheduling, that is weather AND calendar.
+
+- To ADD or SCHEDULE something on the calendar, use add_calendar_event, NOT get_calendar_events.
+- get_calendar_events only READS existing events. To create a new event, you MUST call add_calendar_event.
+- Do not repeatedly read the calendar. If the user wants to schedule something, add it.
+
+
+  - Any mention of weather conditions — "if the weather is clear", "if it's sunny", "if it's not raining", "depending on the weather" — ALWAYS requires the "weather" domain. Never drop weather when a weather condition is stated. Examples: "schedule a run tomorrow if the weather is clear" -> {"domains": ["weather", "calendar"]} "book a workout for tomorrow if it's not raining" -> {"domains": ["weather", "calendar"]} "remind me to run tomorrow" -> {"domains": ["calendar"]} "what's the weather for my run?" -> {"domains": ["weather"]}
 
 Examples:
-{"domains":["database"]}
-{"domains":["fitness"]}
-{"domains":["database","fitness"]}
-{"domains":["weather","calendar"]}
-{"domains":["none"]}
+"what are my goals?" -> {"domains": ["database"]}
+"what's the weather?" -> {"domains": ["weather"]}
+"what's the weather and what are my goals?" -> {"domains": ["weather", "database"]}
+"what are my goals and my injuries?" -> {"domains": ["database"]}
+"remember I prefer morning workouts" -> {"domains": ["database"]}
+"schedule a run tomorrow if the weather is clear" -> {"domains": ["weather", "calendar"]}
+"what's a good protein source?" -> {"domains": ["none"]}
+"what's the weather and am I free tomorrow?" -> {"domains": ["weather", "calendar"]}
 
-Return ONLY valid JSON:
-{"domains":["domain1","domain2"]}
-"""
+Return ONLY the JSON list. No markdown, no explanation."""
 
 
 def route_request(user_message):

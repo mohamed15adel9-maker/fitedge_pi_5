@@ -25,10 +25,10 @@ from speech.transcriber import load_model, transcribe
 load_model()
 CONVERSATION_ID = "default"
 
-DONE_PHRASES = ["i'm done", "i am done", "that's all", "log me out",
-                "goodbye", "sign me out", "im done"]
+DONE_PHRASES = ["i'm done.", "i am done.", "that's all.", "log me out.",
+                "goodbye.", "sign me out.", "im done."]
 
-SESSION_TIMEOUT = 300   # 5 minutes of inactivity -> auto logout
+SESSION_TIMEOUT = 900   # 5 minutes of inactivity -> auto logout
 
 
 def lookup_user_by_name(spoken_name):

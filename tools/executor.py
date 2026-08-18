@@ -176,7 +176,7 @@ def run_tool(name, args,user_ID):
     # =====================================================
     if name == "get_recent_activities":
         return get_recent_activities(
-            days_back=args.get("days_back", 14),
+            days_back=14,
             limit=args.get("limit", 10),
         )
     if name == "get_wellness":
