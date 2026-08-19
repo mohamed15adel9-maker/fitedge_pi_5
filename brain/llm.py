@@ -258,30 +258,30 @@ def get_tools_for_groups(domains):
 # ROUTER  (returns a LIST of domains)
 # =========================================================
 ROUTER_PROMPT = """You are the FitEdge request router. Classify the user's request into ONE OR MORE domains. Return ONLY JSON, e.g. {"domains": ["database"]}.
-
+ 
 Domains:
 - database: the user's OWN stored data — their goals, measurements, weight, injuries, saved facts/preferences, profile — OR saving/remembering such data. ("What are my goals?", "remember I prefer mornings" -> database)
 - fitness: workouts, activities, recovery, or data from fitness services (NOT the user's goals/injuries/facts — those are database).
 - weather: weather, temperature, rain, or forecasts.
 - calendar: calendar events or scheduling.
 - email: reading, drafting, or sending email.
-- vision: requests that require camera-based visual analysis or an active camera exercise session, such as analyzing food, identifying an exercise, checking exercise form, or starting a push-up session.
-- session: requests to explicitly end, terminate, log out of, sign out of, or close the current FitEdge session.
+- vision: requests that require camera-based visual analysis or live camera-based exercise monitoring, including analyzing food, identifying an exercise, checking exercise form, counting or monitoring push-ups or other exercises, or starting/performing an exercise session with the camera.
+- session: requests to end the current FitEdge assistant session, including logging out, signing out, saying goodbye, saying they are done, or otherwise indicating that they want to stop using FitEdge. Do NOT use the session domain for workouts, exercises, push-ups, or other fitness activity sessions.
 - none: general fitness questions needing no personal data or service.
-
+ 
 CRITICAL — MULTIPLE DOMAINS:
 A request often needs MORE THAN ONE domain. You MUST include EVERY domain the request touches. If the user asks about two different things joined by "and", return a domain for EACH part. Do NOT return just one domain when the request clearly covers two.
-If the user explicitly wants to end the current session — including phrases such as "log me out", "sign me out", "I am done", "I'm done", "that's all", "goodbye", "I'm finished", or similar expressions indicating that they want to stop the current session — use the "session" domain. If the request also requires another domain before ending, include every required domain.
-
+If the user explicitly wants to end the current FitEdge session — including phrases such as "log me out", "sign me out", "I am done", "I'm done", "that's all", "goodbye", "I'm finished", or similar expressions indicating that they want to stop using FitEdge — use the "session" domain. A workout or exercise session is NOT the "session" domain. If the request also requires another domain before ending, include every required domain.
+ 
 Look for multiple topics: if the user mentions weather AND their goals, that is TWO domains. If they mention their goals AND their injuries, both are database. If they mention the weather AND scheduling, that is weather AND calendar.
-
+ 
 - To ADD or SCHEDULE something on the calendar, use add_calendar_event, NOT get_calendar_events.
 - get_calendar_events only READS existing events. To create a new event, you MUST call add_calendar_event.
 - Do not repeatedly read the calendar. If the user wants to schedule something, add it.
-
-
+ 
+ 
   - Any mention of weather conditions — "if the weather is clear", "if it's sunny", "if it's not raining", "depending on the weather" — ALWAYS requires the "weather" domain. Never drop weather when a weather condition is stated. Examples: "schedule a run tomorrow if the weather is clear" -> {"domains": ["weather", "calendar"]} "book a workout for tomorrow if it's not raining" -> {"domains": ["weather", "calendar"]} "remind me to run tomorrow" -> {"domains": ["calendar"]} "what's the weather for my run?" -> {"domains": ["weather"]}
-
+ 
 Examples:
 "what are my goals?" -> {"domains": ["database"]}
 "what's the weather?" -> {"domains": ["weather"]}
@@ -296,12 +296,17 @@ Examples:
 "check my exercise form" -> {"domains": ["vision"]}
 "start a push-up session" -> {"domains": ["vision"]}
 "let's do pushups" -> {"domains": ["vision"]}
+"I am going to do pushups now" -> {"domains": ["vision"]}
+"I'll do some pushups" -> {"domains": ["vision"]}
+"watch me do pushups" -> {"domains": ["vision"]}
+"count my pushups" -> {"domains": ["vision"]}
 "goodbye" -> {"domains": ["session"]}
 "that's all, goodbye" -> {"domains": ["session"]}
 "log me out" -> {"domains": ["session"]}
+"I am done" -> {"domains": ["session"]}
 "check my goals and then start a push-up session" -> {"domains": ["database", "vision"]}
-
-
+ 
+ 
 Return ONLY the JSON list. No markdown, no explanation."""
 
 

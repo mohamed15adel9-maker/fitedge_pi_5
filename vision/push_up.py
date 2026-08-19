@@ -32,10 +32,11 @@ incorrect_reps = 0
 CAMERA = "webcam"                 # "webcam" or "pi"
 POSE_MODEL_PATH = "yolov8n-pose.pt"
 CONF_THRESHOLD = 0.40
-
+model = YOLO(POSE_MODEL_PATH)
 KEYPOINT_CONF_THRESHOLD = 0.35
 
 MIN_VALID_KEYPOINTS = 8
+CAMERA_INDEX = 0
 
 CONNECTIONS = [
     (5, 7),    # left shoulder -> left elbow
@@ -502,6 +503,9 @@ def run_pushUp_session():
             kp,
             correct
         )
+        if(correct_count+incorrect_reps)>=5:
+            break
+
 
         # --------------------------------------------------------
         # 7. DRAW BODY KEYPOINTS
