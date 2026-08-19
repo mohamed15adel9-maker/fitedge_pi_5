@@ -7,6 +7,9 @@ from typing import Dict, List, Optional, Tuple
 from sklearn.metrics import euclidean_distances as dist
 import numpy as np
 from ultralytics import YOLO
+from tts.speaker import speak
+import time
+
 
 import cv2
 
@@ -399,7 +402,7 @@ def get_debug_info(kps):
     }    
 
 
-def run_pushUp_session():
+def run_pushUp_session(target_reps = None):
     global incorrectState, phase, reps, incorrect_reps
  
     cam = cv2.VideoCapture(CAMERA_INDEX)
@@ -407,6 +410,11 @@ def run_pushUp_session():
     incorrect_reps = 0
     reps = 0
     phase = 0
+    last_spoken_feedback = None
+    last_feedback_time = 0
+    FEEDBACK_COOLDOWN = 2.0
+
+    
 
     if not cam.isOpened():
         raise RuntimeError("Could not open webcam.")
@@ -414,6 +422,11 @@ def run_pushUp_session():
     # ============================================================
     # LIVE LOOP
     # ============================================================
+    started_session = False
+    up_frames = 0
+    previous_total = 0
+    feedback_summary = set()
+
 
     while True:
 
@@ -486,6 +499,30 @@ def run_pushUp_session():
             feedback_flag
         ) = give_feedback_push_up(kp)
 
+                current_feedback = None
+
+        for correction in possible_corrections:
+            if correction in feedback:
+                current_feedback = feedback[correction]
+                break
+        for correction in possible_corrections:
+            if correction in feedback:
+                feedback_summary.add(feedback[correction])        
+
+        now = time.time()
+
+        if current_feedback is not None:
+            if (
+                current_feedback != last_spoken_feedback
+                or now - last_feedback_time >= FEEDBACK_COOLDOWN
+            ):
+                speak(current_feedback)
+                last_spoken_feedback = current_feedback
+                last_feedback_time = now
+
+        else:
+            last_spoken_feedback = None        
+
         # --------------------------------------------------------
         # 5. DETERMINE WHETHER THIS FRAME IS CORRECT
         # --------------------------------------------------------
@@ -503,14 +540,35 @@ def run_pushUp_session():
             kp,
             correct
         )
-        if(correct_count+incorrect_reps)>=5:
+        current_total = correct_count + incorrect_count
+        
+
+        if target_reps is not None and current_total >= target_reps and previous_total < target_reps:
+            print("Target reached")
+            speak(f"You reached your target of {target_reps} reps.")
+        previous_total = current_total    
+
+        if (correct_count + incorrect_count)>0:
+            started_session = True
+
+        user_up, body_angle = is_user_up(kp)    
+
+        if started_session and user_up:
+           up_frames+=1
+        else:
+            up_frames = 0      
+        if up_frames>=15:
+            print("User got up. Ending Push-up session")
+            speak("Great work! Ending Push-up session.") 
             break
+
+
 
 
         # --------------------------------------------------------
         # 7. DRAW BODY KEYPOINTS
         # --------------------------------------------------------
-
+        
         frame = draw_keypoints(
             frame,
             kp
@@ -592,4 +650,27 @@ def run_pushUp_session():
     "correct_reps": reps,
     "incorrect_reps": incorrect_reps,
     "total_reps": reps + incorrect_reps,
+    "feedback": list(feedback_summary),
     }
+
+
+def is_user_up(kps):
+    shoulder_center = np.mean(
+        [kps[5][:2], kps[6][:2]],
+        axis=0
+    )
+
+    ankle_center = np.mean(
+        [kps[15][:2], kps[16][:2]],
+        axis=0
+    )
+
+    dx = ankle_center[0] - shoulder_center[0]
+    dy = ankle_center[1] - shoulder_center[1]
+
+    angle = abs(np.degrees(np.arctan2(dy, dx)))
+
+    if angle > 90:
+        angle = 180 - angle
+
+    return angle > 60, angle

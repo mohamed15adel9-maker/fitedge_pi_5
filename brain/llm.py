@@ -190,10 +190,19 @@ TOOLS = [
     "type": "function",
     "function": {
         "name": "run_pushup_session",
-        "description": "Start a live push-up session using the camera to count repetitions and evaluate push-up form.",
+        "description": (
+            "Start a live push-up session using the camera to count repetitions "
+            "and evaluate push-up form. If the user specifies a number of push-ups, "
+            "pass that number as target_reps. If no number is specified, omit target_reps."
+        ),
         "parameters": {
             "type": "object",
-            "properties": {}
+            "properties": {
+                "target_reps": {
+                    "type": "integer",
+                    "description": "The number of push-ups the user wants to do, if specified."
+                }
+            }
         }
     },
 },

@@ -224,7 +224,9 @@ def run_tool(name, args,user_ID):
     # VISION
     # =====================================================
     if name == "run_pushup_session":
-        return str(run_pushUp_session()) 
+        return str(run_pushUp_session(
+            target_reps=args.get("target_reps")
+        )) 
     if name == "analyze_food_image":
         return str(analyze_food_image())       
     
