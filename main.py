@@ -25,10 +25,8 @@ from speech.transcriber import load_model, transcribe
 load_model()
 CONVERSATION_ID = "default"
 
-DONE_PHRASES = ["i'm done.", "i am done.", "that's all.", "log me out.",
-                "goodbye.", "sign me out.", "im done."]
 
-SESSION_TIMEOUT = 900   # 5 minutes of inactivity -> auto logout
+SESSION_TIMEOUT = 900   # 15 minutes of inactivity -> auto logout
 
 
 def lookup_user_by_name(spoken_name):
@@ -42,9 +40,6 @@ def lookup_user_by_name(spoken_name):
     return best["id"] if best_score >= 0.6 else None
 
 
-def is_done_phrase(text):
-    low = text.lower().strip()
-    return any(low == p or low.startswith(p) for p in DONE_PHRASES)
 
 
 def main():
@@ -185,11 +180,7 @@ def main():
             continue
         
 
-        if is_done_phrase(transcribed_text):
-            speaking_face()
-            speak("Goodbye!")
-            current_user_id = None
-            continue
+        
 
         transcribed_text = transcribed_text.strip()
 
@@ -289,6 +280,9 @@ def main():
         response = run_agent(
             messages,current_user_id
         )
+        if response == "end_session":
+            current_user_id = None
+            continue
         
 
         print("Agent finished.")

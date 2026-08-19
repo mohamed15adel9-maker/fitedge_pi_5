@@ -186,6 +186,39 @@ TOOLS = [
             "latitude": {"type": "number"}, "longitude": {"type": "number"},
             "days": {"type": "integer"}}},
     }},
+    {
+    "type": "function",
+    "function": {
+        "name": "run_pushup_session",
+        "description": "Start a live push-up session using the camera to count repetitions and evaluate push-up form.",
+        "parameters": {
+            "type": "object",
+            "properties": {}
+        }
+    },
+},
+{
+    "type": "function",
+    "function": {
+        "name": "analyze_food_image",
+        "description": "Use the camera to analyze the user's food or plate and identify the foods present.",
+        "parameters": {
+            "type": "object",
+            "properties": {}
+        }
+    },
+},
+{
+    "type": "function",
+    "function": {
+        "name": "end_session",
+        "description": "End the current FitEdge session when the user wants to log out, sign out, or indicates they are finished.",
+        "parameters": {
+            "type": "object",
+            "properties": {}
+        }
+    },
+},
 ]
 
 # =========================================================
@@ -204,6 +237,8 @@ TOOL_GROUPS = {
         "get_recent_activities", "get_wellness", "get_activity_details","create_goal"
     ],
     "weather": ["get_current_weather", "get_hourly_weather", "get_daily_weather"],
+    "vision": ["run_pushup_session","analyze_food_image",],
+    "session":["end_session"]
 }
 
 TOOL_MAP = {t["function"]["name"]: t for t in TOOLS}
@@ -230,10 +265,13 @@ Domains:
 - weather: weather, temperature, rain, or forecasts.
 - calendar: calendar events or scheduling.
 - email: reading, drafting, or sending email.
+- vision: requests that require camera-based visual analysis or an active camera exercise session, such as analyzing food, identifying an exercise, checking exercise form, or starting a push-up session.
+- session: requests to explicitly end, terminate, log out of, sign out of, or close the current FitEdge session.
 - none: general fitness questions needing no personal data or service.
 
 CRITICAL — MULTIPLE DOMAINS:
 A request often needs MORE THAN ONE domain. You MUST include EVERY domain the request touches. If the user asks about two different things joined by "and", return a domain for EACH part. Do NOT return just one domain when the request clearly covers two.
+If the user explicitly wants to end the current session — including phrases such as "log me out", "sign me out", "I am done", "I'm done", "that's all", "goodbye", "I'm finished", or similar expressions indicating that they want to stop the current session — use the "session" domain. If the request also requires another domain before ending, include every required domain.
 
 Look for multiple topics: if the user mentions weather AND their goals, that is TWO domains. If they mention their goals AND their injuries, both are database. If they mention the weather AND scheduling, that is weather AND calendar.
 
@@ -253,6 +291,16 @@ Examples:
 "schedule a run tomorrow if the weather is clear" -> {"domains": ["weather", "calendar"]}
 "what's a good protein source?" -> {"domains": ["none"]}
 "what's the weather and am I free tomorrow?" -> {"domains": ["weather", "calendar"]}
+"what's on my plate?" -> {"domains": ["vision"]}
+"analyze my food" -> {"domains": ["vision"]}
+"check my exercise form" -> {"domains": ["vision"]}
+"start a push-up session" -> {"domains": ["vision"]}
+"let's do pushups" -> {"domains": ["vision"]}
+"goodbye" -> {"domains": ["session"]}
+"that's all, goodbye" -> {"domains": ["session"]}
+"log me out" -> {"domains": ["session"]}
+"check my goals and then start a push-up session" -> {"domains": ["database", "vision"]}
+
 
 Return ONLY the JSON list. No markdown, no explanation."""
 
@@ -287,7 +335,7 @@ def route_request(user_message):
         print(f"ROUTER: bad JSON: {content!r}", flush=True)
         return ["none"]
 
-    valid = {"database", "fitness", "weather", "calendar", "email", "none"}
+    valid = {"database", "fitness", "weather", "calendar", "email","vision","session", "none"}
     domains = [str(d).strip().lower() for d in domains if isinstance(d, str)]
     domains = [d for d in domains if d in valid]
     if len(domains) > 1 and "none" in domains:

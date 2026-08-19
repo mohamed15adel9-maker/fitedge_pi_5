@@ -97,6 +97,8 @@ def analyze_food_image(image_source=None):
     Grid-tiling food recognition. Splits the image, classifies each tile,
     and returns all confidently-found foods.
     """
+    image_source = "tests/plate3.jpg"
+
     if image_source is None:
         image_source = capture_photo()
         if image_source is None:

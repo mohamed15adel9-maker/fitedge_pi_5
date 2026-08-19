@@ -38,7 +38,8 @@ from tools.email import draft_email, send_email, read_recent_emails
 # =========================================================
 from tools.wger import get_recent_workouts, get_weight_log, add_weight_entry
 from tools.intervals import get_recent_activities, get_activity_details, get_wellness
-
+from vision.push_up import run_pushUp_session
+from vision.food import analyze_food_image
 # Single-user system.
 USER_ID = 1
 
@@ -215,6 +216,16 @@ def run_tool(name, args,user_ID):
         ))
 
     # =====================================================
-    # UNKNOWN
+    # END SESSION
     # =====================================================
+    if name == "end_session":
+        return "end_session"
+    # =====================================================
+    # VISION
+    # =====================================================
+    if name == "run_pushup_session":
+        return str(run_pushUp_session()) 
+    if name == "analyze_food_image":
+        return str(analyze_food_image())       
+    
     return f"Unknown tool: {name}"

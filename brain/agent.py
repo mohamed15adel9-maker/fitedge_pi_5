@@ -92,6 +92,8 @@ def run_agent(messages, user_id):
                 result = f"ERROR: {type(e).__name__}: {e}"
 
             result_text = str(result)
+            if result_text == "end_session":
+                return "end_session"
             print(f"Agent: {name} -> {result_text[:300]}", flush=True)
             tool_summaries.append(f"{name}: {result_text}")
 
