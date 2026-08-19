@@ -42,7 +42,7 @@ _model.eval()
 # ---------------- camera ----------------
 def capture_photo(output_path="captured_food.jpg"):
     if CAMERA == "webcam":
-        cam = cv2.VideoCapture(0)
+        cam = cv2.VideoCapture(1)
         ret, frame = cam.read()
         if ret:
             cv2.imwrite(output_path, frame)

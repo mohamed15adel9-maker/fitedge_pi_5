@@ -94,7 +94,7 @@ def capture_photo(output_path="captured_exercise.jpg"):
 
         import cv2
 
-        cam = cv2.VideoCapture(0)
+        cam = cv2.VideoCapture(1)
 
         if not cam.isOpened():
             return None
