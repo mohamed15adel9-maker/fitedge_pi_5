@@ -302,7 +302,7 @@ def main():
         print("5. Calling agent...")
         thinking_face()
 
-        response, display_data_used,display_text = run_agent(
+        response, display_data_used,display_text,display_type = run_agent(
             messages,
             current_user_id
         )
@@ -354,7 +354,7 @@ def main():
                 "Display: showing fetched data while speaking."
                 
             )
-            show_data(display_text)
+            show_data(display_text,display_type)
         else:
             speaking_face()
 

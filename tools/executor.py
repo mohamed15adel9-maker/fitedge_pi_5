@@ -8,7 +8,7 @@ Single-user system: all database operations use USER_ID.
 """
 
 # =========================================================
-# DATABASE  (your own memory/manager.py — no wrapper)
+# DATABASE
 # =========================================================
 from memory.manager import (
     # reads
@@ -18,6 +18,7 @@ from memory.manager import (
     get_workouts,
     get_fact,
     get_user,
+
     # writes
     create_user as db_create_user,
     create_goal as db_create_goal,
@@ -30,14 +31,33 @@ from memory.manager import (
 # CALENDAR / WEATHER / EMAIL
 # =========================================================
 from tools.calendar import get_calendar_events, add_calendar_event
-from tools.weather import get_current_weather, get_hourly_weather, get_daily_weather
-from tools.email import draft_email, send_email, read_recent_emails
+
+from tools.weather import (
+    get_current_weather,
+    get_hourly_weather,
+    get_daily_weather,
+)
+
+from tools.email import (
+    draft_email,
+    send_email,
+    read_recent_emails,
+)
 
 # =========================================================
 # WGER / INTERVALS
 # =========================================================
-from tools.wger import get_recent_workouts, get_weight_log, add_weight_entry
-from tools.intervals import get_recent_activities, get_activity_details, get_wellness
+from tools.wger import (
+    get_recent_workouts,
+    get_weight_log,
+    add_weight_entry,
+)
+
+from tools.intervals import (
+    get_recent_activities,
+    get_activity_details,
+    get_wellness,
+)
 
 # =========================================================
 # VISION
@@ -61,42 +81,48 @@ def run_tool(name, args, user_ID):
         return {
             "result": get_active_goals(user_ID),
             "display_data": True,
+            "display_type": "goals",
         }
 
     if name == "get_latest_measurement":
         return {
             "result": get_latest_measurement(user_ID),
             "display_data": True,
+            "display_type": "measurement",
         }
 
     if name == "get_active_injuries":
         return {
             "result": get_active_injuries(user_ID),
             "display_data": True,
+            "display_type": "injuries",
         }
 
     if name == "get_recent_workouts_db":
         return {
             "result": get_workouts(
                 user_ID,
-                limit=args.get("limit", 5)
+                limit=args.get("limit", 5),
             ),
             "display_data": True,
+            "display_type": "workouts",
         }
 
     if name == "get_user_fact":
         return {
             "result": get_fact(
                 user_ID,
-                args.get("key", "")
+                args.get("key", ""),
             ),
             "display_data": True,
+            "display_type": "fact",
         }
 
     if name == "get_user_profile":
         return {
             "result": get_user(user_ID),
             "display_data": True,
+            "display_type": "profile",
         }
 
     # =====================================================
@@ -201,6 +227,7 @@ def run_tool(name, args, user_ID):
                 max_results=args.get("max_results", 10),
             ),
             "display_data": True,
+            "display_type": "calendar",
         }
 
     if name == "add_calendar_event":
@@ -231,7 +258,7 @@ def run_tool(name, args, user_ID):
 
     if name == "read_recent_emails":
         return read_recent_emails(
-            max_results=args.get("max_results", 5)
+            max_results=args.get("max_results", 5),
         )
 
     # =====================================================
@@ -241,17 +268,19 @@ def run_tool(name, args, user_ID):
     if name == "get_recent_workouts":
         return {
             "result": get_recent_workouts(
-                limit=args.get("limit", 5)
+                limit=args.get("limit", 5),
             ),
             "display_data": True,
+            "display_type": "workouts",
         }
 
     if name == "get_weight_log":
         return {
             "result": get_weight_log(
-                limit=args.get("limit", 5)
+                limit=args.get("limit", 5),
             ),
             "display_data": True,
+            "display_type": "weight_log",
         }
 
     if name == "add_weight_entry":
@@ -261,7 +290,7 @@ def run_tool(name, args, user_ID):
         )
 
     # =====================================================
-    # CARDIO / RECOVERY (Intervals.icu)
+    # CARDIO / RECOVERY — Intervals.icu
     # =====================================================
 
     if name == "get_recent_activities":
@@ -271,22 +300,25 @@ def run_tool(name, args, user_ID):
                 limit=args.get("limit", 10),
             ),
             "display_data": True,
+            "display_type": "activities",
         }
 
     if name == "get_wellness":
         return {
             "result": get_wellness(
-                days_back=args.get("days_back", 7)
+                days_back=args.get("days_back", 7),
             ),
             "display_data": True,
+            "display_type": "wellness",
         }
 
     if name == "get_activity_details":
         return {
             "result": get_activity_details(
-                args.get("activity_id")
+                args.get("activity_id"),
             ),
             "display_data": True,
+            "display_type": "activities",
         }
 
     # =====================================================
@@ -298,13 +330,12 @@ def run_tool(name, args, user_ID):
         lon = args.get("longitude") or 29.9
 
         return {
-            "result": str(
-                get_current_weather(
-                    lat,
-                    lon,
-                )
+            "result": get_current_weather(
+                lat,
+                lon,
             ),
             "display_data": True,
+            "display_type": "weather",
         }
 
     if name == "get_hourly_weather":
@@ -312,14 +343,13 @@ def run_tool(name, args, user_ID):
         lon = args.get("longitude") or 29.9
 
         return {
-            "result": str(
-                get_hourly_weather(
-                    latitude=lat,
-                    longitude=lon,
-                    hours=args.get("hours", 24),
-                )
+            "result": get_hourly_weather(
+                latitude=lat,
+                longitude=lon,
+                hours=args.get("hours", 24),
             ),
             "display_data": True,
+            "display_type": "weather",
         }
 
     if name == "get_daily_weather":
@@ -327,14 +357,13 @@ def run_tool(name, args, user_ID):
         lon = args.get("longitude") or 29.9
 
         return {
-            "result": str(
-                get_daily_weather(
-                    latitude=lat,
-                    longitude=lon,
-                    days=args.get("days", 7),
-                )
+            "result": get_daily_weather(
+                latitude=lat,
+                longitude=lon,
+                days=args.get("days", 7),
             ),
             "display_data": True,
+            "display_type": "weather",
         }
 
     # =====================================================
@@ -351,7 +380,7 @@ def run_tool(name, args, user_ID):
     if name == "run_pushup_session":
         return str(
             run_pushup_session(
-                target_reps=args.get("target_reps")
+                target_reps=args.get("target_reps"),
             )
         )
 
@@ -359,5 +388,9 @@ def run_tool(name, args, user_ID):
         return str(
             analyze_food_image()
         )
+
+    # =====================================================
+    # UNKNOWN TOOL
+    # =====================================================
 
     return f"Unknown tool: {name}"

@@ -38,6 +38,7 @@ def get_user_message(messages):
 def run_agent(messages, user_id):
     display_data_used = False
     display_text = None
+    diplay_type = None
 
     user_message = get_user_message(messages)
     if not user_message:
@@ -60,7 +61,7 @@ def run_agent(messages, user_id):
             user_message,
             tool_summary="",
             context=context,
-        ), False,None
+        ), False,None,None
 
     # -----------------------------------------------------
     # 3. BOUNDED NATIVE TOOL LOOP (across all routed domains)
@@ -128,6 +129,7 @@ def run_agent(messages, user_id):
                 if result.get("display_data", False):
                     display_data_used = True
                     display_text = str(result["result"])
+                    display_type = result.get("display_type")
 
             else:
                 result_text = str(result)
@@ -163,7 +165,7 @@ def run_agent(messages, user_id):
         user_message,
         tool_summary=tool_summary,
         context=context,
-    ), display_data_used,display_text
+    ), display_data_used,display_text,display_type
 
 
 # ---------------------------------------------------------
