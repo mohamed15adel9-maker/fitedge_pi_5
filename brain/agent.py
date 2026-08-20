@@ -36,6 +36,9 @@ def get_user_message(messages):
 
 
 def run_agent(messages, user_id):
+    display_data_used = False
+    display_text = None
+
     user_message = get_user_message(messages)
     if not user_message:
         return "I couldn't determine what you are asking."
@@ -53,21 +56,35 @@ def run_agent(messages, user_id):
     # -----------------------------------------------------
     if domains == ["none"]:
         context = _safe_context(user_message, user_id)
-        return generate_final_answer(user_message, tool_summary="", context=context)
+        return generate_final_answer(
+            user_message,
+            tool_summary="",
+            context=context,
+        ), False,None
 
     # -----------------------------------------------------
     # 3. BOUNDED NATIVE TOOL LOOP (across all routed domains)
     # -----------------------------------------------------
     loop_messages = [
-        {"role": "system", "content":
-            "Use tools to gather what you need. For multi-step requests, gather "
-            "all needed information first, then act. When done, stop calling tools."},
-        {"role": "user", "content": user_message},
+        {
+            "role": "system",
+            "content":
+                "Use tools to gather what you need. For multi-step requests, gather "
+                "all needed information first, then act. When done, stop calling tools.",
+        },
+        {
+            "role": "user",
+            "content": user_message,
+        },
     ]
+
     tool_summaries = []
 
     for round_num in range(1, MAX_ROUNDS + 1):
-        print(f"Agent: tool round {round_num}/{MAX_ROUNDS}", flush=True)
+        print(
+            f"Agent: tool round {round_num}/{MAX_ROUNDS}",
+            flush=True,
+        )
 
         reply = chat_with_tools(loop_messages, domains)
 
@@ -78,24 +95,51 @@ def run_agent(messages, user_id):
         })
 
         if not reply.tool_calls:
-            print("Agent: no more tool calls; exiting loop.", flush=True)
+            print(
+                "Agent: no more tool calls; exiting loop.",
+                flush=True,
+            )
             break
 
         for call in reply.tool_calls:
             name = call.function.name
             args = dict(call.function.arguments or {})
 
-            print(f"Agent: calling {name} args={args}", flush=True)
+            print(
+                f"Agent: calling {name} args={args}",
+                flush=True,
+            )
+
             try:
-                result = run_tool(name, args, user_id)
+                result = run_tool(
+                    name,
+                    args,
+                    user_id,
+                )
             except Exception as e:
                 result = f"ERROR: {type(e).__name__}: {e}"
 
-            result_text = str(result)
-            if result_text == "end_session":
-                return "end_session"
-            print(f"Agent: {name} -> {result_text[:300]}", flush=True)
-            tool_summaries.append(f"{name}: {result_text}")
+            # -------------------------------------------------
+            # Check whether this tool returned display data
+            # -------------------------------------------------
+            if isinstance(result, dict) and "result" in result:
+                result_text = str(result["result"])
+
+                if result.get("display_data", False):
+                    display_data_used = True
+                    display_text = str(result["result"])
+
+            else:
+                result_text = str(result)
+
+            print(
+                f"Agent: {name} -> {result_text[:300]}",
+                flush=True,
+            )
+
+            tool_summaries.append(
+                f"{name}: {result_text}"
+            )
 
             loop_messages.append({
                 "role": "tool",
@@ -105,13 +149,21 @@ def run_agent(messages, user_id):
     # -----------------------------------------------------
     # 4. BUILD CONTEXT (RAG + facts + history) - final stage only
     # -----------------------------------------------------
-    context = _safe_context(user_message, user_id)
+    context = _safe_context(
+        user_message,
+        user_id,
+    )
 
     # -----------------------------------------------------
     # 5. FINAL ANSWER
     # -----------------------------------------------------
     tool_summary = "\n".join(tool_summaries)
-    return generate_final_answer(user_message, tool_summary=tool_summary, context=context)
+
+    return generate_final_answer(
+        user_message,
+        tool_summary=tool_summary,
+        context=context,
+    ), display_data_used,display_text
 
 
 # ---------------------------------------------------------
@@ -119,7 +171,13 @@ def run_agent(messages, user_id):
 # ---------------------------------------------------------
 def _safe_context(user_message, user_id):
     try:
-        return build_context(user_message, user_id)
+        return build_context(
+            user_message,
+            user_id,
+        )
     except Exception as e:
-        print(f"Agent: context error {type(e).__name__}: {e}", flush=True)
+        print(
+            f"Agent: context error {type(e).__name__}: {e}",
+            flush=True,
+        )
         return ""

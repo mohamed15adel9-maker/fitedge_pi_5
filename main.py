@@ -6,6 +6,7 @@ from brain.agent import run_agent
 from difflib import SequenceMatcher
 from memory.manager import get_all_users, add_message, create_user
 import time
+from display.data import show_data
 
 from display.oled_faces import (
     sleeping_face,
@@ -23,8 +24,8 @@ from speech.transcriber import load_model, transcribe
 
 # Load the Whisper model while the sleeping face is displayed
 load_model()
-CONVERSATION_ID = "default"
 
+CONVERSATION_ID = "default"
 
 SESSION_TIMEOUT = 900   # 15 minutes of inactivity -> auto logout
 
@@ -33,13 +34,18 @@ def lookup_user_by_name(spoken_name):
     """Fuzzy-match the spoken name to a user. Returns user_id or None."""
     spoken = spoken_name.lower().strip()
     best, best_score = None, 0
+
     for user in get_all_users():
-        score = SequenceMatcher(None, spoken, user["name"].lower()).ratio()
+        score = SequenceMatcher(
+            None,
+            spoken,
+            user["name"].lower()
+        ).ratio()
+
         if score > best_score:
             best, best_score = user, score
+
     return best["id"] if best_score >= 0.6 else None
-
-
 
 
 def main():
@@ -57,13 +63,16 @@ def main():
             speaking_face()
             speak(question)
             print(question)
+
             listening_face()
             audio = record_audio()
+
             thinking_face()
             text = transcribe(audio).strip()
 
             if text:
                 return text
+
             speaking_face()
             speak("I didn't catch that. Please try again.")
 
@@ -93,7 +102,9 @@ def main():
         """Ask until Male or Female is received."""
         while True:
             speaking_face()
-            text = ask_text("What is your sex? Male or Female?").lower()
+            text = ask_text(
+                "What is your sex? Male or Female?"
+            ).lower()
 
             if text.startswith("m"):
                 return "Male"
@@ -108,11 +119,15 @@ def main():
         # -----------------------------------------------------
         # 1. WAIT FOR WAKE WORD
         # -----------------------------------------------------
+
         smiling_face()
         print("1. Waiting for wake word...")
         wait_for_wake_word()
 
-        if current_user_id is not None and (time.time() - last_active) > SESSION_TIMEOUT:
+        if (
+            current_user_id is not None
+            and (time.time() - last_active) > SESSION_TIMEOUT
+        ):
             print("Session timed out.")
             current_user_id = None
 
@@ -129,15 +144,24 @@ def main():
             if uid is not None:
                 current_user_id = uid
                 last_active = time.time()
+
                 speaking_face()
-                speak(f"Welcome back {name}. How can I help?")
+                speak(
+                    f"Welcome back {name}. How can I help?"
+                )
                 continue
+
             speaking_face()
-            speak(f"Nice to meet you, {name}. I need to create your profile.")
+            speak(
+                f"Nice to meet you, {name}. "
+                f"I need to create your profile."
+            )
 
             age = ask_int("How old are you?")
             sex = ask_sex()
-            height = ask_float("What is your height in centimeters?")
+            height = ask_float(
+                "What is your height in centimeters?"
+            )
 
             current_user_id = create_user(
                 name=name,
@@ -147,29 +171,33 @@ def main():
             )
 
             last_active = time.time()
+
             speaking_face()
             speak(
-                f"Your profile has been created successfully, {name}. How can I help?"
+                f"Your profile has been created successfully, "
+                f"{name}. How can I help?"
             )
             continue
 
         # -----------------------------------------------------
         # 2. RECORD AUDIO
         # -----------------------------------------------------
-        
+
         print("2. Recording...")
         listening_face()
+
         recorded_audio = record_audio()
+
         # -----------------------------------------------------
         # 3. TRANSCRIBE
         # -----------------------------------------------------
+
         thinking_face()
         print("3. Transcribing...")
 
         transcribed_text = transcribe(
             recorded_audio
         )
-        
 
         print(
             "Transcribed text:",
@@ -178,9 +206,6 @@ def main():
 
         if not transcribed_text or not transcribed_text.strip():
             continue
-        
-
-        
 
         transcribed_text = transcribed_text.strip()
 
@@ -235,7 +260,6 @@ def main():
         # -----------------------------------------------------
 
         try:
-
             with open(
                 "/tmp/fitedge_prompt.txt",
                 "w",
@@ -277,13 +301,15 @@ def main():
 
         print("5. Calling agent...")
         thinking_face()
-        response = run_agent(
-            messages,current_user_id
+
+        response, display_data_used,display_text = run_agent(
+            messages,
+            current_user_id
         )
+
         if response == "end_session":
             current_user_id = None
             continue
-        
 
         print("Agent finished.")
 
@@ -292,12 +318,13 @@ def main():
         #
         # Save AFTER the agent finishes.
         #
-        # This is intentional:
-        # build_context() inside agent.py will not see the
-        # current user message as old conversation history.
+        # This is intentional: build_context() inside agent.py
+        # will not see the current user message as old
+        # conversation history.
         # -----------------------------------------------------
 
         speech = clean_for_speech(response)
+
         print("6. Saving conversation...")
 
         print(speech)
@@ -305,28 +332,38 @@ def main():
         add_message(
             CONVERSATION_ID,
             "user",
-            transcribed_text,current_user_id
+            transcribed_text,
+            current_user_id
         )
 
         add_message(
             CONVERSATION_ID,
             "assistant",
-            response,current_user_id
+            response,
+            current_user_id
         )
 
         # -----------------------------------------------------
         # 7. SPEAK RESPONSE
         # -----------------------------------------------------
-        
 
         print("7. Speaking...")
-        speaking_face()
-        speak(
-            speech
-        )
+
+        if display_data_used and display_text:
+            print(
+                "Display: showing fetched data while speaking."
+                
+            )
+            show_data(display_text)
+        else:
+            speaking_face()
+
+        speak(speech)
+
+        # Always return to smiling face after speaking
         smiling_face()
+
         print("Done.")
-        print()
 
 
 if __name__ == "__main__":
