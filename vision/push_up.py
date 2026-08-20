@@ -1,676 +1,349 @@
+"""
+vision/pushup.py
 
+Continuous push-up FORM CHECKER + rep counter using YOLOv8-pose.
 
-import math
-from collections import Counter
-from dataclasses import dataclass
-from typing import Dict, List, Optional, Tuple
-from sklearn.metrics import euclidean_distances as dist
+Design (fixed):
+  - ONE pose inference per frame.
+  - Rep counting is a clean UP/DOWN state machine: a rep is counted ONCE,
+    on the way back up, and is EITHER correct OR incorrect, never both.
+  - Form is only flagged "bad" if it stays bad for several consecutive
+    frames (kills single-frame keypoint noise).
+  - Low-confidence keypoints are ignored so garbage positions don't create
+    fake angles.
+
+Keypoint indices (COCO, YOLOv8-pose):
+  5 L-shoulder 6 R-shoulder 7 L-elbow 8 R-elbow 9 L-wrist 10 R-wrist
+  11 L-hip 12 R-hip 13 L-knee 14 R-knee 15 L-ankle 16 R-ankle
+Each keypoint is [x, y, confidence].
+"""
+
+import time
 import numpy as np
+import cv2
 from ultralytics import YOLO
 from tts.speaker import speak
-import time
+from vision.drawing import draw_keypoints, draw_connections, feedbackText, repcount
 
-
-import cv2
-
-from vision.drawing import (
-    draw_keypoints,
-    draw_connections,
-    feedbackText,
-    repcount,
-)
-
-
-
-MIN_ELBOW_POSITION_ANGLE = 30
-MAX_ELBOW_POSITION_ANGLE = 70
-
-incorrectState =0
-phase = 0
-reps = 0
-incorrect_reps = 0
-
-
-
-CAMERA = "webcam"                 # "webcam" or "pi"
+# ----------------------------------------------------------------------
+# CONFIG
+# ----------------------------------------------------------------------
 POSE_MODEL_PATH = "yolov8n-pose.pt"
-CONF_THRESHOLD = 0.40
-model = YOLO(POSE_MODEL_PATH)
-KEYPOINT_CONF_THRESHOLD = 0.35
-
-MIN_VALID_KEYPOINTS = 8
 CAMERA_INDEX = 0
+KP_CONF_MIN = 0.35            # ignore keypoints below this confidence
+BAD_FRAMES_TO_FLAG = 3        # form must be bad this many frames in a row to count as bad
+FEEDBACK_COOLDOWN = 2.0       # seconds between spoken feedbacks
+UP_FRAMES_TO_END = 15         # standing-up frames before ending the session
+
+# Push-up depth thresholds (elbow angle):
+TOP_ANGLE = 155              # arms basically straight = top of push-up
+BOTTOM_ANGLE = 120           # arms bent this far = bottom of push-up
+# We convert the elbow angle into a 0-100 "percent extended" for the state machine.
+
+# Form thresholds:
+MIN_BODY_ANGLE = 150.0       # shoulder-hip-ankle; straighter = better plank line
+
+model = YOLO(POSE_MODEL_PATH)
 
 CONNECTIONS = [
-    (5, 7),    # left shoulder -> left elbow
-    (7, 9),    # left elbow -> left wrist
-
-    (6, 8),    # right shoulder -> right elbow
-    (8, 10),   # right elbow -> right wrist
-
-    (5, 6),    # shoulders
-
-    (5, 11),   # left shoulder -> left hip
-    (6, 12),   # right shoulder -> right hip
-
-    (11, 13),  # left hip -> left knee
-    (13, 15),  # left knee -> left ankle
-
-    (12, 14),  # right hip -> right knee
-    (14, 16),  # right knee -> right ankle
+    (5, 7), (7, 9),          # left arm
+    (6, 8), (8, 10),         # right arm
+    (5, 6),                  # shoulders
+    (5, 11), (6, 12),        # torso sides
+    (11, 13), (13, 15),      # left leg
+    (12, 14), (14, 16),      # right leg
 ]
 
 
-
-def estimate_angle(a,b,c):
-    a = np.array(a)
-    b = np.array(b)
-    c = np.array(c)
-    radians = (
-    np.arctan2(c[1] - b[1], c[0] - b[0])
-    - np.arctan2(a[1] - b[1], a[0] - b[0])
-    )
-    angle= abs(radians*180)/np.pi
-    if angle>180:
-        return 360-angle
-
+# ======================================================================
+# GEOMETRY HELPERS
+# ======================================================================
+def estimate_angle(a, b, c):
+    """
+    Angle in degrees at point b, formed by the segments b->a and b->c.
+    Each of a, b, c is an (x, y) pair. Returns 0-180.
+    """
+    a = np.array(a, dtype=float)
+    b = np.array(b, dtype=float)
+    c = np.array(c, dtype=float)
+    radians = np.arctan2(c[1] - b[1], c[0] - b[0]) - np.arctan2(a[1] - b[1], a[0] - b[0])
+    angle = abs(radians * 180.0 / np.pi)
+    if angle > 180.0:
+        angle = 360.0 - angle
     return angle
 
-def get_angle(kp):
-    right_shoulder = kp[6]
-    right_elbow = kp[8]
-    right_wrist = kp[10]
-    left_shoulder = kp[5]
-    left_elbow = kp[7]
-    left_wrist = kp[9]
-
-    right_angle = estimate_angle(right_shoulder,right_elbow,right_wrist)
-    left_angle = estimate_angle(left_shoulder,left_elbow,left_wrist)
-    avg_angle = (right_angle+left_angle) /2
-    phase = ""
-    if avg_angle>=155:
-        phase = "start"
-    elif avg_angle>125:
-        phase = "midrep"
-    else:
-        phase = "bottom"        
-    return avg_angle,phase
-
-def is_in_starting_position(kp):
-    right_shoulder = kp[6]
-    right_elbow = kp[8]
-    right_wrist = kp[10]
-    left_shoulder = kp[5]
-    left_elbow = kp[7]
-    left_wrist = kp[9]
-    angle = get_angle(kp)
-
-    right_angle = estimate_angle(right_shoulder,right_elbow,right_wrist)
-    left_angle = estimate_angle(left_shoulder,left_elbow,left_wrist)
-    
-    threshold = 155
-    isUpRIght = (right_angle>=threshold and left_angle>=threshold)
-    return isUpRIght
-
-
-def check_elbow_position(kps: np.ndarray, movement_angle: float) -> bool:
-    right_shoulder = kps[6]
-    right_elbow = kps[8]
-    right_hip = kps[12]
-
-    left_shoulder = kps[5]
-    left_elbow = kps[7]
-    left_hip = kps[11]
-
-    right_angle = estimate_angle(
-        right_elbow,
-        right_shoulder,
-        right_hip
-    )
-
-    left_angle = estimate_angle(
-        left_elbow,
-        left_shoulder,
-        left_hip
-    )
-
-    average_angle = (right_angle + left_angle) / 2
-
-    # Movement elbow angle -> acceptable elbow-position angle.
-    movement_angles = np.array([
-        100.0,
-        110.0,
-        120.0,
-        130.0,
-        140.0,
-        150.0
-    ])
-
-    min_position_angles = np.array([
-        15.0,
-        20.0,
-        25.0,
-        35.0,
-        45.0,
-        55.0
-    ])
-
-    max_position_angles = np.array([
-        30.0,
-        35.0,
-        45.0,
-        50.0,
-        60.0,
-        65.0
-    ])
-
-    # Clamp movement angle to our reference range.
-    movement_angle = np.clip(
-        movement_angle,
-        100.0,
-        150.0
-    )
-
-    expected_min = np.interp(
-        movement_angle,
-        movement_angles,
-        min_position_angles
-    )
-
-    expected_max = np.interp(
-        movement_angle,
-        movement_angles,
-        max_position_angles
-    )
 
-    print(
-        f"ELBOW POSITION = {average_angle:.1f} | "
-        f"EXPECTED = {expected_min:.1f}-{expected_max:.1f}"
-    )
-    tolerence = 10
-
-    return (
-        expected_min - tolerence
-        <= average_angle
-        <= expected_max + tolerence
-    )
-
-
-def wrists_wider_than_shoulders(kps: np.ndarray) -> bool:
-    right_shoulder = kps[6]
-    left_shoulder = kps[5]
-
-    right_wrist = kps[10]
-    left_wrist = kps[9]
-
-    shoulders_width = np.linalg.norm(
-        right_shoulder - left_shoulder
-    )
-
-    wrists_width = np.linalg.norm(
-        right_wrist - left_wrist
-    )
-
-    return wrists_width >= shoulders_width
-
-
-MIN_BODY_ANGLE = 150.0
-
-def check_body_alignment(kps):
-    right_shoulder = kps[6]
-    right_hip = kps[12]
-    right_ankle = kps[16]
-
-    body_angle = estimate_angle(
-        right_shoulder,
-        right_hip,
-        right_ankle
-    )
-    print(f"BODY ANGLE = {body_angle:.1f}")
-
-
-    return body_angle >= MIN_BODY_ANGLE
-
-
-def give_feedback_push_up(kps: np.ndarray) -> Tuple[Dict, List]:
-    feedback = {}
-    feedback_flag = False
-
-    possible_corrections = [
-        "start_position",
-        "wrist_bad",
-        "body_bad",
-        "elbow_bad",
-    ]
-
-    angle, phase = get_angle(kps)
-
-    # --------------------------------
-    # Starting-position checks
-    # --------------------------------
-
-    if is_in_starting_position(kps):
-
-        feedback["is_in_position"] = True
-
-        if not wrists_wider_than_shoulders(kps):
-            feedback["wrist_bad"] = (
-                "Place your hands wider than your shoulders!"
-            )
-            feedback_flag = True
-
-    # --------------------------------
-    # Active push-up checks
-    # --------------------------------
-
-    else:
-
-        if is_valid_pose_geometry(kps):
-            if not check_body_alignment(kps):
-                feedback["body_bad"] = (
-                "Keep your body straight!"
-                )
-                feedback_flag = True
-
-            if not check_elbow_position(kps,angle):
-                feedback["elbow_bad"] = (
-                    "Keep your elbows closer to your body!"
-                )
-                feedback_flag = True
-
-    pointsofinterest = []
-
-    return (
-        feedback,
-        possible_corrections,
-        pointsofinterest,
-        feedback_flag,
-    )
-
-
-def is_valid_pose_geometry(kps):
-    body_angle = estimate_angle(
-        kps[6],
-        kps[12],
-        kps[16]
-    )
-
-    return 120 <= body_angle <= 190
-
-
-
-def counts_calculate_push_up(kps,correct):
-    angle,_ = get_angle(kps)
-    per = np.interp(angle, (100, 150), (0, 100))
-    print(
-        f"COUNT | angle={angle:.1f} | "
-        f"percent={per:.1f} | "
-        f"correct={correct} | "
-    )
-    return count(per,correct == 1)
-
-
-
-
-
-
-
-def count(percent, isCorrect=False):
-    global incorrectState
-    global phase
-    global reps
-    global incorrect_reps
-
-    # --------------------------------------------------
-    # BEFORE REP STARTS
-    # --------------------------------------------------
-    # Ignore form errors while the user is simply
-    # getting into the starting position.
-    if phase == 0:
-
-        # We only start a rep once the top position
-        # reaches 100%.
-        if percent >= 100:
-            phase = 1
-            incorrectState = 0
-
-            # The frame that reaches 100% is the
-            # beginning of the rep, so don't mark it
-            # incorrect yet.
-            return reps, incorrect_reps
-
-        return reps, incorrect_reps
-
-    # --------------------------------------------------
-    # REP IS ACTIVE
-    # --------------------------------------------------
-
-    # Now form errors matter.
-    if not isCorrect:
-        incorrectState = 1
-
-    # --------------------------------------------------
-    # REP COMPLETED
-    # --------------------------------------------------
-
-    if percent <= 0:
-
-        if incorrectState == 1:
-            incorrect_reps += 1
-            print(
-                f"REP COMPLETED | "
-                f"Correct: {reps} | "
-                f"Incorrect: {incorrect_reps} | "
-                f"Total: {reps + incorrect_reps}"
-            )
-        else:
-            reps += 1
-            print(
-                f"REP COMPLETED | "
-                f"Correct: {reps} | "
-                f"Incorrect: {incorrect_reps} | "
-                f"Total: {reps + incorrect_reps}"
-            )
-
-        # Reset for the next repetition.
-        phase = 0
-        incorrectState = 0
-
-    return reps, incorrect_reps
-
-
-def get_debug_info(kps):
-    angle, movement_phase = get_angle(kps)
-
-    start = is_in_starting_position(kps)
-    hand_ok = wrists_wider_than_shoulders(kps)
-
-    if is_valid_pose_geometry(kps):
-        body_ok = check_body_alignment(kps)
-        elbow_ok = check_elbow_position(kps, angle)
-    else:
-        body_ok = True
-        elbow_ok = True
-
-    return {
-        "angle": angle,
-        "phase": movement_phase,
-        "start": start,
-        "hands": hand_ok,
-        "body": body_ok,
-        "elbow": elbow_ok,
-    }    
-
-
-def run_pushUp_session(target_reps = None):
-    global incorrectState, phase, reps, incorrect_reps
- 
+def kp_ok(kp, idx):
+    """True if keypoint idx is confident enough to trust."""
+    return kp[idx][2] >= KP_CONF_MIN
+
+
+def xy(kp, idx):
+    """Return just the (x, y) of a keypoint."""
+    return kp[idx][:2]
+
+
+# ======================================================================
+# ELBOW ANGLE + PHASE  (drives depth / rep detection)
+# ======================================================================
+def get_elbow_angle(kp):
+    """
+    Average elbow angle across both arms (whichever are confident).
+    Big angle (~180) = arms straight (top). Small (~90) = arms bent (bottom).
+    Returns None if we can't see the arms well enough.
+    """
+    angles = []
+    # right arm: shoulder(6) elbow(8) wrist(10)
+    if kp_ok(kp, 6) and kp_ok(kp, 8) and kp_ok(kp, 10):
+        angles.append(estimate_angle(xy(kp, 6), xy(kp, 8), xy(kp, 10)))
+    # left arm: shoulder(5) elbow(7) wrist(9)
+    if kp_ok(kp, 5) and kp_ok(kp, 7) and kp_ok(kp, 9):
+        angles.append(estimate_angle(xy(kp, 5), xy(kp, 7), xy(kp, 9)))
+
+    if not angles:
+        return None
+    return sum(angles) / len(angles)
+
+
+def angle_to_percent(angle):
+    """
+    Map elbow angle -> 0..100 'extended' percent.
+    BOTTOM_ANGLE -> 0 (fully bent, bottom of push-up)
+    TOP_ANGLE    -> 100 (straight, top of push-up)
+    """
+    pct = np.interp(angle, (BOTTOM_ANGLE, TOP_ANGLE), (0.0, 100.0))
+    return float(pct)
+
+
+# ======================================================================
+# FORM CHECKS
+# ======================================================================
+def check_body_alignment(kp):
+    """
+    Straight-body (plank) check using right shoulder(6)-hip(12)-ankle(16).
+    Returns (is_good, angle) or (None, None) if not visible.
+    """
+    if not (kp_ok(kp, 6) and kp_ok(kp, 12) and kp_ok(kp, 16)):
+        return None, None
+    body_angle = estimate_angle(xy(kp, 6), xy(kp, 12), xy(kp, 16))
+    return body_angle >= MIN_BODY_ANGLE, body_angle
+
+
+def wrists_wider_than_shoulders(kp):
+    """
+    Hands should be at least shoulder-width. Returns True/False, or None
+    if keypoints aren't confident.
+    """
+    if not (kp_ok(kp, 5) and kp_ok(kp, 6) and kp_ok(kp, 9) and kp_ok(kp, 10)):
+        return None
+    shoulders_w = np.linalg.norm(np.array(xy(kp, 6)) - np.array(xy(kp, 5)))
+    wrists_w = np.linalg.norm(np.array(xy(kp, 10)) - np.array(xy(kp, 9)))
+    return wrists_w >= shoulders_w * 0.9   # small tolerance
+
+
+def evaluate_form(kp):
+    """
+    Look at the current frame and return:
+      form_good  : bool  (is this frame's form acceptable?)
+      messages   : list of feedback strings for what's wrong
+    Only checks that are confidently visible are applied.
+    """
+    messages = []
+    form_good = True
+
+    body_good, _ = check_body_alignment(kp)
+    if body_good is False:              # explicitly bad (None = not visible, skip)
+        messages.append("Keep your body straight!")
+        form_good = False
+
+    wrists_good = wrists_wider_than_shoulders(kp)
+    if wrists_good is False:
+        messages.append("Place your hands about shoulder width!")
+        form_good = False
+
+    return form_good, messages
+
+
+# ======================================================================
+# REP COUNTER  (clean up/down state machine)
+# ======================================================================
+class RepCounter:
+    """
+    Counts a rep ONCE per full down-up cycle.
+    A rep is correct UNLESS form was bad during the 'down' portion.
+    """
+    def __init__(self):
+        self.stage = "up"          # start at the top
+        self.correct = 0
+        self.incorrect = 0
+        self.rep_had_error = False
+
+    def update(self, percent, frame_form_bad):
+        """
+        percent        : 0 (bottom) .. 100 (top)
+        frame_form_bad : True if this frame's form is (persistently) bad
+        Returns (correct, incorrect).
+        """
+        # --- going DOWN: we pass below 15% while currently 'up' ---
+        if self.stage == "up" and percent <= 30:
+            self.stage = "down"
+            self.rep_had_error = False        # fresh rep
+
+        # --- while DOWN, remember if form ever broke ---
+        if self.stage == "down" and frame_form_bad:
+            self.rep_had_error = True
+
+        # --- coming back UP: we pass above 85% while 'down' => rep done ---
+        if self.stage == "down" and percent >= 75:
+            self.stage = "up"
+            if self.rep_had_error:
+                self.incorrect += 1
+            else:
+                self.correct += 1
+
+        return self.correct, self.incorrect
+
+
+# ======================================================================
+# STANDING-UP DETECTION  (to auto-end the session)
+# ======================================================================
+def is_user_standing(kp):
+    """
+    True if the body is vertical (user stood up). Uses shoulder & ankle
+    centres; returns (standing_bool, torso_angle_from_horizontal).
+    """
+    if not (kp_ok(kp, 5) and kp_ok(kp, 6) and kp_ok(kp, 15) and kp_ok(kp, 16)):
+        return False, None
+    shoulder_c = np.mean([xy(kp, 5), xy(kp, 6)], axis=0)
+    ankle_c = np.mean([xy(kp, 15), xy(kp, 16)], axis=0)
+    dx = ankle_c[0] - shoulder_c[0]
+    dy = ankle_c[1] - shoulder_c[1]
+    angle = abs(np.degrees(np.arctan2(dy, dx)))
+    if angle > 90:
+        angle = 180 - angle
+    return angle > 60, angle    # >60 from horizontal = fairly upright
+
+
+# ======================================================================
+# MAIN SESSION LOOP
+# ======================================================================
+def run_pushup_session(target_reps=None):
     cam = cv2.VideoCapture(CAMERA_INDEX)
-    incorrectState = 0
-    incorrect_reps = 0
-    reps = 0
-    phase = 0
-    last_spoken_feedback = None
-    last_feedback_time = 0
-    FEEDBACK_COOLDOWN = 2.0
-
-    
-
     if not cam.isOpened():
         raise RuntimeError("Could not open webcam.")
 
-    # ============================================================
-    # LIVE LOOP
-    # ============================================================
-    started_session = False
-    up_frames = 0
+    counter = RepCounter()
+    bad_frame_streak = 0
+    last_spoken = None
+    last_spoken_time = 0.0
+    up_streak = 0
+    started = False
     previous_total = 0
     feedback_summary = set()
 
-
     while True:
-
-        # --------------------------------------------------------
-        # 1. GET FRAME
-        # --------------------------------------------------------
-
+        # 1. FRAME
         ret, frame = cam.read()
-
         if not ret:
             print("Could not read frame.")
             break
 
-        # --------------------------------------------------------
-        # 2. YOLO POSE DETECTION
-        # --------------------------------------------------------
-
+        # 2. POSE (once)
         results = model(frame, verbose=False)
-
         result = results[0]
 
-        # No pose detected
+        # 3. NO PERSON -> just show frame
         if result.keypoints is None or len(result.keypoints) == 0:
-
             cv2.imshow("Push Up Trainer", frame)
-
             if cv2.waitKey(1) & 0xFF == ord("q"):
                 break
-
             continue
 
-        # --------------------------------------------------------
-        # 3. EXTRACT FIRST PERSON'S KEYPOINTS
-        # --------------------------------------------------------
+        kp = result.keypoints.data.cpu().numpy()[0]   # (17, 3): x,y,conf
 
-        kp = result.keypoints.data.cpu().numpy()[0]
-        debug = get_debug_info(kp)
-
-        print(
-            f"angle={debug['angle']:.1f} | "
-            f"phase={debug['phase']} | "
-            f"start={debug['start']} | "
-            f"hands={debug['hands']} | "
-            f"body={debug['body']} | "
-            f"elbow={debug['elbow']}"
-        )
-
-        # kp is approximately:
-        #
-        # kp[0]  -> nose
-        # kp[5]  -> left shoulder
-        # kp[6]  -> right shoulder
-        # kp[7]  -> left elbow
-        # kp[8]  -> right elbow
-        # kp[9]  -> left wrist
-        # kp[10] -> right wrist
-        # ...
-        #
-        # Each keypoint contains:
-        # [x, y, confidence]
-
-        # --------------------------------------------------------
-        # 4. FORM ANALYSIS
-        # --------------------------------------------------------
-
-        (
-            feedback,
-            possible_corrections,
-            pointsofinterest,
-            feedback_flag
-        ) = give_feedback_push_up(kp)
-
-                current_feedback = None
-
-        for correction in possible_corrections:
-            if correction in feedback:
-                current_feedback = feedback[correction]
+        # 4. ELBOW ANGLE / DEPTH
+        elbow_angle = get_elbow_angle(kp)
+        if elbow_angle is None:
+            # arms not visible enough this frame; show and continue
+            frame = draw_keypoints(frame, kp)
+            frame = draw_connections(CONNECTIONS, frame, kp)
+            cv2.imshow("Push Up Trainer", frame)
+            if cv2.waitKey(1) & 0xFF == ord("q"):
                 break
-        for correction in possible_corrections:
-            if correction in feedback:
-                feedback_summary.add(feedback[correction])        
+            continue
 
+        percent = angle_to_percent(elbow_angle)
+
+        # 5. FORM (this frame)
+        frame_form_good, messages = evaluate_form(kp)
+
+        # 6. DEBOUNCE form: only "bad" after several consecutive bad frames
+        if not frame_form_good:
+            bad_frame_streak += 1
+        else:
+            bad_frame_streak = 0
+        form_bad_persistent = bad_frame_streak >= BAD_FRAMES_TO_FLAG
+
+        # 7. REP COUNT (state machine)
+        correct, incorrect = counter.update(percent, form_bad_persistent)
+        total = correct + incorrect
+        if total > 0:
+            started = True
+
+        # 8. SPEAK FEEDBACK (persistent problems only, with cooldown)
         now = time.time()
+        if form_bad_persistent and messages:
+            msg = messages[0]
+            feedback_summary.add(msg)
+            if msg != last_spoken or (now - last_spoken_time) >= FEEDBACK_COOLDOWN:
+                speak(msg)
+                last_spoken = msg
+                last_spoken_time = now
+        elif frame_form_good:
+            last_spoken = None
 
-        if current_feedback is not None:
-            if (
-                current_feedback != last_spoken_feedback
-                or now - last_feedback_time >= FEEDBACK_COOLDOWN
-            ):
-                speak(current_feedback)
-                last_spoken_feedback = current_feedback
-                last_feedback_time = now
-
-        else:
-            last_spoken_feedback = None        
-
-        # --------------------------------------------------------
-        # 5. DETERMINE WHETHER THIS FRAME IS CORRECT
-        # --------------------------------------------------------
-
-        if feedback_flag:
-            correct = 0
-        else:
-            correct = 1
-
-        # --------------------------------------------------------
-        # 6. REP COUNTING
-        # --------------------------------------------------------
-
-        correct_count, incorrect_count = counts_calculate_push_up(
-            kp,
-            correct
-        )
-        current_total = correct_count + incorrect_count
-        
-
-        if target_reps is not None and current_total >= target_reps and previous_total < target_reps:
-            print("Target reached")
+        # 9. TARGET REACHED
+        if target_reps is not None and total >= target_reps and previous_total < target_reps:
             speak(f"You reached your target of {target_reps} reps.")
-        previous_total = current_total    
+        previous_total = total
 
-        if (correct_count + incorrect_count)>0:
-            started_session = True
-
-        user_up, body_angle = is_user_up(kp)    
-
-        if started_session and user_up:
-           up_frames+=1
+        # 10. AUTO-END when user stands up
+        standing, _ = is_user_standing(kp)
+        if started and standing:
+            up_streak += 1
         else:
-            up_frames = 0      
-        if up_frames>=15:
-            print("User got up. Ending Push-up session")
-            speak("Great work! Ending Push-up session.") 
+            up_streak = 0
+        if up_streak >= UP_FRAMES_TO_END:
+            speak("Great work! Ending push-up session.")
             break
 
+        # 11. DRAW
+        frame = draw_keypoints(frame, kp)
+        frame = draw_connections(CONNECTIONS, frame, kp)
+        frame = feedbackText(frame, f"Angle: {elbow_angle:.0f}  Depth: {percent:.0f}%")
+        if form_bad_persistent and messages:
+            frame = feedbackText(frame, messages[0])
+        frame = repcount(frame, correct)
 
+        # 12. DEBUG
+        print(f"elbow={elbow_angle:5.1f} depth={percent:5.1f}% "
+              f"stage={counter.stage:4s} form_bad={form_bad_persistent} "
+              f"correct={correct} incorrect={incorrect}")
 
-
-        # --------------------------------------------------------
-        # 7. DRAW BODY KEYPOINTS
-        # --------------------------------------------------------
-        
-        frame = draw_keypoints(
-            frame,
-            kp
-        )
-
-        # --------------------------------------------------------
-        # 8. DRAW BODY CONNECTIONS
-        # --------------------------------------------------------
-
-        frame = draw_connections(
-            CONNECTIONS,
-            frame,
-            kp
-        )
-
-        # --------------------------------------------------------
-        # 9. DRAW CURRENT ANGLE / PHASE
-        # --------------------------------------------------------
-
-        angle, phase = get_angle(kp)
-
-        print(
-            f"angle={angle:.1f} | "
-            f"phase={phase} | "
-            f"start={is_in_starting_position(kp)} | "
-            f"feedback_flag={feedback_flag}"
-        )
-
-        frame = feedbackText(
-            frame,
-            f"Angle: {angle:.1f}  Phase: {phase}"
-        )
-
-        # --------------------------------------------------------
-        # 10. DRAW FEEDBACK
-        # --------------------------------------------------------
-
-        for correction in possible_corrections:
-
-            if correction in feedback:
-
-                frame = feedbackText(
-                    frame,
-                    feedback[correction]
-                )
-
-        # --------------------------------------------------------
-        # 11. DRAW REP COUNT
-        # --------------------------------------------------------
-
-        frame = repcount(
-            frame,
-            correct_count
-        )
-
-        # --------------------------------------------------------
-        # 12. DISPLAY
-        # --------------------------------------------------------
-
-        cv2.imshow(
-            "Push Up Trainer",
-            frame
-        )
-
-        # --------------------------------------------------------
-        # 13. EXIT
-        # --------------------------------------------------------
-
+        # 13. SHOW / EXIT
+        cv2.imshow("Push Up Trainer", frame)
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
-
-    # ============================================================
-    # CLEANUP
-    # ============================================================
 
     cam.release()
     cv2.destroyAllWindows()
     return {
-    "correct_reps": reps,
-    "incorrect_reps": incorrect_reps,
-    "total_reps": reps + incorrect_reps,
-    "feedback": list(feedback_summary),
+        "correct_reps": counter.correct,
+        "incorrect_reps": counter.incorrect,
+        "total_reps": counter.correct + counter.incorrect,
+        "feedback": list(feedback_summary),
     }
 
 
-def is_user_up(kps):
-    shoulder_center = np.mean(
-        [kps[5][:2], kps[6][:2]],
-        axis=0
-    )
-
-    ankle_center = np.mean(
-        [kps[15][:2], kps[16][:2]],
-        axis=0
-    )
-
-    dx = ankle_center[0] - shoulder_center[0]
-    dy = ankle_center[1] - shoulder_center[1]
-
-    angle = abs(np.degrees(np.arctan2(dy, dx)))
-
-    if angle > 90:
-        angle = 180 - angle
-
-    return angle > 60, angle
+if __name__ == "__main__":
+    print(run_pushup_session())
