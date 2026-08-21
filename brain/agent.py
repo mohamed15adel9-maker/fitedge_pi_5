@@ -19,7 +19,12 @@ from brain.llm import (
 from tools.executor import run_tool
 from build_context import build_context
 
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
 MAX_ROUNDS = 5
+
+
 
 
 def get_user_message(messages):
@@ -43,6 +48,10 @@ def run_agent(messages, user_id):
     user_message = get_user_message(messages)
     if not user_message:
         return "I couldn't determine what you are asking."
+
+    now_cairo = datetime.now(ZoneInfo("Africa/Cairo"))
+    current_date = now_cairo.strftime("%Y-%m-%d")
+    current_time = now_cairo.strftime("%H:%M")    
 
     print(f"Agent: user request -> {user_message}", flush=True)
 
@@ -70,8 +79,15 @@ def run_agent(messages, user_id):
         {
             "role": "system",
             "content":
+                f"Current date: {current_date}. Current time: {current_time}. "
+                "Timezone: Africa/Cairo. "
                 "Use tools to gather what you need. For multi-step requests, gather "
-                "all needed information first, then act. When done, stop calling tools.",
+                "all needed information first, then act. When done, stop calling tools. "
+                "When a tool requires a date, resolve words such as today, tomorrow, "
+                "yesterday, and this week relative to the current date above. "
+                "Never invent or guess a date when the user or a previous tool result "
+                "already provides the date. Do not use dates from prior knowledge or"
+                "examples; use the current date above or an exact date returned by a tool.",
         },
         {
             "role": "user",
@@ -119,6 +135,10 @@ def run_agent(messages, user_id):
                 )
             except Exception as e:
                 result = f"ERROR: {type(e).__name__}: {e}"
+
+            if name == "end_session" and result == "end_session":
+                print("Agent: end_session requested.", flush=True)
+                return "end_session", False, None, None
 
             # -------------------------------------------------
             # Check whether this tool returned display data
