@@ -78,50 +78,56 @@ def run_tool(name, args, user_ID):
     # =====================================================
 
     if name == "get_active_goals":
+        result = get_active_goals(user_ID)
         return {
-            "result": get_active_goals(user_ID),
-            "display_data": True,
+            "result": result,
+            "display_data": result,
             "display_type": "goals",
         }
 
     if name == "get_latest_measurement":
+        result = get_latest_measurement(user_ID)
         return {
-            "result": get_latest_measurement(user_ID),
-            "display_data": True,
+            "result": result,
+            "display_data": result,
             "display_type": "measurement",
         }
 
     if name == "get_active_injuries":
+        result = get_active_injuries(user_ID)
         return {
-            "result": get_active_injuries(user_ID),
-            "display_data": True,
+            "result": result,
+            "display_data": result,
             "display_type": "injuries",
         }
 
     if name == "get_recent_workouts_db":
+        result = get_workouts(
+            user_ID,
+            limit=args.get("limit", 5),
+        )
         return {
-            "result": get_workouts(
-                user_ID,
-                limit=args.get("limit", 5),
-            ),
-            "display_data": True,
+            "result": result,
+            "display_data": result,
             "display_type": "workouts",
         }
 
     if name == "get_user_fact":
+        result = get_fact(
+            user_ID,
+            args.get("key", ""),
+        )
         return {
-            "result": get_fact(
-                user_ID,
-                args.get("key", ""),
-            ),
-            "display_data": True,
+            "result": result,
+            "display_data": result,
             "display_type": "fact",
         }
 
     if name == "get_user_profile":
+        result = get_user(user_ID)
         return {
-            "result": get_user(user_ID),
-            "display_data": True,
+            "result": result,
+            "display_data": result,
             "display_type": "profile",
         }
 
@@ -221,12 +227,13 @@ def run_tool(name, args, user_ID):
     # =====================================================
 
     if name == "get_calendar_events":
+        result = get_calendar_events(
+            days_ahead=args.get("days_ahead", 7),
+            max_results=args.get("max_results", 10),
+        )
         return {
-            "result": get_calendar_events(
-                days_ahead=args.get("days_ahead", 7),
-                max_results=args.get("max_results", 10),
-            ),
-            "display_data": True,
+            "result": result,
+            "display_data": result,
             "display_type": "calendar",
         }
 
@@ -266,20 +273,24 @@ def run_tool(name, args, user_ID):
     # =====================================================
 
     if name == "get_recent_workouts":
+        result, display_data = get_recent_workouts(
+            limit=args.get("limit", 5),
+            return_structured=True,
+        )
         return {
-            "result": get_recent_workouts(
-                limit=args.get("limit", 5),
-            ),
-            "display_data": True,
+            "result": result,
+            "display_data": display_data,
             "display_type": "workouts",
         }
 
     if name == "get_weight_log":
+        result, display_data = get_weight_log(
+            limit=args.get("limit", 5),
+            return_structured=True,
+        )
         return {
-            "result": get_weight_log(
-                limit=args.get("limit", 5),
-            ),
-            "display_data": True,
+            "result": result,
+            "display_data": display_data,
             "display_type": "weight_log",
         }
 
@@ -294,30 +305,36 @@ def run_tool(name, args, user_ID):
     # =====================================================
 
     if name == "get_recent_activities":
+        result, display_data = get_recent_activities(
+            days_back=14,
+            limit=args.get("limit", 10),
+            return_structured=True,
+        )
         return {
-            "result": get_recent_activities(
-                days_back=14,
-                limit=args.get("limit", 10),
-            ),
-            "display_data": True,
+            "result": result,
+            "display_data": display_data,
             "display_type": "activities",
         }
 
     if name == "get_wellness":
+        result, display_data = get_wellness(
+            days_back=args.get("days_back", 7),
+            return_structured=True,
+        )
         return {
-            "result": get_wellness(
-                days_back=args.get("days_back", 7),
-            ),
-            "display_data": True,
+            "result": result,
+            "display_data": display_data,
             "display_type": "wellness",
         }
 
     if name == "get_activity_details":
+        result = get_activity_details(
+            activity_title=args.get("activity_title"),
+            activity_date=args.get("activity_date"),
+        )
         return {
-            "result": get_activity_details(
-                args.get("activity_id"),
-            ),
-            "display_data": True,
+            "result": result,
+            "display_data": result,
             "display_type": "activities",
         }
 
@@ -329,12 +346,13 @@ def run_tool(name, args, user_ID):
         lat = args.get("latitude") or 31.2
         lon = args.get("longitude") or 29.9
 
+        result = get_current_weather(
+            lat,
+            lon,
+        )
         return {
-            "result": get_current_weather(
-                lat,
-                lon,
-            ),
-            "display_data": True,
+            "result": result,
+            "display_data": result,
             "display_type": "weather",
         }
 
@@ -342,13 +360,14 @@ def run_tool(name, args, user_ID):
         lat = args.get("latitude") or 31.2
         lon = args.get("longitude") or 29.9
 
+        result = get_hourly_weather(
+            latitude=lat,
+            longitude=lon,
+            hours=args.get("hours", 24),
+        )
         return {
-            "result": get_hourly_weather(
-                latitude=lat,
-                longitude=lon,
-                hours=args.get("hours", 24),
-            ),
-            "display_data": True,
+            "result": result,
+            "display_data": result,
             "display_type": "weather",
         }
 
@@ -356,13 +375,14 @@ def run_tool(name, args, user_ID):
         lat = args.get("latitude") or 31.2
         lon = args.get("longitude") or 29.9
 
+        result = get_daily_weather(
+            latitude=lat,
+            longitude=lon,
+            days=args.get("days", 7),
+        )
         return {
-            "result": get_daily_weather(
-                latitude=lat,
-                longitude=lon,
-                days=args.get("days", 7),
-            ),
-            "display_data": True,
+            "result": result,
+            "display_data": result,
             "display_type": "weather",
         }
 
@@ -381,6 +401,7 @@ def run_tool(name, args, user_ID):
         return str(
             run_pushup_session(
                 target_reps=args.get("target_reps"),
+                user_id=user_ID,
             )
         )
 

@@ -80,11 +80,41 @@ def _unwrap(data, *keys):
     return data
 
 
+def _lines(data):
+    """Return non-empty lines from structured data or text."""
+    if isinstance(data, str):
+        return [
+            line.strip()
+            for line in data.splitlines()
+            if line.strip()
+        ]
+    return None
+
+
+def _first_text_line(data):
+    lines = _lines(data)
+    if lines:
+        return lines[0]
+    return _clean(data)
+
+
+def _parse_result_wrapper(data):
+    """Unwrap executor display payloads when possible."""
+    if isinstance(data, dict) and "result" in data:
+        return data["result"]
+    return data
+
+
 # =========================================================
 # GOALS
 # =========================================================
 
 def format_goals(data):
+
+    data = _parse_result_wrapper(data)
+    text_lines = _lines(data)
+    if text_lines is not None:
+        return ["GOALS"] + [_shorten(line, 21) for line in text_lines[:4]]
 
     goals = _unwrap(
         data,
@@ -144,6 +174,10 @@ def format_goals(data):
 # =========================================================
 
 def format_measurement(data):
+
+    data = _parse_result_wrapper(data)
+    if isinstance(data, str):
+        return ["MEASURE", _shorten(data)]
 
     data = _unwrap(
         data,
@@ -205,6 +239,11 @@ def format_measurement(data):
 # =========================================================
 
 def format_injuries(data):
+
+    data = _parse_result_wrapper(data)
+    text_lines = _lines(data)
+    if text_lines is not None:
+        return ["INJURIES"] + [_shorten(line, 21) for line in text_lines[:4]]
 
     injuries = _unwrap(
         data,
@@ -269,6 +308,10 @@ def format_injuries(data):
 
 def format_profile(data):
 
+    data = _parse_result_wrapper(data)
+    if isinstance(data, str):
+        return ["PROFILE", _shorten(data)]
+
     data = _unwrap(
         data,
         "user",
@@ -311,6 +354,10 @@ def format_profile(data):
 
 def format_fact(data):
 
+    data = _parse_result_wrapper(data)
+    if isinstance(data, str):
+        return ["FACT", _shorten(data)]
+
     if not isinstance(data, dict):
         return [
             "FACT",
@@ -343,6 +390,20 @@ def format_fact(data):
 # =========================================================
 
 def format_calendar(data):
+
+    data = _parse_result_wrapper(data)
+    text_lines = _lines(data)
+    if text_lines is not None:
+        lines = ["TODAY"]
+        for line in text_lines[:4]:
+            if " - " in line:
+                _, title = line.split(" - ", 1)
+                title = title.strip()
+                start = line.split(" - ", 1)[0].split("T")[-1][:5]
+                lines.append(_shorten(f"{start} {title}", 21))
+            else:
+                lines.append(_shorten(line, 21))
+        return lines
 
     events = _unwrap(
         data,
@@ -414,6 +475,59 @@ def format_calendar(data):
 
 def format_workouts(data):
 
+    data = _parse_result_wrapper(data)
+
+    # New structured workout data from executor.py.
+    if isinstance(data, list) and data and isinstance(data[0], dict) and "exercises" in data[0]:
+        lines = ["WORKOUTS"]
+        for workout in data:
+            if not isinstance(workout, dict):
+                continue
+            day = workout.get("date") or workout.get("day")
+            if day:
+                lines.append(_shorten(str(day), 21))
+            for exercise in workout.get("exercises") or []:
+                if not isinstance(exercise, dict):
+                    continue
+                lines.append(_shorten(exercise.get("name", "Exercise"), 21))
+                compact = []
+                for item in (exercise.get("sets") or [])[:3]:
+                    if not isinstance(item, dict):
+                        continue
+                    desc = item.get("description")
+                    if desc:
+                        compact.append(str(desc).replace(".00", ""))
+                    else:
+                        reps = item.get("reps")
+                        weight = item.get("weight")
+                        if reps is not None and weight is not None:
+                            compact.append(f"{reps:g}x{weight:g}")
+                        elif reps is not None:
+                            compact.append(f"{reps:g} reps")
+                if compact:
+                    lines.append(_shorten(" ".join(compact), 21))
+                if len(lines) >= MAX_LINES:
+                    break
+            if len(lines) >= MAX_LINES:
+                break
+        return lines[:MAX_LINES]
+
+    text_lines = _lines(data)
+    if text_lines is not None:
+        # Preserve the useful compact workout information already
+        # produced by the Wger tool instead of collapsing it to one line.
+        lines = ["WORKOUTS"]
+        for line in text_lines:
+            if line.startswith("  "):
+                lines.append(_shorten(line.strip(), 21))
+            elif line.startswith("?") or line.startswith("ERROR"):
+                lines.append(_shorten(line, 21))
+            elif line:
+                lines.append(_shorten(line, 21))
+            if len(lines) >= MAX_LINES:
+                break
+        return lines
+
     workouts = _unwrap(
         data,
         "workouts",
@@ -462,6 +576,33 @@ def format_workouts(data):
 # =========================================================
 
 def format_weight_log(data):
+
+    data = _parse_result_wrapper(data)
+
+    # New structured weight data from executor.py.
+    if isinstance(data, list) and data and isinstance(data[0], dict) and ("weight" in data[0] or "body_weight" in data[0]):
+        lines = ["WEIGHT"]
+        for entry in data[:MAX_LINES - 1]:
+            weight = _get(entry, "weight", "body_weight")
+            day = _get(entry, "entry_date", "date")
+            if weight is None:
+                continue
+            if day:
+                day = _clean(day).split("T")[0]
+                parts = day.split("-")
+                if len(parts) >= 3:
+                    day = f"{parts[-2]}/{parts[-1]}"
+                lines.append(f"{day} {_number(weight)}kg")
+            else:
+                lines.append(f"{_number(weight)}kg")
+        return lines
+
+    text_lines = _lines(data)
+    if text_lines is not None:
+        lines = ["WEIGHT"]
+        for line in text_lines[:4]:
+            lines.append(_shorten(line, 21))
+        return lines
 
     entries = _unwrap(
         data,
@@ -537,6 +678,48 @@ def format_weight_log(data):
 # =========================================================
 
 def format_activities(data):
+
+    data = _parse_result_wrapper(data)
+
+    # New structured activity data from executor.py.
+    if isinstance(data, list) and data and isinstance(data[0], dict) and ("start_date_local" in data[0] or "distance" in data[0] or "type" in data[0]):
+        lines = ["ACTIVITY"]
+        for activity in data[:MAX_LINES - 1]:
+            if not isinstance(activity, dict):
+                continue
+            name = activity.get("name") or activity.get("type") or "Activity"
+            date_value = _get(activity, "start_date_local", "date")
+            distance = _get(activity, "distance", "distance_km")
+            duration = _get(activity, "moving_time", "duration")
+            note = activity.get("_note")
+
+            # Strava-imported activities can be visible in Intervals.icu
+            # while their detailed metrics are unavailable through the API.
+            if note:
+                if date_value:
+                    date_text = str(date_value)[:10]
+                    lines.append(_shorten(date_text, 21))
+                lines.append(_shorten(str(activity.get("source") or name), 21))
+                lines.append("Details unavailable")
+                continue
+
+            line = _shorten(name, 10)
+            if distance is not None:
+                try:
+                    line += f" {_number(float(distance) / 1000)}km" if float(distance) > 100 else f" {_number(distance)}km"
+                except (TypeError, ValueError):
+                    line += f" {_shorten(distance, 8)}"
+            if duration is not None:
+                line += " " + _shorten(duration, 7)
+            lines.append(_shorten(line, 21))
+        return lines
+
+    text_lines = _lines(data)
+    if text_lines is not None:
+        lines = ["ACTIVITY"]
+        for line in text_lines[:4]:
+            lines.append(_shorten(line, 21))
+        return lines
 
     activities = _unwrap(
         data,
@@ -618,6 +801,34 @@ def format_activities(data):
 
 def format_wellness(data):
 
+    data = _parse_result_wrapper(data)
+
+    # New structured wellness data from executor.py.
+    if isinstance(data, list) and data and isinstance(data[0], dict) and ("ctl" in data[0] or "atl" in data[0] or "hrv" in data[0] or "sleepSecs" in data[0]):
+        entry = data[0]
+        lines = ["WELLNESS"]
+        day = entry.get("date") or entry.get("id")
+        if day:
+            lines.append(_shorten(str(day), 21))
+        if entry.get("ctl") is not None:
+            lines.append(f"CTL {_number(entry['ctl'])}")
+        if entry.get("atl") is not None:
+            lines.append(f"ATL {_number(entry['atl'])}")
+        if entry.get("tsb") is not None:
+            lines.append(f"TSB {_number(entry['tsb'])}")
+        elif entry.get("ctl") is not None and entry.get("atl") is not None:
+            lines.append(f"TSB {_number(entry['ctl'] - entry['atl'])}")
+        if entry.get("hrv") is not None and len(lines) < MAX_LINES:
+            lines.append(f"HRV {_number(entry['hrv'])}")
+        return lines[:MAX_LINES]
+
+    text_lines = _lines(data)
+    if text_lines is not None:
+        lines = ["WELLNESS"]
+        for line in text_lines[:4]:
+            lines.append(_shorten(line, 21))
+        return lines
+
     wellness = _unwrap(
         data,
         "wellness",
@@ -681,6 +892,13 @@ def format_wellness(data):
 # =========================================================
 
 def format_weather(data):
+
+    data = _parse_result_wrapper(data)
+    if isinstance(data, str):
+        lines = ["WEATHER"]
+        for line in _lines(data)[:4]:
+            lines.append(_shorten(line, 21))
+        return lines
 
     if isinstance(data, dict):
 

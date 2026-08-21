@@ -38,7 +38,7 @@ def get_user_message(messages):
 def run_agent(messages, user_id):
     display_data_used = False
     display_text = None
-    diplay_type = None
+    display_type = None
 
     user_message = get_user_message(messages)
     if not user_message:

@@ -6,7 +6,7 @@ in via the Intervals.icu Companion app).
 
 Functions:
   - get_recent_activities(days_back, limit)  rich summary of recent activities
-  - get_activity_details(activity_id)        splits/intervals for one activity
+  - get_activity_details(activity_title, activity_date=None)  splits/intervals for one activity
   - get_wellness(days_back)                  full daily wellness + fitness stats
 
 SETUP (one time):
@@ -86,7 +86,7 @@ def _fmt_pace(speed_mps):
     return f"{m}:{s:02d} /km"
 
 
-def get_recent_activities(days_back=14, limit=10):
+def get_recent_activities(days_back=14, limit=10, return_structured=False):
     """Rich summary of recent activities."""
     try:
         athlete_id, _ = _load_secrets()
@@ -105,6 +105,7 @@ def get_recent_activities(days_back=14, limit=10):
             return "No recent activities found on Intervals.icu."
 
         lines = []
+        structured_activities = []
         for a in activities[:limit]:
             day = (a.get("start_date_local") or "")[:10]
             name = a.get("name", "(untitled)")
@@ -153,19 +154,176 @@ def get_recent_activities(days_back=14, limit=10):
                 parts.append(f"feel {feel}/5")
 
             lines.append(" - ".join(parts))
+            structured_activities.append(dict(a))
 
-        return "\n".join(lines)
+        result_text = "\n".join(lines)
+        if return_structured:
+            return result_text, structured_activities
+        return result_text
 
     except Exception as e:
         return f"ERROR reading Intervals.icu activities: {e}"
 
 
-def get_activity_details(activity_id):
+def get_activity_details(
+    activity_title=None,
+    activity_date=None,
+    return_structured=False,
+):
     """
-    Detailed breakdown of ONE activity, including its intervals/splits
-    (e.g. per-lap pace, HR, power). Get the id from get_recent_activities.
+    Detailed breakdown of ONE activity, including its intervals/splits.
+
+    Identify the activity by:
+      - activity_title
+      - activity_date
+      - or both
+
+    If both are provided, both are used to find the activity.
+
+    If only a date is provided:
+      - one activity on that date -> use it
+      - multiple activities -> return the available activities
+        and ask for the activity title
     """
     try:
+        # -------------------------------------------------
+        # 1. Validate input
+        # -------------------------------------------------
+        if not activity_title and not activity_date:
+            return (
+                "ERROR: Provide an activity title, "
+                "an activity date, or both."
+            )
+
+        athlete_id, _ = _load_secrets()
+
+        # If a date is provided, only request that date.
+        # Otherwise search the last 90 days by title.
+        oldest = (
+            activity_date
+            or (date.today() - timedelta(days=90)).isoformat()
+        )
+        newest = activity_date or date.today().isoformat()
+
+        resp = requests.get(
+            f"{API_BASE}/athlete/{athlete_id}/activities",
+            params={
+                "oldest": oldest,
+                "newest": newest,
+                "fields": ACTIVITY_FIELDS,
+            },
+            auth=_auth(),
+            timeout=30,
+        )
+        resp.raise_for_status()
+        activities = resp.json()
+
+        matches = []
+
+        wanted_title = (
+            activity_title.strip().casefold()
+            if activity_title
+            else None
+        )
+
+        for activity in activities:
+            name = (
+                activity.get("name")
+                or ""
+            ).strip()
+
+            day = (
+                activity.get("start_date_local")
+                or ""
+            )[:10]
+
+            # Date filter
+            if activity_date and day != activity_date:
+                continue
+
+            # Title filter, only when a title was provided.
+            if (
+                wanted_title is not None
+                and name.casefold() != wanted_title
+            ):
+                continue
+
+            if activity.get("id") is not None:
+                matches.append(
+                    {
+                        "id": activity["id"],
+                        "date": day,
+                        "name": name,
+                        "type": activity.get(
+                            "type",
+                            "activity",
+                        ),
+                    }
+                )
+
+        # -------------------------------------------------
+        # 2. No matches
+        # -------------------------------------------------
+        if not matches:
+            if activity_title and activity_date:
+                return (
+                    f"No activity titled "
+                    f"'{activity_title}' found on "
+                    f"{activity_date}."
+                )
+
+            if activity_date:
+                return (
+                    f"No activities found on "
+                    f"{activity_date}."
+                )
+
+            return (
+                f"No activity titled "
+                f"'{activity_title}' found in "
+                "the last 90 days."
+            )
+
+        # -------------------------------------------------
+        # 3. Multiple matches
+        # -------------------------------------------------
+        if len(matches) > 1:
+            lines = []
+
+            if activity_date and not activity_title:
+                lines.append(
+                    f"Multiple activities were found on "
+                    f"{activity_date}:"
+                )
+            else:
+                lines.append(
+                    f"Multiple activities titled "
+                    f"'{activity_title}' were found:"
+                )
+
+            for match in matches[:10]:
+                label = match["name"] or "(untitled)"
+                lines.append(
+                    f"- {match['date']}: "
+                    f"{label} ({match['type']})"
+                )
+
+            if activity_date and not activity_title:
+                lines.append(
+                    "Please provide the activity title."
+                )
+            else:
+                lines.append(
+                    "Please provide the activity date."
+                )
+
+            return "\n".join(lines)
+
+        # -------------------------------------------------
+        # 4. Exactly one match -> get full details
+        # -------------------------------------------------
+        activity_id = matches[0]["id"]
+
         resp = requests.get(
             f"{API_BASE}/activity/{activity_id}",
             params={"intervals": "true"},
@@ -175,49 +333,194 @@ def get_activity_details(activity_id):
         resp.raise_for_status()
         a = resp.json()
 
-        day = (a.get("start_date_local") or "")[:10]
-        name = a.get("name", "(untitled)")
-        atype = a.get("type", "activity")
+        day = (
+            a.get("start_date_local")
+            or ""
+        )[:10]
 
-        out = [f"{name} ({atype}) on {day}"]
+        name = (
+            a.get("name")
+            or "(untitled)"
+        )
+
+        atype = a.get(
+            "type",
+            "activity",
+        )
+
+        out = [
+            f"{name} ({atype}) on {day}"
+        ]
+
         if a.get("distance"):
-            out.append(f"Distance: {round(a['distance']/1000, 2)} km")
-        out.append(f"Moving time: {_fmt_duration(a.get('moving_time'))}")
-        if a.get("total_elevation_gain"):
-            out.append(f"Elevation gain: {round(a['total_elevation_gain'])} m")
-        if a.get("average_heartrate"):
-            out.append(f"Avg/Max HR: {round(a['average_heartrate'])}"
-                       f"/{round(a.get('max_heartrate') or 0)}")
-        if a.get("icu_training_load"):
-            out.append(f"Training load: {round(a['icu_training_load'])}")
+            out.append(
+                f"Distance: "
+                f"{round(a['distance'] / 1000, 2)} km"
+            )
 
+        out.append(
+            f"Moving time: "
+            f"{_fmt_duration(a.get('moving_time'))}"
+        )
+
+        if a.get("elapsed_time"):
+            out.append(
+                f"Elapsed time: "
+                f"{_fmt_duration(a.get('elapsed_time'))}"
+            )
+
+        if a.get("total_elevation_gain"):
+            out.append(
+                f"Elevation gain: "
+                f"{round(a['total_elevation_gain'])} m"
+            )
+
+        if a.get("average_heartrate"):
+            out.append(
+                f"Avg/Max HR: "
+                f"{round(a['average_heartrate'])}"
+                f"/{round(a.get('max_heartrate') or 0)}"
+            )
+
+        if a.get("average_speed"):
+            pace = _fmt_pace(
+                a["average_speed"]
+            )
+
+            if pace:
+                out.append(
+                    f"Average pace: {pace}"
+                )
+
+        if a.get("average_watts"):
+            out.append(
+                f"Average power: "
+                f"{round(a['average_watts'])} W"
+            )
+
+        if a.get("max_watts"):
+            out.append(
+                f"Max power: "
+                f"{round(a['max_watts'])} W"
+            )
+
+        if a.get("icu_weighted_avg_watts"):
+            out.append(
+                f"Weighted average power: "
+                f"{round(a['icu_weighted_avg_watts'])} W"
+            )
+
+        if a.get("average_cadence"):
+            out.append(
+                f"Average cadence: "
+                f"{round(a['average_cadence'])}"
+            )
+
+        if a.get("calories"):
+            out.append(
+                f"Calories: "
+                f"{round(a['calories'])} kcal"
+            )
+
+        if a.get("icu_training_load"):
+            out.append(
+                f"Training load: "
+                f"{round(a['icu_training_load'])}"
+            )
+
+        if a.get("icu_intensity"):
+            out.append(
+                f"Intensity: "
+                f"{a['icu_intensity']}"
+            )
+
+        if a.get("feel"):
+            out.append(
+                f"Feel: "
+                f"{a['feel']}/5"
+            )
+
+        if a.get("icu_rpe"):
+            out.append(
+                f"RPE: "
+                f"{a['icu_rpe']}"
+            )
+
+        # -------------------------------------------------
         # intervals / laps
-        intervals = a.get("icu_intervals") or a.get("intervals") or []
+        # -------------------------------------------------
+        intervals = (
+            a.get("icu_intervals")
+            or a.get("intervals")
+            or []
+        )
+
         if intervals:
-            out.append("\nSplits / intervals:")
-            for i, iv in enumerate(intervals, 1):
-                label = iv.get("label") or iv.get("type") or f"Interval {i}"
+            out.append(
+                "\nSplits / intervals:"
+            )
+
+            for i, iv in enumerate(
+                intervals,
+                1,
+            ):
+                label = (
+                    iv.get("label")
+                    or iv.get("type")
+                    or f"Interval {i}"
+                )
+
                 seg = []
+
                 if iv.get("distance"):
-                    seg.append(f"{round(iv['distance']/1000, 2)} km")
+                    seg.append(
+                        f"{round(iv['distance'] / 1000, 2)} km"
+                    )
+
                 if iv.get("moving_time"):
-                    seg.append(_fmt_duration(iv["moving_time"]))
-                sp = _fmt_pace(iv.get("average_speed"))
+                    seg.append(
+                        _fmt_duration(
+                            iv["moving_time"]
+                        )
+                    )
+
+                sp = _fmt_pace(
+                    iv.get("average_speed")
+                )
+
                 if sp:
                     seg.append(sp)
-                if iv.get("average_heartrate"):
-                    seg.append(f"HR {round(iv['average_heartrate'])}")
-                if iv.get("average_watts"):
-                    seg.append(f"{round(iv['average_watts'])} W")
-                out.append(f"  {label}: " + ", ".join(seg))
 
-        return "\n".join(out)
+                if iv.get("average_heartrate"):
+                    seg.append(
+                        f"HR {round(iv['average_heartrate'])}"
+                    )
+
+                if iv.get("average_watts"):
+                    seg.append(
+                        f"{round(iv['average_watts'])} W"
+                    )
+
+                out.append(
+                    f"  {label}: "
+                    + (
+                        ", ".join(seg)
+                        if seg
+                        else "no metrics"
+                    )
+                )
+
+        result_text = "\n".join(out)
+        if return_structured:
+            return result_text, a
+        return result_text
 
     except Exception as e:
-        return f"ERROR reading activity {activity_id}: {e}"
+        return (
+            f"ERROR reading activity details: {e}"
+        )
 
-
-def get_wellness(days_back=7):
+def get_wellness(days_back=7, return_structured=False):
     """Full daily wellness + computed fitness (CTL/ATL/form)."""
     try:
         athlete_id, _ = _load_secrets()
@@ -236,6 +539,7 @@ def get_wellness(days_back=7):
             return "No recent wellness data found."
 
         lines = []
+        structured_days = []
         for d in days:
             day = d.get("id", "?")
             parts = []
@@ -259,8 +563,19 @@ def get_wellness(days_back=7):
 
             if parts:
                 lines.append(f"{day}: " + ", ".join(parts))
+                structured = dict(d)
+                structured["date"] = day
+                if structured.get("ctl") is not None and structured.get("atl") is not None:
+                    structured["tsb"] = structured["ctl"] - structured["atl"]
+                structured_days.append(structured)
 
-        return "\n".join(lines) if lines else "No wellness values recorded."
+        if not lines:
+            return "No wellness values recorded."
+
+        result_text = "\n".join(lines)
+        if return_structured:
+            return result_text, structured_days
+        return result_text
 
     except Exception as e:
         return f"ERROR reading Intervals.icu wellness: {e}"

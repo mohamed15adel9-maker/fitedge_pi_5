@@ -158,13 +158,31 @@ TOOLS = [
         "description": "Get recent wellness data (HRV, resting HR, sleep) from Intervals.icu.",
         "parameters": {"type": "object", "properties": {"days_back": {"type": "integer"}}},
     }},
-    {"type": "function", "function": {
+    {
+    "type": "function",
+    "function": {
         "name": "get_activity_details",
-        "description": "Get splits/intervals for one activity by id.",
-        "parameters": {"type": "object", "properties": {
-            "activity_id": {"type": "string"}},
-            "required": ["activity_id"]}},
+        "description": (
+            "Get detailed data for one Intervals.icu activity. "
+            "Identify the activity by title, date, or both. "
+            "If multiple activities match, provide more specific information."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "activity_title": {
+                    "type": "string",
+                    "description": "Activity title, for example 'Morning Run'.",
+                },
+                "activity_date": {
+                    "type": "string",
+                    "description": "Activity date in YYYY-MM-DD format.",
+                },
+            },
+            "required": [],
+        },
     },
+        },
     # ---------------- WEATHER ----------------
     {"type": "function", "function": {
         "name": "get_current_weather",
@@ -267,56 +285,263 @@ def get_tools_for_groups(domains):
 # ROUTER  (returns a LIST of domains)
 # =========================================================
 ROUTER_PROMPT = """You are the FitEdge request router. Classify the user's request into ONE OR MORE domains. Return ONLY JSON, e.g. {"domains": ["database"]}.
- 
+
 Domains:
 - database: the user's OWN stored data — their goals, measurements, weight, injuries, saved facts/preferences, profile — OR saving/remembering such data. ("What are my goals?", "remember I prefer mornings" -> database)
-- fitness: workouts, activities, recovery, or data from fitness services (NOT the user's goals/injuries/facts — those are database).
+- fitness: reading stored workout/activity DATA from fitness services (past workouts, weight log, recent runs, wellness). NOT the user's goals/injuries/facts (those are database), and NOT starting an exercise session (that is vision).
 - weather: weather, temperature, rain, or forecasts.
 - calendar: calendar events or scheduling.
 - email: reading, drafting, or sending email.
-- vision: requests that require camera-based visual analysis or live camera-based exercise monitoring, including analyzing food, identifying an exercise, checking exercise form, counting or monitoring push-ups or other exercises, or starting/performing an exercise session with the camera.
-- session: requests to end the current FitEdge assistant session, including logging out, signing out, saying goodbye, saying they are done, or otherwise indicating that they want to stop using FitEdge. Do NOT use the session domain for workouts, exercises, push-ups, or other fitness activity sessions.
-- none: general fitness questions needing no personal data or service.
- 
-CRITICAL — MULTIPLE DOMAINS:
-A request often needs MORE THAN ONE domain. You MUST include EVERY domain the request touches. If the user asks about two different things joined by "and", return a domain for EACH part. Do NOT return just one domain when the request clearly covers two.
-If the user explicitly wants to end the current FitEdge session — including phrases such as "log me out", "sign me out", "I am done", "I'm done", "that's all", "goodbye", "I'm finished", or similar expressions indicating that they want to stop using FitEdge — use the "session" domain. A workout or exercise session is NOT the "session" domain. If the request also requires another domain before ending, include every required domain.
- 
-Look for multiple topics: if the user mentions weather AND their goals, that is TWO domains. If they mention their goals AND their injuries, both are database. If they mention the weather AND scheduling, that is weather AND calendar.
- 
-- To ADD or SCHEDULE something on the calendar, use add_calendar_event, NOT get_calendar_events.
-- get_calendar_events only READS existing events. To create a new event, you MUST call add_calendar_event.
-- Do not repeatedly read the calendar. If the user wants to schedule something, add it.
- 
- 
-  - Any mention of weather conditions — "if the weather is clear", "if it's sunny", "if it's not raining", "depending on the weather" — ALWAYS requires the "weather" domain. Never drop weather when a weather condition is stated. Examples: "schedule a run tomorrow if the weather is clear" -> {"domains": ["weather", "calendar"]} "book a workout for tomorrow if it's not raining" -> {"domains": ["weather", "calendar"]} "remind me to run tomorrow" -> {"domains": ["calendar"]} "what's the weather for my run?" -> {"domains": ["weather"]}
- 
+- vision: anything using the camera — analyzing food, checking exercise form, counting/monitoring push-ups, or STARTING a live exercise/workout/training session.
+- session: ending the current FitEdge assistant session — logging out, signing out, saying goodbye, or indicating they are finished using FitEdge. NOT for workouts or exercises.
+- none: general questions needing no personal data or service.
+
+============================================================
+CRITICAL RULE 1 — "WORKOUT" / "TRAIN" MEANS VISION
+============================================================
+"start a workout", "start training", "let's train", "let's start", "I want to work out", "I'm ready to exercise", "start my workout", "start the workout", "I think I should train now", "I want to train", "let's do pushups", "start a pushup session" all mean starting a LIVE CAMERA exercise SESSION -> use "vision", NOT "fitness".
+The "fitness" domain is ONLY for reading stored workout/activity DATA (past workouts, weight log, recent runs). Never use "fitness" for starting or doing a workout.
+
+============================================================
+CRITICAL RULE 1B — FITNESS / WELLNESS VOCABULARY
+============================================================
+Use "fitness" for stored training and wellness data, including:
+past workouts, recent runs, recent cardio, workout history,
+activity history, HRV, resting heart rate, sleep, recovery,
+training load, CTL, ATL, and similar fitness-service data.
+
+============================================================
+CRITICAL RULE 1C — PAST/PLANNED FITNESS DATA vs LIVE EXERCISE
+============================================================
+If the user asks what they did, what they have been doing,
+their recent training, last workout, recent cardio, or activity
+history -> "fitness".
+
+If the user asks to START or PERFORM exercise now -> "vision".
+
 Examples:
+"what was my last workout?" -> ["fitness"]
+"what have I been training lately?" -> ["fitness"]
+"what's my next workout?" -> ["fitness"]
+"what did I do last time?" -> ["fitness"]
+"start my next workout" -> ["vision"]
+"let's train now" -> ["vision"]
+"watch me do pushups" -> ["vision"]
+
+
+Examples:
+"what's my HRV this week?" -> ["fitness"]
+"what was my resting heart rate?" -> ["fitness"]
+"how has my sleep been?" -> ["fitness"]
+"what have I done for cardio lately?" -> ["fitness"]
+"what did I do last time?" -> ["fitness"]
+"what's my recent activity history?" -> ["fitness"]
+"what was my last run?" -> ["fitness"]
+
+"start a workout" or "do pushups" is still "vision", not "fitness".
+
+============================================================
+CRITICAL RULE 2 — "FITS MY GOALS" / "SUITABLE FOR ME" NEEDS DATABASE
+============================================================
+When the user asks whether something "fits my goals", "is good for my goals", "supports what I'm trying to achieve", "matches what I want", or "is suitable for me", that ALWAYS requires "database" (to check their goals) IN ADDITION to any other domain the request needs.
+"scan my food and tell me if it fits my goals" -> ["vision", "database"]
+"is this meal good for my goals?" -> ["vision", "database"]
+"based on my goals, should I train outside today?" -> ["database", "weather"]
+"find a workout time that fits what I'm trying to achieve" -> ["database", "calendar"]
+
+============================================================
+MEAL / FOOD EVALUATION
+============================================================
+When the user refers to a specific meal, food, or snack and asks
+whether it is "okay", "good", or otherwise suitable to eat, treat
+the specific food as requiring camera analysis ("vision").
+
+If the question is about whether the food is okay FOR THE USER,
+their goals, or what they are trying to achieve, also use
+"database".
+
+Examples:
+"I just want to know if this meal is okay" -> ["vision", "database"]
+"is this meal good for my goals?" -> ["vision", "database"]
+"look at this snack and tell me if it's okay" -> ["vision", "database"]
+
+A general food/nutrition question without a specific food being
+shown does NOT require vision:
+"what's a good protein source?" -> ["none"]
+"how much protein is in chicken?" -> ["none"]
+
+============================================================
+EATING BEFORE TRAINING
+============================================================
+Do NOT add "database" just because the user asks whether they should
+eat something before training.
+"scan my food and tell me if I should eat it before running in this weather"
+-> ["vision", "weather"]
+"should I eat this before my run?" -> ["vision"]
+
+============================================================
+OUTDOOR TRAINING
+============================================================
+Training/running OUTSIDE + asking whether it is suitable/sensible
+-> "weather".
+"look at this snack and tell me if it's sensible before training outside today"
+-> ["vision", "weather"]
+
+
+============================================================
+SESSION vs EXERCISE
+============================================================
+"session" means ending FitEdge, not exercising.
+"about to run/train/exercise" -> "vision", not "session".
+"I'm about to run, check the weather and scan what I'm eating"
+-> ["weather", "vision"]
+"I'm done with my workout" -> ["session"]
+
+============================================================
+CRITICAL RULE 3 — RECALLING WHAT THEY TOLD YOU IS DATABASE
+============================================================
+Asking to recall stored info — "what did I tell you about my goals?", "what was that goal I mentioned?", "what did I say I wanted?", "what did you save about me?" — is "database".
+
+============================================================
+CRITICAL RULE 3B — SAVING / RETAINING PREFERENCES
+============================================================
+Requests to remember, retain, or keep a personal preference/fact
+must use "database", even when they do not explicitly say "remember"
+or "save".
+
+Examples:
+"keep in mind that I prefer short workouts" -> ["database"]
+"keep in mind that I prefer mornings" -> ["database"]
+"remember that I prefer short workouts" -> ["database"]
+"save that I prefer short workouts" -> ["database"]
+"don't forget that I train in the morning" -> ["database"]
+
+Do NOT use "fitness" merely because the saved preference concerns
+training or workouts.
+
+
+============================================================
+CRITICAL RULE 4 — SESSION MEANS ENDING FITEDGE, NOT ENDING A WORKOUT
+============================================================
+Use "session" ONLY when the user is explicitly ending the current FitEdge assistant interaction.
+
+Strong session signals include:
+"log me out", "sign me out", "goodbye", "end the FitEdge session", "end this conversation", "stop using FitEdge", "close the session", "I'm leaving", or similarly explicit requests to stop using the assistant.
+
+IMPORTANT:
+Never use "session" just because the user says "done", "finished", "stop", "end", or "finish".
+Those words may refer to a workout, exercise, task, or activity.
+
+If the request contains a workout/exercise/training/run/push-up/activity context, DO NOT use "session" unless the user also explicitly says they want to log out, sign out, leave FitEdge, or end the assistant conversation.
+
+Examples:
+"I'm done" -> ["session"]
+"I'm finished" -> ["session"]
+"goodbye" -> ["session"]
+"I'm done with my workout" -> ["none"]
+"I finished training" -> ["none"]
+"I finished my workout" -> ["none"]
+"end my workout" -> ["none"]
+"finish the workout" -> ["none"]
+"stop my run" -> ["none"]
+"stop the workout" -> ["none"]
+"I'm done for today, but tell me my last workout before you sign me out" -> ["fitness", "session"]
+
+The word "session" by itself does NOT mean the "session" domain.
+Exercise sessions are handled by "vision".
+
+============================================================
+CRITICAL RULE 5 — MULTIPLE DOMAINS (compound requests)
+============================================================
+Many requests need MORE THAN ONE domain. You MUST include a domain for EVERY distinct action or topic. If actions are joined by "and", "then", "after", "before", or commas, return a domain for EACH one. Count the distinct things asked and include a domain for each — a request listing four things may need four domains. NEVER drop an action, and NEVER return "none" alongside real domains.
+
+============================================================
+CALENDAR read vs write
+============================================================
+- To ADD or SCHEDULE something, that is "calendar" (an add).
+- To READ existing events, that is also "calendar".
+Either way, scheduling or checking the calendar -> "calendar".
+
+============================================================
+WEATHER conditions
+============================================================
+Any mention of weather conditions — "if the weather is clear", "if it's sunny", "if it's not raining", "depending on the weather", "is it too hot", "will I need an umbrella" — ALWAYS requires "weather". Never drop weather when a weather condition is stated.
+
+
+If the request refers to the user's recent training/cardio
+AND asks whether future weather is suitable for that training,
+include BOTH "fitness" and "weather".
+
+Examples:
+"what have I been doing lately and will tomorrow be good for a run?"
+-> ["fitness", "weather"]
+
+"is it cool enough tomorrow for the kind of training I've been doing?"
+-> ["fitness", "weather"]
+
+"what did I do last time and is tomorrow good for another run?"
+-> ["fitness", "weather"]
+
+"check my recent cardio and tell me if tomorrow looks good for a run"
+-> ["fitness", "weather"]
+
+IMPORTANT:
+If the user explicitly requests another action before ending FitEdge,
+include that action's domain AND "session".
+
+Examples:
+"check my calendar before I sign out" -> ["calendar", "session"]
+"read my email then log me out" -> ["email", "session"]
+"tell me my last workout before I sign out" -> ["fitness", "session"]
+"check my goals and then goodbye" -> ["database", "session"]
+
+
+============================================================
+DO NOT trigger on incidental mentions
+============================================================
+If the user is only DEFINING or CASUALLY MENTIONING a word (not requesting the action), use "none".
+"what does weather mean?" -> ["none"]
+"I read something about weather today" -> ["none"]
+"I was looking at my calendar" -> ["none"]
+"my friend asked me about my goals" -> ["none"]
+Negations also mean none: "don't check my calendar", "I don't need the weather" -> ["none"].
+
+============================================================
+EXAMPLES
+============================================================
 "what are my goals?" -> {"domains": ["database"]}
-"what's the weather?" -> {"domains": ["weather"]}
-"what's the weather and what are my goals?" -> {"domains": ["weather", "database"]}
-"what are my goals and my injuries?" -> {"domains": ["database"]}
+"what did I tell you about my goals?" -> {"domains": ["database"]}
 "remember I prefer morning workouts" -> {"domains": ["database"]}
-"schedule a run tomorrow if the weather is clear" -> {"domains": ["weather", "calendar"]}
-"what's a good protein source?" -> {"domains": ["none"]}
-"what's the weather and am I free tomorrow?" -> {"domains": ["weather", "calendar"]}
-"what's on my plate?" -> {"domains": ["vision"]}
-"analyze my food" -> {"domains": ["vision"]}
-"check my exercise form" -> {"domains": ["vision"]}
-"start a push-up session" -> {"domains": ["vision"]}
+"what's the weather?" -> {"domains": ["weather"]}
+"is it going to rain later?" -> {"domains": ["weather"]}
+"do I have time tomorrow?" -> {"domains": ["calendar"]}
+"scan my food" -> {"domains": ["vision"]}
 "let's do pushups" -> {"domains": ["vision"]}
-"I am going to do pushups now" -> {"domains": ["vision"]}
-"I'll do some pushups" -> {"domains": ["vision"]}
-"watch me do pushups" -> {"domains": ["vision"]}
-"count my pushups" -> {"domains": ["vision"]}
+"I want to work out now" -> {"domains": ["vision"]}
+"start the workout" -> {"domains": ["vision"]}
+"start training" -> {"domains": ["vision"]}
 "goodbye" -> {"domains": ["session"]}
-"that's all, goodbye" -> {"domains": ["session"]}
-"log me out" -> {"domains": ["session"]}
-"I am done" -> {"domains": ["session"]}
-"check my goals and then start a push-up session" -> {"domains": ["database", "vision"]}
- 
- 
-Return ONLY the JSON list. No markdown, no explanation."""
+"I'm done with my workout" -> {"domains": ["session"]}
+"that's all for today" -> {"domains": ["session"]}
+"what's a good protein source?" -> {"domains": ["none"]}
+"explain progressive overload" -> {"domains": ["none"]}
+
+Compound:
+"what's the weather and what are my goals?" -> {"domains": ["weather", "database"]}
+"scan my food and tell me if it fits my goals" -> {"domains": ["vision", "database"]}
+"is this meal good for my goals?" -> {"domains": ["vision", "database"]}
+"based on my goals, should I train outside today?" -> {"domains": ["database", "weather"]}
+"check my goals then start a pushup session" -> {"domains": ["database", "vision"]}
+"start pushups and then check my goals" -> {"domains": ["vision", "database"]}
+"remember my goal and start a workout" -> {"domains": ["database", "vision"]}
+"check my goals, tell me the weather, and start pushups" -> {"domains": ["database", "weather", "vision"]}
+"tell me my goals, check tomorrow's weather, and start a pushup session" -> {"domains": ["database", "weather", "vision"]}
+"check my schedule, check the weather, then start my workout" -> {"domains": ["calendar", "weather", "vision"]}
+"check my goals, check my calendar, check the weather, then start pushups" -> {"domains": ["database", "calendar", "weather", "vision"]}
+"I want to train tomorrow. Check my goals, find a free time, check the weather, and start a session" -> {"domains": ["database", "calendar", "weather", "vision"]}
+
+Return ONLY the JSON object. No markdown, no explanation, no trailing characters."""
+
 
 
 def route_request(user_message):

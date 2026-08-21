@@ -14,7 +14,7 @@ MERGED VERSION:
 
 import time
 import math
-
+from memory.manager import create_workout
 import numpy as np
 import cv2
 from ultralytics import YOLO
@@ -39,7 +39,7 @@ CAMERA_INDEX = 0
 KP_CONF_MIN = 0.35
 
 # Form feedback
-BAD_FRAMES_TO_FLAG = 1
+BAD_FRAMES_TO_FLAG = 2
 FEEDBACK_COOLDOWN = 2.0
 
 # Standing-up frames before automatically ending
@@ -47,7 +47,7 @@ UP_FRAMES_TO_END = 15
 
 # Push-up depth thresholds
 TOP_ANGLE = 155
-BOTTOM_ANGLE = 120
+BOTTOM_ANGLE = 130
 
 # ----------------------------------------------------------------------
 # START-POSITION THRESHOLDS
@@ -279,30 +279,82 @@ def evaluate_form(kp):
 # REP COUNTER   (UNCHANGED - exactly the working logic)
 # ======================================================================
 
+# In RepCounter, track the deepest point of each rep
 class RepCounter:
     def __init__(self):
         self.stage = "up"
         self.correct = 0
         self.incorrect = 0
         self.rep_had_error = False
+        self.min_percent = 100
+
+        # Require a real return to the top before another rep can start
+        self.top_ready = True
 
     def update(self, percent, frame_form_bad):
-        # GOING DOWN
+
+        # --------------------------------------------------
+        # WAIT FOR A REAL TOP POSITION BEFORE STARTING NEXT REP
+        # --------------------------------------------------
+        if not self.top_ready:
+            if percent >= 90:
+                self.top_ready = True
+            return self.correct, self.incorrect
+
+        # --------------------------------------------------
+        # START GOING DOWN
+        # --------------------------------------------------
         if self.stage == "up" and percent <= 30:
             self.stage = "down"
             self.rep_had_error = False
-        # WHILE DOWN - record any form error
-        if self.stage == "down" and frame_form_bad:
-            self.rep_had_error = True
-        # COMING BACK UP - count once
+            self.min_percent = percent
+            self.top_ready = False
+
+        # --------------------------------------------------
+        # WHILE DOWN
+        # --------------------------------------------------
+        if self.stage == "down":
+            self.min_percent = min(
+                self.min_percent,
+                percent
+            )
+
+            if frame_form_bad:
+                self.rep_had_error = True
+
+        # --------------------------------------------------
+        # REP COMPLETED
+        # --------------------------------------------------
         if self.stage == "down" and percent >= 75:
             self.stage = "up"
+
+            # Minimum depth requirement
+            if self.min_percent > 10:
+                self.rep_had_error = True
+                print(
+                    f"BAD DEPTH | "
+                    f"Deepest point: {self.min_percent:.1f}% "
+                    f"(required <= 10%)"
+                )
+
             if self.rep_had_error:
                 self.incorrect += 1
+                print(
+                    f"REP COMPLETED | "
+                    f"INCORRECT | "
+                    f"Correct: {self.correct} | "
+                    f"Incorrect: {self.incorrect}"
+                )
             else:
                 self.correct += 1
-        return self.correct, self.incorrect
+                print(
+                    f"REP COMPLETED | "
+                    f"CORRECT | "
+                    f"Correct: {self.correct} | "
+                    f"Incorrect: {self.incorrect}"
+                )
 
+        return self.correct, self.incorrect
 
 # ======================================================================
 # STANDING-UP DETECTION   (unchanged)
@@ -325,7 +377,7 @@ def is_user_standing(kp):
 # MAIN PUSH-UP SESSION
 # ======================================================================
 
-def run_pushup_session(target_reps=None):
+def run_pushup_session(target_reps=None,user_id=None):
     cam = cv2.VideoCapture(CAMERA_INDEX)
     if not cam.isOpened():
         raise RuntimeError("Could not open webcam.")
@@ -503,6 +555,17 @@ def run_pushup_session(target_reps=None):
 
     cam.release()
     cv2.destroyAllWindows()
+    if user_id is not None:
+        create_workout(
+            user_id=user_id,
+            workout_type="Push-up",
+            notes=(
+                f"Vision session. "
+                f"Correct reps: {counter.correct}. "
+                f"Incorrect reps: {counter.incorrect}."
+            ),
+                )
+    
     return {
         "correct_reps": counter.correct,
         "incorrect_reps": counter.incorrect,
